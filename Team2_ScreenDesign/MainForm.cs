@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Team2_ScreenDesign.Properties;
 
 namespace Team2_ScreenDesign
 {
@@ -28,9 +29,11 @@ namespace Team2_ScreenDesign
             if (panel_Menu.Visible)
             {
                 button1.Location = new Point(splitter1.Location.X, button1.Location.Y);
+                button1.Image = Resources.left_arrow__2_;
             }
             else
             {
+                button1.Image = Resources.right_arrow;
                 button1.Location = new Point(0, button1.Location.Y);
             }
             
