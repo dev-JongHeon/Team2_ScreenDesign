@@ -78,6 +78,12 @@
     <Compile Include="생산실적현황.designer.cs">
       <DependentUpon>생산실적현황.cs</DependentUpon>
     </Compile>
+    <Compile Include="생산작업조회.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="생산작업조회.designer.cs">
+      <DependentUpon>생산작업조회.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Custom\KJHMenuControl.resx">
       <DependentUpon>KJHMenuControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,6 +108,9 @@
     </Compile>
     <EmbeddedResource Include="생산실적현황.resx">
       <DependentUpon>생산실적현황.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="생산작업조회.resx">
+      <DependentUpon>생산작업조회.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
