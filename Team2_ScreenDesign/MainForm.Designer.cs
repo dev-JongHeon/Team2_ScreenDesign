@@ -30,10 +30,6 @@
         {
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
-            this.panel_Menu = new System.Windows.Forms.Panel();
-            this.splitter1 = new System.Windows.Forms.Splitter();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.button1 = new System.Windows.Forms.Button();
             this.새로고침ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.신규ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.등록ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -41,6 +37,10 @@
             this.인쇄ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.로그아웃ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.닫기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel_Menu = new System.Windows.Forms.Panel();
+            this.splitter1 = new System.Windows.Forms.Splitter();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,54 +69,11 @@
             this.toolStripTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.toolStripTextBox1.Font = new System.Drawing.Font("나눔고딕", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.toolStripTextBox1.ForeColor = System.Drawing.Color.Black;
+            this.toolStripTextBox1.HideSelection = false;
             this.toolStripTextBox1.Name = "toolStripTextBox1";
             this.toolStripTextBox1.ReadOnly = true;
             this.toolStripTextBox1.Size = new System.Drawing.Size(200, 96);
             this.toolStripTextBox1.Text = "2조 팀프로젝트";
-            // 
-            // panel_Menu
-            // 
-            this.panel_Menu.BackColor = System.Drawing.SystemColors.Control;
-            this.panel_Menu.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel_Menu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel_Menu.Location = new System.Drawing.Point(0, 100);
-            this.panel_Menu.Name = "panel_Menu";
-            this.panel_Menu.Size = new System.Drawing.Size(200, 761);
-            this.panel_Menu.TabIndex = 3;
-            // 
-            // splitter1
-            // 
-            this.splitter1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.splitter1.Location = new System.Drawing.Point(200, 100);
-            this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(8, 761);
-            this.splitter1.TabIndex = 6;
-            this.splitter1.TabStop = false;
-            this.splitter1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitter1_SplitterMoved);
-            this.splitter1.DoubleClick += new System.EventHandler(this.splitter1_DoubleClick);
-            // 
-            // tabControl1
-            // 
-            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tabControl1.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed;
-            this.tabControl1.Location = new System.Drawing.Point(208, 100);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1376, 34);
-            this.tabControl1.TabIndex = 8;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = global::Team2_ScreenDesign.Properties.Resources.left_arrow__2_;
-            this.button1.Location = new System.Drawing.Point(200, 425);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(8, 32);
-            this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // 새로고침ToolStripMenuItem
             // 
@@ -192,6 +149,50 @@
             this.닫기ToolStripMenuItem.Text = "닫기";
             this.닫기ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
+            // panel_Menu
+            // 
+            this.panel_Menu.BackColor = System.Drawing.SystemColors.Control;
+            this.panel_Menu.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel_Menu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel_Menu.Location = new System.Drawing.Point(0, 100);
+            this.panel_Menu.Name = "panel_Menu";
+            this.panel_Menu.Size = new System.Drawing.Size(200, 761);
+            this.panel_Menu.TabIndex = 3;
+            // 
+            // splitter1
+            // 
+            this.splitter1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.splitter1.Location = new System.Drawing.Point(200, 100);
+            this.splitter1.Name = "splitter1";
+            this.splitter1.Size = new System.Drawing.Size(8, 761);
+            this.splitter1.TabIndex = 6;
+            this.splitter1.TabStop = false;
+            this.splitter1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitter1_SplitterMoved);
+            this.splitter1.DoubleClick += new System.EventHandler(this.splitter1_DoubleClick);
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tabControl1.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed;
+            this.tabControl1.Location = new System.Drawing.Point(208, 100);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(1376, 34);
+            this.tabControl1.TabIndex = 8;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = global::Team2_ScreenDesign.Properties.Resources.left_arrow__2_;
+            this.button1.Location = new System.Drawing.Point(200, 420);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(8, 32);
+            this.button1.TabIndex = 0;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -205,6 +206,8 @@
             this.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.IsMdiContainer = true;
             this.Name = "MainForm";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "메인화면";
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
