@@ -75,7 +75,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 15;
-            this.button1.Text = "조회버튼";
+            this.button1.Text = "검색";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // label5
