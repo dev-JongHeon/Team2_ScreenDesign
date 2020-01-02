@@ -46,6 +46,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CMG\Company.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMG\Company.designer.cs">
+      <DependentUpon>Company.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMG\Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMG\Customer.designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMG\Employees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMG\Employees.designer.cs">
+      <DependentUpon>Employees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMG\Factory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMG\Factory.designer.cs">
+      <DependentUpon>Factory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMG\Warehouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMG\Warehouse.designer.cs">
+      <DependentUpon>Warehouse.cs</DependentUpon>
+    </Compile>
     <Compile Include="Custom\KJHMenuControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -64,7 +94,6 @@
     <Compile Include="Custom\PlaceHolderTextBox.designer.cs">
       <DependentUpon>PlaceHolderTextBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\CMG\1.cs" />
     <Compile Include="Forms\HJS\비가동현황.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +157,21 @@
     <Compile Include="Forms\HJS\불량현황.designer.cs">
       <DependentUpon>불량현황.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CMG\Company.resx">
+      <DependentUpon>Company.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMG\Customer.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMG\Employees.resx">
+      <DependentUpon>Employees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMG\Factory.resx">
+      <DependentUpon>Factory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMG\Warehouse.resx">
+      <DependentUpon>Warehouse.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Custom\KJHMenuControl.resx">
       <DependentUpon>KJHMenuControl.cs</DependentUpon>
     </EmbeddedResource>
