@@ -137,10 +137,29 @@
     <Compile Include="Forms\KJH\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\SSD\Class1.cs" />
-    <Compile Include="Forms\SSD\Form1.cs" />
-    <Compile Include="Forms\SSD\Form1.designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Forms\SSD\Balju.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SSD\Balju.designer.cs">
+      <DependentUpon>Balju.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SSD\InOutList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SSD\InOutList.Designer.cs">
+      <DependentUpon>InOutList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SSD\Input.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SSD\Input.designer.cs">
+      <DependentUpon>Input.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SSD\Stock_Status.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SSD\Stock_Status.designer.cs">
+      <DependentUpon>Stock_Status.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -200,8 +219,17 @@
     <EmbeddedResource Include="Forms\KJH\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SSD\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\SSD\Balju.resx">
+      <DependentUpon>Balju.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SSD\InOutList.resx">
+      <DependentUpon>InOutList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SSD\Input.resx">
+      <DependentUpon>Input.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SSD\Stock_Status.resx">
+      <DependentUpon>Stock_Status.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
