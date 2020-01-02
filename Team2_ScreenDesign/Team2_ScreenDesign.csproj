@@ -46,34 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CMG\Company.cs">
+    <Compile Include="Forms\CMG\Company.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CMG\Company.designer.cs">
+    <Compile Include="Forms\CMG\Company.designer.cs">
       <DependentUpon>Company.cs</DependentUpon>
     </Compile>
-    <Compile Include="CMG\Customer.cs">
+    <Compile Include="Forms\CMG\Customer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CMG\Customer.designer.cs">
+    <Compile Include="Forms\CMG\Customer.designer.cs">
       <DependentUpon>Customer.cs</DependentUpon>
     </Compile>
-    <Compile Include="CMG\Employees.cs">
+    <Compile Include="Forms\CMG\Employees.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CMG\Employees.designer.cs">
+    <Compile Include="Forms\CMG\Employees.designer.cs">
       <DependentUpon>Employees.cs</DependentUpon>
     </Compile>
-    <Compile Include="CMG\Factory.cs">
+    <Compile Include="Forms\CMG\Factory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CMG\Factory.designer.cs">
+    <Compile Include="Forms\CMG\Factory.designer.cs">
       <DependentUpon>Factory.cs</DependentUpon>
     </Compile>
-    <Compile Include="CMG\Warehouse.cs">
+    <Compile Include="Forms\CMG\Warehouse.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CMG\Warehouse.designer.cs">
+    <Compile Include="Forms\CMG\Warehouse.designer.cs">
       <DependentUpon>Warehouse.cs</DependentUpon>
     </Compile>
     <Compile Include="Custom\KJHMenuControl.cs">
@@ -157,19 +157,19 @@
     <Compile Include="Forms\HJS\불량현황.designer.cs">
       <DependentUpon>불량현황.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="CMG\Company.resx">
+    <EmbeddedResource Include="Forms\CMG\Company.resx">
       <DependentUpon>Company.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CMG\Customer.resx">
+    <EmbeddedResource Include="Forms\CMG\Customer.resx">
       <DependentUpon>Customer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CMG\Employees.resx">
+    <EmbeddedResource Include="Forms\CMG\Employees.resx">
       <DependentUpon>Employees.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CMG\Factory.resx">
+    <EmbeddedResource Include="Forms\CMG\Factory.resx">
       <DependentUpon>Factory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CMG\Warehouse.resx">
+    <EmbeddedResource Include="Forms\CMG\Warehouse.resx">
       <DependentUpon>Warehouse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Custom\KJHMenuControl.resx">
@@ -259,9 +259,7 @@
   <ItemGroup>
     <None Include="Resources\logout.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Forms\CMG\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\Action_Refresh_32x32.png" />
   </ItemGroup>
