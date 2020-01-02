@@ -68,7 +68,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(12, 517);
+            this.label1.Location = new System.Drawing.Point(12, 365);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(118, 21);
             this.label1.TabIndex = 37;
@@ -83,10 +83,10 @@
             this.Column8,
             this.Column9,
             this.Column10});
-            this.dataGridView2.Location = new System.Drawing.Point(16, 553);
+            this.dataGridView2.Location = new System.Drawing.Point(12, 389);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 23;
-            this.dataGridView2.Size = new System.Drawing.Size(1010, 476);
+            this.dataGridView2.Size = new System.Drawing.Size(1017, 328);
             this.dataGridView2.TabIndex = 36;
             // 
             // Column6
@@ -123,10 +123,10 @@
             this.Column5,
             this.Column2,
             this.Column4});
-            this.dataGridView1.Location = new System.Drawing.Point(16, 69);
+            this.dataGridView1.Location = new System.Drawing.Point(16, 60);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(1010, 433);
+            this.dataGridView1.Size = new System.Drawing.Size(1013, 302);
             this.dataGridView1.TabIndex = 35;
             // 
             // Column1
@@ -156,14 +156,14 @@
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(686, 42);
+            this.dateTimePicker2.Location = new System.Drawing.Point(686, 33);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(160, 21);
             this.dateTimePicker2.TabIndex = 34;
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(489, 42);
+            this.textBox9.Location = new System.Drawing.Point(489, 33);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(132, 21);
             this.textBox9.TabIndex = 33;
@@ -171,7 +171,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(442, 45);
+            this.label9.Location = new System.Drawing.Point(442, 36);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(41, 12);
             this.label9.TabIndex = 32;
@@ -180,7 +180,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(627, 45);
+            this.label7.Location = new System.Drawing.Point(627, 36);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(53, 12);
             this.label7.TabIndex = 31;
@@ -188,7 +188,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(304, 42);
+            this.textBox5.Location = new System.Drawing.Point(304, 33);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(132, 21);
             this.textBox5.TabIndex = 30;
@@ -196,7 +196,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(257, 45);
+            this.label5.Location = new System.Drawing.Point(257, 36);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(41, 12);
             this.label5.TabIndex = 29;
@@ -204,7 +204,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(73, 42);
+            this.textBox2.Location = new System.Drawing.Point(73, 33);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(178, 21);
             this.textBox2.TabIndex = 28;
@@ -212,7 +212,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(14, 45);
+            this.label2.Location = new System.Drawing.Point(14, 36);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 12);
             this.label2.TabIndex = 27;
@@ -222,7 +222,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.ClientSize = new System.Drawing.Size(1344, 729);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView2);
