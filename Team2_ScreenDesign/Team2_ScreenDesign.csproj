@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Balju.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Balju.Designer.cs">
+      <DependentUpon>Balju.cs</DependentUpon>
+    </Compile>
     <Compile Include="Custom\KJHMenuControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -82,11 +88,24 @@
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\SSD\Class1.cs" />
-    <Compile Include="Forms\SSD\Form1.cs">
+    <Compile Include="Forms\SSD\Stock_Status.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\SSD\Form1.designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Forms\SSD\.designer.cs">
+      <DependentUpon>Stock_Status.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SSD\InOutList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SSD\InOutList.Designer.cs">
+      <DependentUpon>InOutList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Input.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Input.Designer.cs">
+      <DependentUpon>Input.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -101,6 +120,9 @@
     <Compile Include="Forms\HJS\불량현황.designer.cs">
       <DependentUpon>불량현황.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Balju.resx">
+      <DependentUpon>Balju.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Custom\KJHMenuControl.resx">
       <DependentUpon>KJHMenuControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -113,8 +135,14 @@
     <EmbeddedResource Include="Forms\KJH\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SSD\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\SSD\Stock_Status.resx">
+      <DependentUpon>Stock_Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SSD\InOutList.resx">
+      <DependentUpon>InOutList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Input.resx">
+      <DependentUpon>Input.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
