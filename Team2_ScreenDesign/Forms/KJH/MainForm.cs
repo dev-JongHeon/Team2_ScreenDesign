@@ -43,5 +43,15 @@ namespace Team2_ScreenDesign
         {
             button1.Location = new Point(splitter1.Location.X, button1.Location.Y);
         }
+
+        private void toolStripMenuItem1_MouseHover(object sender, EventArgs e)
+        {
+            this.BackColor = this.BackColor;
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
