@@ -65,7 +65,15 @@
       <DependentUpon>PlaceHolderTextBox.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\CMG\1.cs" />
-    <Compile Include="Forms\HJS\Class1.cs" />
+    <Compile Include="Forms\HJS\비가동현황.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HJS\생산실적현황.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HJS\생산작업조회등록.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\KHS\Class1.cs" />
     <Compile Include="Forms\KJH\MainForm.cs">
       <SubType>Form</SubType>
@@ -87,10 +95,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="불량현황.cs">
+    <Compile Include="Forms\HJS\불량현황.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="불량현황.designer.cs">
+    <Compile Include="Forms\HJS\불량현황.designer.cs">
       <DependentUpon>불량현황.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Custom\KJHMenuControl.resx">
@@ -113,7 +121,7 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="불량현황.resx">
+    <EmbeddedResource Include="Forms\HJS\불량현황.resx">
       <DependentUpon>불량현황.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
