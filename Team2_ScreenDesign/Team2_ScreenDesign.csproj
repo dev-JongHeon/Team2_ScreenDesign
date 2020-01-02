@@ -86,6 +86,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="불량현황.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="불량현황.designer.cs">
+      <DependentUpon>불량현황.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Custom\KJHMenuControl.resx">
       <DependentUpon>KJHMenuControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -105,6 +111,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="불량현황.resx">
+      <DependentUpon>불량현황.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
