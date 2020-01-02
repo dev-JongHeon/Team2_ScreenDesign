@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BikeCompany.쥔성쥔성
+namespace Team2_ScreenDesign
 {
-    public partial class 생산작업조회등록 : Form
+    public partial class 출고내역조회 : Form
     {
-        public 생산작업조회등록()
+        public 출고내역조회()
         {
             InitializeComponent();
         }

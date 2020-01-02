@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class 비가동현황 : Form
+    public partial class 생산실적현황 : Form
     {
-        public 비가동현황()
+        public 생산실적현황()
         {
             InitializeComponent();
         }

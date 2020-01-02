@@ -32,12 +32,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.splitter1 = new System.Windows.Forms.Splitter();
-            this.panel_Menu = new System.Windows.Forms.Panel();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.button1 = new System.Windows.Forms.Button();
             this.새로고침ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.신규ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.등록ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -45,7 +39,13 @@
             this.인쇄ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.로그아웃ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.닫기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.splitter1 = new System.Windows.Forms.Splitter();
+            this.panel_Menu = new System.Windows.Forms.Panel();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.menuStrip.SuspendLayout();
@@ -94,6 +94,86 @@
             this.menuStrip.TabIndex = 15;
             this.menuStrip.Text = "menuStrip2";
             // 
+            // 새로고침ToolStripMenuItem
+            // 
+            this.새로고침ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.새로고침ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
+            this.새로고침ToolStripMenuItem.Image = global::Team2_ScreenDesign.Properties.Resources.refresh;
+            this.새로고침ToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.새로고침ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.새로고침ToolStripMenuItem.Name = "새로고침ToolStripMenuItem";
+            this.새로고침ToolStripMenuItem.Size = new System.Drawing.Size(81, 87);
+            this.새로고침ToolStripMenuItem.Text = "새로고침";
+            this.새로고침ToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.새로고침ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // 신규ToolStripMenuItem
+            // 
+            this.신규ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.신규ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
+            this.신규ToolStripMenuItem.Image = global::Team2_ScreenDesign.Properties.Resources.addfile;
+            this.신규ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.신규ToolStripMenuItem.Name = "신규ToolStripMenuItem";
+            this.신규ToolStripMenuItem.Size = new System.Drawing.Size(76, 87);
+            this.신규ToolStripMenuItem.Text = "신규";
+            this.신규ToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.신규ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // 등록ToolStripMenuItem
+            // 
+            this.등록ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.등록ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
+            this.등록ToolStripMenuItem.Image = global::Team2_ScreenDesign.Properties.Resources.edit2;
+            this.등록ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.등록ToolStripMenuItem.Name = "등록ToolStripMenuItem";
+            this.등록ToolStripMenuItem.Size = new System.Drawing.Size(76, 87);
+            this.등록ToolStripMenuItem.Text = "수정";
+            this.등록ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // 삭제ToolStripMenuItem
+            // 
+            this.삭제ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.삭제ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
+            this.삭제ToolStripMenuItem.Image = global::Team2_ScreenDesign.Properties.Resources.delete1;
+            this.삭제ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.삭제ToolStripMenuItem.Name = "삭제ToolStripMenuItem";
+            this.삭제ToolStripMenuItem.Size = new System.Drawing.Size(76, 87);
+            this.삭제ToolStripMenuItem.Text = "삭제";
+            this.삭제ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // 인쇄ToolStripMenuItem
+            // 
+            this.인쇄ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.인쇄ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
+            this.인쇄ToolStripMenuItem.Image = global::Team2_ScreenDesign.Properties.Resources.printer1;
+            this.인쇄ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.인쇄ToolStripMenuItem.Name = "인쇄ToolStripMenuItem";
+            this.인쇄ToolStripMenuItem.Size = new System.Drawing.Size(76, 87);
+            this.인쇄ToolStripMenuItem.Text = "인쇄";
+            this.인쇄ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // 로그아웃ToolStripMenuItem
+            // 
+            this.로그아웃ToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.로그아웃ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.로그아웃ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
+            this.로그아웃ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("로그아웃ToolStripMenuItem.Image")));
+            this.로그아웃ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.로그아웃ToolStripMenuItem.Name = "로그아웃ToolStripMenuItem";
+            this.로그아웃ToolStripMenuItem.Size = new System.Drawing.Size(199, 87);
+            this.로그아웃ToolStripMenuItem.Text = "로그아웃";
+            // 
+            // 닫기ToolStripMenuItem
+            // 
+            this.닫기ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.닫기ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
+            this.닫기ToolStripMenuItem.Image = global::Team2_ScreenDesign.Properties.Resources.close_window1;
+            this.닫기ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.닫기ToolStripMenuItem.Name = "닫기ToolStripMenuItem";
+            this.닫기ToolStripMenuItem.Size = new System.Drawing.Size(76, 87);
+            this.닫기ToolStripMenuItem.Text = "닫기";
+            this.닫기ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
             // panel4
             // 
             this.panel4.Controls.Add(this.pictureBox1);
@@ -102,6 +182,17 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(203, 90);
             this.panel4.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::Team2_ScreenDesign.Properties.Resources.팀2최종1;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(203, 90);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // panel3
             // 
@@ -120,6 +211,7 @@
             this.splitter1.Size = new System.Drawing.Size(4, 765);
             this.splitter1.TabIndex = 15;
             this.splitter1.TabStop = false;
+            this.splitter1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitter1_SplitterMoved);
             // 
             // panel_Menu
             // 
@@ -153,97 +245,6 @@
             this.button1.TabIndex = 13;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // 새로고침ToolStripMenuItem
-            // 
-            this.새로고침ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.새로고침ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
-            this.새로고침ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("새로고침ToolStripMenuItem.Image")));
-            this.새로고침ToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.새로고침ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.새로고침ToolStripMenuItem.Name = "새로고침ToolStripMenuItem";
-            this.새로고침ToolStripMenuItem.Size = new System.Drawing.Size(81, 87);
-            this.새로고침ToolStripMenuItem.Text = "새로고침";
-            this.새로고침ToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.새로고침ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // 신규ToolStripMenuItem
-            // 
-            this.신규ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.신규ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
-            this.신규ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("신규ToolStripMenuItem.Image")));
-            this.신규ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.신규ToolStripMenuItem.Name = "신규ToolStripMenuItem";
-            this.신규ToolStripMenuItem.Size = new System.Drawing.Size(76, 87);
-            this.신규ToolStripMenuItem.Text = "신규";
-            this.신규ToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.신규ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // 등록ToolStripMenuItem
-            // 
-            this.등록ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.등록ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
-            this.등록ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("등록ToolStripMenuItem.Image")));
-            this.등록ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.등록ToolStripMenuItem.Name = "등록ToolStripMenuItem";
-            this.등록ToolStripMenuItem.Size = new System.Drawing.Size(76, 87);
-            this.등록ToolStripMenuItem.Text = "수정";
-            this.등록ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // 삭제ToolStripMenuItem
-            // 
-            this.삭제ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.삭제ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
-            this.삭제ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("삭제ToolStripMenuItem.Image")));
-            this.삭제ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.삭제ToolStripMenuItem.Name = "삭제ToolStripMenuItem";
-            this.삭제ToolStripMenuItem.Size = new System.Drawing.Size(76, 87);
-            this.삭제ToolStripMenuItem.Text = "삭제";
-            this.삭제ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // 인쇄ToolStripMenuItem
-            // 
-            this.인쇄ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.인쇄ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
-            this.인쇄ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("인쇄ToolStripMenuItem.Image")));
-            this.인쇄ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.인쇄ToolStripMenuItem.Name = "인쇄ToolStripMenuItem";
-            this.인쇄ToolStripMenuItem.Size = new System.Drawing.Size(76, 87);
-            this.인쇄ToolStripMenuItem.Text = "인쇄";
-            this.인쇄ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // 로그아웃ToolStripMenuItem
-            // 
-            this.로그아웃ToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.로그아웃ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.로그아웃ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
-            this.로그아웃ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("로그아웃ToolStripMenuItem.Image")));
-            this.로그아웃ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.로그아웃ToolStripMenuItem.Name = "로그아웃ToolStripMenuItem";
-            this.로그아웃ToolStripMenuItem.Size = new System.Drawing.Size(199, 87);
-            this.로그아웃ToolStripMenuItem.Text = "로그아웃";
-            // 
-            // 닫기ToolStripMenuItem
-            // 
-            this.닫기ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.닫기ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
-            this.닫기ToolStripMenuItem.Image = global::Team2_ScreenDesign.Properties.Resources.close_window1;
-            this.닫기ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.닫기ToolStripMenuItem.Name = "닫기ToolStripMenuItem";
-            this.닫기ToolStripMenuItem.Size = new System.Drawing.Size(76, 87);
-            this.닫기ToolStripMenuItem.Text = "닫기";
-            this.닫기ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::Team2_ScreenDesign.Properties.Resources.팀2최종1;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(203, 90);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // MainForm
             // 

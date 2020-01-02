@@ -46,11 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Balju.cs">
+    <Compile Include="Forms\CMG\Company.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Balju.Designer.cs">
-      <DependentUpon>Balju.cs</DependentUpon>
+    <Compile Include="Forms\CMG\Company.designer.cs">
+      <DependentUpon>Company.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\Customer.designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\Employees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\Employees.designer.cs">
+      <DependentUpon>Employees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\Factory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\Factory.designer.cs">
+      <DependentUpon>Factory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\Warehouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\Warehouse.designer.cs">
+      <DependentUpon>Warehouse.cs</DependentUpon>
     </Compile>
     <Compile Include="Custom\KJHMenuControl.cs">
       <SubType>UserControl</SubType>
@@ -70,17 +94,43 @@
     <Compile Include="Custom\PlaceHolderTextBox.designer.cs">
       <DependentUpon>PlaceHolderTextBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\CMG\1.cs" />
     <Compile Include="Forms\HJS\비가동현황.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\HJS\생산실적현황.cs">
+    <Compile Include="Forms\HJS\비가동현황.designer.cs">
+      <DependentUpon>비가동현황.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HJS\생산목록.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\HJS\생산작업조회등록.cs">
+    <Compile Include="Forms\HJS\생산목록.designer.cs">
+      <DependentUpon>생산목록.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HJS\작업조회등록.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HJS\작업조회등록.designer.cs">
+      <DependentUpon>작업조회등록.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\KHS\Class1.cs" />
+    <Compile Include="Forms\KHS\출하내역조회.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\출하내역조회.designer.cs">
+      <DependentUpon>출하내역조회.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KHS\출고등록.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\출고등록.designer.cs">
+      <DependentUpon>출고등록.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KHS\출고지시등록.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\출고지시등록.designer.cs">
+      <DependentUpon>출고지시등록.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\KJH\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,24 +138,11 @@
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\SSD\Class1.cs" />
-    <Compile Include="Forms\SSD\Stock_Status.cs">
+    <Compile Include="Forms\SSD\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\SSD\.designer.cs">
-      <DependentUpon>Stock_Status.cs</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\SSD\InOutList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\SSD\InOutList.Designer.cs">
-      <DependentUpon>InOutList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Input.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Input.Designer.cs">
-      <DependentUpon>Input.cs</DependentUpon>
+    <Compile Include="Forms\SSD\Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -120,8 +157,20 @@
     <Compile Include="Forms\HJS\불량현황.designer.cs">
       <DependentUpon>불량현황.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Balju.resx">
-      <DependentUpon>Balju.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\CMG\Company.resx">
+      <DependentUpon>Company.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\Customer.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\Employees.resx">
+      <DependentUpon>Employees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\Factory.resx">
+      <DependentUpon>Factory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\Warehouse.resx">
+      <DependentUpon>Warehouse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Custom\KJHMenuControl.resx">
       <DependentUpon>KJHMenuControl.cs</DependentUpon>
@@ -132,17 +181,29 @@
     <EmbeddedResource Include="Custom\PlaceHolderTextBox.resx">
       <DependentUpon>PlaceHolderTextBox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HJS\비가동현황.resx">
+      <DependentUpon>비가동현황.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HJS\생산목록.resx">
+      <DependentUpon>생산목록.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HJS\작업조회등록.resx">
+      <DependentUpon>작업조회등록.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\출하내역조회.resx">
+      <DependentUpon>출하내역조회.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\출고등록.resx">
+      <DependentUpon>출고등록.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\출고지시등록.resx">
+      <DependentUpon>출고지시등록.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SSD\Stock_Status.resx">
-      <DependentUpon>Stock_Status.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SSD\InOutList.resx">
-      <DependentUpon>InOutList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Input.resx">
-      <DependentUpon>Input.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\SSD\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -199,5 +260,35 @@
     <None Include="Resources\logout.png" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Action_Refresh_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Action_Refresh_64x64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addfile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-window2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

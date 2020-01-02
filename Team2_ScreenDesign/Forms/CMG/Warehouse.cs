@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Team2_ScreenDesign
+namespace TeamProject
 {
-    public partial class 비가동현황 : Form
+    public partial class Warehouse : Form
     {
-        public 비가동현황()
+        public Warehouse()
         {
             InitializeComponent();
         }
