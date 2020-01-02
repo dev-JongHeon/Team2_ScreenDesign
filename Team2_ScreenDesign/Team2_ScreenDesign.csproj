@@ -64,7 +64,12 @@
     <Compile Include="Custom\PlaceHolderTextBox.designer.cs">
       <DependentUpon>PlaceHolderTextBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\CMG\1.cs" />
+    <Compile Include="Forms\CMG\Company.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\Company.designer.cs">
+      <DependentUpon>Company.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\HJS\Class1.cs" />
     <Compile Include="Forms\KHS\Class1.cs" />
     <Compile Include="Forms\KJH\MainForm.cs">
@@ -89,6 +94,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Custom\PlaceHolderTextBox.resx">
       <DependentUpon>PlaceHolderTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\Company.resx">
+      <DependentUpon>Company.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
