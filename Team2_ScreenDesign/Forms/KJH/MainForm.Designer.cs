@@ -106,7 +106,6 @@
             this.새로고침ToolStripMenuItem.Text = "새로고침";
             this.새로고침ToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.새로고침ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.새로고침ToolStripMenuItem.Click += new System.EventHandler(this.새로고침ToolStripMenuItem_Click);
             // 
             // 신규ToolStripMenuItem
             // 
@@ -212,6 +211,7 @@
             this.splitter1.Size = new System.Drawing.Size(4, 765);
             this.splitter1.TabIndex = 15;
             this.splitter1.TabStop = false;
+            this.splitter1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitter1_SplitterMoved);
             // 
             // panel_Menu
             // 
