@@ -112,7 +112,6 @@
     <Compile Include="Forms\HJS\작업조회등록.designer.cs">
       <DependentUpon>작업조회등록.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\KHS\Class1.cs" />
     <Compile Include="Forms\KHS\출하내역조회.cs">
       <SubType>Form</SubType>
     </Compile>
