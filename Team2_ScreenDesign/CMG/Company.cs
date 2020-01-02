@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BikeCompany.쥔성쥔성
+namespace TeamProject
 {
-    public partial class 생산작업조회등록 : Form
+    public partial class Company : Form
     {
-        public 생산작업조회등록()
+        public Company()
         {
             InitializeComponent();
         }
