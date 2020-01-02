@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Team2_ScreenDesign.Properties;
+using Team2_ScreenDesign.Forms;
 
 namespace Team2_ScreenDesign
 {
@@ -52,6 +53,10 @@ namespace Team2_ScreenDesign
         private void MainForm_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void 새로고침ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
         }
     }
 }

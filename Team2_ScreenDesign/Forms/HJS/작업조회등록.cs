@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BikeCompany.쥔성쥔성
+namespace Team2_ScreenDesign
 {
     public partial class 작업조회등록 : Form
     {

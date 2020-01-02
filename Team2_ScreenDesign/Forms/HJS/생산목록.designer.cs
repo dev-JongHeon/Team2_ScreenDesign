@@ -1,4 +1,4 @@
-﻿namespace BikeCompany.쥔성쥔성
+﻿namespace Team2_ScreenDesign
 {
     partial class 생산실적현황
     {
