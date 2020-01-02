@@ -113,11 +113,11 @@
       <DependentUpon>작업조회등록.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\KHS\Class1.cs" />
-    <Compile Include="Forms\KHS\출고내역조회.cs">
+    <Compile Include="Forms\KHS\출하내역조회.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\KHS\출고내역조회.designer.cs">
-      <DependentUpon>출고내역조회.cs</DependentUpon>
+    <Compile Include="Forms\KHS\출하내역조회.designer.cs">
+      <DependentUpon>출하내역조회.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\KHS\출고등록.cs">
       <SubType>Form</SubType>
@@ -190,8 +190,8 @@
     <EmbeddedResource Include="Forms\HJS\작업조회등록.resx">
       <DependentUpon>작업조회등록.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\KHS\출고내역조회.resx">
-      <DependentUpon>출고내역조회.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\KHS\출하내역조회.resx">
+      <DependentUpon>출하내역조회.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KHS\출고등록.resx">
       <DependentUpon>출고등록.cs</DependentUpon>
