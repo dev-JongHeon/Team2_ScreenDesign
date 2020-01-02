@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Team2_ScreenDesign.Forms.HJS
+namespace Team2_ScreenDesign.Forms.CMG
 {
-    class Class1
+    class _1
     {
     }
 }
