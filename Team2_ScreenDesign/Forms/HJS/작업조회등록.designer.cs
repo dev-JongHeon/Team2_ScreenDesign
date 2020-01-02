@@ -1,6 +1,6 @@
 ﻿namespace BikeCompany.쥔성쥔성
 {
-    partial class 생산작업조회등록
+    partial class 작업조회등록
     {
         /// <summary>
         /// Required designer variable.
@@ -37,11 +37,13 @@
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dgv작업 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -85,11 +87,13 @@
             this.panelSearch.Controls.Add(this.dateTimePicker2);
             this.panelSearch.Controls.Add(this.dateTimePicker3);
             this.panelSearch.Controls.Add(this.dateTimePicker1);
+            this.panelSearch.Controls.Add(this.label6);
             this.panelSearch.Controls.Add(this.label4);
             this.panelSearch.Controls.Add(this.label2);
             this.panelSearch.Controls.Add(this.label1);
             this.panelSearch.Controls.Add(this.button1);
             this.panelSearch.Controls.Add(this.textBox2);
+            this.panelSearch.Controls.Add(this.textBox3);
             this.panelSearch.Controls.Add(this.textBox1);
             this.panelSearch.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelSearch.Location = new System.Drawing.Point(0, 0);
@@ -99,7 +103,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(426, 63);
+            this.button2.Location = new System.Drawing.Point(696, 62);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 5;
@@ -160,6 +164,16 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(82, 21);
             this.dateTimePicker1.TabIndex = 3;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("굴림", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label6.Location = new System.Drawing.Point(519, 15);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(107, 15);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "작업 지시 상태";
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -184,7 +198,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("굴림", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(22, 16);
+            this.label1.Location = new System.Drawing.Point(22, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(87, 15);
             this.label1.TabIndex = 2;
@@ -192,7 +206,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(376, 9);
+            this.button1.Location = new System.Drawing.Point(376, 10);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 23);
             this.button1.TabIndex = 1;
@@ -201,15 +215,23 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(274, 10);
+            this.textBox2.Location = new System.Drawing.Point(274, 11);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(96, 21);
             this.textBox2.TabIndex = 0;
             this.textBox2.Text = "작업지시자 이름";
             // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(632, 11);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(153, 21);
+            this.textBox3.TabIndex = 0;
+            this.textBox3.Text = "[콤보] 작업지시상태 Y/N";
+            // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(115, 10);
+            this.textBox1.Location = new System.Drawing.Point(115, 11);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(153, 21);
             this.textBox1.TabIndex = 0;
@@ -262,14 +284,14 @@
             this.Column16.HeaderText = "작업지시상태";
             this.Column16.Name = "Column16";
             // 
-            // 생산작업조회등록
+            // 작업조회등록
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.splitContainer1);
-            this.Name = "생산작업조회등록";
-            this.Text = "생산작업지시";
+            this.Name = "작업조회등록";
+            this.Text = "작업조회등록";
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
@@ -305,5 +327,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column14;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column15;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column16;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BikeCompany.쥔성쥔성
 {
-    public partial class 생산작업조회등록 : Form
+    public partial class 작업조회등록 : Form
     {
-        public 생산작업조회등록()
+        public 작업조회등록()
         {
             InitializeComponent();
         }
