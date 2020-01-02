@@ -65,7 +65,6 @@
       <DependentUpon>PlaceHolderTextBox.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\CMG\1.cs" />
-<<<<<<< HEAD
     <Compile Include="Forms\HJS\비가동현황.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,9 +74,6 @@
     <Compile Include="Forms\HJS\생산작업조회등록.cs">
       <SubType>Form</SubType>
     </Compile>
-=======
-    <Compile Include="Forms\HJS\Class1.cs" />
->>>>>>> parent of c8c8650... 폼 1 추가
     <Compile Include="Forms\KHS\Class1.cs" />
     <Compile Include="Forms\KJH\MainForm.cs">
       <SubType>Form</SubType>
