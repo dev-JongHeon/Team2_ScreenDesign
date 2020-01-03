@@ -160,6 +160,12 @@
     <Compile Include="Forms\SSD\Stock_Status.designer.cs">
       <DependentUpon>Stock_Status.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuControl.Designer.cs">
+      <DependentUpon>MenuControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Forms\HJS\불량현황.cs">
@@ -224,6 +230,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\Stock_Status.resx">
       <DependentUpon>Stock_Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuControl.resx">
+      <DependentUpon>MenuControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
