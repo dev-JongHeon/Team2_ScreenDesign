@@ -160,12 +160,6 @@
     <Compile Include="Forms\SSD\Stock_Status.designer.cs">
       <DependentUpon>Stock_Status.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="MenuControl.Designer.cs">
-      <DependentUpon>MenuControl.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Forms\HJS\불량현황.cs">
@@ -249,9 +243,6 @@
     <EmbeddedResource Include="Forms\SSD\Stock_Status.resx">
       <DependentUpon>Stock_Status.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuControl.resx">
-      <DependentUpon>MenuControl.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
@@ -325,6 +316,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\로고.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ViewSetting_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prev_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prev_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOProductGroup_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Customization_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IDE_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOOrderItem_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOReport_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down_16x16.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
