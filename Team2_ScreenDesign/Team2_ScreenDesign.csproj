@@ -174,6 +174,24 @@
     <Compile Include="Forms\HJS\불량현황.designer.cs">
       <DependentUpon>불량현황.cs</DependentUpon>
     </Compile>
+    <Compile Include="TypeOfDisproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TypeOfDisproduct.Designer.cs">
+      <DependentUpon>TypeOfDisproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TypeOfNotOperation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TypeOfNotOperation.Designer.cs">
+      <DependentUpon>TypeOfNotOperation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Workers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Workers.Designer.cs">
+      <DependentUpon>Workers.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Forms\CMG\Company.resx">
       <DependentUpon>Company.cs</DependentUpon>
     </EmbeddedResource>
@@ -241,6 +259,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\HJS\불량현황.resx">
       <DependentUpon>불량현황.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TypeOfDisproduct.resx">
+      <DependentUpon>TypeOfDisproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TypeOfNotOperation.resx">
+      <DependentUpon>TypeOfNotOperation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Workers.resx">
+      <DependentUpon>Workers.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
