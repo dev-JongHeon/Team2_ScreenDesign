@@ -16,5 +16,10 @@ namespace Team2_ScreenDesign
         {
             InitializeComponent();
         }
+
+        private void Input_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

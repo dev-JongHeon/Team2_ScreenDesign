@@ -74,7 +74,7 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.dgv작업);
-            this.splitContainer1.Size = new System.Drawing.Size(1904, 1041);
+            this.splitContainer1.Size = new System.Drawing.Size(1364, 703);
             this.splitContainer1.SplitterDistance = 91;
             this.splitContainer1.TabIndex = 0;
             // 
@@ -98,7 +98,7 @@
             this.panelSearch.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelSearch.Location = new System.Drawing.Point(0, 0);
             this.panelSearch.Name = "panelSearch";
-            this.panelSearch.Size = new System.Drawing.Size(1904, 91);
+            this.panelSearch.Size = new System.Drawing.Size(1364, 91);
             this.panelSearch.TabIndex = 0;
             // 
             // button2
@@ -251,7 +251,7 @@
             this.dgv작업.Location = new System.Drawing.Point(0, 0);
             this.dgv작업.Name = "dgv작업";
             this.dgv작업.RowTemplate.Height = 23;
-            this.dgv작업.Size = new System.Drawing.Size(1904, 946);
+            this.dgv작업.Size = new System.Drawing.Size(1364, 608);
             this.dgv작업.TabIndex = 1;
             // 
             // Column1
@@ -288,7 +288,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.ClientSize = new System.Drawing.Size(1364, 703);
             this.Controls.Add(this.splitContainer1);
             this.Name = "작업조회등록";
             this.Text = "작업조회등록";
