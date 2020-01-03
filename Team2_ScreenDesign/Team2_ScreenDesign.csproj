@@ -284,7 +284,9 @@
   <ItemGroup>
     <None Include="Resources\logout.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\AddFile_32x32.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Action_Refresh_32x32.png" />
   </ItemGroup>
@@ -314,6 +316,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\close-window2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteList_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Printer_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window_remove_12810.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Action_Logoff_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Action_Logoff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\로고.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
