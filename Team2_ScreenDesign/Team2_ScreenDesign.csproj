@@ -149,11 +149,11 @@
     <Compile Include="Forms\SSD\InOutList.Designer.cs">
       <DependentUpon>InOutList.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\SSD\Input.cs">
+    <Compile Include="Forms\SSD\InOutput.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\SSD\Input.designer.cs">
-      <DependentUpon>Input.cs</DependentUpon>
+    <Compile Include="Forms\SSD\InOutput.designer.cs">
+      <DependentUpon>InOutput.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\SSD\Stock_Status.cs">
       <SubType>Form</SubType>
@@ -225,8 +225,8 @@
     <EmbeddedResource Include="Forms\SSD\InOutList.resx">
       <DependentUpon>InOutList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SSD\Input.resx">
-      <DependentUpon>Input.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\SSD\InOutput.resx">
+      <DependentUpon>InOutput.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\Stock_Status.resx">
       <DependentUpon>Stock_Status.cs</DependentUpon>
