@@ -52,6 +52,8 @@ namespace Team2_ScreenDesign
 
         private void MainForm_Load(object sender, EventArgs e)
         {
+
+            tabControl1.DrawMode = TabDrawMode.OwnerDrawFixed;
             foreach (Panel p in mpanel.Controls)
             {
                 if (p.Tag.ToString() != string.Empty)
@@ -102,8 +104,7 @@ namespace Team2_ScreenDesign
                     break;
             }
             SelectMenu(ptag, lname);
-            //FillMenu();
-
+            FillMenu();
         }
 
         private void SelectMenu(string ptag, string lname)
@@ -115,6 +116,7 @@ namespace Team2_ScreenDesign
                     Panel tmp = (Panel)item;
                     if (tmp.Tag.ToString() != string.Empty && tmp.Tag.ToString() == ptag)
                     {
+                        tmp.Height = 100;
                         tmp.Visible = true;
 
                     }
@@ -149,6 +151,7 @@ namespace Team2_ScreenDesign
                     }
                     else
                     {
+                        tmp.Height = 0;
                         tmp.Visible = false;
                     }
                 }
@@ -164,10 +167,55 @@ namespace Team2_ScreenDesign
                     Panel tmp = (Panel)item;
                     if (tmp.Tag.ToString() != string.Empty && tmp.Visible)
                     {
-                        tmp.Dock = DockStyle.Fill;
+                        tmp.Height = 617;
                     }
                 }
             }
+        }
+
+        private void tabControl1_DrawItem(object sender, DrawItemEventArgs e)
+        {
+            Graphics g = e.Graphics;
+            TabPage tp = tabControl1.TabPages[e.Index];
+
+            StringFormat sf = new StringFormat();
+            sf.Alignment = StringAlignment.Center;  //optional
+
+            // This is the rectangle to draw "over" the tabpage title
+            RectangleF headerRect = new RectangleF(e.Bounds.X, e.Bounds.Y + 2, e.Bounds.Width, e.Bounds.Height - 2);
+
+            // This is the default colour to use for the non-selected tabs
+            SolidBrush sb = new SolidBrush(Color.FromArgb(42,76,105));
+            SolidBrush co = new SolidBrush(Color.White);
+            // This changes the colour if we're trying to draw the selected tabpage
+            if (tabControl1.SelectedIndex == e.Index)
+            {
+                sb.Color = Color.Silver;
+                co.Color = Color.FromArgb(42, 76, 105);
+            }
+            // Colour the header of the current tabpage based on what we did above
+            g.FillRectangle(sb, e.Bounds);
+
+            //Remember to redraw the text - I'm always using black for title text
+            g.DrawString(tp.Text, tabControl1.Font, co, headerRect, sf);
+
+            SolidBrush fillbrush = new SolidBrush(Color.FromArgb(42, 76, 105));
+            Rectangle lasttabrect = tabControl1.GetTabRect(tabControl1.TabPages.Count - 1);
+            Rectangle background = new Rectangle();
+            background.Location = new Point(lasttabrect.Right, 0);
+
+            //pad the rectangle to cover the 1 pixel line between the top of the tabpage and the start of the tabs
+            background.Size = new Size(tabControl1.Right - background.Left, lasttabrect.Height + 1);
+            e.Graphics.FillRectangle(fillbrush, background);
+        }
+
+        private void 새로고침ToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            TabPage tb = new TabPage();
+            tb.Text = "생산관리";
+            tb.Parent = tabControl1;
+            tb.Show();
+            
         }
     }
 }
