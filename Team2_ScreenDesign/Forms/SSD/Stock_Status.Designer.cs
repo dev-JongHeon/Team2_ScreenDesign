@@ -161,7 +161,7 @@
             this.panel1.Font = new System.Drawing.Font("나눔고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1344, 127);
+            this.panel1.Size = new System.Drawing.Size(1364, 127);
             this.panel1.TabIndex = 1;
             // 
             // button5
@@ -316,14 +316,14 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 127);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1415, 602);
+            this.panel2.Size = new System.Drawing.Size(1415, 576);
             this.panel2.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1344, 729);
+            this.ClientSize = new System.Drawing.Size(1364, 703);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
