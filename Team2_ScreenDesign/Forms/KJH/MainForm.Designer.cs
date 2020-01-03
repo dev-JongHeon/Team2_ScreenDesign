@@ -88,7 +88,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(203, 84);
+            this.panel4.Size = new System.Drawing.Size(197, 84);
             this.panel4.TabIndex = 0;
             // 
             // panel3
@@ -144,9 +144,9 @@
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(241)))));
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.Location = new System.Drawing.Point(203, 0);
+            this.panel6.Location = new System.Drawing.Point(197, 0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1292, 16);
+            this.panel6.Size = new System.Drawing.Size(1298, 16);
             this.panel6.TabIndex = 2;
             // 
             // menuStrip
@@ -160,9 +160,9 @@
             this.삭제ToolStripMenuItem,
             this.인쇄ToolStripMenuItem,
             this.닫기ToolStripMenuItem});
-            this.menuStrip.Location = new System.Drawing.Point(203, 16);
+            this.menuStrip.Location = new System.Drawing.Point(197, 16);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(1292, 59);
+            this.menuStrip.Size = new System.Drawing.Size(1298, 59);
             this.menuStrip.TabIndex = 17;
             this.menuStrip.Text = "menuStrip2";
             // 
@@ -170,9 +170,9 @@
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(241)))));
             this.panel7.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel7.Location = new System.Drawing.Point(203, 74);
+            this.panel7.Location = new System.Drawing.Point(197, 74);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1292, 10);
+            this.panel7.Size = new System.Drawing.Size(1298, 10);
             this.panel7.TabIndex = 18;
             // 
             // button1
@@ -279,7 +279,7 @@
             this.pictureBox1.Image = global::Team2_ScreenDesign.Properties.Resources.로고;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(203, 84);
+            this.pictureBox1.Size = new System.Drawing.Size(197, 84);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;

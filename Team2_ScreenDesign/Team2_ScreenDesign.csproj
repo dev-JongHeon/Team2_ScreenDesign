@@ -162,11 +162,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Forms\HJS\불량현황.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -242,6 +237,11 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -261,30 +261,6 @@
     <None Include="Resources\팀2최종1.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\refresh1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\add-file.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\edit.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\delete.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\printer.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\close-window.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\close-window1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logout.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\AddFile_32x32.png" />
   </ItemGroup>
   <ItemGroup>
@@ -292,30 +268,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Action_Refresh_64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\refresh.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\addfile.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\edit1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\edit2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\delete1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\printer1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\close.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\close-window2.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Edit_32x32.png" />
