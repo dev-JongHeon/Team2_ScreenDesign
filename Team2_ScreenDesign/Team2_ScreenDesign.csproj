@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base2Dgv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base2Dgv.Designer.cs">
+      <DependentUpon>Base2Dgv.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\CMG\Company.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -186,6 +192,9 @@
     <Compile Include="Workers.Designer.cs">
       <DependentUpon>Workers.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Base2Dgv.resx">
+      <DependentUpon>Base2Dgv.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\CMG\Company.resx">
       <DependentUpon>Company.cs</DependentUpon>
     </EmbeddedResource>
