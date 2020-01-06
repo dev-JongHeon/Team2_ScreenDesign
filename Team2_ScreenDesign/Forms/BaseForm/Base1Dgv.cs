@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class Base1Dgv : Form
+    public partial class Base1Dgv : TabForm
     {
         private string formname;
 

@@ -63,7 +63,7 @@ namespace Team2_ScreenDesign
                 }
             }
        
-            OpenForm<MainTab>("메인화면");
+            OpenForm<Base1Dgv>("메인화면");
         }
 
         private void 새로고침ToolStripMenuItem_Click(object sender, EventArgs e)

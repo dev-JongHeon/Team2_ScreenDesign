@@ -78,6 +78,7 @@
             // 
             // btnSelect
             // 
+            this.btnSelect.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSelect.Location = new System.Drawing.Point(270, 210);
             this.btnSelect.Name = "btnSelect";
             this.btnSelect.Size = new System.Drawing.Size(104, 39);
@@ -96,6 +97,7 @@
             // 
             // btnRegister
             // 
+            this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegister.Location = new System.Drawing.Point(22, 361);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(165, 62);
@@ -105,10 +107,11 @@
             // 
             // btnClose
             // 
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Location = new System.Drawing.Point(209, 361);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(165, 62);
-            this.btnClose.TabIndex = 4;
+            this.btnClose.TabIndex = 5;
             this.btnClose.Text = "닫기";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -117,6 +120,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(409, 461);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnRegister);

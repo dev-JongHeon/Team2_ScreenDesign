@@ -49,6 +49,7 @@
             // 
             // btnSave
             // 
+            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSave.Location = new System.Drawing.Point(180, 640);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(146, 78);
@@ -67,10 +68,11 @@
             // 
             // btnDefProSelect
             // 
+            this.btnDefProSelect.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDefProSelect.Location = new System.Drawing.Point(340, 175);
             this.btnDefProSelect.Name = "btnDefProSelect";
             this.btnDefProSelect.Size = new System.Drawing.Size(104, 39);
-            this.btnDefProSelect.TabIndex = 9;
+            this.btnDefProSelect.TabIndex = 2;
             this.btnDefProSelect.Text = "선택";
             this.btnDefProSelect.UseVisualStyleBackColor = true;
             // 
@@ -80,7 +82,7 @@
             this.cboDefItem.Location = new System.Drawing.Point(22, 175);
             this.cboDefItem.Name = "cboDefItem";
             this.cboDefItem.Size = new System.Drawing.Size(293, 39);
-            this.cboDefItem.TabIndex = 8;
+            this.cboDefItem.TabIndex = 1;
             // 
             // label2
             // 
@@ -89,7 +91,7 @@
             this.label2.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(114, 31);
-            this.label2.TabIndex = 5;
+            this.label2.TabIndex = 0;
             this.label2.Text = "불량코드";
             // 
             // label3
@@ -99,7 +101,7 @@
             this.label3.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(180, 31);
-            this.label3.TabIndex = 6;
+            this.label3.TabIndex = 0;
             this.label3.Text = "생산 작업 번호";
             // 
             // lblProduce
@@ -109,7 +111,7 @@
             this.lblProduce.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.lblProduce.Name = "lblProduce";
             this.lblProduce.Size = new System.Drawing.Size(222, 31);
-            this.lblProduce.TabIndex = 7;
+            this.lblProduce.TabIndex = 0;
             this.lblProduce.Text = "2020010500001";
             // 
             // label5
@@ -119,7 +121,7 @@
             this.label5.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(114, 31);
-            this.label5.TabIndex = 5;
+            this.label5.TabIndex = 0;
             this.label5.Text = "불량유형";
             // 
             // cboDefectiveName
@@ -128,14 +130,15 @@
             this.cboDefectiveName.Location = new System.Drawing.Point(22, 335);
             this.cboDefectiveName.Name = "cboDefectiveName";
             this.cboDefectiveName.Size = new System.Drawing.Size(293, 39);
-            this.cboDefectiveName.TabIndex = 8;
+            this.cboDefectiveName.TabIndex = 4;
             // 
             // btnDefNameSelect
             // 
+            this.btnDefNameSelect.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDefNameSelect.Location = new System.Drawing.Point(340, 335);
             this.btnDefNameSelect.Name = "btnDefNameSelect";
             this.btnDefNameSelect.Size = new System.Drawing.Size(104, 39);
-            this.btnDefNameSelect.TabIndex = 9;
+            this.btnDefNameSelect.TabIndex = 5;
             this.btnDefNameSelect.Text = "선택";
             this.btnDefNameSelect.UseVisualStyleBackColor = true;
             // 
@@ -145,7 +148,7 @@
             this.lblDefectiveName.Location = new System.Drawing.Point(16, 393);
             this.lblDefectiveName.Name = "lblDefectiveName";
             this.lblDefectiveName.Size = new System.Drawing.Size(197, 31);
-            this.lblDefectiveName.TabIndex = 10;
+            this.lblDefectiveName.TabIndex = 6;
             this.lblDefectiveName.Text = "선택된 불량유형";
             // 
             // label7
@@ -155,7 +158,7 @@
             this.label7.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(114, 31);
-            this.label7.TabIndex = 5;
+            this.label7.TabIndex = 0;
             this.label7.Text = "불량처리";
             // 
             // cboHandle
@@ -164,14 +167,15 @@
             this.cboHandle.Location = new System.Drawing.Point(22, 493);
             this.cboHandle.Name = "cboHandle";
             this.cboHandle.Size = new System.Drawing.Size(293, 39);
-            this.cboHandle.TabIndex = 8;
+            this.cboHandle.TabIndex = 7;
             // 
             // btnHandle
             // 
+            this.btnHandle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHandle.Location = new System.Drawing.Point(340, 493);
             this.btnHandle.Name = "btnHandle";
             this.btnHandle.Size = new System.Drawing.Size(104, 39);
-            this.btnHandle.TabIndex = 9;
+            this.btnHandle.TabIndex = 8;
             this.btnHandle.Text = "선택";
             this.btnHandle.UseVisualStyleBackColor = true;
             // 
@@ -181,25 +185,27 @@
             this.lblHandle.Location = new System.Drawing.Point(16, 551);
             this.lblHandle.Name = "lblHandle";
             this.lblHandle.Size = new System.Drawing.Size(255, 31);
-            this.lblHandle.TabIndex = 10;
+            this.lblHandle.TabIndex = 9;
             this.lblHandle.Text = "선택된 불량 처리유형";
             // 
             // btnClose
             // 
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Location = new System.Drawing.Point(340, 640);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(104, 78);
-            this.btnClose.TabIndex = 11;
+            this.btnClose.TabIndex = 12;
             this.btnClose.Text = "닫기";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnSaveAs
             // 
+            this.btnSaveAs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSaveAs.Location = new System.Drawing.Point(22, 640);
             this.btnSaveAs.Name = "btnSaveAs";
             this.btnSaveAs.Size = new System.Drawing.Size(146, 78);
-            this.btnSaveAs.TabIndex = 11;
+            this.btnSaveAs.TabIndex = 10;
             this.btnSaveAs.Text = "불량 추가 등록";
             this.btnSaveAs.UseVisualStyleBackColor = true;
             // 
@@ -207,6 +213,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(469, 742);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSaveAs);
@@ -226,9 +233,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblProduce);
             this.Font = new System.Drawing.Font("나눔고딕", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
             this.Name = "DefectiveRegister";
-            this.Text = "DefectiveRegister";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "불량 품목 등록";
             this.ResumeLayout(false);
             this.PerformLayout();
 

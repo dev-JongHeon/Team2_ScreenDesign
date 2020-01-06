@@ -38,9 +38,13 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -96,14 +100,14 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 41);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1364, 137);
+            this.panel1.Size = new System.Drawing.Size(1364, 107);
             this.panel1.TabIndex = 3;
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(0, 135);
+            this.panel4.Location = new System.Drawing.Point(0, 105);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1364, 2);
             this.panel4.TabIndex = 3;
@@ -111,16 +115,19 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
+            this.panel3.Controls.Add(this.comboBox3);
+            this.panel3.Controls.Add(this.comboBox2);
+            this.panel3.Controls.Add(this.comboBox1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1364, 137);
+            this.panel3.Size = new System.Drawing.Size(1364, 107);
             this.panel3.TabIndex = 0;
             // 
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 178);
+            this.splitContainer1.Location = new System.Drawing.Point(0, 148);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -130,7 +137,7 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.panel6);
-            this.splitContainer1.Size = new System.Drawing.Size(1364, 642);
+            this.splitContainer1.Size = new System.Drawing.Size(1364, 672);
             this.splitContainer1.SplitterDistance = 454;
             this.splitContainer1.TabIndex = 4;
             // 
@@ -139,7 +146,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(454, 642);
+            this.panel5.Size = new System.Drawing.Size(454, 672);
             this.panel5.TabIndex = 0;
             // 
             // panel6
@@ -147,8 +154,32 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(0, 0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(906, 642);
+            this.panel6.Size = new System.Drawing.Size(906, 672);
             this.panel6.TabIndex = 0;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(12, 9);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 22);
+            this.comboBox1.TabIndex = 0;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(12, 41);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 22);
+            this.comboBox2.TabIndex = 0;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(12, 73);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(121, 22);
+            this.comboBox3.TabIndex = 0;
             // 
             // Base1Dgv
             // 
@@ -164,6 +195,7 @@
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
@@ -184,5 +216,8 @@
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
