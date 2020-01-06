@@ -36,19 +36,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.품번 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.품명 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
@@ -71,6 +58,18 @@
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
+            this.품번 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.품명 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -156,7 +155,6 @@
             this.Column4,
             this.Column5,
             this.Column6,
-            this.Column7,
             this.Column8,
             this.Column9,
             this.Column10,
@@ -167,75 +165,6 @@
             this.dataGridView1.RowTemplate.Height = 23;
             this.dataGridView1.Size = new System.Drawing.Size(1364, 576);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // 품번
-            // 
-            this.품번.HeaderText = "발주지시번호";
-            this.품번.Name = "품번";
-            // 
-            // 품명
-            // 
-            this.품명.HeaderText = "거래처코드";
-            this.품명.Name = "품명";
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "거래처명칭";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "발주요청일";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "납기일";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "품목코드";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "품목명";
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "발주수량";
-            this.Column6.Name = "Column6";
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "발주상태";
-            this.Column7.Name = "Column7";
-            // 
-            // Column8
-            // 
-            this.Column8.HeaderText = "최초등록시각";
-            this.Column8.Name = "Column8";
-            this.Column8.Width = 110;
-            // 
-            // Column9
-            // 
-            this.Column9.HeaderText = "최초등록사원";
-            this.Column9.Name = "Column9";
-            this.Column9.Width = 110;
-            // 
-            // Column10
-            // 
-            this.Column10.HeaderText = "최종등록시각";
-            this.Column10.Name = "Column10";
-            this.Column10.Width = 110;
-            // 
-            // Column11
-            // 
-            this.Column11.HeaderText = "최종등록사원";
-            this.Column11.Name = "Column11";
-            this.Column11.Width = 110;
             // 
             // button2
             // 
@@ -474,6 +403,70 @@
             this.label6.TabIndex = 24;
             this.label6.Text = "발주요청일";
             // 
+            // 품번
+            // 
+            this.품번.HeaderText = "발주지시번호";
+            this.품번.Name = "품번";
+            // 
+            // 품명
+            // 
+            this.품명.HeaderText = "거래처코드";
+            this.품명.Name = "품명";
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "거래처명칭";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "발주요청일";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "납기일";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "품목코드";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "품목명";
+            this.Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "발주수량";
+            this.Column6.Name = "Column6";
+            // 
+            // Column8
+            // 
+            this.Column8.HeaderText = "최초등록시각";
+            this.Column8.Name = "Column8";
+            this.Column8.Width = 110;
+            // 
+            // Column9
+            // 
+            this.Column9.HeaderText = "최초등록사원";
+            this.Column9.Name = "Column9";
+            this.Column9.Width = 110;
+            // 
+            // Column10
+            // 
+            this.Column10.HeaderText = "최종등록시각";
+            this.Column10.Name = "Column10";
+            this.Column10.Width = 110;
+            // 
+            // Column11
+            // 
+            this.Column11.HeaderText = "최종등록사원";
+            this.Column11.Name = "Column11";
+            this.Column11.Width = 110;
+            // 
             // Balju
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -509,19 +502,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 품번;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 품명;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
@@ -536,5 +516,17 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn 품번;
+        private System.Windows.Forms.DataGridViewTextBoxColumn 품명;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
     }
 }
