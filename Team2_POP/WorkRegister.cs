@@ -21,5 +21,10 @@ namespace Team2_POP
         {
             this.Close();
         }
+
+        private void WorkRegister_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
