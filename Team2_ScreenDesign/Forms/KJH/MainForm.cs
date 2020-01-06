@@ -189,18 +189,6 @@ namespace Team2_ScreenDesign
 
         private void tabControl1_DrawItem(object sender, DrawItemEventArgs e)
         {
-            
-
-            SolidBrush fillbrush = new SolidBrush(Color.FromArgb(42, 76, 105));
-            Rectangle lasttabrect = tabControl1.GetTabRect(tabControl1.TabPages.Count - 1);
-            Rectangle background = new Rectangle();
-            background.Location = new Point(0, 0);
-
-            //pad the rectangle to cover the 1 pixel line between the top of the tabpage and the start of the tabs
-            background.Size = new Size(tabControl1.Right - background.Left, lasttabrect.Height + 1);
-            e.Graphics.FillRectangle(fillbrush, background);
-
-            SolidBrush sb2 = new SolidBrush(Color.FromArgb(42, 76, 105));
             Graphics g = e.Graphics;
             TabPage tp = tabControl1.TabPages[e.Index];
 
@@ -209,10 +197,6 @@ namespace Team2_ScreenDesign
 
             // This is the rectangle to draw "over" the tabpage title
             RectangleF headerRect = new RectangleF(e.Bounds.X, e.Bounds.Y + 2, e.Bounds.Width, e.Bounds.Height - 2);
-
-            
-
-
             // This is the default colour to use for the non-selected tabs
             SolidBrush sb = new SolidBrush(Color.FromArgb(42, 76, 105));
             SolidBrush co = new SolidBrush(Color.White);
@@ -233,11 +217,19 @@ namespace Team2_ScreenDesign
                 g.FillRectangle(sb, e.Bounds);
 
             }
-            // Colour the header of the current tabpage based on what we did above
-            
-
             //Remember to redraw the text - I'm always using black for title text
             g.DrawString(tp.Text, new Font(tabControl1.Font, FontStyle.Bold), co, headerRect, sf);
+
+            SolidBrush fillbrush = new SolidBrush(Color.FromArgb(42, 76, 105));
+            Rectangle lasttabrect = tabControl1.GetTabRect(tabControl1.TabPages.Count - 1);
+            Rectangle background = new Rectangle();
+            background.Location = new Point(lasttabrect.Right + 10, 0);
+
+            //pad the rectangle to cover the 1 pixel line between the top of the tabpage and the start of the tabs
+            background.Size = new Size(tabControl1.Right - background.Left, lasttabrect.Height + 1);
+            e.Graphics.FillRectangle(fillbrush, background);
+
+
         }
 
         private void 새로고침ToolStripMenuItem_Click_1(object sender, EventArgs e)
@@ -277,6 +269,11 @@ namespace Team2_ScreenDesign
             frm.TabPag = tp;
             tabControl1.SelectedTab = tp;
             frm.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
