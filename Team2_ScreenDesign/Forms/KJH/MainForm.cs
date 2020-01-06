@@ -160,14 +160,26 @@ namespace Team2_ScreenDesign
 
         public void FillMenu()
         {
-            foreach(var item in mpanel.Controls)
+            int sumheight = 0;
+            foreach (var item in mpanel.Controls)
+            {
+                if (item is Panel)
+                {
+                    Panel tmp = (Panel)item;
+                    if (tmp.Tag.ToString() == string.Empty)
+                    {
+                        sumheight += tmp.Height;
+                    }
+                }
+            }
+            foreach (var item in mpanel.Controls)
             {
                 if(item is Panel)
                 {
                     Panel tmp = (Panel)item;
                     if (tmp.Tag.ToString() != string.Empty && tmp.Visible)
                     {
-                        tmp.Height = 617;
+                        tmp.Height = mpanel.Height - sumheight;
                     }
                 }
             }
@@ -175,9 +187,10 @@ namespace Team2_ScreenDesign
 
         private void tabControl1_DrawItem(object sender, DrawItemEventArgs e)
         {
+            SolidBrush sb2 = new SolidBrush(Color.FromArgb(42, 76, 105));
             Graphics g = e.Graphics;
             TabPage tp = tabControl1.TabPages[e.Index];
-
+            
             StringFormat sf = new StringFormat();
             sf.Alignment = StringAlignment.Center;  //optional
 
@@ -190,19 +203,19 @@ namespace Team2_ScreenDesign
             // This changes the colour if we're trying to draw the selected tabpage
             if (tabControl1.SelectedIndex == e.Index)
             {
-                sb.Color = Color.Silver;
-                co.Color = Color.FromArgb(42, 76, 105);
+                sb.Color = Color.FromArgb(225, 225, 225);
+                co.Color = Color.Blue;
             }
             // Colour the header of the current tabpage based on what we did above
             g.FillRectangle(sb, e.Bounds);
 
             //Remember to redraw the text - I'm always using black for title text
-            g.DrawString(tp.Text, tabControl1.Font, co, headerRect, sf);
+            g.DrawString(tp.Text, new Font(tabControl1.Font,FontStyle.Bold), co, headerRect, sf);
 
             SolidBrush fillbrush = new SolidBrush(Color.FromArgb(42, 76, 105));
             Rectangle lasttabrect = tabControl1.GetTabRect(tabControl1.TabPages.Count - 1);
             Rectangle background = new Rectangle();
-            background.Location = new Point(lasttabrect.Right, 0);
+            background.Location = new Point(lasttabrect.Right+10, 0);
 
             //pad the rectangle to cover the 1 pixel line between the top of the tabpage and the start of the tabs
             background.Size = new Size(tabControl1.Right - background.Left, lasttabrect.Height + 1);
@@ -216,6 +229,11 @@ namespace Team2_ScreenDesign
             tb.Parent = tabControl1;
             tb.Show();
             
+        }
+
+        private void MainForm_SizeChanged(object sender, EventArgs e)
+        {
+            FillMenu();
         }
     }
 }

@@ -174,22 +174,22 @@
     <Compile Include="Forms\HJS\불량현황.designer.cs">
       <DependentUpon>불량현황.cs</DependentUpon>
     </Compile>
-    <Compile Include="TypeOfDisproduct.cs">
+    <Compile Include="Forms\SSD\TypeOfDisproduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TypeOfDisproduct.Designer.cs">
+    <Compile Include="Forms\SSD\TypeOfDisproduct.Designer.cs">
       <DependentUpon>TypeOfDisproduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="TypeOfNotOperation.cs">
+    <Compile Include="Forms\SSD\TypeOfNotOperation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TypeOfNotOperation.Designer.cs">
+    <Compile Include="Forms\SSD\TypeOfNotOperation.Designer.cs">
       <DependentUpon>TypeOfNotOperation.cs</DependentUpon>
     </Compile>
-    <Compile Include="Workers.cs">
+    <Compile Include="Forms\SSD\Workers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Workers.Designer.cs">
+    <Compile Include="Forms\SSD\Workers.Designer.cs">
       <DependentUpon>Workers.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Base2Dgv.resx">
@@ -260,13 +260,13 @@
     <EmbeddedResource Include="Forms\HJS\불량현황.resx">
       <DependentUpon>불량현황.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TypeOfDisproduct.resx">
+    <EmbeddedResource Include="Forms\SSD\TypeOfDisproduct.resx">
       <DependentUpon>TypeOfDisproduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TypeOfNotOperation.resx">
+    <EmbeddedResource Include="Forms\SSD\TypeOfNotOperation.resx">
       <DependentUpon>TypeOfNotOperation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Workers.resx">
+    <EmbeddedResource Include="Forms\SSD\Workers.resx">
       <DependentUpon>Workers.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">

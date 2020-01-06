@@ -85,6 +85,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.menuStrip.SuspendLayout();
@@ -378,6 +384,7 @@
             // 
             // panel13
             // 
+            this.panel13.Controls.Add(this.label12);
             this.panel13.Controls.Add(this.lblInfo);
             this.panel13.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel13.Location = new System.Drawing.Point(106, 0);
@@ -450,6 +457,7 @@
             // 
             // panel12
             // 
+            this.panel12.Controls.Add(this.label11);
             this.panel12.Controls.Add(this.lblSales);
             this.panel12.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel12.Location = new System.Drawing.Point(106, 0);
@@ -522,6 +530,7 @@
             // 
             // panel11
             // 
+            this.panel11.Controls.Add(this.label9);
             this.panel11.Controls.Add(this.lblStock);
             this.panel11.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel11.Location = new System.Drawing.Point(106, 0);
@@ -594,6 +603,7 @@
             // 
             // panel10
             // 
+            this.panel10.Controls.Add(this.label7);
             this.panel10.Controls.Add(this.lblProduction);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel10.Location = new System.Drawing.Point(106, 0);
@@ -666,6 +676,7 @@
             // 
             // panel9
             // 
+            this.panel9.Controls.Add(this.label5);
             this.panel9.Controls.Add(this.lblProcess);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel9.Location = new System.Drawing.Point(106, 0);
@@ -738,6 +749,7 @@
             // 
             // panel8
             // 
+            this.panel8.Controls.Add(this.label2);
             this.panel8.Controls.Add(this.lblSystem);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel8.Location = new System.Drawing.Point(106, 0);
@@ -777,10 +789,11 @@
             // 
             // tabControl1
             // 
+            this.tabControl1.Appearance = System.Windows.Forms.TabAppearance.FlatButtons;
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.tabControl1.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed;
             this.tabControl1.HotTrack = true;
-            this.tabControl1.ItemSize = new System.Drawing.Size(110, 23);
+            this.tabControl1.ItemSize = new System.Drawing.Size(110, 25);
             this.tabControl1.Location = new System.Drawing.Point(204, 90);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -797,10 +810,82 @@
             this.button1.Image = global::Team2_ScreenDesign.Properties.Resources.left_arrow__2_;
             this.button1.Location = new System.Drawing.Point(200, 420);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(4, 50);
+            this.button1.Size = new System.Drawing.Size(4, 100);
             this.button1.TabIndex = 13;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label2
+            // 
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label2.Location = new System.Drawing.Point(-27, -2);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(86, 26);
+            this.label2.TabIndex = 3;
+            this.label2.Tag = "system";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.Click += new System.EventHandler(this.label_Click);
+            // 
+            // label5
+            // 
+            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label5.Location = new System.Drawing.Point(-27, -2);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(86, 26);
+            this.label5.TabIndex = 4;
+            this.label5.Tag = "process";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label5.Click += new System.EventHandler(this.label_Click);
+            // 
+            // label7
+            // 
+            this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label7.Location = new System.Drawing.Point(-30, -3);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(89, 26);
+            this.label7.TabIndex = 4;
+            this.label7.Tag = "production";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label7.Click += new System.EventHandler(this.label_Click);
+            // 
+            // label9
+            // 
+            this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label9.Location = new System.Drawing.Point(-27, -3);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(86, 26);
+            this.label9.TabIndex = 4;
+            this.label9.Tag = "stock";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label9.Click += new System.EventHandler(this.label_Click);
+            // 
+            // label11
+            // 
+            this.label11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label11.Location = new System.Drawing.Point(-27, -3);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(86, 26);
+            this.label11.TabIndex = 4;
+            this.label11.Tag = "sales";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label11.Click += new System.EventHandler(this.label_Click);
+            // 
+            // label12
+            // 
+            this.label12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label12.Location = new System.Drawing.Point(-27, -3);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(86, 26);
+            this.label12.TabIndex = 4;
+            this.label12.Tag = "info";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label12.Click += new System.EventHandler(this.label_Click);
             // 
             // MainForm
             // 
@@ -819,6 +904,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "메인화면";
             this.Load += new System.EventHandler(this.MainForm_Load);
+            this.SizeChanged += new System.EventHandler(this.MainForm_SizeChanged);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -909,6 +995,12 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label5;
     }
 }
 
