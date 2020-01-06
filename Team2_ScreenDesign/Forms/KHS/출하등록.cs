@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class 출고등록 : Form
+    public partial class 출하등록 : Form
     {
-        public 출고등록()
+        public 출하등록()
         {
             InitializeComponent();
         }
