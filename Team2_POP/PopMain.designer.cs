@@ -391,7 +391,7 @@
             // 
             this.splitContainer4.Panel2.Controls.Add(this.splitContainer5);
             this.splitContainer4.Size = new System.Drawing.Size(1264, 625);
-            this.splitContainer4.SplitterDistance = 501;
+            this.splitContainer4.SplitterDistance = 500;
             this.splitContainer4.TabIndex = 0;
             // 
             // dgvProduce
@@ -411,7 +411,7 @@
             this.dgvProduce.Location = new System.Drawing.Point(0, 0);
             this.dgvProduce.Name = "dgvProduce";
             this.dgvProduce.RowTemplate.Height = 23;
-            this.dgvProduce.Size = new System.Drawing.Size(1264, 501);
+            this.dgvProduce.Size = new System.Drawing.Size(1264, 500);
             this.dgvProduce.TabIndex = 1;
             // 
             // Column1
@@ -472,7 +472,7 @@
             // splitContainer5.Panel1
             // 
             this.splitContainer5.Panel1.Controls.Add(this.tableLayoutPanel3);
-            this.splitContainer5.Size = new System.Drawing.Size(1264, 120);
+            this.splitContainer5.Size = new System.Drawing.Size(1264, 121);
             this.splitContainer5.SplitterDistance = 91;
             this.splitContainer5.TabIndex = 0;
             // 
