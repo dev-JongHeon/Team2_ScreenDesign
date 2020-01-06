@@ -75,6 +75,7 @@
             // 
             // btnSelect
             // 
+            this.btnSelect.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSelect.Location = new System.Drawing.Point(327, 175);
             this.btnSelect.Name = "btnSelect";
             this.btnSelect.Size = new System.Drawing.Size(119, 39);
@@ -93,7 +94,8 @@
             // 
             // btnToggle
             // 
-            this.btnToggle.Location = new System.Drawing.Point(12, 307);
+            this.btnToggle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnToggle.Location = new System.Drawing.Point(19, 307);
             this.btnToggle.Name = "btnToggle";
             this.btnToggle.Size = new System.Drawing.Size(165, 62);
             this.btnToggle.TabIndex = 5;
@@ -102,10 +104,11 @@
             // 
             // btnClose
             // 
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Location = new System.Drawing.Point(281, 307);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(165, 62);
-            this.btnClose.TabIndex = 5;
+            this.btnClose.TabIndex = 6;
             this.btnClose.Text = "닫기";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -114,6 +117,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(458, 404);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnToggle);
@@ -124,9 +128,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("나눔고딕", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
             this.Name = "DowntimeRegister";
-            this.Text = "DowntimeRegister";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "비가동 등록";
             this.ResumeLayout(false);
             this.PerformLayout();
 
