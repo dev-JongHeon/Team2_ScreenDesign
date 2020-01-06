@@ -40,7 +40,10 @@ namespace Team2_ScreenDesign
             }
 
         }
-
+        private void 새로고침ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenBaseForm<Base1Dgv>("테스트");
+        }
         private void splitter1_SplitterMoved(object sender, SplitterEventArgs e)
         {
             button1.Location = new Point(splitter1.Location.X, button1.Location.Y);
@@ -53,7 +56,6 @@ namespace Team2_ScreenDesign
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-
             tabControl1.DrawMode = TabDrawMode.OwnerDrawFixed;
             foreach (Panel p in mpanel.Controls)
             {
@@ -64,10 +66,6 @@ namespace Team2_ScreenDesign
             }
 
             OpenTabForm<MainTab>("메인화면");
-        }
-
-        private void 새로고침ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
         }
 
         private void label_Click(object sender, EventArgs e)
@@ -139,10 +137,13 @@ namespace Team2_ScreenDesign
                                             Label l = (Label)la;
                                             if (l.Name == lname)
                                             {
+                                                //tmp.BackColor = Color.FromArgb(193, 210, 232);
+                                                tmp.BackColor = Color.FromArgb(187, 209, 232);
                                                 l.Image = Resources.down_16x16;
                                             }
                                             else
                                             {
+                                                tmp.BackColor = Color.FromArgb(236, 236, 236);
                                                 l.Image = Resources.Prev_16x16;
                                             }
                                         }
@@ -232,11 +233,6 @@ namespace Team2_ScreenDesign
 
         }
 
-        private void 새로고침ToolStripMenuItem_Click_1(object sender, EventArgs e)
-        {
-            OpenBaseForm<Base1Dgv>("테스트");
-
-        }
 
         private void MainForm_SizeChanged(object sender, EventArgs e)
         {
@@ -292,10 +288,7 @@ namespace Team2_ScreenDesign
             tabControl1.SelectedTab = tp;
             frm.Show();
         }
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
