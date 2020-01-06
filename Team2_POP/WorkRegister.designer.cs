@@ -135,6 +135,7 @@
             this.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
             this.Name = "WorkRegister";
             this.Text = "작업자 선택창";
+            this.Load += new System.EventHandler(this.WorkRegister_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

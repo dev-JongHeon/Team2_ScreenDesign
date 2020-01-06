@@ -46,17 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Custom\GradientLabel.cs">
-      <SubType>Component</SubType>
+    <Compile Include="Custom\SearchCustomerControl.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Custom\GradientLabel.Designer.cs">
-      <DependentUpon>GradientLabel.cs</DependentUpon>
+    <Compile Include="Custom\SearchCustomerControl.Designer.cs">
+      <DependentUpon>SearchCustomerControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Custom\GradientPanel.cs">
-      <SubType>Component</SubType>
+    <Compile Include="Custom\SearchUserControl.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Custom\GradientPanel.Designer.cs">
-      <DependentUpon>GradientPanel.cs</DependentUpon>
+    <Compile Include="Custom\SearchUserControl.Designer.cs">
+      <DependentUpon>SearchUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\BaseForm\Base1Dgv.cs">
       <SubType>Form</SubType>
@@ -75,6 +75,24 @@
     </Compile>
     <Compile Include="Custom\TabForm.Designer.cs">
       <DependentUpon>TabForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HJS\Defective.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HJS\Defective.Designer.cs">
+      <DependentUpon>Defective.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HJS\Downtime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HJS\Downtime.Designer.cs">
+      <DependentUpon>Downtime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HJS\SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HJS\SearchForm.Designer.cs">
+      <DependentUpon>SearchForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\KJH\MainTab.cs">
       <SubType>Form</SubType>
@@ -228,11 +246,23 @@
     <Compile Include="Forms\SSD\Workers.Designer.cs">
       <DependentUpon>Workers.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Custom\SearchUserControl.resx">
+      <DependentUpon>SearchUserControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\BaseForm\Base1Dgv.resx">
       <DependentUpon>Base1Dgv.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\BaseForm\BaseForm.resx">
       <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HJS\Defective.resx">
+      <DependentUpon>Defective.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HJS\Downtime.resx">
+      <DependentUpon>Downtime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HJS\SearchForm.resx">
+      <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\MainTab.resx">
       <DependentUpon>MainTab.cs</DependentUpon>
@@ -406,6 +436,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Window_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search_16x16.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -3,26 +3,29 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class Defective : Team2_ScreenDesign.BaseForm
+    public partial class SearchForm : Form
     {
-        public Defective()
+        public SearchCustomerContorl.Mode Mode { get; set; }
+        public SearchForm()
         {
             InitializeComponent();
         }
 
-        private void Defective_Load(object sender, EventArgs e)
+        private void SearchForm_Load(object sender, EventArgs e)
         {
             SettingData();
         }
 
         private void SettingData()
         {
-            this.lblFormName.Text = "불량유형";           
+            // Mode값에 따라 그리드뷰 컬럼명 및 검색 결과 
         }
     }
 }
