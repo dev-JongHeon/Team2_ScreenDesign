@@ -38,9 +38,9 @@
             this.lblName.AutoSize = true;
             this.lblName.Location = new System.Drawing.Point(1, 6);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(54, 14);
+            this.lblName.Size = new System.Drawing.Size(65, 14);
             this.lblName.TabIndex = 0;
-            this.lblName.Text = "유형 이름";
+            this.lblName.Text = "작업자 코드";
             // 
             // txtCode
             // 

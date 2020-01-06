@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Custom\SearchCustomerControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Custom\SearchCustomerControl.Designer.cs">
-      <DependentUpon>SearchCustomerControl.cs</DependentUpon>
-    </Compile>
     <Compile Include="Custom\SearchUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>

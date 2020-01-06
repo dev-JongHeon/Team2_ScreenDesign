@@ -12,7 +12,7 @@ namespace Team2_ScreenDesign
 {
     public partial class SearchForm : Form
     {
-        public SearchCustomerContorl.Mode Mode { get; set; }
+        public SearchUserControl.Mode Mode { get; set; }
         public SearchForm()
         {
             InitializeComponent();
@@ -26,6 +26,7 @@ namespace Team2_ScreenDesign
         private void SettingData()
         {
             // Mode값에 따라 그리드뷰 컬럼명 및 검색 결과 
+            this.Text = Mode.ToString();
         }
     }
 }
