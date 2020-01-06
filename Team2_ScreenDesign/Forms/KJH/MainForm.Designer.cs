@@ -855,7 +855,7 @@
             this.label1.Size = new System.Drawing.Size(100, 21);
             this.label1.TabIndex = 0;
             this.label1.Tag = "system";
-            this.label1.Text = "시스템관리";
+            this.label1.Text = "시스템 관리";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label_Click);
             // 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -198,17 +199,31 @@ namespace Team2_ScreenDesign
             // This is the rectangle to draw "over" the tabpage title
             RectangleF headerRect = new RectangleF(e.Bounds.X, e.Bounds.Y + 2, e.Bounds.Width, e.Bounds.Height - 2);
 
+            
+
+
             // This is the default colour to use for the non-selected tabs
             SolidBrush sb = new SolidBrush(Color.FromArgb(42,76,105));
             SolidBrush co = new SolidBrush(Color.White);
             // This changes the colour if we're trying to draw the selected tabpage
             if (tabControl1.SelectedIndex == e.Index)
             {
-                sb.Color = Color.FromArgb(225, 225, 225);
-                co.Color = Color.Blue;
+  
+                co.Color = Color.DarkBlue;
+                var bshBack = new LinearGradientBrush(
+                    e.Bounds,
+                    Color.White,
+                    Color.LightSteelBlue,
+                    LinearGradientMode.ForwardDiagonal);
+                g.FillRectangle(bshBack, e.Bounds);
+            }
+            else
+            {
+                g.FillRectangle(sb, e.Bounds);
+
             }
             // Colour the header of the current tabpage based on what we did above
-            g.FillRectangle(sb, e.Bounds);
+            
 
             //Remember to redraw the text - I'm always using black for title text
             g.DrawString(tp.Text, new Font(tabControl1.Font,FontStyle.Bold), co, headerRect, sf);
