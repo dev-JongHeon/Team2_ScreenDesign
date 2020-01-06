@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TeamProject
+namespace Team2_ScreenDesign
 {
     public partial class Factory : Form
     {
