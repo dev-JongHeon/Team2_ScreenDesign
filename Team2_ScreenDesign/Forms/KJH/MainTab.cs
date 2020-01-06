@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Team2_POP
+namespace Team2_ScreenDesign
 {
-    public partial class DowntimeRegister : Form
+    public partial class MainTab : TabForm
     {
-        public DowntimeRegister()
+        public MainTab()
         {
             InitializeComponent();
-        }
-
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

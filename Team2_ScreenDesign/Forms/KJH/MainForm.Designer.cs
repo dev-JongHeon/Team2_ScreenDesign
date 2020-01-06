@@ -32,17 +32,9 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
-            this.새로고침ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.신규ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.등록ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.삭제ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.인쇄ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.닫기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.panel_Menu = new System.Windows.Forms.Panel();
@@ -51,52 +43,62 @@
             this.button8 = new System.Windows.Forms.Button();
             this.menu_Info = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.lblInfo = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.panel_Sales = new System.Windows.Forms.Panel();
             this.button7 = new System.Windows.Forms.Button();
             this.menu_Sales = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.lblSales = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.panel_Stock = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
             this.menu_Stock = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.lblStock = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel_Production = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.menu_production = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.lblProduction = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel_Process = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
             this.menu_Process = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.lblProcess = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel_System = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.menu_System = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.lblSystem = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.lblInfo = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.lblSales = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.lblStock = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lblProduction = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.lblProcess = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblSystem = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.새로고침ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.신규ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.등록ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.삭제ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.인쇄ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.닫기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button2 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.panel15 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel_Menu.SuspendLayout();
             this.mpanel.SuspendLayout();
             this.panel_Info.SuspendLayout();
@@ -117,6 +119,11 @@
             this.panel_System.SuspendLayout();
             this.menu_System.SuspendLayout();
             this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -171,76 +178,6 @@
             this.menuStrip.TabIndex = 17;
             this.menuStrip.Text = "menuStrip2";
             // 
-            // 새로고침ToolStripMenuItem
-            // 
-            this.새로고침ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.새로고침ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
-            this.새로고침ToolStripMenuItem.Image = global::Team2_ScreenDesign.Properties.Resources.Action_Refresh_32x32;
-            this.새로고침ToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.새로고침ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.새로고침ToolStripMenuItem.Name = "새로고침ToolStripMenuItem";
-            this.새로고침ToolStripMenuItem.Size = new System.Drawing.Size(81, 55);
-            this.새로고침ToolStripMenuItem.Text = "새로고침";
-            this.새로고침ToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.새로고침ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.새로고침ToolStripMenuItem.Click += new System.EventHandler(this.새로고침ToolStripMenuItem_Click_1);
-            // 
-            // 신규ToolStripMenuItem
-            // 
-            this.신규ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.신규ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
-            this.신규ToolStripMenuItem.Image = global::Team2_ScreenDesign.Properties.Resources.AddFile_32x32;
-            this.신규ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.신규ToolStripMenuItem.Name = "신규ToolStripMenuItem";
-            this.신규ToolStripMenuItem.Size = new System.Drawing.Size(59, 55);
-            this.신규ToolStripMenuItem.Text = " 신규 ";
-            this.신규ToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.신규ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // 등록ToolStripMenuItem
-            // 
-            this.등록ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.등록ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
-            this.등록ToolStripMenuItem.Image = global::Team2_ScreenDesign.Properties.Resources.Edit_32x32;
-            this.등록ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.등록ToolStripMenuItem.Name = "등록ToolStripMenuItem";
-            this.등록ToolStripMenuItem.Size = new System.Drawing.Size(59, 55);
-            this.등록ToolStripMenuItem.Text = " 수정 ";
-            this.등록ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // 삭제ToolStripMenuItem
-            // 
-            this.삭제ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.삭제ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
-            this.삭제ToolStripMenuItem.Image = global::Team2_ScreenDesign.Properties.Resources.DeleteList_32x32;
-            this.삭제ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.삭제ToolStripMenuItem.Name = "삭제ToolStripMenuItem";
-            this.삭제ToolStripMenuItem.Size = new System.Drawing.Size(59, 55);
-            this.삭제ToolStripMenuItem.Text = " 삭제 ";
-            this.삭제ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // 인쇄ToolStripMenuItem
-            // 
-            this.인쇄ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.인쇄ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
-            this.인쇄ToolStripMenuItem.Image = global::Team2_ScreenDesign.Properties.Resources.Printer_32x32;
-            this.인쇄ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.인쇄ToolStripMenuItem.Name = "인쇄ToolStripMenuItem";
-            this.인쇄ToolStripMenuItem.Size = new System.Drawing.Size(59, 55);
-            this.인쇄ToolStripMenuItem.Text = " 인쇄 ";
-            this.인쇄ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // 닫기ToolStripMenuItem
-            // 
-            this.닫기ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.닫기ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
-            this.닫기ToolStripMenuItem.Image = global::Team2_ScreenDesign.Properties.Resources.window_remove_12810;
-            this.닫기ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.닫기ToolStripMenuItem.Name = "닫기ToolStripMenuItem";
-            this.닫기ToolStripMenuItem.Size = new System.Drawing.Size(59, 55);
-            this.닫기ToolStripMenuItem.Text = " 닫기 ";
-            this.닫기ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(241)))));
@@ -260,22 +197,6 @@
             this.panel5.Size = new System.Drawing.Size(85, 84);
             this.panel5.TabIndex = 1;
             // 
-            // button2
-            // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(241)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button2.ForeColor = System.Drawing.Color.Gray;
-            this.button2.Image = global::Team2_ScreenDesign.Properties.Resources.Action_Logoff;
-            this.button2.Location = new System.Drawing.Point(0, 0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(85, 26);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "로그아웃";
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // panel4
             // 
             this.panel4.Controls.Add(this.pictureBox1);
@@ -284,17 +205,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(202, 84);
             this.panel4.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::Team2_ScreenDesign.Properties.Resources.로고;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(202, 84);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // panel3
             // 
@@ -393,34 +303,17 @@
             this.panel13.TabIndex = 7;
             this.panel13.Tag = "labelpanel";
             // 
-            // lblInfo
+            // label12
             // 
-            this.lblInfo.Dock = System.Windows.Forms.DockStyle.Right;
-            this.lblInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
-            this.lblInfo.Image = global::Team2_ScreenDesign.Properties.Resources.Prev_16x16;
-            this.lblInfo.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblInfo.Location = new System.Drawing.Point(48, 0);
-            this.lblInfo.Name = "lblInfo";
-            this.lblInfo.Size = new System.Drawing.Size(38, 21);
-            this.lblInfo.TabIndex = 2;
-            this.lblInfo.Tag = "info";
-            this.lblInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblInfo.Click += new System.EventHandler(this.label_Click);
-            // 
-            // label10
-            // 
-            this.label10.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label10.Image = global::Team2_ScreenDesign.Properties.Resources.BOReport_16x16;
-            this.label10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label10.Location = new System.Drawing.Point(0, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(100, 21);
-            this.label10.TabIndex = 0;
-            this.label10.Tag = "info";
-            this.label10.Text = "기준 관리";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label10.Click += new System.EventHandler(this.label_Click);
+            this.label12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label12.Location = new System.Drawing.Point(-27, -3);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(86, 26);
+            this.label12.TabIndex = 4;
+            this.label12.Tag = "info";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label12.Click += new System.EventHandler(this.label_Click);
             // 
             // panel_Sales
             // 
@@ -466,34 +359,17 @@
             this.panel12.TabIndex = 6;
             this.panel12.Tag = "labelpanel";
             // 
-            // lblSales
+            // label11
             // 
-            this.lblSales.Dock = System.Windows.Forms.DockStyle.Right;
-            this.lblSales.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
-            this.lblSales.Image = global::Team2_ScreenDesign.Properties.Resources.Prev_16x16;
-            this.lblSales.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblSales.Location = new System.Drawing.Point(48, 0);
-            this.lblSales.Name = "lblSales";
-            this.lblSales.Size = new System.Drawing.Size(38, 21);
-            this.lblSales.TabIndex = 2;
-            this.lblSales.Tag = "sales";
-            this.lblSales.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblSales.Click += new System.EventHandler(this.label_Click);
-            // 
-            // label8
-            // 
-            this.label8.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label8.Image = global::Team2_ScreenDesign.Properties.Resources.BOOrderItem_16x16;
-            this.label8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label8.Location = new System.Drawing.Point(0, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(100, 21);
-            this.label8.TabIndex = 0;
-            this.label8.Tag = "sales";
-            this.label8.Text = "영업 관리";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label8.Click += new System.EventHandler(this.label_Click);
+            this.label11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label11.Location = new System.Drawing.Point(-27, -3);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(86, 26);
+            this.label11.TabIndex = 4;
+            this.label11.Tag = "sales";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label11.Click += new System.EventHandler(this.label_Click);
             // 
             // panel_Stock
             // 
@@ -539,34 +415,17 @@
             this.panel11.TabIndex = 5;
             this.panel11.Tag = "labelpanel";
             // 
-            // lblStock
+            // label9
             // 
-            this.lblStock.Dock = System.Windows.Forms.DockStyle.Right;
-            this.lblStock.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
-            this.lblStock.Image = global::Team2_ScreenDesign.Properties.Resources.Prev_16x16;
-            this.lblStock.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblStock.Location = new System.Drawing.Point(48, 0);
-            this.lblStock.Name = "lblStock";
-            this.lblStock.Size = new System.Drawing.Size(38, 21);
-            this.lblStock.TabIndex = 2;
-            this.lblStock.Tag = "stock";
-            this.lblStock.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblStock.Click += new System.EventHandler(this.label_Click);
-            // 
-            // label3
-            // 
-            this.label3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label3.Image = global::Team2_ScreenDesign.Properties.Resources.BOProductGroup_16x16;
-            this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label3.Location = new System.Drawing.Point(0, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 21);
-            this.label3.TabIndex = 0;
-            this.label3.Tag = "stock";
-            this.label3.Text = "재고 관리";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label3.Click += new System.EventHandler(this.label_Click);
+            this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label9.Location = new System.Drawing.Point(-27, -3);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(86, 26);
+            this.label9.TabIndex = 4;
+            this.label9.Tag = "stock";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label9.Click += new System.EventHandler(this.label_Click);
             // 
             // panel_Production
             // 
@@ -612,34 +471,17 @@
             this.panel10.TabIndex = 4;
             this.panel10.Tag = "labelpanel";
             // 
-            // lblProduction
+            // label7
             // 
-            this.lblProduction.Dock = System.Windows.Forms.DockStyle.Right;
-            this.lblProduction.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
-            this.lblProduction.Image = global::Team2_ScreenDesign.Properties.Resources.Prev_16x16;
-            this.lblProduction.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblProduction.Location = new System.Drawing.Point(48, 0);
-            this.lblProduction.Name = "lblProduction";
-            this.lblProduction.Size = new System.Drawing.Size(38, 21);
-            this.lblProduction.TabIndex = 3;
-            this.lblProduction.Tag = "production";
-            this.lblProduction.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblProduction.Click += new System.EventHandler(this.label_Click);
-            // 
-            // label6
-            // 
-            this.label6.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label6.Image = global::Team2_ScreenDesign.Properties.Resources.IDE_16x16;
-            this.label6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label6.Location = new System.Drawing.Point(0, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(100, 21);
-            this.label6.TabIndex = 0;
-            this.label6.Tag = "production";
-            this.label6.Text = "생산 관리";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label6.Click += new System.EventHandler(this.label_Click);
+            this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label7.Location = new System.Drawing.Point(-30, -3);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(89, 26);
+            this.label7.TabIndex = 4;
+            this.label7.Tag = "production";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label7.Click += new System.EventHandler(this.label_Click);
             // 
             // panel_Process
             // 
@@ -685,34 +527,17 @@
             this.panel9.TabIndex = 3;
             this.panel9.Tag = "labelpanel";
             // 
-            // lblProcess
+            // label5
             // 
-            this.lblProcess.Dock = System.Windows.Forms.DockStyle.Right;
-            this.lblProcess.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
-            this.lblProcess.Image = global::Team2_ScreenDesign.Properties.Resources.Prev_16x16;
-            this.lblProcess.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblProcess.Location = new System.Drawing.Point(48, 0);
-            this.lblProcess.Name = "lblProcess";
-            this.lblProcess.Size = new System.Drawing.Size(38, 21);
-            this.lblProcess.TabIndex = 2;
-            this.lblProcess.Tag = "process";
-            this.lblProcess.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblProcess.Click += new System.EventHandler(this.label_Click);
-            // 
-            // label4
-            // 
-            this.label4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label4.Image = global::Team2_ScreenDesign.Properties.Resources.Customization_16x16;
-            this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label4.Location = new System.Drawing.Point(0, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 21);
-            this.label4.TabIndex = 0;
-            this.label4.Tag = "process";
-            this.label4.Text = "공정 관리";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label4.Click += new System.EventHandler(this.label_Click);
+            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label5.Location = new System.Drawing.Point(-27, -2);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(86, 26);
+            this.label5.TabIndex = 4;
+            this.label5.Tag = "process";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label5.Click += new System.EventHandler(this.label_Click);
             // 
             // panel_System
             // 
@@ -758,34 +583,17 @@
             this.panel8.TabIndex = 2;
             this.panel8.Tag = "labelpanel";
             // 
-            // lblSystem
+            // label2
             // 
-            this.lblSystem.Dock = System.Windows.Forms.DockStyle.Right;
-            this.lblSystem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
-            this.lblSystem.Image = global::Team2_ScreenDesign.Properties.Resources.Prev_16x16;
-            this.lblSystem.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblSystem.Location = new System.Drawing.Point(48, 0);
-            this.lblSystem.Name = "lblSystem";
-            this.lblSystem.Size = new System.Drawing.Size(38, 21);
-            this.lblSystem.TabIndex = 2;
-            this.lblSystem.Tag = "system";
-            this.lblSystem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblSystem.Click += new System.EventHandler(this.label_Click);
-            // 
-            // label1
-            // 
-            this.label1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label1.Image = global::Team2_ScreenDesign.Properties.Resources.ViewSetting_16x16;
-            this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 21);
-            this.label1.TabIndex = 0;
-            this.label1.Tag = "system";
-            this.label1.Text = "시스템관리";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Click += new System.EventHandler(this.label_Click);
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label2.Location = new System.Drawing.Point(-27, -2);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(86, 26);
+            this.label2.TabIndex = 3;
+            this.label2.Tag = "system";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.Click += new System.EventHandler(this.label_Click);
             // 
             // tabControl1
             // 
@@ -815,83 +623,319 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label2
+            // lblInfo
             // 
-            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label2.Location = new System.Drawing.Point(-27, -2);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 26);
-            this.label2.TabIndex = 3;
-            this.label2.Tag = "system";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label2.Click += new System.EventHandler(this.label_Click);
+            this.lblInfo.Dock = System.Windows.Forms.DockStyle.Right;
+            this.lblInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
+            this.lblInfo.Image = global::Team2_ScreenDesign.Properties.Resources.Prev_16x16;
+            this.lblInfo.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblInfo.Location = new System.Drawing.Point(48, 0);
+            this.lblInfo.Name = "lblInfo";
+            this.lblInfo.Size = new System.Drawing.Size(38, 21);
+            this.lblInfo.TabIndex = 2;
+            this.lblInfo.Tag = "info";
+            this.lblInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblInfo.Click += new System.EventHandler(this.label_Click);
             // 
-            // label5
+            // label10
             // 
-            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label5.Location = new System.Drawing.Point(-27, -2);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 26);
-            this.label5.TabIndex = 4;
-            this.label5.Tag = "process";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label5.Click += new System.EventHandler(this.label_Click);
+            this.label10.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label10.Image = global::Team2_ScreenDesign.Properties.Resources.BOReport_16x16;
+            this.label10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label10.Location = new System.Drawing.Point(0, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(100, 21);
+            this.label10.TabIndex = 0;
+            this.label10.Tag = "info";
+            this.label10.Text = "기준 관리";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label10.Click += new System.EventHandler(this.label_Click);
             // 
-            // label7
+            // lblSales
             // 
-            this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label7.Location = new System.Drawing.Point(-30, -3);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(89, 26);
-            this.label7.TabIndex = 4;
-            this.label7.Tag = "production";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label7.Click += new System.EventHandler(this.label_Click);
+            this.lblSales.Dock = System.Windows.Forms.DockStyle.Right;
+            this.lblSales.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
+            this.lblSales.Image = global::Team2_ScreenDesign.Properties.Resources.Prev_16x16;
+            this.lblSales.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblSales.Location = new System.Drawing.Point(48, 0);
+            this.lblSales.Name = "lblSales";
+            this.lblSales.Size = new System.Drawing.Size(38, 21);
+            this.lblSales.TabIndex = 2;
+            this.lblSales.Tag = "sales";
+            this.lblSales.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblSales.Click += new System.EventHandler(this.label_Click);
             // 
-            // label9
+            // label8
             // 
-            this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label9.Location = new System.Drawing.Point(-27, -3);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(86, 26);
-            this.label9.TabIndex = 4;
-            this.label9.Tag = "stock";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label9.Click += new System.EventHandler(this.label_Click);
+            this.label8.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label8.Image = global::Team2_ScreenDesign.Properties.Resources.BOOrderItem_16x16;
+            this.label8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label8.Location = new System.Drawing.Point(0, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(100, 21);
+            this.label8.TabIndex = 0;
+            this.label8.Tag = "sales";
+            this.label8.Text = "영업 관리";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label8.Click += new System.EventHandler(this.label_Click);
             // 
-            // label11
+            // lblStock
             // 
-            this.label11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label11.Location = new System.Drawing.Point(-27, -3);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(86, 26);
-            this.label11.TabIndex = 4;
-            this.label11.Tag = "sales";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label11.Click += new System.EventHandler(this.label_Click);
+            this.lblStock.Dock = System.Windows.Forms.DockStyle.Right;
+            this.lblStock.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
+            this.lblStock.Image = global::Team2_ScreenDesign.Properties.Resources.Prev_16x16;
+            this.lblStock.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblStock.Location = new System.Drawing.Point(48, 0);
+            this.lblStock.Name = "lblStock";
+            this.lblStock.Size = new System.Drawing.Size(38, 21);
+            this.lblStock.TabIndex = 2;
+            this.lblStock.Tag = "stock";
+            this.lblStock.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblStock.Click += new System.EventHandler(this.label_Click);
             // 
-            // label12
+            // label3
             // 
-            this.label12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label12.Location = new System.Drawing.Point(-27, -3);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(86, 26);
-            this.label12.TabIndex = 4;
-            this.label12.Tag = "info";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label12.Click += new System.EventHandler(this.label_Click);
+            this.label3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label3.Image = global::Team2_ScreenDesign.Properties.Resources.BOProductGroup_16x16;
+            this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label3.Location = new System.Drawing.Point(0, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(100, 21);
+            this.label3.TabIndex = 0;
+            this.label3.Tag = "stock";
+            this.label3.Text = "재고 관리";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.Click += new System.EventHandler(this.label_Click);
+            // 
+            // lblProduction
+            // 
+            this.lblProduction.Dock = System.Windows.Forms.DockStyle.Right;
+            this.lblProduction.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
+            this.lblProduction.Image = global::Team2_ScreenDesign.Properties.Resources.Prev_16x16;
+            this.lblProduction.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblProduction.Location = new System.Drawing.Point(48, 0);
+            this.lblProduction.Name = "lblProduction";
+            this.lblProduction.Size = new System.Drawing.Size(38, 21);
+            this.lblProduction.TabIndex = 3;
+            this.lblProduction.Tag = "production";
+            this.lblProduction.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblProduction.Click += new System.EventHandler(this.label_Click);
+            // 
+            // label6
+            // 
+            this.label6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label6.Image = global::Team2_ScreenDesign.Properties.Resources.IDE_16x16;
+            this.label6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label6.Location = new System.Drawing.Point(0, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(100, 21);
+            this.label6.TabIndex = 0;
+            this.label6.Tag = "production";
+            this.label6.Text = "생산 관리";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label6.Click += new System.EventHandler(this.label_Click);
+            // 
+            // lblProcess
+            // 
+            this.lblProcess.Dock = System.Windows.Forms.DockStyle.Right;
+            this.lblProcess.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
+            this.lblProcess.Image = global::Team2_ScreenDesign.Properties.Resources.Prev_16x16;
+            this.lblProcess.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblProcess.Location = new System.Drawing.Point(48, 0);
+            this.lblProcess.Name = "lblProcess";
+            this.lblProcess.Size = new System.Drawing.Size(38, 21);
+            this.lblProcess.TabIndex = 2;
+            this.lblProcess.Tag = "process";
+            this.lblProcess.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblProcess.Click += new System.EventHandler(this.label_Click);
+            // 
+            // label4
+            // 
+            this.label4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label4.Image = global::Team2_ScreenDesign.Properties.Resources.Customization_16x16;
+            this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label4.Location = new System.Drawing.Point(0, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(100, 21);
+            this.label4.TabIndex = 0;
+            this.label4.Tag = "process";
+            this.label4.Text = "공정 관리";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label4.Click += new System.EventHandler(this.label_Click);
+            // 
+            // lblSystem
+            // 
+            this.lblSystem.Dock = System.Windows.Forms.DockStyle.Right;
+            this.lblSystem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
+            this.lblSystem.Image = global::Team2_ScreenDesign.Properties.Resources.Prev_16x16;
+            this.lblSystem.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblSystem.Location = new System.Drawing.Point(48, 0);
+            this.lblSystem.Name = "lblSystem";
+            this.lblSystem.Size = new System.Drawing.Size(38, 21);
+            this.lblSystem.TabIndex = 2;
+            this.lblSystem.Tag = "system";
+            this.lblSystem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblSystem.Click += new System.EventHandler(this.label_Click);
+            // 
+            // label1
+            // 
+            this.label1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label1.Image = global::Team2_ScreenDesign.Properties.Resources.ViewSetting_16x16;
+            this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(100, 21);
+            this.label1.TabIndex = 0;
+            this.label1.Tag = "system";
+            this.label1.Text = "시스템 관리";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label_Click);
+            // 
+            // 새로고침ToolStripMenuItem
+            // 
+            this.새로고침ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.새로고침ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
+            this.새로고침ToolStripMenuItem.Image = global::Team2_ScreenDesign.Properties.Resources.Action_Refresh_32x32;
+            this.새로고침ToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.새로고침ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.새로고침ToolStripMenuItem.Name = "새로고침ToolStripMenuItem";
+            this.새로고침ToolStripMenuItem.Size = new System.Drawing.Size(81, 55);
+            this.새로고침ToolStripMenuItem.Text = "새로고침";
+            this.새로고침ToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.새로고침ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.새로고침ToolStripMenuItem.Click += new System.EventHandler(this.새로고침ToolStripMenuItem_Click_1);
+            // 
+            // 신규ToolStripMenuItem
+            // 
+            this.신규ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.신규ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
+            this.신규ToolStripMenuItem.Image = global::Team2_ScreenDesign.Properties.Resources.AddFile_32x32;
+            this.신규ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.신규ToolStripMenuItem.Name = "신규ToolStripMenuItem";
+            this.신규ToolStripMenuItem.Size = new System.Drawing.Size(59, 55);
+            this.신규ToolStripMenuItem.Text = " 신규 ";
+            this.신규ToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.신규ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // 등록ToolStripMenuItem
+            // 
+            this.등록ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.등록ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
+            this.등록ToolStripMenuItem.Image = global::Team2_ScreenDesign.Properties.Resources.Edit_32x32;
+            this.등록ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.등록ToolStripMenuItem.Name = "등록ToolStripMenuItem";
+            this.등록ToolStripMenuItem.Size = new System.Drawing.Size(59, 55);
+            this.등록ToolStripMenuItem.Text = " 수정 ";
+            this.등록ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // 삭제ToolStripMenuItem
+            // 
+            this.삭제ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.삭제ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
+            this.삭제ToolStripMenuItem.Image = global::Team2_ScreenDesign.Properties.Resources.DeleteList_32x32;
+            this.삭제ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.삭제ToolStripMenuItem.Name = "삭제ToolStripMenuItem";
+            this.삭제ToolStripMenuItem.Size = new System.Drawing.Size(59, 55);
+            this.삭제ToolStripMenuItem.Text = " 삭제 ";
+            this.삭제ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // 인쇄ToolStripMenuItem
+            // 
+            this.인쇄ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.인쇄ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
+            this.인쇄ToolStripMenuItem.Image = global::Team2_ScreenDesign.Properties.Resources.Printer_32x32;
+            this.인쇄ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.인쇄ToolStripMenuItem.Name = "인쇄ToolStripMenuItem";
+            this.인쇄ToolStripMenuItem.Size = new System.Drawing.Size(59, 55);
+            this.인쇄ToolStripMenuItem.Text = " 인쇄 ";
+            this.인쇄ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // 닫기ToolStripMenuItem
+            // 
+            this.닫기ToolStripMenuItem.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.닫기ToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
+            this.닫기ToolStripMenuItem.Image = global::Team2_ScreenDesign.Properties.Resources.window_remove_12810;
+            this.닫기ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.닫기ToolStripMenuItem.Name = "닫기ToolStripMenuItem";
+            this.닫기ToolStripMenuItem.Size = new System.Drawing.Size(59, 55);
+            this.닫기ToolStripMenuItem.Text = " 닫기 ";
+            this.닫기ToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // button2
+            // 
+            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(241)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button2.ForeColor = System.Drawing.Color.Gray;
+            this.button2.Image = global::Team2_ScreenDesign.Properties.Resources.Action_Logoff;
+            this.button2.Location = new System.Drawing.Point(0, 0);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(85, 26);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "로그아웃";
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::Team2_ScreenDesign.Properties.Resources.로고;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(202, 84);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // splitContainer1
+            // 
+            this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.Location = new System.Drawing.Point(204, 118);
+            this.splitContainer1.Name = "splitContainer1";
+            this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.panel14);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.panel15);
+            this.splitContainer1.Size = new System.Drawing.Size(1380, 743);
+            this.splitContainer1.SplitterDistance = 376;
+            this.splitContainer1.TabIndex = 19;
+            // 
+            // panel14
+            // 
+            this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel14.Location = new System.Drawing.Point(0, 0);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(1376, 372);
+            this.panel14.TabIndex = 0;
+            // 
+            // panel15
+            // 
+            this.panel15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel15.Location = new System.Drawing.Point(0, 0);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(1376, 359);
+            this.panel15.TabIndex = 1;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1584, 861);
+            this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.splitter1);
@@ -899,6 +943,7 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.IsMdiContainer = true;
+            this.MainMenuStrip = this.menuStrip;
             this.Name = "MainForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -912,7 +957,6 @@
             this.menuStrip.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel_Menu.ResumeLayout(false);
             this.mpanel.ResumeLayout(false);
             this.panel_Info.ResumeLayout(false);
@@ -933,6 +977,11 @@
             this.panel_System.ResumeLayout(false);
             this.menu_System.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1001,6 +1050,9 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.SplitContainer splitContainer1;
+        private System.Windows.Forms.Panel panel14;
+        private System.Windows.Forms.Panel panel15;
     }
 }
 

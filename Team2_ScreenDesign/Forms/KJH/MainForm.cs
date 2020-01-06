@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -61,7 +62,8 @@ namespace Team2_ScreenDesign
                     p.Visible = false;
                 }
             }
-
+       
+            OpenForm<MainTab>("메인화면");
         }
 
         private void 새로고침ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -187,39 +189,47 @@ namespace Team2_ScreenDesign
 
         private void tabControl1_DrawItem(object sender, DrawItemEventArgs e)
         {
-            SolidBrush sb2 = new SolidBrush(Color.FromArgb(42, 76, 105));
             Graphics g = e.Graphics;
             TabPage tp = tabControl1.TabPages[e.Index];
-            
+
             StringFormat sf = new StringFormat();
             sf.Alignment = StringAlignment.Center;  //optional
 
             // This is the rectangle to draw "over" the tabpage title
             RectangleF headerRect = new RectangleF(e.Bounds.X, e.Bounds.Y + 2, e.Bounds.Width, e.Bounds.Height - 2);
-
             // This is the default colour to use for the non-selected tabs
-            SolidBrush sb = new SolidBrush(Color.FromArgb(42,76,105));
+            SolidBrush sb = new SolidBrush(Color.FromArgb(42, 76, 105));
             SolidBrush co = new SolidBrush(Color.White);
             // This changes the colour if we're trying to draw the selected tabpage
             if (tabControl1.SelectedIndex == e.Index)
             {
-                sb.Color = Color.FromArgb(225, 225, 225);
-                co.Color = Color.Blue;
+  
+                co.Color = Color.DarkBlue;
+                var bshBack = new LinearGradientBrush(
+                    e.Bounds,
+                    Color.White,
+                    Color.LightSteelBlue,
+                    LinearGradientMode.ForwardDiagonal);
+                g.FillRectangle(bshBack, e.Bounds);
             }
-            // Colour the header of the current tabpage based on what we did above
-            g.FillRectangle(sb, e.Bounds);
+            else
+            {
+                g.FillRectangle(sb, e.Bounds);
 
+            }
             //Remember to redraw the text - I'm always using black for title text
-            g.DrawString(tp.Text, new Font(tabControl1.Font,FontStyle.Bold), co, headerRect, sf);
+            g.DrawString(tp.Text, new Font(tabControl1.Font, FontStyle.Bold), co, headerRect, sf);
 
             SolidBrush fillbrush = new SolidBrush(Color.FromArgb(42, 76, 105));
             Rectangle lasttabrect = tabControl1.GetTabRect(tabControl1.TabPages.Count - 1);
             Rectangle background = new Rectangle();
-            background.Location = new Point(lasttabrect.Right+10, 0);
+            background.Location = new Point(lasttabrect.Right + 10, 0);
 
             //pad the rectangle to cover the 1 pixel line between the top of the tabpage and the start of the tabs
             background.Size = new Size(tabControl1.Right - background.Left, lasttabrect.Height + 1);
             e.Graphics.FillRectangle(fillbrush, background);
+
+
         }
 
         private void 새로고침ToolStripMenuItem_Click_1(object sender, EventArgs e)
@@ -234,6 +244,36 @@ namespace Team2_ScreenDesign
         private void MainForm_SizeChanged(object sender, EventArgs e)
         {
             FillMenu();
+        }
+
+        private void OpenForm<T>(string name) where T : TabForm, new()
+        {
+            foreach (Form Child in Application.OpenForms)
+            {
+                if (Child.GetType() == typeof(T))
+                {
+                    Child.Activate();
+                    return;
+                }
+            }
+            T frm = new T();
+            frm.Text = name;
+            frm.MdiParent = this;
+            frm.ControlBox = false;
+            frm.WindowState = FormWindowState.Maximized;
+            frm.TabCtrl = tabControl1;
+            TabPage tp = new TabPage();
+            tp.Parent = tabControl1;
+            tp.Text = frm.Text;
+            tp.Show();
+            frm.TabPag = tp;
+            tabControl1.SelectedTab = tp;
+            frm.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

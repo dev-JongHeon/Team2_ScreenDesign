@@ -46,11 +46,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Base2Dgv.cs">
+    <Compile Include="Forms\BaseForm\Base1Dgv.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Base2Dgv.Designer.cs">
+    <Compile Include="Forms\BaseForm\Base1Dgv.Designer.cs">
+      <DependentUpon>Base1Dgv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BaseForm\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BaseForm\BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KJH\TabForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KJH\TabForm.Designer.cs">
+      <DependentUpon>TabForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KJH\MainTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KJH\MainTab.Designer.cs">
+      <DependentUpon>MainTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BaseForm\Base2Dgv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BaseForm\Base2Dgv.Designer.cs">
       <DependentUpon>Base2Dgv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\BOM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\BOM.Designer.cs">
+      <DependentUpon>BOM.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\CMG\Company.cs">
       <SubType>Form</SubType>
@@ -192,8 +222,20 @@
     <Compile Include="Forms\SSD\Workers.Designer.cs">
       <DependentUpon>Workers.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Base2Dgv.resx">
+    <EmbeddedResource Include="Forms\BaseForm\Base1Dgv.resx">
+      <DependentUpon>Base1Dgv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BaseForm\BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KJH\MainTab.resx">
+      <DependentUpon>MainTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BaseForm\Base2Dgv.resx">
       <DependentUpon>Base2Dgv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\BOM.resx">
+      <DependentUpon>BOM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CMG\Company.resx">
       <DependentUpon>Company.cs</DependentUpon>
@@ -268,6 +310,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\Workers.resx">
       <DependentUpon>Workers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KJH\TabForm.resx">
+      <DependentUpon>TabForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -352,6 +397,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\down_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Next_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Window_32x32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
