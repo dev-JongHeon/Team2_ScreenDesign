@@ -52,6 +52,12 @@
     <Compile Include="Base2Dgv.Designer.cs">
       <DependentUpon>Base2Dgv.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\CMG\BOM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\BOM.Designer.cs">
+      <DependentUpon>BOM.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\CMG\Company.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -194,6 +200,9 @@
     </Compile>
     <EmbeddedResource Include="Base2Dgv.resx">
       <DependentUpon>Base2Dgv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\BOM.resx">
+      <DependentUpon>BOM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CMG\Company.resx">
       <DependentUpon>Company.cs</DependentUpon>

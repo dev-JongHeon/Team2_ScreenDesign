@@ -1,4 +1,4 @@
-﻿namespace TeamProject
+﻿namespace Team2_ScreenDesign
 {
     partial class Factory
     {
