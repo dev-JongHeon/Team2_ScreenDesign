@@ -61,7 +61,8 @@ namespace Team2_ScreenDesign
                     p.Visible = false;
                 }
             }
-
+       
+            OpenForm<MainTab>("메인화면");
         }
 
         private void 새로고침ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -236,6 +237,31 @@ namespace Team2_ScreenDesign
         private void MainForm_SizeChanged(object sender, EventArgs e)
         {
             FillMenu();
+        }
+
+        private void OpenForm<T>(string name) where T : TabForm, new()
+        {
+            foreach (Form Child in Application.OpenForms)
+            {
+                if (Child.GetType() == typeof(T))
+                {
+                    Child.Activate();
+                    return;
+                }
+            }
+            T frm = new T();
+            frm.Text = name;
+            frm.MdiParent = this;
+            frm.ControlBox = false;
+            frm.WindowState = FormWindowState.Maximized;
+            frm.TabCtrl = tabControl1;
+            TabPage tp = new TabPage();
+            tp.Parent = tabControl1;
+            tp.Text = frm.Text;
+            tp.Show();
+            frm.TabPag = tp;
+            tabControl1.SelectedTab = tp;
+            frm.Show();
         }
     }
 }

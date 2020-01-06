@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class Factory : Form
+    public partial class BOM : Form
     {
-        public Factory()
+        public BOM()
         {
             InitializeComponent();
         }
