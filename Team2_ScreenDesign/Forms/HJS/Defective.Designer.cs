@@ -49,6 +49,7 @@
             this.searchUserControl3 = new Team2_ScreenDesign.SearchUserControl();
             this.searchUserControl4 = new Team2_ScreenDesign.SearchUserControl();
             this.searchUserControl5 = new Team2_ScreenDesign.SearchUserControl();
+            this.searchPeriodControl1 = new Team2_ScreenDesign.SearchPeriodControl();
             this.panel1.SuspendLayout();
             this.panel_Search.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -67,6 +68,7 @@
             // 
             // panel5
             // 
+            this.panel5.Controls.Add(this.searchPeriodControl1);
             this.panel5.Controls.Add(this.searchUserControl3);
             this.panel5.Controls.Add(this.searchUserControl5);
             this.panel5.Controls.Add(this.searchUserControl4);
@@ -223,6 +225,13 @@
             this.searchUserControl5.Size = new System.Drawing.Size(250, 25);
             this.searchUserControl5.TabIndex = 2;
             // 
+            // searchPeriodControl1
+            // 
+            this.searchPeriodControl1.Location = new System.Drawing.Point(274, 68);
+            this.searchPeriodControl1.Name = "searchPeriodControl1";
+            this.searchPeriodControl1.Size = new System.Drawing.Size(322, 30);
+            this.searchPeriodControl1.TabIndex = 3;
+            // 
             // Defective
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -264,5 +273,6 @@
         private SearchUserControl searchUserControl4;
         private SearchUserControl searchUserControl2;
         private SearchUserControl searchUserControl1;
+        private SearchPeriodControl searchPeriodControl1;
     }
 }

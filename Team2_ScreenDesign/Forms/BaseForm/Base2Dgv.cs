@@ -14,7 +14,7 @@ namespace Team2_ScreenDesign
     {
         private string formname;
 
-        public string FormName
+        public new string FormName
         {
             get { return lblFormName.Text; }
             set { lblFormName.Text = value; }

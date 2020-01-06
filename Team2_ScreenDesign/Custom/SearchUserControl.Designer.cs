@@ -55,6 +55,7 @@
             // btnSearch
             // 
             this.btnSearch.BackColor = System.Drawing.Color.White;
+            this.btnSearch.FlatAppearance.BorderSize = 0;
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearch.Image = global::Team2_ScreenDesign.Properties.Resources.Search_16x16;
             this.btnSearch.Location = new System.Drawing.Point(224, 2);

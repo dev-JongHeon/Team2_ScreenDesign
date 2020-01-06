@@ -52,6 +52,12 @@
     <Compile Include="Custom\SearchUserControl.Designer.cs">
       <DependentUpon>SearchUserControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Custom\SearchPeriodControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Custom\SearchPeriodControl.Designer.cs">
+      <DependentUpon>SearchPeriodControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\BaseForm\Base1Dgv.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,12 @@
     </Compile>
     <Compile Include="Custom\TabForm.Designer.cs">
       <DependentUpon>TabForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KJH\CalendarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KJH\CalendarForm.Designer.cs">
+      <DependentUpon>CalendarForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\HJS\Defective.cs">
       <SubType>Form</SubType>
@@ -243,6 +255,9 @@
     <EmbeddedResource Include="Custom\SearchUserControl.resx">
       <DependentUpon>SearchUserControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Custom\SearchPeriodControl.resx">
+      <DependentUpon>SearchPeriodControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\BaseForm\Base1Dgv.resx">
       <DependentUpon>Base1Dgv.cs</DependentUpon>
     </EmbeddedResource>
@@ -257,6 +272,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\HJS\SearchForm.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KJH\CalendarForm.resx">
+      <DependentUpon>CalendarForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\MainTab.resx">
       <DependentUpon>MainTab.cs</DependentUpon>

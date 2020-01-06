@@ -79,9 +79,6 @@ namespace Team2_ScreenDesign
             InitializeComponent();
         }
 
-
-
-
         private void btnSearch_Click(object sender, EventArgs e)
         {
             // 원하는 폼 띄우기
