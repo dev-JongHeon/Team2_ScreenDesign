@@ -62,7 +62,6 @@ namespace Team2_ScreenDesign
         {
             base.OnPaint(pe);
         }
-
         protected override void OnClick(EventArgs e)
         {
             base.OnClick(e);
