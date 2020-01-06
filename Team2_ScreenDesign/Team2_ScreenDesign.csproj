@@ -58,10 +58,10 @@
     <Compile Include="Forms\BaseForm\BaseForm.Designer.cs">
       <DependentUpon>BaseForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\KJH\TabForm.cs">
+    <Compile Include="Custom\TabForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\KJH\TabForm.Designer.cs">
+    <Compile Include="Custom\TabForm.Designer.cs">
       <DependentUpon>TabForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\KJH\MainTab.cs">
@@ -111,12 +111,6 @@
     </Compile>
     <Compile Include="Forms\CMG\Warehouse.designer.cs">
       <DependentUpon>Warehouse.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Custom\KJHMenuControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Custom\KJHMenuControl.designer.cs">
-      <DependentUpon>KJHMenuControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Custom\NumTXT.cs">
       <SubType>Component</SubType>
@@ -252,9 +246,6 @@
     <EmbeddedResource Include="Forms\CMG\Warehouse.resx">
       <DependentUpon>Warehouse.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Custom\KJHMenuControl.resx">
-      <DependentUpon>KJHMenuControl.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Custom\NumTXT.resx">
       <DependentUpon>NumTXT.cs</DependentUpon>
     </EmbeddedResource>
@@ -311,7 +302,7 @@
     <EmbeddedResource Include="Forms\SSD\Workers.resx">
       <DependentUpon>Workers.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\KJH\TabForm.resx">
+    <EmbeddedResource Include="Custom\TabForm.resx">
       <DependentUpon>TabForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
