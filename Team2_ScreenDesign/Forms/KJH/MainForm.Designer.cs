@@ -51,46 +51,46 @@
             this.button8 = new System.Windows.Forms.Button();
             this.menu_Info = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.label12 = new System.Windows.Forms.Label();
             this.lblInfo = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.panel_Sales = new System.Windows.Forms.Panel();
             this.button7 = new System.Windows.Forms.Button();
             this.menu_Sales = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
             this.lblSales = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.panel_Stock = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
             this.menu_Stock = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
             this.lblStock = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel_Production = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.menu_production = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
             this.lblProduction = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel_Process = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
             this.menu_Process = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
             this.lblProcess = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel_System = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.menu_System = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.lblSystem = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.menuStrip.SuspendLayout();
@@ -393,6 +393,18 @@
             this.panel13.TabIndex = 7;
             this.panel13.Tag = "labelpanel";
             // 
+            // label12
+            // 
+            this.label12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label12.Location = new System.Drawing.Point(-27, -3);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(86, 26);
+            this.label12.TabIndex = 4;
+            this.label12.Tag = "info";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label12.Click += new System.EventHandler(this.label_Click);
+            // 
             // lblInfo
             // 
             this.lblInfo.Dock = System.Windows.Forms.DockStyle.Right;
@@ -465,6 +477,18 @@
             this.panel12.Size = new System.Drawing.Size(86, 21);
             this.panel12.TabIndex = 6;
             this.panel12.Tag = "labelpanel";
+            // 
+            // label11
+            // 
+            this.label11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label11.Location = new System.Drawing.Point(-27, -3);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(86, 26);
+            this.label11.TabIndex = 4;
+            this.label11.Tag = "sales";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label11.Click += new System.EventHandler(this.label_Click);
             // 
             // lblSales
             // 
@@ -539,6 +563,18 @@
             this.panel11.TabIndex = 5;
             this.panel11.Tag = "labelpanel";
             // 
+            // label9
+            // 
+            this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label9.Location = new System.Drawing.Point(-27, -3);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(86, 26);
+            this.label9.TabIndex = 4;
+            this.label9.Tag = "stock";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label9.Click += new System.EventHandler(this.label_Click);
+            // 
             // lblStock
             // 
             this.lblStock.Dock = System.Windows.Forms.DockStyle.Right;
@@ -611,6 +647,18 @@
             this.panel10.Size = new System.Drawing.Size(86, 21);
             this.panel10.TabIndex = 4;
             this.panel10.Tag = "labelpanel";
+            // 
+            // label7
+            // 
+            this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label7.Location = new System.Drawing.Point(-30, -3);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(89, 26);
+            this.label7.TabIndex = 4;
+            this.label7.Tag = "production";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label7.Click += new System.EventHandler(this.label_Click);
             // 
             // lblProduction
             // 
@@ -685,6 +733,18 @@
             this.panel9.TabIndex = 3;
             this.panel9.Tag = "labelpanel";
             // 
+            // label5
+            // 
+            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label5.Location = new System.Drawing.Point(-27, -2);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(86, 26);
+            this.label5.TabIndex = 4;
+            this.label5.Tag = "process";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label5.Click += new System.EventHandler(this.label_Click);
+            // 
             // lblProcess
             // 
             this.lblProcess.Dock = System.Windows.Forms.DockStyle.Right;
@@ -758,6 +818,18 @@
             this.panel8.TabIndex = 2;
             this.panel8.Tag = "labelpanel";
             // 
+            // label2
+            // 
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label2.Location = new System.Drawing.Point(-27, -2);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(86, 26);
+            this.label2.TabIndex = 3;
+            this.label2.Tag = "system";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.Click += new System.EventHandler(this.label_Click);
+            // 
             // lblSystem
             // 
             this.lblSystem.Dock = System.Windows.Forms.DockStyle.Right;
@@ -815,78 +887,6 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label2
-            // 
-            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label2.Location = new System.Drawing.Point(-27, -2);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 26);
-            this.label2.TabIndex = 3;
-            this.label2.Tag = "system";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label2.Click += new System.EventHandler(this.label_Click);
-            // 
-            // label5
-            // 
-            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label5.Location = new System.Drawing.Point(-27, -2);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 26);
-            this.label5.TabIndex = 4;
-            this.label5.Tag = "process";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label5.Click += new System.EventHandler(this.label_Click);
-            // 
-            // label7
-            // 
-            this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label7.Location = new System.Drawing.Point(-30, -3);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(89, 26);
-            this.label7.TabIndex = 4;
-            this.label7.Tag = "production";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label7.Click += new System.EventHandler(this.label_Click);
-            // 
-            // label9
-            // 
-            this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label9.Location = new System.Drawing.Point(-27, -3);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(86, 26);
-            this.label9.TabIndex = 4;
-            this.label9.Tag = "stock";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label9.Click += new System.EventHandler(this.label_Click);
-            // 
-            // label11
-            // 
-            this.label11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label11.Location = new System.Drawing.Point(-27, -3);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(86, 26);
-            this.label11.TabIndex = 4;
-            this.label11.Tag = "sales";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label11.Click += new System.EventHandler(this.label_Click);
-            // 
-            // label12
-            // 
-            this.label12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label12.Location = new System.Drawing.Point(-27, -3);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(86, 26);
-            this.label12.TabIndex = 4;
-            this.label12.Tag = "info";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label12.Click += new System.EventHandler(this.label_Click);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -899,6 +899,7 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.IsMdiContainer = true;
+            this.MainMenuStrip = this.menuStrip;
             this.Name = "MainForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
