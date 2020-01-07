@@ -14,6 +14,14 @@ namespace Team2_ScreenDesign
 {
     public partial class SearchPeriodControl : UserControl
     {
+        private string labelname;
+
+        public string labelName
+        {
+            get { return lblName.Text; }
+            set { lblName.Text = value; }
+        }
+
         public SearchPeriodControl()
         {
             InitializeComponent();
