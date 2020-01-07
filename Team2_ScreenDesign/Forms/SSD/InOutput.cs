@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class Input2 : Form
+    public partial class Input : Form
     {
-        public Input2()
+        public Input()
         {
             InitializeComponent();
         }
