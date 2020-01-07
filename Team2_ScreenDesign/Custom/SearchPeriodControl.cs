@@ -16,11 +16,12 @@ namespace Team2_ScreenDesign
     {
         private string labelname;
 
-        public string labelName
+        public string Labelname
         {
             get { return lblName.Text; }
             set { lblName.Text = value; }
         }
+
 
         public SearchPeriodControl()
         {
@@ -34,28 +35,27 @@ namespace Team2_ScreenDesign
             frm.ShowDialog();
         }
 
-        private void TXT_KeyPress(object sender, KeyPressEventArgs e)
+        private void dtpStart_ValueChanged(object sender, EventArgs e)
         {
-            //숫자만 입력되도록 필터링
-            if (!(char.IsDigit(e.KeyChar) || e.KeyChar == Convert.ToChar(Keys.Back)))    //숫자와 백스페이스를 제외한 나머지를 바로 처리
+            
+            if (dtpStart.Value > dtpEnd.Value)
             {
-                e.Handled = true;
+                DateTime starttmp = dtpStart.Value;
+                DateTime endtmp = dtpEnd.Value;
+                dtpEnd.Value = starttmp;
+                dtpStart.Value = endtmp;
             }
-        }
-
-        private void mtxtEnd_Validating(object sender, CancelEventArgs e)
-        {
-
         }
 
         private void dtpEnd_ValueChanged(object sender, EventArgs e)
         {
 
-        }
-
-        private void dtpStart_ValueChanged(object sender, EventArgs e)
-        {
-
+            if (dtpStart.Value > dtpEnd.Value)
+            {
+                DateTime temp = dtpEnd.Value;
+                dtpEnd.Value = dtpStart.Value;
+                dtpStart.Value = temp;
+            }
         }
     }
 }
