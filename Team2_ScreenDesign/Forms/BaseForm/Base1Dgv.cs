@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class Base1Dgv : Form
+    public partial class Base1Dgv : BaseForm
     {
         private string formname;
 
-        public string FormName
+        public new string FormName
         {
             get { return lblFormName.Text; }
             set { lblFormName.Text = value; }

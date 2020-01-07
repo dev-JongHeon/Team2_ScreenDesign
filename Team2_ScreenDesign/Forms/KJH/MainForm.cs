@@ -40,7 +40,10 @@ namespace Team2_ScreenDesign
             }
 
         }
-
+        private void 새로고침ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenBaseForm<Defective>("불량현황");
+        }
         private void splitter1_SplitterMoved(object sender, SplitterEventArgs e)
         {
             button1.Location = new Point(splitter1.Location.X, button1.Location.Y);
@@ -53,7 +56,6 @@ namespace Team2_ScreenDesign
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-
             tabControl1.DrawMode = TabDrawMode.OwnerDrawFixed;
             foreach (Panel p in mpanel.Controls)
             {
@@ -62,12 +64,8 @@ namespace Team2_ScreenDesign
                     p.Visible = false;
                 }
             }
-       
-            OpenForm<MainTab>("메인화면");
-        }
 
-        private void 새로고침ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
+            OpenTabForm<MainTab>("메인화면");
         }
 
         private void label_Click(object sender, EventArgs e)
@@ -139,10 +137,13 @@ namespace Team2_ScreenDesign
                                             Label l = (Label)la;
                                             if (l.Name == lname)
                                             {
+                                                //tmp.BackColor = Color.FromArgb(193, 210, 232);
+                                                tmp.BackColor = Color.FromArgb(187, 209, 232);
                                                 l.Image = Resources.down_16x16;
                                             }
                                             else
                                             {
+                                                tmp.BackColor = Color.FromArgb(236, 236, 236);
                                                 l.Image = Resources.Prev_16x16;
                                             }
                                         }
@@ -176,7 +177,7 @@ namespace Team2_ScreenDesign
             }
             foreach (var item in mpanel.Controls)
             {
-                if(item is Panel)
+                if (item is Panel)
                 {
                     Panel tmp = (Panel)item;
                     if (tmp.Tag.ToString() != string.Empty && tmp.Visible)
@@ -203,7 +204,7 @@ namespace Team2_ScreenDesign
             // This changes the colour if we're trying to draw the selected tabpage
             if (tabControl1.SelectedIndex == e.Index)
             {
-  
+
                 co.Color = Color.DarkBlue;
                 var bshBack = new LinearGradientBrush(
                     e.Bounds,
@@ -232,21 +233,38 @@ namespace Team2_ScreenDesign
 
         }
 
-        private void 새로고침ToolStripMenuItem_Click_1(object sender, EventArgs e)
-        {
-            TabPage tb = new TabPage();
-            tb.Text = "생산관리";
-            tb.Parent = tabControl1;
-            tb.Show();
-            
-        }
 
         private void MainForm_SizeChanged(object sender, EventArgs e)
         {
             FillMenu();
         }
 
-        private void OpenForm<T>(string name) where T : TabForm, new()
+        private void OpenBaseForm<T>(string name) where T : BaseForm, new()
+        {
+            foreach (Form Child in Application.OpenForms)
+            {
+                if (Child.GetType() == typeof(T))
+                {
+                    Child.Activate();
+                    return;
+                }
+            }
+            T frm = new T();
+            frm.Text = name;
+            frm.MdiParent = this;
+            frm.ControlBox = false;
+            frm.WindowState = FormWindowState.Maximized;
+            frm.TabCtrl = tabControl1;
+            TabPage tp = new TabPage();
+            tp.Parent = tabControl1;
+            tp.Text = frm.Text;
+            tp.Show();
+            frm.TabPag = tp;
+            tabControl1.SelectedTab = tp;
+            frm.FormName = name;
+            frm.Show();
+        }
+        private void OpenTabForm<T>(string name) where T : TabForm, new()
         {
             foreach (Form Child in Application.OpenForms)
             {
@@ -270,10 +288,34 @@ namespace Team2_ScreenDesign
             tabControl1.SelectedTab = tp;
             frm.Show();
         }
+       
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            foreach (Form Child in Application.OpenForms) // 열려있는 전체 자식폼들 중
+            {
+                if (Child is MainTab) // BOM관리화면
+                {
+                    MainTab tmp = (MainTab)Child;
+                    if (tmp.TabPag == tabControl1.SelectedTab)
+                    {
+                        tmp.Select();
+                        
+                        break;
+                    }
+                }
+                else if(Child is Base1Dgv)
+                {
+                    Base1Dgv tmp = (Base1Dgv)Child;
+                    if (tmp.TabPag == tabControl1.SelectedTab)
+                    {
+                        tmp.Select();
+                        
+                        break;
+                    }
+                }
 
+            }
         }
     }
 }

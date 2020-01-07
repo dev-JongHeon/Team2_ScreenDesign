@@ -46,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\SSD\Balju.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Custom\SearchUserControl.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\SSD\Balju.Designer.cs">
-      <DependentUpon>Balju.cs</DependentUpon>
+    <Compile Include="Custom\SearchUserControl.Designer.cs">
+      <DependentUpon>SearchUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Custom\SearchPeriodControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Custom\SearchPeriodControl.Designer.cs">
+      <DependentUpon>SearchPeriodControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\BaseForm\Base1Dgv.cs">
       <SubType>Form</SubType>
@@ -64,11 +70,65 @@
     <Compile Include="Forms\BaseForm\BaseForm.Designer.cs">
       <DependentUpon>BaseForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\KJH\TabForm.cs">
+    <Compile Include="Custom\TabForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\KJH\TabForm.Designer.cs">
+    <Compile Include="Custom\TabForm.Designer.cs">
       <DependentUpon>TabForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\CompanyInsUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\CompanyInsUp.Designer.cs">
+      <DependentUpon>CompanyInsUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\CustomerInsUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\CustomerInsUp.Designer.cs">
+      <DependentUpon>CustomerInsUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\EmployeesInsUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\EmployeesInsUp.Designer.cs">
+      <DependentUpon>EmployeesInsUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\FactoryInsUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\FactoryInsUp.Designer.cs">
+      <DependentUpon>FactoryInsUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\WarehouseInsUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\WarehouseInsUp.Designer.cs">
+      <DependentUpon>WarehouseInsUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KJH\CalendarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KJH\CalendarForm.Designer.cs">
+      <DependentUpon>CalendarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HJS\Defective.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HJS\Defective.Designer.cs">
+      <DependentUpon>Defective.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HJS\Downtime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HJS\Downtime.Designer.cs">
+      <DependentUpon>Downtime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HJS\SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HJS\SearchForm.Designer.cs">
+      <DependentUpon>SearchForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\KJH\MainTab.cs">
       <SubType>Form</SubType>
@@ -117,12 +177,6 @@
     </Compile>
     <Compile Include="Forms\CMG\Warehouse.designer.cs">
       <DependentUpon>Warehouse.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Custom\KJHMenuControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Custom\KJHMenuControl.designer.cs">
-      <DependentUpon>KJHMenuControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Custom\NumTXT.cs">
       <SubType>Component</SubType>
@@ -178,11 +232,11 @@
     <Compile Include="Forms\KJH\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\SSD\BaljuList.cs">
+    <Compile Include="Forms\SSD\Balju.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\SSD\BaljuList.designer.cs">
-      <DependentUpon>BaljuList.cs</DependentUpon>
+    <Compile Include="Forms\SSD\Balju.designer.cs">
+      <DependentUpon>Balju.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\SSD\InOutList.cs">
       <SubType>Form</SubType>
@@ -228,14 +282,44 @@
     <Compile Include="Forms\SSD\Workers.Designer.cs">
       <DependentUpon>Workers.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Forms\SSD\Balju.resx">
-      <DependentUpon>Balju.cs</DependentUpon>
+    <EmbeddedResource Include="Custom\SearchUserControl.resx">
+      <DependentUpon>SearchUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom\SearchPeriodControl.resx">
+      <DependentUpon>SearchPeriodControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\BaseForm\Base1Dgv.resx">
       <DependentUpon>Base1Dgv.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\BaseForm\BaseForm.resx">
       <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\CompanyInsUp.resx">
+      <DependentUpon>CompanyInsUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\CustomerInsUp.resx">
+      <DependentUpon>CustomerInsUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\EmployeesInsUp.resx">
+      <DependentUpon>EmployeesInsUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\FactoryInsUp.resx">
+      <DependentUpon>FactoryInsUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\WarehouseInsUp.resx">
+      <DependentUpon>WarehouseInsUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HJS\Defective.resx">
+      <DependentUpon>Defective.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HJS\Downtime.resx">
+      <DependentUpon>Downtime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HJS\SearchForm.resx">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KJH\CalendarForm.resx">
+      <DependentUpon>CalendarForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\MainTab.resx">
       <DependentUpon>MainTab.cs</DependentUpon>
@@ -260,9 +344,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CMG\Warehouse.resx">
       <DependentUpon>Warehouse.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Custom\KJHMenuControl.resx">
-      <DependentUpon>KJHMenuControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Custom\NumTXT.resx">
       <DependentUpon>NumTXT.cs</DependentUpon>
@@ -291,8 +372,8 @@
     <EmbeddedResource Include="Forms\KJH\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SSD\BaljuList.resx">
-      <DependentUpon>BaljuList.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\SSD\Balju.resx">
+      <DependentUpon>Balju.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\InOutList.resx">
       <DependentUpon>InOutList.cs</DependentUpon>
@@ -320,7 +401,7 @@
     <EmbeddedResource Include="Forms\SSD\Workers.resx">
       <DependentUpon>Workers.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\KJH\TabForm.resx">
+    <EmbeddedResource Include="Custom\TabForm.resx">
       <DependentUpon>TabForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -412,6 +493,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Window_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search_16x16.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
