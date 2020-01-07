@@ -41,7 +41,7 @@
             this.label1.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label1.Location = new System.Drawing.Point(231, 51);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(20, 19);
+            this.label1.Size = new System.Drawing.Size(19, 19);
             this.label1.TabIndex = 10;
             this.label1.Text = "~";
             // 

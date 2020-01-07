@@ -50,8 +50,12 @@
             this.label5 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label3
@@ -68,7 +72,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(12, 365);
+            this.label1.Location = new System.Drawing.Point(12, 3);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(118, 21);
             this.label1.TabIndex = 37;
@@ -83,10 +87,10 @@
             this.Column8,
             this.Column9,
             this.Column10});
-            this.dataGridView2.Location = new System.Drawing.Point(12, 389);
+            this.dataGridView2.Location = new System.Drawing.Point(16, 27);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 23;
-            this.dataGridView2.Size = new System.Drawing.Size(1017, 328);
+            this.dataGridView2.Size = new System.Drawing.Size(1017, 311);
             this.dataGridView2.TabIndex = 36;
             // 
             // Column6
@@ -123,10 +127,10 @@
             this.Column5,
             this.Column2,
             this.Column4});
-            this.dataGridView1.Location = new System.Drawing.Point(16, 60);
+            this.dataGridView1.Location = new System.Drawing.Point(16, 57);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(1013, 302);
+            this.dataGridView1.Size = new System.Drawing.Size(1017, 302);
             this.dataGridView1.TabIndex = 35;
             // 
             // Column1
@@ -156,14 +160,14 @@
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(686, 33);
+            this.dateTimePicker2.Location = new System.Drawing.Point(686, 32);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(160, 21);
             this.dateTimePicker2.TabIndex = 34;
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(489, 33);
+            this.textBox9.Location = new System.Drawing.Point(489, 32);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(132, 21);
             this.textBox9.TabIndex = 33;
@@ -171,7 +175,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(442, 36);
+            this.label9.Location = new System.Drawing.Point(442, 35);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(41, 12);
             this.label9.TabIndex = 32;
@@ -180,7 +184,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(627, 36);
+            this.label7.Location = new System.Drawing.Point(627, 35);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(53, 12);
             this.label7.TabIndex = 31;
@@ -188,7 +192,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(304, 33);
+            this.textBox5.Location = new System.Drawing.Point(304, 32);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(132, 21);
             this.textBox5.TabIndex = 30;
@@ -196,7 +200,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(257, 36);
+            this.label5.Location = new System.Drawing.Point(257, 35);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(41, 12);
             this.label5.TabIndex = 29;
@@ -204,7 +208,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(73, 33);
+            this.textBox2.Location = new System.Drawing.Point(73, 32);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(178, 21);
             this.textBox2.TabIndex = 28;
@@ -212,35 +216,56 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(14, 36);
+            this.label2.Location = new System.Drawing.Point(14, 35);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 12);
             this.label2.TabIndex = 27;
             this.label2.Text = "출하번호";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.dataGridView1);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.textBox5);
+            this.panel1.Controls.Add(this.dateTimePicker2);
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.textBox9);
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1364, 362);
+            this.panel1.TabIndex = 39;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.dataGridView2);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 362);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1364, 341);
+            this.panel2.TabIndex = 40;
             // 
             // 출고내역조회
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1364, 703);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.dataGridView2);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Name = "출고내역조회";
-            this.Text = "출고내역조회";
+            this.Text = "출하내역조회";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -268,5 +293,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
     }
 }
