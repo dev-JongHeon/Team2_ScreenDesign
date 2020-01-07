@@ -42,7 +42,7 @@ namespace Team2_ScreenDesign
         }
         private void 새로고침ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            OpenBaseForm<Base1Dgv>("테스트");
+            OpenBaseForm<Defective>("테스트");
         }
         private void splitter1_SplitterMoved(object sender, SplitterEventArgs e)
         {
