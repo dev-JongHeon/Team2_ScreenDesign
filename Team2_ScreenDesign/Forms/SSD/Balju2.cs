@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class Balju : Form
+    public partial class Balju2 : Form
     {
-        public Balju()
+        public Balju2()
         {
             InitializeComponent();
         }
