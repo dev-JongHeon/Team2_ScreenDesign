@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\SSD\Balju.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SSD\Balju.Designer.cs">
+      <DependentUpon>Balju.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\BaseForm\Base1Dgv.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -172,11 +178,11 @@
     <Compile Include="Forms\KJH\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\SSD\Balju.cs">
+    <Compile Include="Forms\SSD\BaljuList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\SSD\Balju.designer.cs">
-      <DependentUpon>Balju.cs</DependentUpon>
+    <Compile Include="Forms\SSD\BaljuList.designer.cs">
+      <DependentUpon>BaljuList.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\SSD\InOutList.cs">
       <SubType>Form</SubType>
@@ -222,6 +228,9 @@
     <Compile Include="Forms\SSD\Workers.Designer.cs">
       <DependentUpon>Workers.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms\SSD\Balju.resx">
+      <DependentUpon>Balju.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\BaseForm\Base1Dgv.resx">
       <DependentUpon>Base1Dgv.cs</DependentUpon>
     </EmbeddedResource>
@@ -282,8 +291,8 @@
     <EmbeddedResource Include="Forms\KJH\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SSD\Balju.resx">
-      <DependentUpon>Balju.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\SSD\BaljuList.resx">
+      <DependentUpon>BaljuList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\InOutList.resx">
       <DependentUpon>InOutList.cs</DependentUpon>

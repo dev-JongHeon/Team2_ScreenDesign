@@ -85,6 +85,7 @@
             this.button2.TabIndex = 11;
             this.button2.Text = "▼";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // panel5
             // 
@@ -95,6 +96,7 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1362, 284);
             this.panel5.TabIndex = 4;
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // panel7
             // 
@@ -104,6 +106,7 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(1362, 253);
             this.panel7.TabIndex = 6;
+            this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
             // 
             // dataGridView1
             // 
@@ -120,6 +123,7 @@
             this.dataGridView1.RowTemplate.Height = 23;
             this.dataGridView1.Size = new System.Drawing.Size(1362, 253);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // Column1
             // 
@@ -181,6 +185,7 @@
             this.button8.TabIndex = 22;
             this.button8.Text = "+";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -191,6 +196,7 @@
             this.button7.TabIndex = 21;
             this.button7.Text = "+";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -201,6 +207,7 @@
             this.button6.TabIndex = 20;
             this.button6.Text = "+";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -211,6 +218,7 @@
             this.button5.TabIndex = 19;
             this.button5.Text = "+";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -221,6 +229,7 @@
             this.button4.TabIndex = 3;
             this.button4.Text = "+";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // textBox5
             // 
@@ -229,6 +238,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(137, 21);
             this.textBox5.TabIndex = 17;
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // label8
             // 
@@ -239,6 +249,7 @@
             this.label8.Size = new System.Drawing.Size(41, 15);
             this.label8.TabIndex = 18;
             this.label8.Text = "(부서)";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // textBox3
             // 
@@ -247,6 +258,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(137, 21);
             this.textBox3.TabIndex = 16;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox4
             // 
@@ -255,6 +267,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(137, 21);
             this.textBox4.TabIndex = 13;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // label2
             // 
@@ -265,6 +278,7 @@
             this.label2.Size = new System.Drawing.Size(55, 15);
             this.label2.TabIndex = 15;
             this.label2.Text = "담당업무";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label7
             // 
@@ -275,6 +289,7 @@
             this.label7.Size = new System.Drawing.Size(31, 15);
             this.label7.TabIndex = 14;
             this.label7.Text = "직책";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // textBox2
             // 
@@ -283,6 +298,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(137, 21);
             this.textBox2.TabIndex = 12;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // button3
             // 
@@ -293,6 +309,7 @@
             this.button3.TabIndex = 11;
             this.button3.Text = "작업자 등록";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // textBox1
             // 
@@ -301,6 +318,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(137, 21);
             this.textBox1.TabIndex = 0;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -311,6 +329,7 @@
             this.label1.Size = new System.Drawing.Size(55, 15);
             this.label1.TabIndex = 7;
             this.label1.Text = "사원이름";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label3
             // 
@@ -321,6 +340,7 @@
             this.label3.Size = new System.Drawing.Size(43, 15);
             this.label3.TabIndex = 1;
             this.label3.Text = "사원ID";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // panel2
             // 
@@ -332,6 +352,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1364, 330);
             this.panel2.TabIndex = 8;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // panel1
             // 
@@ -341,6 +362,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1362, 44);
             this.panel1.TabIndex = 1;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label4
             // 
@@ -353,6 +375,7 @@
             this.label4.TabIndex = 2;
             this.label4.Text = "사  원  목  록";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // dataGridView2
             // 
@@ -363,6 +386,7 @@
             this.dataGridView2.RowTemplate.Height = 23;
             this.dataGridView2.Size = new System.Drawing.Size(1362, 288);
             this.dataGridView2.TabIndex = 1;
+            this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
             // panel3
             // 
@@ -375,6 +399,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1364, 334);
             this.panel3.TabIndex = 9;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // panel6
             // 
@@ -384,6 +409,7 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(257, 35);
             this.panel6.TabIndex = 5;
+            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
             // comboBox1
             // 
@@ -393,6 +419,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(200, 29);
             this.comboBox1.TabIndex = 12;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label6
             // 
@@ -403,6 +430,7 @@
             this.label6.Size = new System.Drawing.Size(51, 21);
             this.label6.TabIndex = 5;
             this.label6.Text = "공 정";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
             // 
@@ -415,6 +443,7 @@
             this.label5.TabIndex = 3;
             this.label5.Text = "해  당  공  정  작  업  자";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // button1
             // 
@@ -426,6 +455,7 @@
             this.button1.TabIndex = 10;
             this.button1.Text = "▲";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Workers
             // 
