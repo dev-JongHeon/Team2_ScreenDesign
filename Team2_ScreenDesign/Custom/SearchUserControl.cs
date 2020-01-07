@@ -45,28 +45,28 @@ namespace Team2_ScreenDesign
                 switch (Modes)
                 {
                     case Mode.Worker:
-                        this.CodeLabel.Text = "작업자 코드";
+                        this.CodeLabel.Text = "작업자";
                         break;
                     case Mode.Defective:
-                        this.CodeLabel.Text = "불량유형 코드";
+                        this.CodeLabel.Text = "불량유형";
                         break;
                     case Mode.Product:
-                        this.CodeLabel.Text = "제품 코드";
+                        this.CodeLabel.Text = "제품";
                         break;
                     case Mode.Meterial:
-                        this.CodeLabel.Text = "원자재 코드";
+                        this.CodeLabel.Text = "원자재";
                         break;
                     case Mode.SemiProduct:
-                        this.CodeLabel.Text = "반제품 코드";
+                        this.CodeLabel.Text = "반제품";
                         break;
                     case Mode.Downtime:
-                        this.CodeLabel.Text = "비가동유형 코드";
+                        this.CodeLabel.Text = "비가동유형";
                         break;
                     case Mode.Factory:
-                        this.CodeLabel.Text = "공장 코드";
+                        this.CodeLabel.Text = "공장";
                         break;
                     case Mode.Line:
-                        this.CodeLabel.Text = "공정 코드";
+                        this.CodeLabel.Text = "공정";
                         break;
                 }
             }
