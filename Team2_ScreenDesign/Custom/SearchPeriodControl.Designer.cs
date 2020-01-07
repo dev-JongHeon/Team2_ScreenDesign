@@ -48,7 +48,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(312, 30);
+            this.panel1.Size = new System.Drawing.Size(312, 27);
             this.panel1.TabIndex = 0;
             // 
             // panel3
@@ -60,7 +60,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(78, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(234, 30);
+            this.panel3.Size = new System.Drawing.Size(234, 27);
             this.panel3.TabIndex = 1;
             // 
             // dtpEnd
@@ -68,7 +68,7 @@
             this.dtpEnd.CalendarFont = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dtpEnd.Enabled = false;
             this.dtpEnd.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpEnd.Location = new System.Drawing.Point(121, 5);
+            this.dtpEnd.Location = new System.Drawing.Point(121, 3);
             this.dtpEnd.Name = "dtpEnd";
             this.dtpEnd.Size = new System.Drawing.Size(83, 21);
             this.dtpEnd.TabIndex = 15;
@@ -79,7 +79,7 @@
             this.dtpStart.CalendarFont = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dtpStart.Enabled = false;
             this.dtpStart.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpStart.Location = new System.Drawing.Point(7, 5);
+            this.dtpStart.Location = new System.Drawing.Point(7, 3);
             this.dtpStart.Name = "dtpStart";
             this.dtpStart.Size = new System.Drawing.Size(83, 21);
             this.dtpStart.TabIndex = 14;
@@ -89,7 +89,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(96, 6);
+            this.label1.Location = new System.Drawing.Point(96, 4);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(19, 19);
             this.label1.TabIndex = 12;
@@ -101,7 +101,7 @@
             this.btnSearch.FlatAppearance.BorderSize = 0;
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearch.Image = global::Team2_ScreenDesign.Properties.Resources.Search_16x16;
-            this.btnSearch.Location = new System.Drawing.Point(210, 5);
+            this.btnSearch.Location = new System.Drawing.Point(210, 3);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(21, 21);
             this.btnSearch.TabIndex = 13;
@@ -114,14 +114,14 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(78, 30);
+            this.panel2.Size = new System.Drawing.Size(78, 27);
             this.panel2.TabIndex = 0;
             // 
             // lblName
             // 
             this.lblName.AutoSize = true;
             this.lblName.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lblName.Location = new System.Drawing.Point(3, 8);
+            this.lblName.Location = new System.Drawing.Point(3, 6);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(54, 14);
             this.lblName.TabIndex = 8;
@@ -133,7 +133,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
             this.Name = "SearchPeriodControl";
-            this.Size = new System.Drawing.Size(312, 30);
+            this.Size = new System.Drawing.Size(312, 27);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
