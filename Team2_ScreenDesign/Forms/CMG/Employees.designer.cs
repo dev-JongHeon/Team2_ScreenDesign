@@ -163,16 +163,14 @@
             this.searchUserControl2.TabIndex = 1;
             // 
             // searchPeriodControl1
-            // 
-            this.searchPeriodControl1.labelName = "입사일";
+            //             
             this.searchPeriodControl1.Location = new System.Drawing.Point(321, 9);
             this.searchPeriodControl1.Name = "searchPeriodControl1";
             this.searchPeriodControl1.Size = new System.Drawing.Size(312, 48);
             this.searchPeriodControl1.TabIndex = 3;
             // 
             // searchPeriodControl2
-            // 
-            this.searchPeriodControl2.labelName = "퇴사일";
+            //             
             this.searchPeriodControl2.Location = new System.Drawing.Point(321, 56);
             this.searchPeriodControl2.Name = "searchPeriodControl2";
             this.searchPeriodControl2.Size = new System.Drawing.Size(312, 48);

@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.searchPeriodControl1 = new Team2_ScreenDesign.SearchPeriodControl();
-            this.searchPeriodControl2 = new Team2_ScreenDesign.SearchPeriodControl();
             this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -41,6 +39,9 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.searchPeriodControl1 = new Team2_ScreenDesign.SearchPeriodControl();
+            this.searchPeriodControl2 = new Team2_ScreenDesign.SearchPeriodControl();
+            this.searchPeriodControl3 = new Team2_ScreenDesign.SearchPeriodControl();
             this.panel1.SuspendLayout();
             this.panel_Search.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -59,34 +60,19 @@
             // 
             // panel5
             // 
+            this.panel5.Controls.Add(this.searchPeriodControl3);
+            this.panel5.Controls.Add(this.searchPeriodControl2);
+            this.panel5.Controls.Add(this.searchPeriodControl1);
             this.panel5.Controls.Add(this.comboBox1);
             this.panel5.Controls.Add(this.label1);
             this.panel5.Controls.Add(this.searchUserControl1);
-            this.panel5.Controls.Add(this.searchPeriodControl2);
-            this.panel5.Controls.Add(this.searchPeriodControl1);
-            // 
-            // searchPeriodControl1
-            // 
-            this.searchPeriodControl1.labelName = "작업 예정일";
-            this.searchPeriodControl1.Location = new System.Drawing.Point(12, 39);
-            this.searchPeriodControl1.Name = "searchPeriodControl1";
-            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 41);
-            this.searchPeriodControl1.TabIndex = 0;
-            // 
-            // searchPeriodControl2
-            // 
-            this.searchPeriodControl2.labelName = "납기일";
-            this.searchPeriodControl2.Location = new System.Drawing.Point(12, 75);
-            this.searchPeriodControl2.Name = "searchPeriodControl2";
-            this.searchPeriodControl2.Size = new System.Drawing.Size(312, 48);
-            this.searchPeriodControl2.TabIndex = 0;
             // 
             // searchUserControl1
             // 
             this.searchUserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
             this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Worker;
             this.searchUserControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchUserControl1.Location = new System.Drawing.Point(12, 9);
+            this.searchUserControl1.Location = new System.Drawing.Point(348, 13);
             this.searchUserControl1.Name = "searchUserControl1";
             this.searchUserControl1.Size = new System.Drawing.Size(312, 30);
             this.searchUserControl1.TabIndex = 1;
@@ -95,7 +81,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(348, 19);
+            this.label1.Location = new System.Drawing.Point(350, 52);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(76, 14);
             this.label1.TabIndex = 2;
@@ -104,9 +90,9 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(435, 16);
+            this.comboBox1.Location = new System.Drawing.Point(432, 49);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(173, 22);
+            this.comboBox1.Size = new System.Drawing.Size(228, 22);
             this.comboBox1.TabIndex = 3;
             // 
             // dgvWorkList
@@ -162,6 +148,33 @@
             this.Column7.HeaderText = "작업지시상태";
             this.Column7.Name = "Column7";
             // 
+            // searchPeriodControl1
+            // 
+            this.searchPeriodControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchPeriodControl1.Labelname = "작업 시작일";
+            this.searchPeriodControl1.Location = new System.Drawing.Point(12, 6);
+            this.searchPeriodControl1.Name = "searchPeriodControl1";
+            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 35);
+            this.searchPeriodControl1.TabIndex = 4;
+            // 
+            // searchPeriodControl2
+            // 
+            this.searchPeriodControl2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchPeriodControl2.Labelname = "작업 종료일";
+            this.searchPeriodControl2.Location = new System.Drawing.Point(12, 36);
+            this.searchPeriodControl2.Name = "searchPeriodControl2";
+            this.searchPeriodControl2.Size = new System.Drawing.Size(312, 35);
+            this.searchPeriodControl2.TabIndex = 4;
+            // 
+            // searchPeriodControl3
+            // 
+            this.searchPeriodControl3.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchPeriodControl3.Labelname = "납기 예정일";
+            this.searchPeriodControl3.Location = new System.Drawing.Point(12, 67);
+            this.searchPeriodControl3.Name = "searchPeriodControl3";
+            this.searchPeriodControl3.Size = new System.Drawing.Size(312, 35);
+            this.searchPeriodControl3.TabIndex = 4;
+            // 
             // WorkList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -180,9 +193,6 @@
         }
 
         #endregion
-
-        private SearchPeriodControl searchPeriodControl1;
-        private SearchPeriodControl searchPeriodControl2;
         private SearchUserControl searchUserControl1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
@@ -194,5 +204,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
+        private SearchPeriodControl searchPeriodControl3;
+        private SearchPeriodControl searchPeriodControl2;
+        private SearchPeriodControl searchPeriodControl1;
     }
 }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team2_ScreenDesign", "Team2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team2_POP", "Team2_POP\Team2_POP.csproj", "{42B32390-FDC9-413E-9829-8748E866C8A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team2_RealTimeMonitor", "Team2_RealTimeMonitor\Team2_RealTimeMonitor.csproj", "{9B2CA7CD-5BE1-4E7A-8031-81FC5444BDCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{42B32390-FDC9-413E-9829-8748E866C8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42B32390-FDC9-413E-9829-8748E866C8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42B32390-FDC9-413E-9829-8748E866C8A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B2CA7CD-5BE1-4E7A-8031-81FC5444BDCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B2CA7CD-5BE1-4E7A-8031-81FC5444BDCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B2CA7CD-5BE1-4E7A-8031-81FC5444BDCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B2CA7CD-5BE1-4E7A-8031-81FC5444BDCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
