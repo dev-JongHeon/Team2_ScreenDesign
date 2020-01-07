@@ -16,5 +16,15 @@ namespace Team2_POP
         {
             InitializeComponent();
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void WorkRegister_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

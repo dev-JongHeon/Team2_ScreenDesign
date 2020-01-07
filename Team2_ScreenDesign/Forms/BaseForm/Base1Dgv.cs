@@ -10,11 +10,22 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class Base2Dgv : Form
+    public partial class Base1Dgv : BaseForm
     {
-        public Base2Dgv()
+        private string formname;
+
+        public new string FormName
+        {
+            get { return lblFormName.Text; }
+            set { lblFormName.Text = value; }
+        }
+
+        public Base1Dgv()
         {
             InitializeComponent();
         }
+
+        
+
     }
 }

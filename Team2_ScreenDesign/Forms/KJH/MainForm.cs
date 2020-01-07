@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -39,7 +40,10 @@ namespace Team2_ScreenDesign
             }
 
         }
-
+        private void 새로고침ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenBaseForm<Defective>("불량현황");
+        }
         private void splitter1_SplitterMoved(object sender, SplitterEventArgs e)
         {
             button1.Location = new Point(splitter1.Location.X, button1.Location.Y);
@@ -52,7 +56,6 @@ namespace Team2_ScreenDesign
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-
             tabControl1.DrawMode = TabDrawMode.OwnerDrawFixed;
             foreach (Panel p in mpanel.Controls)
             {
@@ -62,10 +65,7 @@ namespace Team2_ScreenDesign
                 }
             }
 
-        }
-
-        private void 새로고침ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
+            OpenTabForm<MainTab>("메인화면");
         }
 
         private void label_Click(object sender, EventArgs e)
@@ -137,10 +137,13 @@ namespace Team2_ScreenDesign
                                             Label l = (Label)la;
                                             if (l.Name == lname)
                                             {
+                                                //tmp.BackColor = Color.FromArgb(193, 210, 232);
+                                                tmp.BackColor = Color.FromArgb(187, 209, 232);
                                                 l.Image = Resources.down_16x16;
                                             }
                                             else
                                             {
+                                                tmp.BackColor = Color.FromArgb(236, 236, 236);
                                                 l.Image = Resources.Prev_16x16;
                                             }
                                         }
@@ -160,14 +163,26 @@ namespace Team2_ScreenDesign
 
         public void FillMenu()
         {
-            foreach(var item in mpanel.Controls)
+            int sumheight = 0;
+            foreach (var item in mpanel.Controls)
             {
-                if(item is Panel)
+                if (item is Panel)
+                {
+                    Panel tmp = (Panel)item;
+                    if (tmp.Tag.ToString() == string.Empty)
+                    {
+                        sumheight += tmp.Height;
+                    }
+                }
+            }
+            foreach (var item in mpanel.Controls)
+            {
+                if (item is Panel)
                 {
                     Panel tmp = (Panel)item;
                     if (tmp.Tag.ToString() != string.Empty && tmp.Visible)
                     {
-                        tmp.Height = 617;
+                        tmp.Height = mpanel.Height - sumheight;
                     }
                 }
             }
@@ -183,39 +198,124 @@ namespace Team2_ScreenDesign
 
             // This is the rectangle to draw "over" the tabpage title
             RectangleF headerRect = new RectangleF(e.Bounds.X, e.Bounds.Y + 2, e.Bounds.Width, e.Bounds.Height - 2);
-
             // This is the default colour to use for the non-selected tabs
-            SolidBrush sb = new SolidBrush(Color.FromArgb(42,76,105));
+            SolidBrush sb = new SolidBrush(Color.FromArgb(42, 76, 105));
             SolidBrush co = new SolidBrush(Color.White);
             // This changes the colour if we're trying to draw the selected tabpage
             if (tabControl1.SelectedIndex == e.Index)
             {
-                sb.Color = Color.Silver;
-                co.Color = Color.FromArgb(42, 76, 105);
-            }
-            // Colour the header of the current tabpage based on what we did above
-            g.FillRectangle(sb, e.Bounds);
 
+                co.Color = Color.DarkBlue;
+                var bshBack = new LinearGradientBrush(
+                    e.Bounds,
+                    Color.White,
+                    Color.LightSteelBlue,
+                    LinearGradientMode.ForwardDiagonal);
+                g.FillRectangle(bshBack, e.Bounds);
+            }
+            else
+            {
+                g.FillRectangle(sb, e.Bounds);
+
+            }
             //Remember to redraw the text - I'm always using black for title text
-            g.DrawString(tp.Text, tabControl1.Font, co, headerRect, sf);
+            g.DrawString(tp.Text, new Font(tabControl1.Font, FontStyle.Bold), co, headerRect, sf);
 
             SolidBrush fillbrush = new SolidBrush(Color.FromArgb(42, 76, 105));
             Rectangle lasttabrect = tabControl1.GetTabRect(tabControl1.TabPages.Count - 1);
             Rectangle background = new Rectangle();
-            background.Location = new Point(lasttabrect.Right, 0);
+            background.Location = new Point(lasttabrect.Right + 10, 0);
 
             //pad the rectangle to cover the 1 pixel line between the top of the tabpage and the start of the tabs
             background.Size = new Size(tabControl1.Right - background.Left, lasttabrect.Height + 1);
             e.Graphics.FillRectangle(fillbrush, background);
+
+
         }
 
-        private void 새로고침ToolStripMenuItem_Click_1(object sender, EventArgs e)
+
+        private void MainForm_SizeChanged(object sender, EventArgs e)
         {
-            TabPage tb = new TabPage();
-            tb.Text = "생산관리";
-            tb.Parent = tabControl1;
-            tb.Show();
-            
+            FillMenu();
+        }
+
+        private void OpenBaseForm<T>(string name) where T : BaseForm, new()
+        {
+            foreach (Form Child in Application.OpenForms)
+            {
+                if (Child.GetType() == typeof(T))
+                {
+                    Child.Activate();
+                    return;
+                }
+            }
+            T frm = new T();
+            frm.Text = name;
+            frm.MdiParent = this;
+            frm.ControlBox = false;
+            frm.WindowState = FormWindowState.Maximized;
+            frm.TabCtrl = tabControl1;
+            TabPage tp = new TabPage();
+            tp.Parent = tabControl1;
+            tp.Text = frm.Text;
+            tp.Show();
+            frm.TabPag = tp;
+            tabControl1.SelectedTab = tp;
+            frm.FormName = name;
+            frm.Show();
+        }
+        private void OpenTabForm<T>(string name) where T : TabForm, new()
+        {
+            foreach (Form Child in Application.OpenForms)
+            {
+                if (Child.GetType() == typeof(T))
+                {
+                    Child.Activate();
+                    return;
+                }
+            }
+            T frm = new T();
+            frm.Text = name;
+            frm.MdiParent = this;
+            frm.ControlBox = false;
+            frm.WindowState = FormWindowState.Maximized;
+            frm.TabCtrl = tabControl1;
+            TabPage tp = new TabPage();
+            tp.Parent = tabControl1;
+            tp.Text = frm.Text;
+            tp.Show();
+            frm.TabPag = tp;
+            tabControl1.SelectedTab = tp;
+            frm.Show();
+        }
+       
+
+        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            foreach (Form Child in Application.OpenForms) // 열려있는 전체 자식폼들 중
+            {
+                if (Child is MainTab) // BOM관리화면
+                {
+                    MainTab tmp = (MainTab)Child;
+                    if (tmp.TabPag == tabControl1.SelectedTab)
+                    {
+                        tmp.Select();
+                        
+                        break;
+                    }
+                }
+                else if(Child is Base1Dgv)
+                {
+                    Base1Dgv tmp = (Base1Dgv)Child;
+                    if (tmp.TabPag == tabControl1.SelectedTab)
+                    {
+                        tmp.Select();
+                        
+                        break;
+                    }
+                }
+
+            }
         }
     }
 }
