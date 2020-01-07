@@ -72,9 +72,9 @@
             // 
             // searchPeriodControl1
             // 
-            this.searchPeriodControl1.Location = new System.Drawing.Point(380, 66);
+            this.searchPeriodControl1.Location = new System.Drawing.Point(380, 77);
             this.searchPeriodControl1.Name = "searchPeriodControl1";
-            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 36);
+            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 42);
             this.searchPeriodControl1.TabIndex = 11;
             // 
             // searchUserControl5

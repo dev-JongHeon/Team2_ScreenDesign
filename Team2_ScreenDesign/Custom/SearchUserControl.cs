@@ -73,7 +73,6 @@ namespace Team2_ScreenDesign
         }
 
 
-
         public SearchUserControl()
         {
             InitializeComponent();

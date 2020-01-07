@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.lblName = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.btnSearch = new System.Windows.Forms.Button();
             this.txtCode = new System.Windows.Forms.TextBox();
-            this.lblName = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -49,6 +49,24 @@
             this.panel1.Size = new System.Drawing.Size(312, 30);
             this.panel1.TabIndex = 0;
             // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.lblName);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(78, 30);
+            this.panel3.TabIndex = 2;
+            // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.Location = new System.Drawing.Point(3, 8);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(40, 14);
+            this.lblName.TabIndex = 3;
+            this.lblName.Text = "작업자";
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.btnSearch);
@@ -58,15 +76,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(312, 30);
             this.panel2.TabIndex = 1;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.lblName);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(78, 30);
-            this.panel3.TabIndex = 2;
             // 
             // btnSearch
             // 
@@ -91,15 +100,6 @@
             this.txtCode.Size = new System.Drawing.Size(198, 21);
             this.txtCode.TabIndex = 4;
             // 
-            // lblName
-            // 
-            this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(3, 8);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(65, 14);
-            this.lblName.TabIndex = 3;
-            this.lblName.Text = "작업자 코드";
-            // 
             // SearchUserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -110,10 +110,10 @@
             this.Name = "SearchUserControl";
             this.Size = new System.Drawing.Size(312, 30);
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
