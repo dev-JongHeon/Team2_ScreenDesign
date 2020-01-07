@@ -49,7 +49,7 @@
             this.txtCode.Location = new System.Drawing.Point(91, 2);
             this.txtCode.Name = "txtCode";
             this.txtCode.ReadOnly = true;
-            this.txtCode.Size = new System.Drawing.Size(127, 21);
+            this.txtCode.Size = new System.Drawing.Size(88, 21);
             this.txtCode.TabIndex = 1;
             // 
             // btnSearch
@@ -58,7 +58,7 @@
             this.btnSearch.FlatAppearance.BorderSize = 0;
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearch.Image = global::Team2_ScreenDesign.Properties.Resources.Search_16x16;
-            this.btnSearch.Location = new System.Drawing.Point(224, 2);
+            this.btnSearch.Location = new System.Drawing.Point(185, 1);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(21, 21);
             this.btnSearch.TabIndex = 2;
@@ -75,7 +75,7 @@
             this.Controls.Add(this.lblName);
             this.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.Name = "SearchUserControl";
-            this.Size = new System.Drawing.Size(250, 25);
+            this.Size = new System.Drawing.Size(212, 25);
             this.ResumeLayout(false);
             this.PerformLayout();
 
