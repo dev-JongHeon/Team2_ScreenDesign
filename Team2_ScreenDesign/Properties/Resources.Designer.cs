@@ -213,6 +213,16 @@ namespace Team2_ScreenDesign.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap Lookup_Reference_32x32 {
+            get {
+                object obj = ResourceManager.GetObject("Lookup&Reference_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap Next_32x32 {
             get {
                 object obj = ResourceManager.GetObject("Next_32x32", resourceCulture);

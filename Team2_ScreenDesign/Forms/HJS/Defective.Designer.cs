@@ -227,10 +227,11 @@
             // 
             // searchPeriodControl1
             // 
+            this.searchPeriodControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.searchPeriodControl1.Labelname = "기간 선택";
-            this.searchPeriodControl1.Location = new System.Drawing.Point(740, 12);
+            this.searchPeriodControl1.Location = new System.Drawing.Point(371, 67);
             this.searchPeriodControl1.Name = "searchPeriodControl1";
-            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 24);
+            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 35);
             this.searchPeriodControl1.TabIndex = 11;
             // 
             // Defective
