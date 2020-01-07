@@ -163,18 +163,20 @@
             this.searchUserControl2.TabIndex = 1;
             // 
             // searchPeriodControl1
-            //             
-            this.searchPeriodControl1.Location = new System.Drawing.Point(321, 9);
+            // 
+            this.searchPeriodControl1.Labelname = "입사일";
+            this.searchPeriodControl1.Location = new System.Drawing.Point(321, 3);
             this.searchPeriodControl1.Name = "searchPeriodControl1";
-            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 48);
-            this.searchPeriodControl1.TabIndex = 3;
+            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 31);
+            this.searchPeriodControl1.TabIndex = 2;
             // 
             // searchPeriodControl2
-            //             
-            this.searchPeriodControl2.Location = new System.Drawing.Point(321, 56);
+            // 
+            this.searchPeriodControl2.Labelname = "퇴사일";
+            this.searchPeriodControl2.Location = new System.Drawing.Point(321, 42);
             this.searchPeriodControl2.Name = "searchPeriodControl2";
-            this.searchPeriodControl2.Size = new System.Drawing.Size(312, 48);
-            this.searchPeriodControl2.TabIndex = 4;
+            this.searchPeriodControl2.Size = new System.Drawing.Size(312, 31);
+            this.searchPeriodControl2.TabIndex = 3;
             // 
             // Employees
             // 
@@ -205,9 +207,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-        private SearchPeriodControl searchPeriodControl2;
-        private SearchPeriodControl searchPeriodControl1;
         private SearchUserControl searchUserControl2;
         private SearchUserControl searchUserControl1;
+        private SearchPeriodControl searchPeriodControl2;
+        private SearchPeriodControl searchPeriodControl1;
     }
 }

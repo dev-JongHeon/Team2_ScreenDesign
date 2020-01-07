@@ -28,7 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.searchPeriodControl1 = new Team2_ScreenDesign.SearchPeriodControl();
+            this.searchPeriodControl2 = new Team2_ScreenDesign.SearchPeriodControl();
             this.dgvProduce = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvPerformance = new System.Windows.Forms.DataGridView();
             this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -47,21 +61,6 @@
             this.searchUserControl2 = new Team2_ScreenDesign.SearchUserControl();
             this.searchUserControl3 = new Team2_ScreenDesign.SearchUserControl();
             this.searchUserControl4 = new Team2_ScreenDesign.SearchUserControl();
-            this.searchPeriodControl1 = new Team2_ScreenDesign.SearchPeriodControl();
-            this.searchPeriodControl2 = new Team2_ScreenDesign.SearchPeriodControl();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -91,12 +90,28 @@
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.searchPeriodControl2);
-            this.panel5.Controls.Add(this.searchPeriodControl1);
             this.panel5.Controls.Add(this.searchUserControl3);
             this.panel5.Controls.Add(this.searchUserControl4);
             this.panel5.Controls.Add(this.searchUserControl2);
             this.panel5.Controls.Add(this.searchUserControl1);
+            this.panel5.Controls.Add(this.searchPeriodControl2);
+            this.panel5.Controls.Add(this.searchPeriodControl1);
+            // 
+            // searchPeriodControl1
+            // 
+            this.searchPeriodControl1.Labelname = "생산 시작일";
+            this.searchPeriodControl1.Location = new System.Drawing.Point(12, 9);
+            this.searchPeriodControl1.Name = "searchPeriodControl1";
+            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 48);
+            this.searchPeriodControl1.TabIndex = 0;
+            // 
+            // searchPeriodControl2
+            // 
+            this.searchPeriodControl2.Labelname = "생산 종료일";
+            this.searchPeriodControl2.Location = new System.Drawing.Point(12, 42);
+            this.searchPeriodControl2.Name = "searchPeriodControl2";
+            this.searchPeriodControl2.Size = new System.Drawing.Size(312, 48);
+            this.searchPeriodControl2.TabIndex = 1;
             // 
             // dgvProduce
             // 
@@ -112,7 +127,6 @@
             this.Column8,
             this.Column9,
             this.Column10,
-            this.Column26,
             this.Column11,
             this.Column12});
             this.dgvProduce.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -121,6 +135,66 @@
             this.dgvProduce.RowTemplate.Height = 23;
             this.dgvProduce.Size = new System.Drawing.Size(1364, 368);
             this.dgvProduce.TabIndex = 0;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "생산 작업번호";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "생산 품목코드";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "생산 품목명";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "생산 품목 단위";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "요청 수량";
+            this.Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "출고 수량";
+            this.Column6.Name = "Column6";
+            // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "생산 공장 코드";
+            this.Column7.Name = "Column7";
+            // 
+            // Column8
+            // 
+            this.Column8.HeaderText = "생산 공장명";
+            this.Column8.Name = "Column8";
+            // 
+            // Column9
+            // 
+            this.Column9.HeaderText = "생산 공정 코드";
+            this.Column9.Name = "Column9";
+            // 
+            // Column10
+            // 
+            this.Column10.HeaderText = "생산공정명";
+            this.Column10.Name = "Column10";
+            // 
+            // Column11
+            // 
+            this.Column11.HeaderText = "완료 날짜";
+            this.Column11.Name = "Column11";
+            // 
+            // Column12
+            // 
+            this.Column12.HeaderText = "작업 현황";
+            this.Column12.Name = "Column12";
             // 
             // dgvPerformance
             // 
@@ -216,7 +290,7 @@
             this.searchUserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
             this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Product;
             this.searchUserControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchUserControl1.Location = new System.Drawing.Point(347, 77);
+            this.searchUserControl1.Location = new System.Drawing.Point(12, 77);
             this.searchUserControl1.Name = "searchUserControl1";
             this.searchUserControl1.Size = new System.Drawing.Size(312, 30);
             this.searchUserControl1.TabIndex = 2;
@@ -226,7 +300,7 @@
             this.searchUserControl2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
             this.searchUserControl2.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Factory;
             this.searchUserControl2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchUserControl2.Location = new System.Drawing.Point(12, 41);
+            this.searchUserControl2.Location = new System.Drawing.Point(347, 12);
             this.searchUserControl2.Name = "searchUserControl2";
             this.searchUserControl2.Size = new System.Drawing.Size(312, 30);
             this.searchUserControl2.TabIndex = 2;
@@ -236,7 +310,7 @@
             this.searchUserControl3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
             this.searchUserControl3.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Worker;
             this.searchUserControl3.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchUserControl3.Location = new System.Drawing.Point(347, 41);
+            this.searchUserControl3.Location = new System.Drawing.Point(347, 74);
             this.searchUserControl3.Name = "searchUserControl3";
             this.searchUserControl3.Size = new System.Drawing.Size(312, 30);
             this.searchUserControl3.TabIndex = 2;
@@ -246,93 +320,10 @@
             this.searchUserControl4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
             this.searchUserControl4.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Line;
             this.searchUserControl4.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchUserControl4.Location = new System.Drawing.Point(12, 72);
+            this.searchUserControl4.Location = new System.Drawing.Point(347, 43);
             this.searchUserControl4.Name = "searchUserControl4";
             this.searchUserControl4.Size = new System.Drawing.Size(312, 30);
             this.searchUserControl4.TabIndex = 2;
-            // 
-            // searchPeriodControl1
-            // 
-            this.searchPeriodControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchPeriodControl1.Labelname = "작업 종료 날짜";
-            this.searchPeriodControl1.Location = new System.Drawing.Point(347, 6);
-            this.searchPeriodControl1.Name = "searchPeriodControl1";
-            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 35);
-            this.searchPeriodControl1.TabIndex = 3;
-            // 
-            // searchPeriodControl2
-            // 
-            this.searchPeriodControl2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchPeriodControl2.Labelname = "작업 시작 날짜";
-            this.searchPeriodControl2.Location = new System.Drawing.Point(12, 6);
-            this.searchPeriodControl2.Name = "searchPeriodControl2";
-            this.searchPeriodControl2.Size = new System.Drawing.Size(312, 35);
-            this.searchPeriodControl2.TabIndex = 3;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "생산 작업번호";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "생산 품목코드";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "생산 품목명";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "생산 품목 단위";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "요청 수량";
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "출고 수량";
-            this.Column6.Name = "Column6";
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "생산 공장 코드";
-            this.Column7.Name = "Column7";
-            // 
-            // Column8
-            // 
-            this.Column8.HeaderText = "생산 공장명";
-            this.Column8.Name = "Column8";
-            // 
-            // Column9
-            // 
-            this.Column9.HeaderText = "생산 공정 코드";
-            this.Column9.Name = "Column9";
-            // 
-            // Column10
-            // 
-            this.Column10.HeaderText = "생산공정명";
-            this.Column10.Name = "Column10";
-            // 
-            // Column26
-            // 
-            this.Column26.HeaderText = "작업시작날짜";
-            this.Column26.Name = "Column26";
-            // 
-            // Column11
-            // 
-            this.Column11.HeaderText = "완료 날짜";
-            this.Column11.Name = "Column11";
-            // 
-            // Column12
-            // 
-            this.Column12.HeaderText = "작업 현황";
-            this.Column12.Name = "Column12";
             // 
             // Produce
             // 
@@ -358,12 +349,27 @@
         }
 
         #endregion
+
+        private SearchPeriodControl searchPeriodControl1;
+        private SearchPeriodControl searchPeriodControl2;
         private System.Windows.Forms.DataGridView dgvProduce;
         private System.Windows.Forms.DataGridView dgvPerformance;
         private SearchUserControl searchUserControl3;
         private SearchUserControl searchUserControl2;
         private SearchUserControl searchUserControl1;
         private SearchUserControl searchUserControl4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column14;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column15;
@@ -377,20 +383,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column23;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column24;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column25;
-        private SearchPeriodControl searchPeriodControl2;
-        private SearchPeriodControl searchPeriodControl1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column26;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
     }
 }

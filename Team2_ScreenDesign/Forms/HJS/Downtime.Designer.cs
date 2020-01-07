@@ -190,20 +190,18 @@
             // 
             // searchPeriodControl1
             // 
-            this.searchPeriodControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.searchPeriodControl1.Labelname = "비가동 시작";
-            this.searchPeriodControl1.Location = new System.Drawing.Point(23, 6);
+            this.searchPeriodControl1.Location = new System.Drawing.Point(23, 10);
             this.searchPeriodControl1.Name = "searchPeriodControl1";
-            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 35);
+            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 31);
             this.searchPeriodControl1.TabIndex = 1;
             // 
             // searchPeriodControl2
             // 
-            this.searchPeriodControl2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchPeriodControl2.Labelname = "비가동 종료일";
-            this.searchPeriodControl2.Location = new System.Drawing.Point(355, 6);
+            this.searchPeriodControl2.Labelname = "비가동 종료";
+            this.searchPeriodControl2.Location = new System.Drawing.Point(355, 10);
             this.searchPeriodControl2.Name = "searchPeriodControl2";
-            this.searchPeriodControl2.Size = new System.Drawing.Size(312, 35);
+            this.searchPeriodControl2.Size = new System.Drawing.Size(312, 31);
             this.searchPeriodControl2.TabIndex = 1;
             // 
             // Downtime
@@ -237,11 +235,11 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
+        private SearchPeriodControl searchPeriodControl2;
+        private SearchPeriodControl searchPeriodControl1;
         private SearchUserControl searchUserControl3;
         private SearchUserControl searchUserControl4;
         private SearchUserControl searchUserControl2;
         private SearchUserControl searchUserControl1;
-        private SearchPeriodControl searchPeriodControl2;
-        private SearchPeriodControl searchPeriodControl1;
     }
 }

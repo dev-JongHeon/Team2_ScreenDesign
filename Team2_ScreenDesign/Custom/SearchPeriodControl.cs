@@ -37,7 +37,6 @@ namespace Team2_ScreenDesign
 
         private void dtpStart_ValueChanged(object sender, EventArgs e)
         {
-            
             if (dtpStart.Value > dtpEnd.Value)
             {
                 DateTime starttmp = dtpStart.Value;
@@ -49,12 +48,12 @@ namespace Team2_ScreenDesign
 
         private void dtpEnd_ValueChanged(object sender, EventArgs e)
         {
-
             if (dtpStart.Value > dtpEnd.Value)
             {
-                DateTime temp = dtpEnd.Value;
-                dtpEnd.Value = dtpStart.Value;
-                dtpStart.Value = temp;
+                DateTime starttmp = dtpStart.Value;
+                DateTime endtmp = dtpEnd.Value;
+                dtpEnd.Value = starttmp;
+                dtpStart.Value = endtmp;
             }
         }
     }
