@@ -48,7 +48,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(312, 24);
+            this.panel1.Size = new System.Drawing.Size(312, 35);
             this.panel1.TabIndex = 0;
             // 
             // panel3
@@ -60,26 +60,26 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(78, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(234, 24);
+            this.panel3.Size = new System.Drawing.Size(234, 35);
             this.panel3.TabIndex = 1;
             // 
             // dtpEnd
             // 
             this.dtpEnd.CalendarFont = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.dtpEnd.Enabled = false;
+            this.dtpEnd.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dtpEnd.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpEnd.Location = new System.Drawing.Point(121, 2);
+            this.dtpEnd.Location = new System.Drawing.Point(119, 6);
             this.dtpEnd.Name = "dtpEnd";
             this.dtpEnd.Size = new System.Drawing.Size(83, 21);
             this.dtpEnd.TabIndex = 15;
-            this.dtpEnd.ValueChanged += new System.EventHandler(this.dtpEnd_ValueChanged);
+            this.dtpEnd.ValueChanged += new System.EventHandler(this.dtpStart_ValueChanged);
             // 
             // dtpStart
             // 
             this.dtpStart.CalendarFont = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.dtpStart.Enabled = false;
+            this.dtpStart.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dtpStart.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpStart.Location = new System.Drawing.Point(7, 2);
+            this.dtpStart.Location = new System.Drawing.Point(7, 6);
             this.dtpStart.Name = "dtpStart";
             this.dtpStart.Size = new System.Drawing.Size(83, 21);
             this.dtpStart.TabIndex = 14;
@@ -89,7 +89,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(96, 3);
+            this.label1.Location = new System.Drawing.Point(96, 6);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(19, 19);
             this.label1.TabIndex = 12;
@@ -100,10 +100,10 @@
             this.btnSearch.BackColor = System.Drawing.Color.White;
             this.btnSearch.FlatAppearance.BorderSize = 0;
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSearch.Image = global::Team2_ScreenDesign.Properties.Resources.Search_16x16;
-            this.btnSearch.Location = new System.Drawing.Point(210, 3);
+            this.btnSearch.Image = global::Team2_ScreenDesign.Properties.Resources.Calendar_16x16;
+            this.btnSearch.Location = new System.Drawing.Point(208, 6);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(21, 21);
+            this.btnSearch.Size = new System.Drawing.Size(21, 24);
             this.btnSearch.TabIndex = 13;
             this.btnSearch.UseVisualStyleBackColor = false;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
@@ -114,14 +114,14 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(78, 24);
+            this.panel2.Size = new System.Drawing.Size(78, 35);
             this.panel2.TabIndex = 0;
             // 
             // lblName
             // 
             this.lblName.AutoSize = true;
             this.lblName.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lblName.Location = new System.Drawing.Point(3, 5);
+            this.lblName.Location = new System.Drawing.Point(3, 9);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(54, 14);
             this.lblName.TabIndex = 8;
@@ -129,11 +129,12 @@
             // 
             // SearchPeriodControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
+            this.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.Name = "SearchPeriodControl";
-            this.Size = new System.Drawing.Size(312, 24);
+            this.Size = new System.Drawing.Size(312, 35);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -151,7 +152,7 @@
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lblName;
-        private System.Windows.Forms.DateTimePicker dtpEnd;
         private System.Windows.Forms.DateTimePicker dtpStart;
+        private System.Windows.Forms.DateTimePicker dtpEnd;
     }
 }
