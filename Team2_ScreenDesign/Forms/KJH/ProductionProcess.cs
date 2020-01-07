@@ -8,11 +8,16 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class Downtime : BaseForm
+    public partial class ProductionProcess : Team2_ScreenDesign.Base1Dgv
     {
-        public Downtime()
+        public ProductionProcess()
         {
             InitializeComponent();
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

@@ -58,6 +58,12 @@
     <Compile Include="Custom\SearchPeriodControl.Designer.cs">
       <DependentUpon>SearchPeriodControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\KJH\ProductionProcessAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KJH\ProductionProcessAdd.Designer.cs">
+      <DependentUpon>ProductionProcessAdd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\BaseForm\Base1Dgv.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,12 @@
     </Compile>
     <Compile Include="Custom\TabForm.Designer.cs">
       <DependentUpon>TabForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BaseForm\BasePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BaseForm\BasePopup.Designer.cs">
+      <DependentUpon>BasePopup.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\CMG\BOM.cs">
       <SubType>Form</SubType>
@@ -268,6 +280,18 @@
     <Compile Include="Forms\SSD\Stock_Status.designer.cs">
       <DependentUpon>Stock_Status.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\KJH\WorkerbyProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KJH\WorkerbyProcess.Designer.cs">
+      <DependentUpon>WorkerbyProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KJH\ProductionProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KJH\ProductionProcess.Designer.cs">
+      <DependentUpon>ProductionProcess.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Forms\HJS\불량현황.cs">
@@ -305,6 +329,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\BaseForm\BaseForm.resx">
       <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BaseForm\BasePopup.resx">
+      <DependentUpon>BasePopup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CMG\BOM.resx">
       <DependentUpon>BOM.cs</DependentUpon>
@@ -401,6 +428,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\Stock_Status.resx">
       <DependentUpon>Stock_Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KJH\WorkerbyProcess.resx">
+      <DependentUpon>WorkerbyProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KJH\ProductionProcess.resx">
+      <DependentUpon>ProductionProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KJH\ProductionProcessAdd.resx">
+      <DependentUpon>ProductionProcessAdd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -520,6 +556,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Lookup&amp;Reference_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewProducts_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewSales_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close_32x32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

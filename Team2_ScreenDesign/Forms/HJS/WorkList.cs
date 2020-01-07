@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class WorkList : Team2_ScreenDesign.BaseForm
+    public partial class WorkList : BaseForm
     {
         public WorkList()
         {

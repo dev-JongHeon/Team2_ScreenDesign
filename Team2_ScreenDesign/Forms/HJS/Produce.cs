@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign.Forms.HJS
 {
-    public partial class Produce : Team2_ScreenDesign.Base2Dgv
+    public partial class Produce : Base2Dgv
     {
         public Produce()
         {

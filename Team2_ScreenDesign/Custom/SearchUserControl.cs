@@ -29,7 +29,8 @@ namespace Team2_ScreenDesign
             get { return btnSearch; }
             set { btnSearch = value; }
         }
-
+        
+        public string Labelname { get => lblName.Text; set => lblName.Text=value; }
 
         public enum Mode { Worker, Defective, Product, Downtime,
             Factory, Line, Meterial, SemiProduct,Customer, Warehouse, Department };
