@@ -76,11 +76,29 @@
     <Compile Include="Custom\TabForm.Designer.cs">
       <DependentUpon>TabForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\CMG\BOM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\BOM.Designer.cs">
+      <DependentUpon>BOM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\Company.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\Company.Designer.cs">
+      <DependentUpon>Company.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\CMG\CompanyInsUp.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\CMG\CompanyInsUp.Designer.cs">
       <DependentUpon>CompanyInsUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\Customer.Designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\CMG\CustomerInsUp.cs">
       <SubType>Form</SubType>
@@ -88,17 +106,35 @@
     <Compile Include="Forms\CMG\CustomerInsUp.Designer.cs">
       <DependentUpon>CustomerInsUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\CMG\Employees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\Employees.Designer.cs">
+      <DependentUpon>Employees.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\CMG\EmployeesInsUp.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\CMG\EmployeesInsUp.Designer.cs">
       <DependentUpon>EmployeesInsUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\CMG\Factory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\Factory.Designer.cs">
+      <DependentUpon>Factory.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\CMG\FactoryInsUp.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\CMG\FactoryInsUp.Designer.cs">
       <DependentUpon>FactoryInsUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\Warehouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\Warehouse.Designer.cs">
+      <DependentUpon>Warehouse.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\CMG\WarehouseInsUp.cs">
       <SubType>Form</SubType>
@@ -141,42 +177,6 @@
     </Compile>
     <Compile Include="Forms\BaseForm\Base2Dgv.Designer.cs">
       <DependentUpon>Base2Dgv.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\CMG\BOM.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\CMG\BOM.Designer.cs">
-      <DependentUpon>BOM.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\CMG\Company.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\CMG\Company.designer.cs">
-      <DependentUpon>Company.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\CMG\Customer.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\CMG\Customer.designer.cs">
-      <DependentUpon>Customer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\CMG\Employees.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\CMG\Employees.designer.cs">
-      <DependentUpon>Employees.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\CMG\Factory.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\CMG\Factory.designer.cs">
-      <DependentUpon>Factory.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\CMG\Warehouse.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\CMG\Warehouse.designer.cs">
-      <DependentUpon>Warehouse.cs</DependentUpon>
     </Compile>
     <Compile Include="Custom\NumTXT.cs">
       <SubType>Component</SubType>
@@ -294,17 +294,35 @@
     <EmbeddedResource Include="Forms\BaseForm\BaseForm.resx">
       <DependentUpon>BaseForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\BOM.resx">
+      <DependentUpon>BOM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\Company.resx">
+      <DependentUpon>Company.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\CMG\CompanyInsUp.resx">
       <DependentUpon>CompanyInsUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\Customer.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CMG\CustomerInsUp.resx">
       <DependentUpon>CustomerInsUp.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\Employees.resx">
+      <DependentUpon>Employees.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\CMG\EmployeesInsUp.resx">
       <DependentUpon>EmployeesInsUp.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\Factory.resx">
+      <DependentUpon>Factory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\CMG\FactoryInsUp.resx">
       <DependentUpon>FactoryInsUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\Warehouse.resx">
+      <DependentUpon>Warehouse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CMG\WarehouseInsUp.resx">
       <DependentUpon>WarehouseInsUp.cs</DependentUpon>
@@ -326,24 +344,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\BaseForm\Base2Dgv.resx">
       <DependentUpon>Base2Dgv.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CMG\BOM.resx">
-      <DependentUpon>BOM.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CMG\Company.resx">
-      <DependentUpon>Company.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CMG\Customer.resx">
-      <DependentUpon>Customer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CMG\Employees.resx">
-      <DependentUpon>Employees.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CMG\Factory.resx">
-      <DependentUpon>Factory.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CMG\Warehouse.resx">
-      <DependentUpon>Warehouse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Custom\NumTXT.resx">
       <DependentUpon>NumTXT.cs</DependentUpon>

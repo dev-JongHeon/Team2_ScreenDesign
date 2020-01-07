@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class BOM : Form
+    public partial class BOM : BaseForm
     {
         public BOM()
         {

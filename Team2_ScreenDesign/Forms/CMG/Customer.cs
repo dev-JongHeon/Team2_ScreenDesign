@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class Customer : Form
+    public partial class Customer : BaseForm
     {
         public Customer()
         {
