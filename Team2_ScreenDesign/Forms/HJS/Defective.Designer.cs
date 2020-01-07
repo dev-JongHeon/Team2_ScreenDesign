@@ -227,7 +227,7 @@
             // 
             // searchPeriodControl1
             // 
-            this.searchPeriodControl1.labelName = "기간 선택";
+            this.searchPeriodControl1.Labelname = "기간 선택";
             this.searchPeriodControl1.Location = new System.Drawing.Point(740, 12);
             this.searchPeriodControl1.Name = "searchPeriodControl1";
             this.searchPeriodControl1.Size = new System.Drawing.Size(312, 24);

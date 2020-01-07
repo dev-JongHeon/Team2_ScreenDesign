@@ -190,7 +190,7 @@
             // 
             // searchPeriodControl1
             // 
-            this.searchPeriodControl1.labelName = "비가동 시작";
+            this.searchPeriodControl1.Labelname = "비가동 시작";
             this.searchPeriodControl1.Location = new System.Drawing.Point(23, 10);
             this.searchPeriodControl1.Name = "searchPeriodControl1";
             this.searchPeriodControl1.Size = new System.Drawing.Size(312, 31);
@@ -198,7 +198,7 @@
             // 
             // searchPeriodControl2
             // 
-            this.searchPeriodControl2.labelName = "비가동 종료";
+            this.searchPeriodControl2.Labelname = "비가동 종료";
             this.searchPeriodControl2.Location = new System.Drawing.Point(355, 10);
             this.searchPeriodControl2.Name = "searchPeriodControl2";
             this.searchPeriodControl2.Size = new System.Drawing.Size(312, 31);

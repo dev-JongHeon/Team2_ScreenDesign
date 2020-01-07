@@ -67,7 +67,7 @@
             // 
             // searchPeriodControl1
             // 
-            this.searchPeriodControl1.labelName = "작업 예정일";
+            this.searchPeriodControl1.Labelname = "작업 예정일";
             this.searchPeriodControl1.Location = new System.Drawing.Point(12, 39);
             this.searchPeriodControl1.Name = "searchPeriodControl1";
             this.searchPeriodControl1.Size = new System.Drawing.Size(312, 41);
@@ -75,7 +75,7 @@
             // 
             // searchPeriodControl2
             // 
-            this.searchPeriodControl2.labelName = "납기일";
+            this.searchPeriodControl2.Labelname = "납기일";
             this.searchPeriodControl2.Location = new System.Drawing.Point(12, 75);
             this.searchPeriodControl2.Name = "searchPeriodControl2";
             this.searchPeriodControl2.Size = new System.Drawing.Size(312, 48);

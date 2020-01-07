@@ -138,7 +138,7 @@
             // 
             // searchPeriodControl1
             // 
-            this.searchPeriodControl1.labelName = "생년월일";
+            this.searchPeriodControl1.Labelname = "생년월일";
             this.searchPeriodControl1.Location = new System.Drawing.Point(321, 3);
             this.searchPeriodControl1.Name = "searchPeriodControl1";
             this.searchPeriodControl1.Size = new System.Drawing.Size(312, 35);
