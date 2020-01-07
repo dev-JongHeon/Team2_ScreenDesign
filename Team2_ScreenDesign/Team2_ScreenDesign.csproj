@@ -106,6 +106,18 @@
     <Compile Include="Forms\CMG\WarehouseInsUp.Designer.cs">
       <DependentUpon>WarehouseInsUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\HJS\Produce.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HJS\Produce.Designer.cs">
+      <DependentUpon>Produce.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HJS\WorkList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HJS\WorkList.Designer.cs">
+      <DependentUpon>WorkList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\KJH\CalendarForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -315,8 +327,14 @@
     <EmbeddedResource Include="Forms\HJS\Downtime.resx">
       <DependentUpon>Downtime.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HJS\Produce.resx">
+      <DependentUpon>Produce.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\HJS\SearchForm.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HJS\WorkList.resx">
+      <DependentUpon>WorkList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\CalendarForm.resx">
       <DependentUpon>CalendarForm.cs</DependentUpon>

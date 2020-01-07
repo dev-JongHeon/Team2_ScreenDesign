@@ -6,11 +6,11 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Team2_ScreenDesign
+namespace Team2_ScreenDesign.Forms.HJS
 {
-    public partial class Downtime : Team2_ScreenDesign.BaseForm
+    public partial class Produce : Team2_ScreenDesign.Base2Dgv
     {
-        public Downtime()
+        public Produce()
         {
             InitializeComponent();
         }

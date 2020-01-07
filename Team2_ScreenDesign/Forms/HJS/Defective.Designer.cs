@@ -44,12 +44,12 @@
             this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
-            this.searchUserControl3 = new Team2_ScreenDesign.SearchUserControl();
-            this.searchUserControl2 = new Team2_ScreenDesign.SearchUserControl();
-            this.searchUserControl4 = new Team2_ScreenDesign.SearchUserControl();
             this.searchUserControl5 = new Team2_ScreenDesign.SearchUserControl();
-            this.searchPeriodControl1 = new Team2_ScreenDesign.SearchPeriodControl();
+            this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
+            this.searchUserControl4 = new Team2_ScreenDesign.SearchUserControl();
+            this.searchUserControl2 = new Team2_ScreenDesign.SearchUserControl();
+            this.searchUserControl3 = new Team2_ScreenDesign.SearchUserControl();
+            this.searchPeriodControl2 = new Team2_ScreenDesign.SearchPeriodControl();
             this.panel1.SuspendLayout();
             this.panel_Search.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -68,7 +68,7 @@
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.searchPeriodControl1);
+            this.panel5.Controls.Add(this.searchPeriodControl2);
             this.panel5.Controls.Add(this.searchUserControl5);
             this.panel5.Controls.Add(this.searchUserControl1);
             this.panel5.Controls.Add(this.searchUserControl4);
@@ -175,6 +175,16 @@
             this.Column15.HeaderText = "불량조치";
             this.Column15.Name = "Column15";
             // 
+            // searchUserControl5
+            // 
+            this.searchUserControl5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
+            this.searchUserControl5.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Worker;
+            this.searchUserControl5.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchUserControl5.Location = new System.Drawing.Point(371, 6);
+            this.searchUserControl5.Name = "searchUserControl5";
+            this.searchUserControl5.Size = new System.Drawing.Size(312, 30);
+            this.searchUserControl5.TabIndex = 4;
+            // 
             // searchUserControl1
             // 
             this.searchUserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
@@ -184,26 +194,6 @@
             this.searchUserControl1.Name = "searchUserControl1";
             this.searchUserControl1.Size = new System.Drawing.Size(312, 30);
             this.searchUserControl1.TabIndex = 4;
-            // 
-            // searchUserControl3
-            // 
-            this.searchUserControl3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
-            this.searchUserControl3.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Product;
-            this.searchUserControl3.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchUserControl3.Location = new System.Drawing.Point(12, 68);
-            this.searchUserControl3.Name = "searchUserControl3";
-            this.searchUserControl3.Size = new System.Drawing.Size(319, 36);
-            this.searchUserControl3.TabIndex = 2;
-            // 
-            // searchUserControl2
-            // 
-            this.searchUserControl2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
-            this.searchUserControl2.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Line;
-            this.searchUserControl2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchUserControl2.Location = new System.Drawing.Point(12, 37);
-            this.searchUserControl2.Name = "searchUserControl2";
-            this.searchUserControl2.Size = new System.Drawing.Size(319, 36);
-            this.searchUserControl2.TabIndex = 2;
             // 
             // searchUserControl4
             // 
@@ -215,22 +205,33 @@
             this.searchUserControl4.Size = new System.Drawing.Size(319, 36);
             this.searchUserControl4.TabIndex = 2;
             // 
-            // searchUserControl5
+            // searchUserControl2
             // 
-            this.searchUserControl5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
-            this.searchUserControl5.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Worker;
-            this.searchUserControl5.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchUserControl5.Location = new System.Drawing.Point(371, 6);
-            this.searchUserControl5.Name = "searchUserControl5";
-            this.searchUserControl5.Size = new System.Drawing.Size(312, 30);
-            this.searchUserControl5.TabIndex = 4;
+            this.searchUserControl2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
+            this.searchUserControl2.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Line;
+            this.searchUserControl2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchUserControl2.Location = new System.Drawing.Point(12, 37);
+            this.searchUserControl2.Name = "searchUserControl2";
+            this.searchUserControl2.Size = new System.Drawing.Size(319, 36);
+            this.searchUserControl2.TabIndex = 2;
             // 
-            // searchPeriodControl1
+            // searchUserControl3
             // 
-            this.searchPeriodControl1.Location = new System.Drawing.Point(371, 68);
-            this.searchPeriodControl1.Name = "searchPeriodControl1";
-            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 30);
-            this.searchPeriodControl1.TabIndex = 5;
+            this.searchUserControl3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
+            this.searchUserControl3.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Product;
+            this.searchUserControl3.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchUserControl3.Location = new System.Drawing.Point(12, 68);
+            this.searchUserControl3.Name = "searchUserControl3";
+            this.searchUserControl3.Size = new System.Drawing.Size(319, 36);
+            this.searchUserControl3.TabIndex = 2;
+            // 
+            // searchPeriodControl2
+            // 
+            this.searchPeriodControl2.labelName = "불량발생 기간";
+            this.searchPeriodControl2.Location = new System.Drawing.Point(371, 68);
+            this.searchPeriodControl2.Name = "searchPeriodControl2";
+            this.searchPeriodControl2.Size = new System.Drawing.Size(312, 35);
+            this.searchPeriodControl2.TabIndex = 6;
             // 
             // Defective
             // 
@@ -273,6 +274,6 @@
         private SearchUserControl searchUserControl4;
         private SearchUserControl searchUserControl2;
         private SearchUserControl searchUserControl3;
-        private SearchPeriodControl searchPeriodControl1;
+        private SearchPeriodControl searchPeriodControl2;
     }
 }
