@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class Warehouse : Form
+    public partial class Warehouse : BaseForm
     {
         public Warehouse()
         {

@@ -27,6 +27,7 @@ namespace Team2_ScreenDesign
         {
             // Mode값에 따라 그리드뷰 컬럼명 및 검색 결과 
             this.Text = Mode.ToString();
+            this.placeHolderTextBox1.PlaceHolderText = string.Concat(Mode.ToString(), " ", "키워드 입력");
         }
     }
 }

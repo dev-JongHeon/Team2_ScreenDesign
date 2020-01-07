@@ -3,16 +3,14 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Team2_ScreenDesign
+namespace Team2_ScreenDesign.Forms.HJS
 {
-    public partial class Customer : BaseForm
+    public partial class Produce : Team2_ScreenDesign.Base2Dgv
     {
-        public Customer()
+        public Produce()
         {
             InitializeComponent();
         }
