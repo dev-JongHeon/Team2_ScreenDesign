@@ -201,7 +201,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CompanyName;
+        private new System.Windows.Forms.DataGridViewTextBoxColumn CompanyName;
         private System.Windows.Forms.DataGridViewTextBoxColumn CompanyAddress;
         private System.Windows.Forms.DataGridViewTextBoxColumn CompanyBC;
         private System.Windows.Forms.DataGridViewTextBoxColumn CompanyDivision;
