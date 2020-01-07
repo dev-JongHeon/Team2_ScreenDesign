@@ -31,7 +31,8 @@ namespace Team2_ScreenDesign
         }
 
 
-        public enum Mode { Worker, Defective, Product, Downtime, Factory, Line, Meterial, SemiProduct };
+        public enum Mode { Worker, Defective, Product, Downtime,
+            Factory, Line, Meterial, SemiProduct,Customer, Warehouse, Department };
 
         Mode Modes = Mode.Worker;
 
@@ -67,6 +68,15 @@ namespace Team2_ScreenDesign
                         break;
                     case Mode.Line:
                         this.CodeLabel.Text = "공정";
+                        break;
+                    case Mode.Customer:
+                        this.CodeLabel.Text = "고객";
+                        break;
+                    case Mode.Department:
+                        this.CodeLabel.Text = "부서";
+                        break;
+                    case Mode.Warehouse:
+                        this.CodeLabel.Text = "창고";
                         break;
                 }
             }

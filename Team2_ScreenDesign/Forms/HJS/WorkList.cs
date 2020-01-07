@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class Downtime : Team2_ScreenDesign.BaseForm
+    public partial class WorkList : Team2_ScreenDesign.BaseForm
     {
-        public Downtime()
+        public WorkList()
         {
             InitializeComponent();
         }
