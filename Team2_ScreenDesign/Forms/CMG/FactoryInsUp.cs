@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class FactoryInsUp : Form
+    public partial class FactoryInsUp : BasePopup
     {
         public FactoryInsUp()
         {
