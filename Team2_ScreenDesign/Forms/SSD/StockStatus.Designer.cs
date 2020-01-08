@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
-            this.searchUserControl3 = new Team2_ScreenDesign.SearchUserControl();
             this.품번 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.품명 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -40,6 +38,8 @@
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
+            this.searchUserControl3 = new Team2_ScreenDesign.SearchUserControl();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel_Search.SuspendLayout();
@@ -82,26 +82,6 @@
             this.dataGridView1.RowTemplate.Height = 23;
             this.dataGridView1.Size = new System.Drawing.Size(1364, 662);
             this.dataGridView1.TabIndex = 1;
-            // 
-            // searchUserControl1
-            // 
-            this.searchUserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
-            this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Product;
-            this.searchUserControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchUserControl1.Location = new System.Drawing.Point(50, 26);
-            this.searchUserControl1.Name = "searchUserControl1";
-            this.searchUserControl1.Size = new System.Drawing.Size(312, 25);
-            this.searchUserControl1.TabIndex = 33;
-            // 
-            // searchUserControl3
-            // 
-            this.searchUserControl3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
-            this.searchUserControl3.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Warehouse;
-            this.searchUserControl3.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchUserControl3.Location = new System.Drawing.Point(50, 53);
-            this.searchUserControl3.Name = "searchUserControl3";
-            this.searchUserControl3.Size = new System.Drawing.Size(312, 25);
-            this.searchUserControl3.TabIndex = 35;
             // 
             // 품번
             // 
@@ -147,6 +127,28 @@
             // 
             this.Column9.HeaderText = "차이수량";
             this.Column9.Name = "Column9";
+            // 
+            // searchUserControl1
+            // 
+            this.searchUserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
+            this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Product;
+            this.searchUserControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchUserControl1.Labelname = "제품";
+            this.searchUserControl1.Location = new System.Drawing.Point(50, 26);
+            this.searchUserControl1.Name = "searchUserControl1";
+            this.searchUserControl1.Size = new System.Drawing.Size(312, 25);
+            this.searchUserControl1.TabIndex = 33;
+            // 
+            // searchUserControl3
+            // 
+            this.searchUserControl3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
+            this.searchUserControl3.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Warehouse;
+            this.searchUserControl3.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchUserControl3.Labelname = "창고";
+            this.searchUserControl3.Location = new System.Drawing.Point(50, 53);
+            this.searchUserControl3.Name = "searchUserControl3";
+            this.searchUserControl3.Size = new System.Drawing.Size(312, 25);
+            this.searchUserControl3.TabIndex = 35;
             // 
             // StockStatus
             // 

@@ -100,6 +100,36 @@
     <Compile Include="Forms\CMG\WarehouseInsUp.Designer.cs">
       <DependentUpon>WarehouseInsUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\KHS\Shipment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\Shipment.Designer.cs">
+      <DependentUpon>Shipment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentOrder.Designer.cs">
+      <DependentUpon>ShipmentOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentOrder_.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentOrder_.Designer.cs">
+      <DependentUpon>ShipmentOrder_.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentReg.Designer.cs">
+      <DependentUpon>ShipmentReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentReg_cs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentReg_cs.Designer.cs">
+      <DependentUpon>ShipmentReg_cs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\KJH\ProductionProcessAdd.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -404,6 +434,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\HJS\WorkList.resx">
       <DependentUpon>WorkList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\Shipment.resx">
+      <DependentUpon>Shipment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\ShipmentOrder.resx">
+      <DependentUpon>ShipmentOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\ShipmentOrder_.resx">
+      <DependentUpon>ShipmentOrder_.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\ShipmentReg.resx">
+      <DependentUpon>ShipmentReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\ShipmentReg_cs.resx">
+      <DependentUpon>ShipmentReg_cs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\CalendarForm.resx">
       <DependentUpon>CalendarForm.cs</DependentUpon>
