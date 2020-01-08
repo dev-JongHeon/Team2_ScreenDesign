@@ -70,10 +70,12 @@
             // btnCancel
             // 
             this.btnCancel.FlatAppearance.BorderSize = 0;
+            this.btnCancel.TabIndex = 8;
             // 
             // btnOK
             // 
             this.btnOK.FlatAppearance.BorderSize = 0;
+            this.btnOK.TabIndex = 7;
             // 
             // label1
             // 
@@ -143,14 +145,14 @@
             this.txtCompanyCode.Location = new System.Drawing.Point(116, 30);
             this.txtCompanyCode.Name = "txtCompanyCode";
             this.txtCompanyCode.Size = new System.Drawing.Size(133, 21);
-            this.txtCompanyCode.TabIndex = 2;
+            this.txtCompanyCode.TabIndex = 0;
             // 
             // txtCompanyName
             // 
             this.txtCompanyName.Location = new System.Drawing.Point(116, 84);
             this.txtCompanyName.Name = "txtCompanyName";
             this.txtCompanyName.Size = new System.Drawing.Size(133, 21);
-            this.txtCompanyName.TabIndex = 2;
+            this.txtCompanyName.TabIndex = 1;
             // 
             // txtCompanyAddr
             // 
@@ -164,28 +166,28 @@
             this.txtCompanyNumber.Location = new System.Drawing.Point(116, 180);
             this.txtCompanyNumber.Name = "txtCompanyNumber";
             this.txtCompanyNumber.Size = new System.Drawing.Size(133, 21);
-            this.txtCompanyNumber.TabIndex = 2;
+            this.txtCompanyNumber.TabIndex = 3;
             // 
             // txtCompanyFaxNumber
             // 
             this.txtCompanyFaxNumber.Location = new System.Drawing.Point(116, 228);
             this.txtCompanyFaxNumber.Name = "txtCompanyFaxNumber";
             this.txtCompanyFaxNumber.Size = new System.Drawing.Size(133, 21);
-            this.txtCompanyFaxNumber.TabIndex = 2;
+            this.txtCompanyFaxNumber.TabIndex = 4;
             // 
             // txtCompanyBC
             // 
             this.txtCompanyBC.Location = new System.Drawing.Point(116, 280);
             this.txtCompanyBC.Name = "txtCompanyBC";
             this.txtCompanyBC.Size = new System.Drawing.Size(133, 21);
-            this.txtCompanyBC.TabIndex = 2;
+            this.txtCompanyBC.TabIndex = 5;
             // 
             // txtCompanyDivision
             // 
             this.txtCompanyDivision.Location = new System.Drawing.Point(116, 330);
             this.txtCompanyDivision.Name = "txtCompanyDivision";
             this.txtCompanyDivision.Size = new System.Drawing.Size(133, 21);
-            this.txtCompanyDivision.TabIndex = 2;
+            this.txtCompanyDivision.TabIndex = 6;
             // 
             // CompanyInsUp
             // 

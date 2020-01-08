@@ -66,10 +66,12 @@
             // btnCancel
             // 
             this.btnCancel.FlatAppearance.BorderSize = 0;
+            this.btnCancel.TabIndex = 7;
             // 
             // btnOK
             // 
             this.btnOK.FlatAppearance.BorderSize = 0;
+            this.btnOK.TabIndex = 6;
             // 
             // label1
             // 
@@ -130,7 +132,7 @@
             this.txtFactoryCode.Location = new System.Drawing.Point(100, 30);
             this.txtFactoryCode.Name = "txtFactoryCode";
             this.txtFactoryCode.Size = new System.Drawing.Size(133, 21);
-            this.txtFactoryCode.TabIndex = 1;
+            this.txtFactoryCode.TabIndex = 0;
             // 
             // txtFactoryName
             // 
@@ -144,28 +146,28 @@
             this.txtFactoryDivision.Location = new System.Drawing.Point(100, 144);
             this.txtFactoryDivision.Name = "txtFactoryDivision";
             this.txtFactoryDivision.Size = new System.Drawing.Size(133, 21);
-            this.txtFactoryDivision.TabIndex = 1;
+            this.txtFactoryDivision.TabIndex = 2;
             // 
             // txtFactoryNumber
             // 
             this.txtFactoryNumber.Location = new System.Drawing.Point(100, 201);
             this.txtFactoryNumber.Name = "txtFactoryNumber";
             this.txtFactoryNumber.Size = new System.Drawing.Size(133, 21);
-            this.txtFactoryNumber.TabIndex = 1;
+            this.txtFactoryNumber.TabIndex = 3;
             // 
             // txtFactoryFaxNumber
             // 
             this.txtFactoryFaxNumber.Location = new System.Drawing.Point(100, 255);
             this.txtFactoryFaxNumber.Name = "txtFactoryFaxNumber";
             this.txtFactoryFaxNumber.Size = new System.Drawing.Size(133, 21);
-            this.txtFactoryFaxNumber.TabIndex = 1;
+            this.txtFactoryFaxNumber.TabIndex = 4;
             // 
             // txtFactoryAddr
             // 
             this.txtFactoryAddr.Location = new System.Drawing.Point(100, 308);
             this.txtFactoryAddr.Name = "txtFactoryAddr";
             this.txtFactoryAddr.Size = new System.Drawing.Size(133, 21);
-            this.txtFactoryAddr.TabIndex = 1;
+            this.txtFactoryAddr.TabIndex = 5;
             // 
             // FactoryInsUp
             // 

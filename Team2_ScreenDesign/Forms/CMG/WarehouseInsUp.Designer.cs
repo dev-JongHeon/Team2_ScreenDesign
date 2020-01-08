@@ -66,10 +66,12 @@
             // btnCancel
             // 
             this.btnCancel.FlatAppearance.BorderSize = 0;
+            this.btnCancel.TabIndex = 7;
             // 
             // btnOK
             // 
             this.btnOK.FlatAppearance.BorderSize = 0;
+            this.btnOK.TabIndex = 6;
             // 
             // label1
             // 
@@ -130,7 +132,7 @@
             this.txtWarehouseCode.Location = new System.Drawing.Point(116, 40);
             this.txtWarehouseCode.Name = "txtWarehouseCode";
             this.txtWarehouseCode.Size = new System.Drawing.Size(143, 21);
-            this.txtWarehouseCode.TabIndex = 1;
+            this.txtWarehouseCode.TabIndex = 0;
             // 
             // txtWarehouseName
             // 
@@ -144,28 +146,28 @@
             this.txtWarehouseDivision.Location = new System.Drawing.Point(116, 157);
             this.txtWarehouseDivision.Name = "txtWarehouseDivision";
             this.txtWarehouseDivision.Size = new System.Drawing.Size(143, 21);
-            this.txtWarehouseDivision.TabIndex = 1;
+            this.txtWarehouseDivision.TabIndex = 2;
             // 
             // txtWarehouseNumber
             // 
             this.txtWarehouseNumber.Location = new System.Drawing.Point(116, 212);
             this.txtWarehouseNumber.Name = "txtWarehouseNumber";
             this.txtWarehouseNumber.Size = new System.Drawing.Size(143, 21);
-            this.txtWarehouseNumber.TabIndex = 1;
+            this.txtWarehouseNumber.TabIndex = 3;
             // 
             // txtWarehouseFaxNumber
             // 
             this.txtWarehouseFaxNumber.Location = new System.Drawing.Point(116, 266);
             this.txtWarehouseFaxNumber.Name = "txtWarehouseFaxNumber";
             this.txtWarehouseFaxNumber.Size = new System.Drawing.Size(143, 21);
-            this.txtWarehouseFaxNumber.TabIndex = 1;
+            this.txtWarehouseFaxNumber.TabIndex = 4;
             // 
             // txtWarehouseAddr
             // 
             this.txtWarehouseAddr.Location = new System.Drawing.Point(116, 326);
             this.txtWarehouseAddr.Name = "txtWarehouseAddr";
             this.txtWarehouseAddr.Size = new System.Drawing.Size(143, 21);
-            this.txtWarehouseAddr.TabIndex = 1;
+            this.txtWarehouseAddr.TabIndex = 5;
             // 
             // WarehouseInsUp
             // 
