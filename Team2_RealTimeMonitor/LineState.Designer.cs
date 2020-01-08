@@ -1,6 +1,6 @@
 ﻿namespace Team2_RealTimeMonitor
 {
-    partial class Form1
+    partial class LineState
     {
         /// <summary>
         /// 필수 디자이너 변수입니다.
@@ -34,7 +34,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(884, 561);
+            this.ClientSize = new System.Drawing.Size(622, 611);
             this.Font = new System.Drawing.Font("나눔고딕", 10F);
             this.Name = "Form1";
             this.Text = "Form1";
