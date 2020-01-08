@@ -35,7 +35,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -60,6 +59,7 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
             this.panel2.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -143,17 +143,6 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(978, 253);
             this.panel7.TabIndex = 6;
-            // 
-            // searchUserControl1
-            // 
-            this.searchUserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
-            this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Worker;
-            this.searchUserControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchUserControl1.Labelname = "작업자";
-            this.searchUserControl1.Location = new System.Drawing.Point(116, 35);
-            this.searchUserControl1.Name = "searchUserControl1";
-            this.searchUserControl1.Size = new System.Drawing.Size(312, 25);
-            this.searchUserControl1.TabIndex = 1;
             // 
             // dataGridView1
             // 
@@ -375,11 +364,21 @@
             this.button2.Text = "▼";
             this.button2.UseVisualStyleBackColor = false;
             // 
+            // searchUserControl1
+            // 
+            this.searchUserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
+            this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Worker;
+            this.searchUserControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchUserControl1.Location = new System.Drawing.Point(116, 35);
+            this.searchUserControl1.Name = "searchUserControl1";
+            this.searchUserControl1.Size = new System.Drawing.Size(312, 25);
+            this.searchUserControl1.TabIndex = 1;
+            // 
             // Balju
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(245)))), ((int)(((byte)(248)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(245)))), ((int)(((byte)(251)))));
             this.ClientSize = new System.Drawing.Size(980, 703);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
