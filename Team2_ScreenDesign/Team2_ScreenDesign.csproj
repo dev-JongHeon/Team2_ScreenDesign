@@ -58,6 +58,24 @@
     <Compile Include="Custom\SearchPeriodControl.Designer.cs">
       <DependentUpon>SearchPeriodControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\SSD\InOutList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SSD\InOutList.Designer.cs">
+      <DependentUpon>InOutList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SSD\StockStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SSD\StockStatus.Designer.cs">
+      <DependentUpon>StockStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SSD\BaljuList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SSD\BaljuList.Designer.cs">
+      <DependentUpon>BaljuList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\KJH\ProductionProcessAdd.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -256,23 +274,17 @@
     <Compile Include="Forms\KJH\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\SSD\Balju.cs" />
+    <Compile Include="Forms\SSD\Balju.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\SSD\Balju.designer.cs">
       <DependentUpon>Balju.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\SSD\InOutList.cs">
+    <Compile Include="Forms\SSD\InOutput.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\SSD\InOutList.Designer.cs">
-      <DependentUpon>InOutList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\SSD\InOutput.cs" />
     <Compile Include="Forms\SSD\InOutput.designer.cs">
       <DependentUpon>InOutput.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\SSD\Stock_Status.cs" />
-    <Compile Include="Forms\SSD\Stock_Status.designer.cs">
-      <DependentUpon>Stock_Status.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\KJH\WorkerbyProcess.cs">
       <SubType>Form</SubType>
@@ -317,6 +329,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Custom\SearchPeriodControl.resx">
       <DependentUpon>SearchPeriodControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SSD\InOutList.resx">
+      <DependentUpon>InOutList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SSD\StockStatus.resx">
+      <DependentUpon>StockStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SSD\BaljuList.resx">
+      <DependentUpon>BaljuList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\BaseForm\Base1Dgv.resx">
       <DependentUpon>Base1Dgv.cs</DependentUpon>
@@ -414,14 +435,8 @@
     <EmbeddedResource Include="Forms\SSD\Balju.resx">
       <DependentUpon>Balju.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SSD\InOutList.resx">
-      <DependentUpon>InOutList.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\InOutput.resx">
       <DependentUpon>InOutput.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SSD\Stock_Status.resx">
-      <DependentUpon>Stock_Status.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\WorkerbyProcess.resx">
       <DependentUpon>WorkerbyProcess.cs</DependentUpon>
