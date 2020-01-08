@@ -8,11 +8,15 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class Downtime : BaseForm
+    public partial class WorkerbyProcess : BasePopup
     {
-        public Downtime()
+        public WorkerbyProcess()
         {
             InitializeComponent();
+            searchUserControl1.Labelname = "";
         }
+        
+        
+
     }
 }

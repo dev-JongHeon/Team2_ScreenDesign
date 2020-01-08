@@ -317,5 +317,12 @@ namespace Team2_ScreenDesign
 
             }
         }
+
+        private void 신규ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            WorkerbyProcess frm = new WorkerbyProcess();
+            frm.Labelname = "불량";
+            frm.ShowDialog();
+        }
     }
 }

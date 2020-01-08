@@ -153,6 +153,26 @@ namespace Team2_ScreenDesign.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap close__1_ {
+            get {
+                object obj = ResourceManager.GetObject("close (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap Close_32x32 {
+            get {
+                object obj = ResourceManager.GetObject("Close_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap Customization_16x16 {
             get {
                 object obj = ResourceManager.GetObject("Customization_16x16", resourceCulture);
@@ -216,6 +236,26 @@ namespace Team2_ScreenDesign.Properties {
         internal static System.Drawing.Bitmap Lookup_Reference_32x32 {
             get {
                 object obj = ResourceManager.GetObject("Lookup&Reference_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap NewProducts_32x32 {
+            get {
+                object obj = ResourceManager.GetObject("NewProducts_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap NewSales_16x16 {
+            get {
+                object obj = ResourceManager.GetObject("NewSales_16x16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

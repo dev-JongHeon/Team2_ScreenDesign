@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class StockStatus : Team2_ScreenDesign.Base1Dgv
+    public partial class ProductionProcessAdd : Team2_ScreenDesign.BasePopup
     {
-        public StockStatus()
+        public ProductionProcessAdd()
         {
             InitializeComponent();
         }

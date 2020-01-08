@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Team2_ScreenDesign
+namespace TeamProject
 {
-    public partial class Balju2 : Form
+    public partial class Form1 : Form
     {
-        public Balju2()
+        public Form1()
         {
             InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class Input2 : Form
+    public partial class Balju : Form
     {
-        public Input2()
+        public Balju()
         {
             InitializeComponent();
-        }
-
-        private void Input_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
