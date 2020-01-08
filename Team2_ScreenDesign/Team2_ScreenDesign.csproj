@@ -58,6 +58,30 @@
     <Compile Include="Custom\SearchPeriodControl.Designer.cs">
       <DependentUpon>SearchPeriodControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\CMG\CompanyInsUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\CompanyInsUp.Designer.cs">
+      <DependentUpon>CompanyInsUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\CustomerInsUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\CustomerInsUp.Designer.cs">
+      <DependentUpon>CustomerInsUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\EmployeesInsUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\EmployeesInsUp.Designer.cs">
+      <DependentUpon>EmployeesInsUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\FactoryInsUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\FactoryInsUp.Designer.cs">
+      <DependentUpon>FactoryInsUp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\CMG\ProductComp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +93,12 @@
     </Compile>
     <Compile Include="Forms\CMG\SemiProductComp.Designer.cs">
       <DependentUpon>SemiProductComp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\WarehouseInsUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\WarehouseInsUp.Designer.cs">
+      <DependentUpon>WarehouseInsUp.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\KJH\ProductionProcessAdd.cs">
       <SubType>Form</SubType>
@@ -112,23 +142,11 @@
     <Compile Include="Forms\CMG\Company.Designer.cs">
       <DependentUpon>Company.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\CMG\CompanyInsUp.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\CMG\CompanyInsUp.Designer.cs">
-      <DependentUpon>CompanyInsUp.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\CMG\Customer.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\CMG\Customer.Designer.cs">
       <DependentUpon>Customer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\CMG\CustomerInsUp.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\CMG\CustomerInsUp.Designer.cs">
-      <DependentUpon>CustomerInsUp.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\CMG\Employees.cs">
       <SubType>Form</SubType>
@@ -136,35 +154,17 @@
     <Compile Include="Forms\CMG\Employees.Designer.cs">
       <DependentUpon>Employees.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\CMG\EmployeesInsUp.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\CMG\EmployeesInsUp.Designer.cs">
-      <DependentUpon>EmployeesInsUp.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\CMG\Factory.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\CMG\Factory.Designer.cs">
       <DependentUpon>Factory.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\CMG\FactoryInsUp.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\CMG\FactoryInsUp.Designer.cs">
-      <DependentUpon>FactoryInsUp.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\CMG\Warehouse.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\CMG\Warehouse.Designer.cs">
       <DependentUpon>Warehouse.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\CMG\WarehouseInsUp.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\CMG\WarehouseInsUp.Designer.cs">
-      <DependentUpon>WarehouseInsUp.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\HJS\Produce.cs">
       <SubType>Form</SubType>
