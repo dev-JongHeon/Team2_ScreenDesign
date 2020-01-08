@@ -31,21 +31,23 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblLine = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lblProduct = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.splitContainer3 = new System.Windows.Forms.SplitContainer();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblProduce = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblProduceRate = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblRequest = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.lblDefecitve = new System.Windows.Forms.Label();
+            this.splitContainer4 = new System.Windows.Forms.SplitContainer();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -61,6 +63,10 @@
             this.splitContainer3.Panel2.SuspendLayout();
             this.splitContainer3.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).BeginInit();
+            this.splitContainer4.Panel1.SuspendLayout();
+            this.splitContainer4.Panel2.SuspendLayout();
+            this.splitContainer4.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -78,8 +84,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer3);
-            this.splitContainer1.Size = new System.Drawing.Size(200, 300);
-            this.splitContainer1.SplitterDistance = 79;
+            this.splitContainer1.Size = new System.Drawing.Size(198, 298);
+            this.splitContainer1.SplitterDistance = 78;
             this.splitContainer1.SplitterWidth = 5;
             this.splitContainer1.TabIndex = 0;
             // 
@@ -97,8 +103,8 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.pictureBox1);
-            this.splitContainer2.Size = new System.Drawing.Size(200, 79);
-            this.splitContainer2.SplitterDistance = 142;
+            this.splitContainer2.Size = new System.Drawing.Size(198, 78);
+            this.splitContainer2.SplitterDistance = 140;
             this.splitContainer2.TabIndex = 0;
             // 
             // tableLayoutPanel1
@@ -106,7 +112,7 @@
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.White;
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.lblLine, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.lblProduct, 0, 2);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -116,21 +122,21 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(142, 79);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(140, 78);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // label1
+            // lblLine
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Location = new System.Drawing.Point(3, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(136, 28);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "공정명";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblLine.AutoSize = true;
+            this.lblLine.BackColor = System.Drawing.Color.White;
+            this.lblLine.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblLine.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblLine.Location = new System.Drawing.Point(3, 0);
+            this.lblLine.Name = "lblLine";
+            this.lblLine.Size = new System.Drawing.Size(134, 27);
+            this.lblLine.TabIndex = 0;
+            this.lblLine.Text = "공정명";
+            this.lblLine.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
@@ -138,9 +144,9 @@
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Location = new System.Drawing.Point(3, 28);
+            this.label2.Location = new System.Drawing.Point(3, 27);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(136, 28);
+            this.label2.Size = new System.Drawing.Size(134, 27);
             this.label2.TabIndex = 1;
             this.label2.Text = "생산제품명";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -150,9 +156,9 @@
             this.lblProduct.AutoSize = true;
             this.lblProduct.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblProduct.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblProduct.Location = new System.Drawing.Point(3, 56);
+            this.lblProduct.Location = new System.Drawing.Point(3, 54);
             this.lblProduct.Name = "lblProduct";
-            this.lblProduct.Size = new System.Drawing.Size(136, 23);
+            this.lblProduct.Size = new System.Drawing.Size(134, 24);
             this.lblProduct.TabIndex = 2;
             this.lblProduct.Text = "제품기입란";
             this.lblProduct.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -163,7 +169,7 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(54, 79);
+            this.pictureBox1.Size = new System.Drawing.Size(54, 78);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -181,9 +187,9 @@
             // 
             // splitContainer3.Panel2
             // 
-            this.splitContainer3.Panel2.Controls.Add(this.label3);
-            this.splitContainer3.Size = new System.Drawing.Size(200, 216);
-            this.splitContainer3.SplitterDistance = 187;
+            this.splitContainer3.Panel2.Controls.Add(this.splitContainer4);
+            this.splitContainer3.Size = new System.Drawing.Size(198, 215);
+            this.splitContainer3.SplitterDistance = 186;
             this.splitContainer3.TabIndex = 0;
             // 
             // tableLayoutPanel2
@@ -192,13 +198,13 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.Controls.Add(this.label4, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label5, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.lblProduce, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.label6, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label7, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.lblProduceRate, 1, 1);
             this.tableLayoutPanel2.Controls.Add(this.label8, 0, 2);
-            this.tableLayoutPanel2.Controls.Add(this.label9, 0, 3);
+            this.tableLayoutPanel2.Controls.Add(this.lblRequest, 0, 3);
             this.tableLayoutPanel2.Controls.Add(this.label10, 1, 2);
-            this.tableLayoutPanel2.Controls.Add(this.label11, 1, 3);
+            this.tableLayoutPanel2.Controls.Add(this.lblDefecitve, 1, 3);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -207,7 +213,7 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(198, 185);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(196, 184);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // label4
@@ -217,46 +223,46 @@
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label4.Location = new System.Drawing.Point(3, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(93, 46);
+            this.label4.Size = new System.Drawing.Size(92, 46);
             this.label4.TabIndex = 0;
             this.label4.Text = "생산량";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label5
+            // lblProduce
             // 
-            this.label5.AutoSize = true;
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label5.Location = new System.Drawing.Point(3, 46);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(93, 46);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "0개";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblProduce.AutoSize = true;
+            this.lblProduce.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblProduce.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblProduce.Location = new System.Drawing.Point(3, 46);
+            this.lblProduce.Name = "lblProduce";
+            this.lblProduce.Size = new System.Drawing.Size(92, 46);
+            this.lblProduce.TabIndex = 1;
+            this.lblProduce.Text = "0개";
+            this.lblProduce.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label6.Location = new System.Drawing.Point(102, 0);
+            this.label6.Location = new System.Drawing.Point(101, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(93, 46);
+            this.label6.Size = new System.Drawing.Size(92, 46);
             this.label6.TabIndex = 2;
             this.label6.Text = "작업률";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label7
+            // lblProduceRate
             // 
-            this.label7.AutoSize = true;
-            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label7.Location = new System.Drawing.Point(102, 46);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(93, 46);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "2.35%";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblProduceRate.AutoSize = true;
+            this.lblProduceRate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblProduceRate.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblProduceRate.Location = new System.Drawing.Point(101, 46);
+            this.lblProduceRate.Name = "lblProduceRate";
+            this.lblProduceRate.Size = new System.Drawing.Size(92, 46);
+            this.lblProduceRate.TabIndex = 3;
+            this.lblProduceRate.Text = "2.35%";
+            this.lblProduceRate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label8
             // 
@@ -265,22 +271,63 @@
             this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label8.Location = new System.Drawing.Point(3, 92);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(93, 46);
+            this.label8.Size = new System.Drawing.Size(92, 46);
             this.label8.TabIndex = 4;
             this.label8.Text = "요청량";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label9
+            // lblRequest
             // 
-            this.label9.AutoSize = true;
-            this.label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label9.Location = new System.Drawing.Point(3, 138);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(93, 47);
-            this.label9.TabIndex = 5;
-            this.label9.Text = "0개";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblRequest.AutoSize = true;
+            this.lblRequest.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblRequest.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblRequest.Location = new System.Drawing.Point(3, 138);
+            this.lblRequest.Name = "lblRequest";
+            this.lblRequest.Size = new System.Drawing.Size(92, 46);
+            this.lblRequest.TabIndex = 5;
+            this.lblRequest.Text = "0개";
+            this.lblRequest.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label10.Location = new System.Drawing.Point(101, 92);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(92, 46);
+            this.label10.TabIndex = 6;
+            this.label10.Text = "불량개수";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblDefecitve
+            // 
+            this.lblDefecitve.AutoSize = true;
+            this.lblDefecitve.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblDefecitve.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblDefecitve.Location = new System.Drawing.Point(101, 138);
+            this.lblDefecitve.Name = "lblDefecitve";
+            this.lblDefecitve.Size = new System.Drawing.Size(92, 46);
+            this.lblDefecitve.TabIndex = 7;
+            this.lblDefecitve.Text = "0개";
+            this.lblDefecitve.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // splitContainer4
+            // 
+            this.splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer4.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer4.Name = "splitContainer4";
+            // 
+            // splitContainer4.Panel1
+            // 
+            this.splitContainer4.Panel1.Controls.Add(this.label1);
+            // 
+            // splitContainer4.Panel2
+            // 
+            this.splitContainer4.Panel2.Controls.Add(this.label3);
+            this.splitContainer4.Size = new System.Drawing.Size(196, 23);
+            this.splitContainer4.SplitterDistance = 60;
+            this.splitContainer4.TabIndex = 0;
             // 
             // label3
             // 
@@ -288,43 +335,31 @@
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Location = new System.Drawing.Point(0, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(198, 23);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "작업시작 :  2020/01/07 12:43:32";
+            this.label3.Size = new System.Drawing.Size(132, 23);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "2020/01/07 12:43:32";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label10
+            // label1
             // 
-            this.label10.AutoSize = true;
-            this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label10.Location = new System.Drawing.Point(102, 92);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(93, 46);
-            this.label10.TabIndex = 6;
-            this.label10.Text = "불량개수";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label11.Location = new System.Drawing.Point(102, 138);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(93, 47);
-            this.label11.TabIndex = 7;
-            this.label11.Text = "label11";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(60, 23);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "작업시작 :";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // Monitor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.splitContainer1);
             this.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.Name = "Monitor";
-            this.Size = new System.Drawing.Size(200, 300);
+            this.Size = new System.Drawing.Size(198, 298);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
@@ -342,6 +377,10 @@
             this.splitContainer3.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
+            this.splitContainer4.Panel1.ResumeLayout(false);
+            this.splitContainer4.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).EndInit();
+            this.splitContainer4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -351,20 +390,22 @@
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.SplitContainer splitContainer2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblLine;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblProduct;
         private System.Windows.Forms.SplitContainer splitContainer3;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblProduce;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblProduceRate;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lblRequest;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lblDefecitve;
+        private System.Windows.Forms.SplitContainer splitContainer4;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
     }
 }

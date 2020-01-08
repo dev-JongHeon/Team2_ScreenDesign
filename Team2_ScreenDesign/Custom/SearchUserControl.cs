@@ -32,7 +32,7 @@ namespace Team2_ScreenDesign
         
         public string Labelname { get => lblName.Text; set => lblName.Text=value; }
 
-        public enum Mode { Worker, Defective, Product, Downtime,
+        public enum Mode { Worker, Defective, Product, Downtime, Company,
             Factory, Line, Meterial, SemiProduct,Customer, Warehouse, Department };
 
         Mode Modes = Mode.Worker;
@@ -78,6 +78,9 @@ namespace Team2_ScreenDesign
                         break;
                     case Mode.Warehouse:
                         this.CodeLabel.Text = "창고";
+                        break;
+                    case Mode.Company:
+                        this.CodeLabel.Text = "회사";
                         break;
                 }
             }

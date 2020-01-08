@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TeamProject
+namespace Team2_RealTimeMonitor
 {
-    public partial class Form1 : Form
+    public partial class LineState : Form
     {
-        public Form1()
+        public LineState()
         {
             InitializeComponent();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
