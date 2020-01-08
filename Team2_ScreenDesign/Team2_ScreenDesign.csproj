@@ -58,6 +58,30 @@
     <Compile Include="Custom\SearchPeriodControl.Designer.cs">
       <DependentUpon>SearchPeriodControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\KHS\ShipmentReg_.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentReg_.Designer.cs">
+      <DependentUpon>ShipmentReg_.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KHS\Shipment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\Shipment.Designer.cs">
+      <DependentUpon>Shipment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentOrder.Designer.cs">
+      <DependentUpon>ShipmentOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentReg.Designer.cs">
+      <DependentUpon>ShipmentReg.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\KJH\ProductionProcessAdd.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -374,6 +398,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\HJS\WorkList.resx">
       <DependentUpon>WorkList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\Shipment.resx">
+      <DependentUpon>Shipment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\ShipmentOrder.resx">
+      <DependentUpon>ShipmentOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\ShipmentReg.resx">
+      <DependentUpon>ShipmentReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\ShipmentReg_.resx">
+      <DependentUpon>ShipmentReg_.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\CalendarForm.resx">
       <DependentUpon>CalendarForm.cs</DependentUpon>
