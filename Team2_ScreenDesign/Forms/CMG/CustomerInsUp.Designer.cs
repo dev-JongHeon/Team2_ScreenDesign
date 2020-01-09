@@ -66,12 +66,10 @@
             // btnCancel
             // 
             this.btnCancel.FlatAppearance.BorderSize = 0;
-            this.btnCancel.TabIndex = 7;
             // 
             // btnOK
             // 
             this.btnOK.FlatAppearance.BorderSize = 0;
-            this.btnOK.TabIndex = 6;
             // 
             // label1
             // 
@@ -132,7 +130,7 @@
             this.txtCustomerID.Location = new System.Drawing.Point(91, 34);
             this.txtCustomerID.Name = "txtCustomerID";
             this.txtCustomerID.Size = new System.Drawing.Size(151, 21);
-            this.txtCustomerID.TabIndex = 0;
+            this.txtCustomerID.TabIndex = 1;
             // 
             // txtCustomerPassword
             // 
@@ -146,21 +144,21 @@
             this.txtCustomerName.Location = new System.Drawing.Point(91, 144);
             this.txtCustomerName.Name = "txtCustomerName";
             this.txtCustomerName.Size = new System.Drawing.Size(151, 21);
-            this.txtCustomerName.TabIndex = 2;
+            this.txtCustomerName.TabIndex = 1;
             // 
             // txtCustomerPhoneNumber
             // 
             this.txtCustomerPhoneNumber.Location = new System.Drawing.Point(91, 203);
             this.txtCustomerPhoneNumber.Name = "txtCustomerPhoneNumber";
             this.txtCustomerPhoneNumber.Size = new System.Drawing.Size(151, 21);
-            this.txtCustomerPhoneNumber.TabIndex = 3;
+            this.txtCustomerPhoneNumber.TabIndex = 1;
             // 
             // txtCustomerAddr
             // 
             this.txtCustomerAddr.Location = new System.Drawing.Point(91, 313);
             this.txtCustomerAddr.Name = "txtCustomerAddr";
             this.txtCustomerAddr.Size = new System.Drawing.Size(151, 21);
-            this.txtCustomerAddr.TabIndex = 5;
+            this.txtCustomerAddr.TabIndex = 1;
             // 
             // dtpCustomerBirthDay
             // 
@@ -168,7 +166,7 @@
             this.dtpCustomerBirthDay.Location = new System.Drawing.Point(91, 260);
             this.dtpCustomerBirthDay.Name = "dtpCustomerBirthDay";
             this.dtpCustomerBirthDay.Size = new System.Drawing.Size(151, 21);
-            this.dtpCustomerBirthDay.TabIndex = 4;
+            this.dtpCustomerBirthDay.TabIndex = 2;
             // 
             // CustomerInsUp
             // 

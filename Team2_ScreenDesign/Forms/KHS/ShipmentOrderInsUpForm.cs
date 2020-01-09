@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign.Forms.KHS
 {
-    public partial class ShipmentReg_cs : Form
+    public partial class ShipmentOrderInsUpForm : Form
     {
-        public ShipmentReg_cs()
+        public ShipmentOrderInsUpForm()
         {
             InitializeComponent();
         }
