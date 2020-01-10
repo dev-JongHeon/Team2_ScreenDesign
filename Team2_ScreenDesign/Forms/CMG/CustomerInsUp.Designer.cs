@@ -33,12 +33,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.txtCustomerID = new System.Windows.Forms.TextBox();
             this.txtCustomerPassword = new System.Windows.Forms.TextBox();
             this.txtCustomerName = new System.Windows.Forms.TextBox();
             this.txtCustomerPhoneNumber = new System.Windows.Forms.TextBox();
-            this.txtCustomerAddr = new System.Windows.Forms.TextBox();
             this.dtpCustomerBirthDay = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             this.panel_Title.SuspendLayout();
@@ -51,12 +49,10 @@
             // panel5
             // 
             this.panel5.Controls.Add(this.dtpCustomerBirthDay);
-            this.panel5.Controls.Add(this.txtCustomerAddr);
             this.panel5.Controls.Add(this.txtCustomerPhoneNumber);
             this.panel5.Controls.Add(this.txtCustomerName);
             this.panel5.Controls.Add(this.txtCustomerPassword);
             this.panel5.Controls.Add(this.txtCustomerID);
-            this.panel5.Controls.Add(this.label6);
             this.panel5.Controls.Add(this.label5);
             this.panel5.Controls.Add(this.label4);
             this.panel5.Controls.Add(this.label3);
@@ -116,15 +112,6 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "생년월일";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(44, 320);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(29, 14);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "주소";
-            // 
             // txtCustomerID
             // 
             this.txtCustomerID.Location = new System.Drawing.Point(91, 34);
@@ -152,13 +139,6 @@
             this.txtCustomerPhoneNumber.Name = "txtCustomerPhoneNumber";
             this.txtCustomerPhoneNumber.Size = new System.Drawing.Size(151, 21);
             this.txtCustomerPhoneNumber.TabIndex = 1;
-            // 
-            // txtCustomerAddr
-            // 
-            this.txtCustomerAddr.Location = new System.Drawing.Point(91, 313);
-            this.txtCustomerAddr.Name = "txtCustomerAddr";
-            this.txtCustomerAddr.Size = new System.Drawing.Size(151, 21);
-            this.txtCustomerAddr.TabIndex = 1;
             // 
             // dtpCustomerBirthDay
             // 
@@ -192,12 +172,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dtpCustomerBirthDay;
-        private System.Windows.Forms.TextBox txtCustomerAddr;
         private System.Windows.Forms.TextBox txtCustomerPhoneNumber;
         private System.Windows.Forms.TextBox txtCustomerName;
         private System.Windows.Forms.TextBox txtCustomerPassword;
         private System.Windows.Forms.TextBox txtCustomerID;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
     }
