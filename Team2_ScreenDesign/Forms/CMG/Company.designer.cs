@@ -37,6 +37,9 @@
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
+            this.searchUserControl2 = new Team2_ScreenDesign.SearchUserControl();
+            this.searchUserControl3 = new Team2_ScreenDesign.SearchUserControl();
+            this.searchUserControl4 = new Team2_ScreenDesign.SearchUserControl();
             this.panel1.SuspendLayout();
             this.panel_Search.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -64,6 +67,9 @@
             // 
             // panel5
             // 
+            this.panel5.Controls.Add(this.searchUserControl4);
+            this.panel5.Controls.Add(this.searchUserControl3);
+            this.panel5.Controls.Add(this.searchUserControl2);
             this.panel5.Controls.Add(this.searchUserControl1);
             this.panel5.Size = new System.Drawing.Size(1344, 110);
             // 
@@ -132,13 +138,42 @@
             // searchUserControl1
             // 
             this.searchUserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
-            this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Company;
+            this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Worker;
             this.searchUserControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchUserControl1.Labelname = "회사";
-            this.searchUserControl1.Location = new System.Drawing.Point(3, 1);
+            this.searchUserControl1.Location = new System.Drawing.Point(3, 6);
             this.searchUserControl1.Name = "searchUserControl1";
             this.searchUserControl1.Size = new System.Drawing.Size(312, 30);
             this.searchUserControl1.TabIndex = 0;
+            // 
+            // searchUserControl2
+            // 
+            this.searchUserControl2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
+            this.searchUserControl2.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Worker;
+            this.searchUserControl2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchUserControl2.Location = new System.Drawing.Point(3, 41);
+            this.searchUserControl2.Name = "searchUserControl2";
+            this.searchUserControl2.Size = new System.Drawing.Size(312, 30);
+            this.searchUserControl2.TabIndex = 1;
+            // 
+            // searchUserControl3
+            // 
+            this.searchUserControl3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
+            this.searchUserControl3.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Worker;
+            this.searchUserControl3.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchUserControl3.Location = new System.Drawing.Point(3, 74);
+            this.searchUserControl3.Name = "searchUserControl3";
+            this.searchUserControl3.Size = new System.Drawing.Size(312, 30);
+            this.searchUserControl3.TabIndex = 2;
+            // 
+            // searchUserControl4
+            // 
+            this.searchUserControl4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
+            this.searchUserControl4.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Worker;
+            this.searchUserControl4.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchUserControl4.Location = new System.Drawing.Point(321, 6);
+            this.searchUserControl4.Name = "searchUserControl4";
+            this.searchUserControl4.Size = new System.Drawing.Size(312, 30);
+            this.searchUserControl4.TabIndex = 3;
             // 
             // Company
             // 
@@ -168,6 +203,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
+        private SearchUserControl searchUserControl4;
+        private SearchUserControl searchUserControl3;
+        private SearchUserControl searchUserControl2;
         private SearchUserControl searchUserControl1;
     }
 }
