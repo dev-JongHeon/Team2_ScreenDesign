@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Team2_ScreenDesign
+namespace Team2_ScreenDesign.Forms.KHS
 {
-    public partial class 비가동현황 : Form
+    public partial class ShipmentRegister : Form
     {
-        public 비가동현황()
+        public ShipmentRegister()
         {
             InitializeComponent();
         }

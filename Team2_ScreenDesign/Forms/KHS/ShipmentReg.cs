@@ -3,16 +3,14 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Team2_ScreenDesign
+namespace Team2_ScreenDesign.Forms.KHS
 {
-    public partial class 생산실적현황 : Form
+    public partial class ShipmentReg : Team2_ScreenDesign.Base1Dgv
     {
-        public 생산실적현황()
+        public ShipmentReg()
         {
             InitializeComponent();
         }

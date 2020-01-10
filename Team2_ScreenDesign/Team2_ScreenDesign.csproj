@@ -112,6 +112,42 @@
     <Compile Include="Forms\CMG\WarehouseInsUp.Designer.cs">
       <DependentUpon>WarehouseInsUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\KHS\ShipmentMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentMainForm.Designer.cs">
+      <DependentUpon>ShipmentMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentOrder.Designer.cs">
+      <DependentUpon>ShipmentOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentOrderForm.Designer.cs">
+      <DependentUpon>ShipmentOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentOrderInsUpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentOrderInsUpForm.Designer.cs">
+      <DependentUpon>ShipmentOrderInsUpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentRegForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentRegForm.Designer.cs">
+      <DependentUpon>ShipmentRegForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentRegInsUpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentRegInsUpForm.Designer.cs">
+      <DependentUpon>ShipmentRegInsUpForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\KJH\ProductionProcessAdd.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -238,24 +274,6 @@
     <Compile Include="Custom\PlaceHolderTextBox.designer.cs">
       <DependentUpon>PlaceHolderTextBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\HJS\비가동현황.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\HJS\비가동현황.designer.cs">
-      <DependentUpon>비가동현황.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\HJS\생산목록.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\HJS\생산목록.designer.cs">
-      <DependentUpon>생산목록.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\HJS\작업조회등록.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\HJS\작업조회등록.designer.cs">
-      <DependentUpon>작업조회등록.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\KHS\출하내역조회.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -312,12 +330,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Forms\HJS\불량현황.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\HJS\불량현황.designer.cs">
-      <DependentUpon>불량현황.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\SSD\TypeOfDisproduct.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -411,6 +423,24 @@
     <EmbeddedResource Include="Forms\HJS\WorkList.resx">
       <DependentUpon>WorkList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\ShipmentMainForm.resx">
+      <DependentUpon>ShipmentMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\ShipmentOrder.resx">
+      <DependentUpon>ShipmentOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\ShipmentOrderForm.resx">
+      <DependentUpon>ShipmentOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\ShipmentOrderInsUpForm.resx">
+      <DependentUpon>ShipmentOrderInsUpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\ShipmentRegForm.resx">
+      <DependentUpon>ShipmentRegForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\ShipmentRegInsUpForm.resx">
+      <DependentUpon>ShipmentRegInsUpForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\CalendarForm.resx">
       <DependentUpon>CalendarForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -425,15 +455,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Custom\PlaceHolderTextBox.resx">
       <DependentUpon>PlaceHolderTextBox.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\HJS\비가동현황.resx">
-      <DependentUpon>비가동현황.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\HJS\생산목록.resx">
-      <DependentUpon>생산목록.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\HJS\작업조회등록.resx">
-      <DependentUpon>작업조회등록.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KHS\출하내역조회.resx">
       <DependentUpon>출하내역조회.cs</DependentUpon>
@@ -469,9 +490,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\HJS\불량현황.resx">
-      <DependentUpon>불량현황.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\TypeOfDisproduct.resx">
       <DependentUpon>TypeOfDisproduct.cs</DependentUpon>
