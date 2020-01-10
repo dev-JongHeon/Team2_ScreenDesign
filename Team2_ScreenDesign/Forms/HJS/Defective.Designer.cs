@@ -180,6 +180,7 @@
             this.searchUserControl5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
             this.searchUserControl5.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Worker;
             this.searchUserControl5.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchUserControl5.Labelname = "작업자";
             this.searchUserControl5.Location = new System.Drawing.Point(371, 6);
             this.searchUserControl5.Name = "searchUserControl5";
             this.searchUserControl5.Size = new System.Drawing.Size(312, 30);
@@ -190,6 +191,7 @@
             this.searchUserControl3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
             this.searchUserControl3.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Product;
             this.searchUserControl3.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchUserControl3.Labelname = "제품";
             this.searchUserControl3.Location = new System.Drawing.Point(12, 69);
             this.searchUserControl3.Name = "searchUserControl3";
             this.searchUserControl3.Size = new System.Drawing.Size(312, 30);
@@ -200,6 +202,7 @@
             this.searchUserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
             this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Factory;
             this.searchUserControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchUserControl1.Labelname = "공장";
             this.searchUserControl1.Location = new System.Drawing.Point(12, 6);
             this.searchUserControl1.Name = "searchUserControl1";
             this.searchUserControl1.Size = new System.Drawing.Size(312, 30);
@@ -210,6 +213,7 @@
             this.searchUserControl2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
             this.searchUserControl2.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Line;
             this.searchUserControl2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchUserControl2.Labelname = "공정";
             this.searchUserControl2.Location = new System.Drawing.Point(12, 38);
             this.searchUserControl2.Name = "searchUserControl2";
             this.searchUserControl2.Size = new System.Drawing.Size(312, 30);
@@ -220,6 +224,7 @@
             this.searchUserControl4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
             this.searchUserControl4.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Defective;
             this.searchUserControl4.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchUserControl4.Labelname = "불량유형";
             this.searchUserControl4.Location = new System.Drawing.Point(371, 37);
             this.searchUserControl4.Name = "searchUserControl4";
             this.searchUserControl4.Size = new System.Drawing.Size(312, 30);
@@ -229,9 +234,9 @@
             // 
             this.searchPeriodControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.searchPeriodControl1.Labelname = "기간 선택";
-            this.searchPeriodControl1.Location = new System.Drawing.Point(371, 67);
+            this.searchPeriodControl1.Location = new System.Drawing.Point(371, 69);
             this.searchPeriodControl1.Name = "searchPeriodControl1";
-            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 35);
+            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 30);
             this.searchPeriodControl1.TabIndex = 11;
             // 
             // Defective
