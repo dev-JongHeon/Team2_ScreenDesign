@@ -50,9 +50,9 @@ namespace Team2_ScreenDesign
         }
         private void 새로고침ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            OpenBaseForm<Defective>("불량현황");
+            M_Refresh?.Invoke(this, e);            
 
-            M_Refresh(this, null);
+            OpenBaseForm<Defective>("불량현황");
         }
         private void splitter1_SplitterMoved(object sender, SplitterEventArgs e)
         {
@@ -293,7 +293,7 @@ namespace Team2_ScreenDesign
             tabControl1.SelectedTab = tp;
             frm.Show();
         }
-       
+
 
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -305,17 +305,17 @@ namespace Team2_ScreenDesign
                     if (tmp.TabPag == tabControl1.SelectedTab)
                     {
                         tmp.Select();
-                        
+
                         break;
                     }
                 }
-                else if(Child is Base1Dgv)
+                else if (Child is Base1Dgv)
                 {
                     Base1Dgv tmp = (Base1Dgv)Child;
                     if (tmp.TabPag == tabControl1.SelectedTab)
                     {
                         tmp.Select();
-                        
+
                         break;
                     }
                 }
@@ -328,7 +328,11 @@ namespace Team2_ScreenDesign
             WorkerbyProcess frm = new WorkerbyProcess();
             frm.Labelname = "불량";
             frm.ShowDialog();
+        }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            OpenBaseForm<Defective>("불량현황");
 
         }
     }
