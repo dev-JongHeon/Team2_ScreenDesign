@@ -22,7 +22,9 @@ namespace Team2_ScreenDesign
 
         private void SettingData()
         {
-            //this.lblFormName.Text = "불량유형";           
+            //this.lblFormName.Text = "불량유형";        
+            
         }
+
     }
 }

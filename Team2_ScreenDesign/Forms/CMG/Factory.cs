@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class Factory : BaseForm
+    public partial class Factory : Base2Dgv
     {
         public Factory()
         {

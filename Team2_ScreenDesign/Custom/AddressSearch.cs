@@ -45,7 +45,6 @@ namespace Team2_ScreenDesign.Custom
             {
                 string currentPage = "1";
                 string countPerPage = "1000";
-                //string confmKey = "devU01TX0FVVEgyMDE5MTAyMzA5NDcxMzEwOTEzMzY=";
                 string confmKey = ConfigurationManager.AppSettings["LoadAPIKey"].ToString();
                 string keyword = txtSearch.Text.Trim();
                 string apiurl = string.Empty;
@@ -78,8 +77,8 @@ namespace Team2_ScreenDesign.Custom
             dataGridView1.MultiSelect = false;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             AddNewColumnToDataGridView(dataGridView1, "우편번호", "zipNo", true, 80);
-            AddNewColumnToDataGridView(dataGridView1, "주소1", "roadAddr", true, 200);
-            AddNewColumnToDataGridView(dataGridView1, "주소2", "jibunAddr", true, 200);
+            AddNewColumnToDataGridView(dataGridView1, "도로명 주소", "roadAddr", true, 300);
+            AddNewColumnToDataGridView(dataGridView1, "지번 주소", "jibunAddr", true, 300);
         }
 
         private void AddNewColumnToDataGridView(DataGridView dgv, string headerText, string dataPropertyName, bool visiblity, int colWidth = 100, DataGridViewContentAlignment textAlign = DataGridViewContentAlignment.MiddleLeft)

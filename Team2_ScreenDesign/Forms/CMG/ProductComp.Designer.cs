@@ -29,33 +29,33 @@
         private void InitializeComponent()
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.txtProductImage = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.splitContainer3 = new System.Windows.Forms.SplitContainer();
             this.cboCategory = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
+            this.txtFrame = new System.Windows.Forms.TextBox();
+            this.txtBrake = new System.Windows.Forms.TextBox();
+            this.txtSaddle = new System.Windows.Forms.TextBox();
+            this.txtSteering = new System.Windows.Forms.TextBox();
+            this.txtRun = new System.Windows.Forms.TextBox();
+            this.txtDrive = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.txtProductImage = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.txtProductMoney = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtProductName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtDrive = new System.Windows.Forms.TextBox();
-            this.txtRun = new System.Windows.Forms.TextBox();
-            this.txtSteering = new System.Windows.Forms.TextBox();
-            this.txtSaddle = new System.Windows.Forms.TextBox();
-            this.txtBrake = new System.Windows.Forms.TextBox();
-            this.txtFrame = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel_Title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTitle)).BeginInit();
@@ -66,16 +66,16 @@
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
-            this.splitContainer2.Panel1.SuspendLayout();
-            this.splitContainer2.Panel2.SuspendLayout();
-            this.splitContainer2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
             this.splitContainer3.Panel1.SuspendLayout();
             this.splitContainer3.Panel2.SuspendLayout();
             this.splitContainer3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
+            this.splitContainer2.Panel1.SuspendLayout();
+            this.splitContainer2.Panel2.SuspendLayout();
+            this.splitContainer2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel5
@@ -106,76 +106,6 @@
             this.splitContainer1.Size = new System.Drawing.Size(798, 409);
             this.splitContainer1.SplitterDistance = 243;
             this.splitContainer1.TabIndex = 0;
-            // 
-            // splitContainer2
-            // 
-            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer2.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer2.Name = "splitContainer2";
-            this.splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainer2.Panel1
-            // 
-            this.splitContainer2.Panel1.Controls.Add(this.txtFrame);
-            this.splitContainer2.Panel1.Controls.Add(this.txtBrake);
-            this.splitContainer2.Panel1.Controls.Add(this.txtSaddle);
-            this.splitContainer2.Panel1.Controls.Add(this.txtSteering);
-            this.splitContainer2.Panel1.Controls.Add(this.txtRun);
-            this.splitContainer2.Panel1.Controls.Add(this.txtDrive);
-            this.splitContainer2.Panel1.Controls.Add(this.label10);
-            this.splitContainer2.Panel1.Controls.Add(this.label9);
-            this.splitContainer2.Panel1.Controls.Add(this.label8);
-            this.splitContainer2.Panel1.Controls.Add(this.label7);
-            this.splitContainer2.Panel1.Controls.Add(this.label6);
-            this.splitContainer2.Panel1.Controls.Add(this.label5);
-            this.splitContainer2.Panel1.Controls.Add(this.pictureBox1);
-            this.splitContainer2.Panel1.Controls.Add(this.button1);
-            this.splitContainer2.Panel1.Controls.Add(this.txtProductImage);
-            this.splitContainer2.Panel1.Controls.Add(this.label4);
-            // 
-            // splitContainer2.Panel2
-            // 
-            this.splitContainer2.Panel2.Controls.Add(this.txtProductMoney);
-            this.splitContainer2.Panel2.Controls.Add(this.label3);
-            this.splitContainer2.Panel2.Controls.Add(this.txtProductName);
-            this.splitContainer2.Panel2.Controls.Add(this.label2);
-            this.splitContainer2.Size = new System.Drawing.Size(551, 409);
-            this.splitContainer2.SplitterDistance = 304;
-            this.splitContainer2.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(330, 16);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(192, 226);
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(301, 267);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "찾아보기";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // txtProductImage
-            // 
-            this.txtProductImage.Location = new System.Drawing.Point(91, 269);
-            this.txtProductImage.Name = "txtProductImage";
-            this.txtProductImage.ReadOnly = true;
-            this.txtProductImage.Size = new System.Drawing.Size(187, 21);
-            this.txtProductImage.TabIndex = 5;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(34, 272);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(40, 14);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "이미지";
             // 
             // splitContainer3
             // 
@@ -237,6 +167,90 @@
             this.Column2.HeaderText = "가격";
             this.Column2.Name = "Column2";
             // 
+            // splitContainer2
+            // 
+            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer2.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer2.Name = "splitContainer2";
+            this.splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer2.Panel1
+            // 
+            this.splitContainer2.Panel1.Controls.Add(this.txtFrame);
+            this.splitContainer2.Panel1.Controls.Add(this.txtBrake);
+            this.splitContainer2.Panel1.Controls.Add(this.txtSaddle);
+            this.splitContainer2.Panel1.Controls.Add(this.txtSteering);
+            this.splitContainer2.Panel1.Controls.Add(this.txtRun);
+            this.splitContainer2.Panel1.Controls.Add(this.txtDrive);
+            this.splitContainer2.Panel1.Controls.Add(this.label10);
+            this.splitContainer2.Panel1.Controls.Add(this.label9);
+            this.splitContainer2.Panel1.Controls.Add(this.label8);
+            this.splitContainer2.Panel1.Controls.Add(this.label7);
+            this.splitContainer2.Panel1.Controls.Add(this.label6);
+            this.splitContainer2.Panel1.Controls.Add(this.label5);
+            this.splitContainer2.Panel1.Controls.Add(this.pictureBox1);
+            this.splitContainer2.Panel1.Controls.Add(this.button1);
+            this.splitContainer2.Panel1.Controls.Add(this.txtProductImage);
+            this.splitContainer2.Panel1.Controls.Add(this.label4);
+            // 
+            // splitContainer2.Panel2
+            // 
+            this.splitContainer2.Panel2.Controls.Add(this.txtProductMoney);
+            this.splitContainer2.Panel2.Controls.Add(this.label3);
+            this.splitContainer2.Panel2.Controls.Add(this.txtProductName);
+            this.splitContainer2.Panel2.Controls.Add(this.label2);
+            this.splitContainer2.Size = new System.Drawing.Size(551, 409);
+            this.splitContainer2.SplitterDistance = 304;
+            this.splitContainer2.TabIndex = 0;
+            // 
+            // txtFrame
+            // 
+            this.txtFrame.Location = new System.Drawing.Point(91, 221);
+            this.txtFrame.Name = "txtFrame";
+            this.txtFrame.ReadOnly = true;
+            this.txtFrame.Size = new System.Drawing.Size(187, 21);
+            this.txtFrame.TabIndex = 14;
+            // 
+            // txtBrake
+            // 
+            this.txtBrake.Location = new System.Drawing.Point(91, 179);
+            this.txtBrake.Name = "txtBrake";
+            this.txtBrake.ReadOnly = true;
+            this.txtBrake.Size = new System.Drawing.Size(187, 21);
+            this.txtBrake.TabIndex = 14;
+            // 
+            // txtSaddle
+            // 
+            this.txtSaddle.Location = new System.Drawing.Point(91, 137);
+            this.txtSaddle.Name = "txtSaddle";
+            this.txtSaddle.ReadOnly = true;
+            this.txtSaddle.Size = new System.Drawing.Size(187, 21);
+            this.txtSaddle.TabIndex = 14;
+            // 
+            // txtSteering
+            // 
+            this.txtSteering.Location = new System.Drawing.Point(91, 96);
+            this.txtSteering.Name = "txtSteering";
+            this.txtSteering.ReadOnly = true;
+            this.txtSteering.Size = new System.Drawing.Size(187, 21);
+            this.txtSteering.TabIndex = 14;
+            // 
+            // txtRun
+            // 
+            this.txtRun.Location = new System.Drawing.Point(91, 55);
+            this.txtRun.Name = "txtRun";
+            this.txtRun.ReadOnly = true;
+            this.txtRun.Size = new System.Drawing.Size(187, 21);
+            this.txtRun.TabIndex = 14;
+            // 
+            // txtDrive
+            // 
+            this.txtDrive.Location = new System.Drawing.Point(91, 16);
+            this.txtDrive.Name = "txtDrive";
+            this.txtDrive.ReadOnly = true;
+            this.txtDrive.Size = new System.Drawing.Size(187, 21);
+            this.txtDrive.TabIndex = 14;
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -258,7 +272,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(45, 140);
+            this.label8.Location = new System.Drawing.Point(34, 140);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(29, 14);
             this.label8.TabIndex = 10;
@@ -291,6 +305,40 @@
             this.label5.TabIndex = 13;
             this.label5.Text = "구동부";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(330, 16);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(192, 226);
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(301, 267);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "찾아보기";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // txtProductImage
+            // 
+            this.txtProductImage.Location = new System.Drawing.Point(91, 269);
+            this.txtProductImage.Name = "txtProductImage";
+            this.txtProductImage.ReadOnly = true;
+            this.txtProductImage.Size = new System.Drawing.Size(187, 21);
+            this.txtProductImage.TabIndex = 5;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(34, 272);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(40, 14);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "이미지";
+            // 
             // txtProductMoney
             // 
             this.txtProductMoney.Location = new System.Drawing.Point(301, 61);
@@ -301,7 +349,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(266, 69);
+            this.label3.Location = new System.Drawing.Point(244, 68);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(29, 14);
             this.label3.TabIndex = 6;
@@ -323,54 +371,6 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "완제품명";
             // 
-            // txtDrive
-            // 
-            this.txtDrive.Location = new System.Drawing.Point(91, 16);
-            this.txtDrive.Name = "txtDrive";
-            this.txtDrive.ReadOnly = true;
-            this.txtDrive.Size = new System.Drawing.Size(187, 21);
-            this.txtDrive.TabIndex = 14;
-            // 
-            // txtRun
-            // 
-            this.txtRun.Location = new System.Drawing.Point(91, 55);
-            this.txtRun.Name = "txtRun";
-            this.txtRun.ReadOnly = true;
-            this.txtRun.Size = new System.Drawing.Size(187, 21);
-            this.txtRun.TabIndex = 14;
-            // 
-            // txtSteering
-            // 
-            this.txtSteering.Location = new System.Drawing.Point(91, 96);
-            this.txtSteering.Name = "txtSteering";
-            this.txtSteering.ReadOnly = true;
-            this.txtSteering.Size = new System.Drawing.Size(187, 21);
-            this.txtSteering.TabIndex = 14;
-            // 
-            // txtSaddle
-            // 
-            this.txtSaddle.Location = new System.Drawing.Point(91, 137);
-            this.txtSaddle.Name = "txtSaddle";
-            this.txtSaddle.ReadOnly = true;
-            this.txtSaddle.Size = new System.Drawing.Size(187, 21);
-            this.txtSaddle.TabIndex = 14;
-            // 
-            // txtBrake
-            // 
-            this.txtBrake.Location = new System.Drawing.Point(91, 179);
-            this.txtBrake.Name = "txtBrake";
-            this.txtBrake.ReadOnly = true;
-            this.txtBrake.Size = new System.Drawing.Size(187, 21);
-            this.txtBrake.TabIndex = 14;
-            // 
-            // txtFrame
-            // 
-            this.txtFrame.Location = new System.Drawing.Point(91, 221);
-            this.txtFrame.Name = "txtFrame";
-            this.txtFrame.ReadOnly = true;
-            this.txtFrame.Size = new System.Drawing.Size(187, 21);
-            this.txtFrame.TabIndex = 14;
-            // 
             // ProductComp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -388,6 +388,12 @@
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
+            this.splitContainer3.Panel1.ResumeLayout(false);
+            this.splitContainer3.Panel1.PerformLayout();
+            this.splitContainer3.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
+            this.splitContainer3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.splitContainer2.Panel1.ResumeLayout(false);
             this.splitContainer2.Panel1.PerformLayout();
             this.splitContainer2.Panel2.ResumeLayout(false);
@@ -395,12 +401,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
             this.splitContainer2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.splitContainer3.Panel1.ResumeLayout(false);
-            this.splitContainer3.Panel1.PerformLayout();
-            this.splitContainer3.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
-            this.splitContainer3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
