@@ -123,6 +123,7 @@
             this.button1.TabIndex = 26;
             this.button1.Text = "주소검색";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 

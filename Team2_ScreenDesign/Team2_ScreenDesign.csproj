@@ -71,6 +71,12 @@
     <Compile Include="Custom\SearchPeriodControl.Designer.cs">
       <DependentUpon>SearchPeriodControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\CMG\Factory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\Factory.Designer.cs">
+      <DependentUpon>Factory.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\SSD\Balju.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -184,12 +190,6 @@
     </Compile>
     <Compile Include="Forms\CMG\Employees.Designer.cs">
       <DependentUpon>Employees.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\CMG\Factory.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\CMG\Factory.Designer.cs">
-      <DependentUpon>Factory.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\CMG\Warehouse.cs">
       <SubType>Form</SubType>
@@ -325,6 +325,9 @@
     <EmbeddedResource Include="Custom\SearchPeriodControl.resx">
       <DependentUpon>SearchPeriodControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\Factory.resx">
+      <DependentUpon>Factory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\Balju.resx">
       <DependentUpon>Balju.cs</DependentUpon>
     </EmbeddedResource>
@@ -360,9 +363,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CMG\EmployeesInsUp.resx">
       <DependentUpon>EmployeesInsUp.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CMG\Factory.resx">
-      <DependentUpon>Factory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CMG\FactoryInsUp.resx">
       <DependentUpon>FactoryInsUp.cs</DependentUpon>
