@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,6 +47,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Custom\AddressControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Custom\AddressControl.Designer.cs">
+      <DependentUpon>AddressControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Custom\AddressSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Custom\AddressSearch.Designer.cs">
+      <DependentUpon>AddressSearch.cs</DependentUpon>
+    </Compile>
     <Compile Include="Custom\SearchUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -372,6 +385,12 @@
     <Compile Include="Forms\SSD\Workers.Designer.cs">
       <DependentUpon>Workers.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Custom\AddressControl.resx">
+      <DependentUpon>AddressControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom\AddressSearch.resx">
+      <DependentUpon>AddressSearch.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Custom\SearchUserControl.resx">
       <DependentUpon>SearchUserControl.cs</DependentUpon>
     </EmbeddedResource>
