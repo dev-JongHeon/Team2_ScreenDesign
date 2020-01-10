@@ -58,6 +58,18 @@
     <Compile Include="Custom\SearchPeriodControl.Designer.cs">
       <DependentUpon>SearchPeriodControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\SSD\Balju.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SSD\Balju.Designer.cs">
+      <DependentUpon>Balju.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SSD\InOutput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SSD\InOutput.Designer.cs">
+      <DependentUpon>InOutput.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\CMG\CompanyInsUp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -268,12 +280,6 @@
     <Compile Include="Forms\KJH\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\SSD\Balju.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\SSD\Balju.designer.cs">
-      <DependentUpon>Balju.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\SSD\BaljuList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -285,12 +291,6 @@
     </Compile>
     <Compile Include="Forms\SSD\InOutList.Designer.cs">
       <DependentUpon>InOutList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\SSD\InOutput.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\SSD\InOutput.designer.cs">
-      <DependentUpon>InOutput.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\SSD\StockStatus.cs">
       <SubType>Form</SubType>
@@ -341,6 +341,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Custom\SearchPeriodControl.resx">
       <DependentUpon>SearchPeriodControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SSD\Balju.resx">
+      <DependentUpon>Balju.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SSD\InOutput.resx">
+      <DependentUpon>InOutput.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\BaseForm\Base1Dgv.resx">
       <DependentUpon>Base1Dgv.cs</DependentUpon>
@@ -441,17 +447,11 @@
     <EmbeddedResource Include="Forms\KJH\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SSD\Balju.resx">
-      <DependentUpon>Balju.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\BaljuList.resx">
       <DependentUpon>BaljuList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\InOutList.resx">
       <DependentUpon>InOutList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SSD\InOutput.resx">
-      <DependentUpon>InOutput.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\StockStatus.resx">
       <DependentUpon>StockStatus.cs</DependentUpon>
