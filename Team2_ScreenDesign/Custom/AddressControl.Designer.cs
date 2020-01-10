@@ -30,31 +30,31 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panel9.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.panel10.SuspendLayout();
+            this.panel9.SuspendLayout();
+            this.panel8.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -76,17 +76,6 @@
             this.panel3.Size = new System.Drawing.Size(447, 106);
             this.panel3.TabIndex = 17;
             // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.panel10);
-            this.panel2.Controls.Add(this.panel9);
-            this.panel2.Controls.Add(this.panel8);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(58, 106);
-            this.panel2.TabIndex = 0;
-            // 
             // panel4
             // 
             this.panel4.Controls.Add(this.panel7);
@@ -98,23 +87,22 @@
             this.panel4.Size = new System.Drawing.Size(447, 106);
             this.panel4.TabIndex = 0;
             // 
-            // panel5
+            // panel7
             // 
-            this.panel5.Controls.Add(this.textBox2);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel5.Location = new System.Drawing.Point(0, 72);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(447, 34);
-            this.panel5.TabIndex = 26;
+            this.panel7.Controls.Add(this.textBox2);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel7.Location = new System.Drawing.Point(0, 33);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(447, 39);
+            this.panel7.TabIndex = 28;
             // 
-            // textBox2
+            // textBox3
             // 
-            this.textBox2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.textBox2.Location = new System.Drawing.Point(6, 6);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(422, 21);
-            this.textBox2.TabIndex = 22;
+            this.textBox3.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.textBox3.Location = new System.Drawing.Point(16, 6);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(422, 21);
+            this.textBox3.TabIndex = 26;
             // 
             // panel6
             // 
@@ -129,7 +117,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.Location = new System.Drawing.Point(154, 5);
+            this.button1.Location = new System.Drawing.Point(164, 5);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 27);
             this.button1.TabIndex = 26;
@@ -139,66 +127,40 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.textBox1.Location = new System.Drawing.Point(6, 5);
+            this.textBox1.Location = new System.Drawing.Point(16, 5);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(125, 21);
             this.textBox1.TabIndex = 25;
             // 
-            // panel7
+            // panel5
             // 
-            this.panel7.Controls.Add(this.textBox3);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel7.Location = new System.Drawing.Point(0, 33);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(447, 39);
-            this.panel7.TabIndex = 28;
+            this.panel5.Controls.Add(this.textBox3);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel5.Location = new System.Drawing.Point(0, 72);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(447, 34);
+            this.panel5.TabIndex = 26;
             // 
-            // textBox3
+            // textBox2
             // 
-            this.textBox3.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.textBox3.Location = new System.Drawing.Point(6, 7);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(422, 21);
-            this.textBox3.TabIndex = 26;
+            this.textBox2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.textBox2.Location = new System.Drawing.Point(16, 10);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(422, 21);
+            this.textBox2.TabIndex = 22;
             // 
-            // panel8
+            // panel2
             // 
-            this.panel8.Controls.Add(this.label3);
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel8.Location = new System.Drawing.Point(0, 72);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(58, 34);
-            this.panel8.TabIndex = 13;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label3.Location = new System.Drawing.Point(4, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(36, 14);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "주소2";
-            // 
-            // panel9
-            // 
-            this.panel9.Controls.Add(this.label1);
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel9.Location = new System.Drawing.Point(0, 0);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(58, 33);
-            this.panel9.TabIndex = 14;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(4, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 14);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "우편번호";
+            this.panel2.Controls.Add(this.panel10);
+            this.panel2.Controls.Add(this.panel9);
+            this.panel2.Controls.Add(this.panel8);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(58, 106);
+            this.panel2.TabIndex = 0;
             // 
             // panel10
             // 
@@ -213,11 +175,49 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label2.Location = new System.Drawing.Point(4, 10);
+            this.label2.Location = new System.Drawing.Point(-3, 10);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(36, 14);
             this.label2.TabIndex = 12;
             this.label2.Text = "주소1";
+            // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.label1);
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel9.Location = new System.Drawing.Point(0, 0);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(58, 33);
+            this.panel9.TabIndex = 14;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.Location = new System.Drawing.Point(-3, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(51, 14);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "우편번호";
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.label3);
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel8.Location = new System.Drawing.Point(0, 72);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(58, 34);
+            this.panel8.TabIndex = 13;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label3.Location = new System.Drawing.Point(-3, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(36, 14);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "주소2";
             // 
             // AddressControl
             // 
@@ -230,20 +230,20 @@
             this.Size = new System.Drawing.Size(505, 106);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel2.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
             this.ResumeLayout(false);
 
         }
