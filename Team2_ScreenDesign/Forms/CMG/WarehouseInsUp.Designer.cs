@@ -33,13 +33,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.txtWarehouseCode = new System.Windows.Forms.TextBox();
             this.txtWarehouseName = new System.Windows.Forms.TextBox();
             this.txtWarehouseDivision = new System.Windows.Forms.TextBox();
             this.txtWarehouseNumber = new System.Windows.Forms.TextBox();
             this.txtWarehouseFaxNumber = new System.Windows.Forms.TextBox();
-            this.txtWarehouseAddr = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel_Title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTitle)).BeginInit();
@@ -50,13 +48,11 @@
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.txtWarehouseAddr);
             this.panel5.Controls.Add(this.txtWarehouseFaxNumber);
             this.panel5.Controls.Add(this.txtWarehouseNumber);
             this.panel5.Controls.Add(this.txtWarehouseDivision);
             this.panel5.Controls.Add(this.txtWarehouseName);
             this.panel5.Controls.Add(this.txtWarehouseCode);
-            this.panel5.Controls.Add(this.label6);
             this.panel5.Controls.Add(this.label5);
             this.panel5.Controls.Add(this.label4);
             this.panel5.Controls.Add(this.label3);
@@ -116,15 +112,6 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Fax 번호";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(71, 333);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(29, 14);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "주소";
-            // 
             // txtWarehouseCode
             // 
             this.txtWarehouseCode.Location = new System.Drawing.Point(116, 40);
@@ -160,13 +147,6 @@
             this.txtWarehouseFaxNumber.Size = new System.Drawing.Size(143, 21);
             this.txtWarehouseFaxNumber.TabIndex = 1;
             // 
-            // txtWarehouseAddr
-            // 
-            this.txtWarehouseAddr.Location = new System.Drawing.Point(116, 326);
-            this.txtWarehouseAddr.Name = "txtWarehouseAddr";
-            this.txtWarehouseAddr.Size = new System.Drawing.Size(143, 21);
-            this.txtWarehouseAddr.TabIndex = 1;
-            // 
             // WarehouseInsUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -192,12 +172,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtWarehouseAddr;
         private System.Windows.Forms.TextBox txtWarehouseFaxNumber;
         private System.Windows.Forms.TextBox txtWarehouseNumber;
         private System.Windows.Forms.TextBox txtWarehouseDivision;
         private System.Windows.Forms.TextBox txtWarehouseName;
         private System.Windows.Forms.TextBox txtWarehouseCode;
-        private System.Windows.Forms.Label label6;
     }
 }
