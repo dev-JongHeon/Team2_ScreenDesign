@@ -70,17 +70,14 @@
             this.panel5.Controls.Add(this.label3);
             this.panel5.Controls.Add(this.label2);
             this.panel5.Controls.Add(this.label1);
-            this.panel5.TabIndex = 7;
             // 
             // btnCancel
             // 
             this.btnCancel.FlatAppearance.BorderSize = 0;
-            this.btnCancel.TabIndex = 9;
             // 
             // btnOK
             // 
             this.btnOK.FlatAppearance.BorderSize = 0;
-            this.btnOK.TabIndex = 8;
             // 
             // label1
             // 
@@ -159,7 +156,7 @@
             this.txtEmployeesNumber.Location = new System.Drawing.Point(100, 15);
             this.txtEmployeesNumber.Name = "txtEmployeesNumber";
             this.txtEmployeesNumber.Size = new System.Drawing.Size(132, 21);
-            this.txtEmployeesNumber.TabIndex = 0;
+            this.txtEmployeesNumber.TabIndex = 1;
             // 
             // txtEmployeesName
             // 
@@ -173,14 +170,14 @@
             this.txtEmployeesPassword.Location = new System.Drawing.Point(100, 269);
             this.txtEmployeesPassword.Name = "txtEmployeesPassword";
             this.txtEmployeesPassword.Size = new System.Drawing.Size(132, 21);
-            this.txtEmployeesPassword.TabIndex = 5;
+            this.txtEmployeesPassword.TabIndex = 1;
             // 
             // txtEmployeesPhoneNumber
             // 
             this.txtEmployeesPhoneNumber.Location = new System.Drawing.Point(100, 316);
             this.txtEmployeesPhoneNumber.Name = "txtEmployeesPhoneNumber";
             this.txtEmployeesPhoneNumber.Size = new System.Drawing.Size(132, 21);
-            this.txtEmployeesPhoneNumber.TabIndex = 6;
+            this.txtEmployeesPhoneNumber.TabIndex = 1;
             // 
             // dtpEmployeesHireDate
             // 
@@ -188,7 +185,7 @@
             this.dtpEmployeesHireDate.Location = new System.Drawing.Point(100, 170);
             this.dtpEmployeesHireDate.Name = "dtpEmployeesHireDate";
             this.dtpEmployeesHireDate.Size = new System.Drawing.Size(132, 21);
-            this.dtpEmployeesHireDate.TabIndex = 3;
+            this.dtpEmployeesHireDate.TabIndex = 2;
             // 
             // dtpEmployeesResignDate
             // 
@@ -196,7 +193,7 @@
             this.dtpEmployeesResignDate.Location = new System.Drawing.Point(100, 224);
             this.dtpEmployeesResignDate.Name = "dtpEmployeesResignDate";
             this.dtpEmployeesResignDate.Size = new System.Drawing.Size(132, 21);
-            this.dtpEmployeesResignDate.TabIndex = 4;
+            this.dtpEmployeesResignDate.TabIndex = 2;
             // 
             // txtEmployeesBirthDay
             // 
@@ -209,11 +206,10 @@
             // cboEmployeesCategory
             // 
             this.cboEmployeesCategory.FormattingEnabled = true;
-            this.cboEmployeesCategory.ItemHeight = 14;
             this.cboEmployeesCategory.Location = new System.Drawing.Point(100, 120);
             this.cboEmployeesCategory.Name = "cboEmployeesCategory";
             this.cboEmployeesCategory.Size = new System.Drawing.Size(132, 22);
-            this.cboEmployeesCategory.TabIndex = 2;
+            this.cboEmployeesCategory.TabIndex = 3;
             // 
             // EmployeesInsUp
             // 
