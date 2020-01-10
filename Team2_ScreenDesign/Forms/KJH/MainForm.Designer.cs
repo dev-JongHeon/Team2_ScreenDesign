@@ -1009,14 +1009,14 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.MenuStrip menuStrip;
-        private System.Windows.Forms.ToolStripMenuItem 새로고침ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 신규ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 등록ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 삭제ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 검색toolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 인쇄ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 닫기ToolStripMenuItem;
+        public System.Windows.Forms.MenuStrip menuStrip;
+        public System.Windows.Forms.ToolStripMenuItem 새로고침ToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem 신규ToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem 등록ToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem 삭제ToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem 검색toolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem 인쇄ToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem 닫기ToolStripMenuItem;
         private System.Windows.Forms.Panel panel6;
     }
 }

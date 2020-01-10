@@ -16,7 +16,7 @@ namespace Team2_ScreenDesign
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new InOutput());
+            Application.Run(new MainForm());
         }
     }
 }

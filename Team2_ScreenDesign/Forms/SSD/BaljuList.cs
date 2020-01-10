@@ -13,6 +13,7 @@ namespace Team2_ScreenDesign
         public BaljuList()
         {
             InitializeComponent();
+            
         }
     }
 }

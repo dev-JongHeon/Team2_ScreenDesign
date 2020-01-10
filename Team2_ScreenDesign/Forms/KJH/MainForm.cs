@@ -15,6 +15,14 @@ namespace Team2_ScreenDesign
 {
     public partial class MainForm : Form
     {
+        public EventHandler M_Refresh;
+        public EventHandler M_New;
+        public EventHandler M_Modify;
+        public EventHandler M_Delete;
+        public EventHandler M_Search;
+        public EventHandler M_Print;
+        public EventHandler M_Close;
+
         public MainForm()
         {
             InitializeComponent();
@@ -43,15 +51,12 @@ namespace Team2_ScreenDesign
         private void 새로고침ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenBaseForm<Defective>("불량현황");
+
+            M_Refresh(this, null);
         }
         private void splitter1_SplitterMoved(object sender, SplitterEventArgs e)
         {
             button1.Location = new Point(splitter1.Location.X, button1.Location.Y);
-        }
-
-        private void toolStripMenuItem1_MouseHover(object sender, EventArgs e)
-        {
-            this.BackColor = this.BackColor;
         }
 
         private void MainForm_Load(object sender, EventArgs e)
@@ -323,6 +328,8 @@ namespace Team2_ScreenDesign
             WorkerbyProcess frm = new WorkerbyProcess();
             frm.Labelname = "불량";
             frm.ShowDialog();
+
+
         }
     }
 }
