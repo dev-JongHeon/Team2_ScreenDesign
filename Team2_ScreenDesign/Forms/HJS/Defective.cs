@@ -25,6 +25,7 @@ namespace Team2_ScreenDesign
             //this.lblFormName.Text = "불량유형";        
             
         }
+        private void 
 
     }
 }
