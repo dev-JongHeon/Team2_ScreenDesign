@@ -313,6 +313,7 @@
     <Compile Include="Forms\SSD\Workers.Designer.cs">
       <DependentUpon>Workers.cs</DependentUpon>
     </Compile>
+    <Compile Include="SettingMenuStrip.cs" />
     <EmbeddedResource Include="Custom\AddressControl.resx">
       <DependentUpon>AddressControl.cs</DependentUpon>
     </EmbeddedResource>
