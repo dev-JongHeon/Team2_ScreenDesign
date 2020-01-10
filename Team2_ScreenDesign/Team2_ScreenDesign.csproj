@@ -106,36 +106,6 @@
     <Compile Include="Forms\KHS\ShipmentMainForm.Designer.cs">
       <DependentUpon>ShipmentMainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\KHS\ShipmentOrder.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\KHS\ShipmentOrder.Designer.cs">
-      <DependentUpon>ShipmentOrder.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\KHS\ShipmentOrderForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\KHS\ShipmentOrderForm.Designer.cs">
-      <DependentUpon>ShipmentOrderForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\KHS\ShipmentOrderInsUpForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\KHS\ShipmentOrderInsUpForm.Designer.cs">
-      <DependentUpon>ShipmentOrderInsUpForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\KHS\ShipmentRegForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\KHS\ShipmentRegForm.Designer.cs">
-      <DependentUpon>ShipmentRegForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\KHS\ShipmentRegInsUpForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\KHS\ShipmentRegInsUpForm.Designer.cs">
-      <DependentUpon>ShipmentRegInsUpForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\KJH\ProductionProcessAdd.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -261,24 +231,6 @@
     </Compile>
     <Compile Include="Custom\PlaceHolderTextBox.designer.cs">
       <DependentUpon>PlaceHolderTextBox.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\KHS\출하내역조회.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\KHS\출하내역조회.designer.cs">
-      <DependentUpon>출하내역조회.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\KHS\출하등록.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\KHS\출하등록.designer.cs">
-      <DependentUpon>출하등록.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\KHS\출하지시등록.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\KHS\출하지시등록.designer.cs">
-      <DependentUpon>출하지시등록.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\KJH\MainForm.cs">
       <SubType>Form</SubType>
@@ -420,21 +372,6 @@
     <EmbeddedResource Include="Forms\KHS\ShipmentMainForm.resx">
       <DependentUpon>ShipmentMainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\KHS\ShipmentOrder.resx">
-      <DependentUpon>ShipmentOrder.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\KHS\ShipmentOrderForm.resx">
-      <DependentUpon>ShipmentOrderForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\KHS\ShipmentOrderInsUpForm.resx">
-      <DependentUpon>ShipmentOrderInsUpForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\KHS\ShipmentRegForm.resx">
-      <DependentUpon>ShipmentRegForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\KHS\ShipmentRegInsUpForm.resx">
-      <DependentUpon>ShipmentRegInsUpForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\CalendarForm.resx">
       <DependentUpon>CalendarForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -449,15 +386,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Custom\PlaceHolderTextBox.resx">
       <DependentUpon>PlaceHolderTextBox.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\KHS\출하내역조회.resx">
-      <DependentUpon>출하내역조회.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\KHS\출하등록.resx">
-      <DependentUpon>출하등록.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\KHS\출하지시등록.resx">
-      <DependentUpon>출하지시등록.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
