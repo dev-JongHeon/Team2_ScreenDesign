@@ -8,15 +8,11 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class WorkerbyProcess : BasePopup
+    public partial class DefectiveType : Team2_ScreenDesign.Base1Dgv
     {
-        public WorkerbyProcess()
+        public DefectiveType()
         {
             InitializeComponent();
-            searchUserControl1.Labelname = "";
         }
-        
-        
-
     }
 }
