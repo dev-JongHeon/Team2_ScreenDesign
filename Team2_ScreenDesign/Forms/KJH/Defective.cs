@@ -32,5 +32,7 @@ namespace Team2_ScreenDesign
         {
             new SettingMenuStrip().SetMenu(this, a, a, a, a, a, a, a);
         }
+    
+
     }
 }

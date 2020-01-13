@@ -6,11 +6,11 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Team2_ScreenDesign
+namespace Team2_ScreenDesign.Forms.KJH
 {
-    public partial class DowntimeType : Team2_ScreenDesign.Base1Dgv
+    public partial class UserAuth : Team2_ScreenDesign.Base2Dgv
     {
-        public DowntimeType()
+        public UserAuth()
         {
             InitializeComponent();
         }
