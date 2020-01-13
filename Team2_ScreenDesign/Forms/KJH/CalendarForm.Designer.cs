@@ -1,4 +1,4 @@
-﻿namespace Team2_ScreenDesign
+﻿namespace Team2_ScreenDesign.Forms
 {
     partial class CalendarForm
     {

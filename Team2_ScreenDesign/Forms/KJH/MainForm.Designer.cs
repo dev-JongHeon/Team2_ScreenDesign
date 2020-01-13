@@ -45,8 +45,7 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.splitter1 = new System.Windows.Forms.Splitter();
             this.panel_Menu = new System.Windows.Forms.Panel();
             this.mpanel = new System.Windows.Forms.Panel();
             this.panel_Info = new System.Windows.Forms.Panel();
@@ -87,12 +86,12 @@
             this.panel_System = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.menu_System = new System.Windows.Forms.Panel();
-            this.panel14 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.lblSystem = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.splitter1 = new System.Windows.Forms.Splitter();
             this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.menuStrip.SuspendLayout();
@@ -118,7 +117,7 @@
             this.panel9.SuspendLayout();
             this.panel_System.SuspendLayout();
             this.menu_System.SuspendLayout();
-            this.panel14.SuspendLayout();
+            this.panel8.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -320,27 +319,15 @@
             this.panel3.Size = new System.Drawing.Size(1580, 2);
             this.panel3.TabIndex = 1;
             // 
-            // panel8
+            // splitter1
             // 
-            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel8.Location = new System.Drawing.Point(0, 837);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1584, 24);
-            this.panel8.TabIndex = 21;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = global::Team2_ScreenDesign.Properties.Resources.left_arrow__2_;
-            this.button1.Location = new System.Drawing.Point(200, 414);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(4, 100);
-            this.button1.TabIndex = 22;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.splitter1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(241)))));
+            this.splitter1.Location = new System.Drawing.Point(200, 90);
+            this.splitter1.Name = "splitter1";
+            this.splitter1.Size = new System.Drawing.Size(4, 771);
+            this.splitter1.TabIndex = 15;
+            this.splitter1.TabStop = false;
+            this.splitter1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitter1_SplitterMoved);
             // 
             // panel_Menu
             // 
@@ -350,8 +337,8 @@
             this.panel_Menu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel_Menu.Location = new System.Drawing.Point(0, 90);
             this.panel_Menu.Name = "panel_Menu";
-            this.panel_Menu.Size = new System.Drawing.Size(200, 747);
-            this.panel_Menu.TabIndex = 23;
+            this.panel_Menu.Size = new System.Drawing.Size(200, 771);
+            this.panel_Menu.TabIndex = 14;
             this.panel_Menu.Tag = "system";
             // 
             // mpanel
@@ -373,16 +360,16 @@
             this.mpanel.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.mpanel.Location = new System.Drawing.Point(0, 0);
             this.mpanel.Name = "mpanel";
-            this.mpanel.Size = new System.Drawing.Size(196, 743);
+            this.mpanel.Size = new System.Drawing.Size(196, 767);
             this.mpanel.TabIndex = 1;
             // 
             // panel_Info
             // 
             this.panel_Info.Controls.Add(this.button8);
             this.panel_Info.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Info.Location = new System.Drawing.Point(0, 625);
+            this.panel_Info.Location = new System.Drawing.Point(0, 650);
             this.panel_Info.Name = "panel_Info";
-            this.panel_Info.Size = new System.Drawing.Size(196, 95);
+            this.panel_Info.Size = new System.Drawing.Size(196, 100);
             this.panel_Info.TabIndex = 12;
             this.panel_Info.Tag = "panel_Info";
             // 
@@ -403,7 +390,7 @@
             this.menu_Info.Controls.Add(this.panel13);
             this.menu_Info.Controls.Add(this.label10);
             this.menu_Info.Dock = System.Windows.Forms.DockStyle.Top;
-            this.menu_Info.Location = new System.Drawing.Point(0, 600);
+            this.menu_Info.Location = new System.Drawing.Point(0, 625);
             this.menu_Info.Name = "menu_Info";
             this.menu_Info.Size = new System.Drawing.Size(196, 25);
             this.menu_Info.TabIndex = 11;
@@ -465,9 +452,9 @@
             // 
             this.panel_Sales.Controls.Add(this.button7);
             this.panel_Sales.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Sales.Location = new System.Drawing.Point(0, 505);
+            this.panel_Sales.Location = new System.Drawing.Point(0, 525);
             this.panel_Sales.Name = "panel_Sales";
-            this.panel_Sales.Size = new System.Drawing.Size(196, 95);
+            this.panel_Sales.Size = new System.Drawing.Size(196, 100);
             this.panel_Sales.TabIndex = 10;
             this.panel_Sales.Tag = "panel_Sales";
             // 
@@ -488,7 +475,7 @@
             this.menu_Sales.Controls.Add(this.panel12);
             this.menu_Sales.Controls.Add(this.label8);
             this.menu_Sales.Dock = System.Windows.Forms.DockStyle.Top;
-            this.menu_Sales.Location = new System.Drawing.Point(0, 480);
+            this.menu_Sales.Location = new System.Drawing.Point(0, 500);
             this.menu_Sales.Name = "menu_Sales";
             this.menu_Sales.Size = new System.Drawing.Size(196, 25);
             this.menu_Sales.TabIndex = 9;
@@ -550,9 +537,9 @@
             // 
             this.panel_Stock.Controls.Add(this.button6);
             this.panel_Stock.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Stock.Location = new System.Drawing.Point(0, 385);
+            this.panel_Stock.Location = new System.Drawing.Point(0, 400);
             this.panel_Stock.Name = "panel_Stock";
-            this.panel_Stock.Size = new System.Drawing.Size(196, 95);
+            this.panel_Stock.Size = new System.Drawing.Size(196, 100);
             this.panel_Stock.TabIndex = 8;
             this.panel_Stock.Tag = "panel_Stock";
             // 
@@ -573,7 +560,7 @@
             this.menu_Stock.Controls.Add(this.panel11);
             this.menu_Stock.Controls.Add(this.label3);
             this.menu_Stock.Dock = System.Windows.Forms.DockStyle.Top;
-            this.menu_Stock.Location = new System.Drawing.Point(0, 360);
+            this.menu_Stock.Location = new System.Drawing.Point(0, 375);
             this.menu_Stock.Name = "menu_Stock";
             this.menu_Stock.Size = new System.Drawing.Size(196, 25);
             this.menu_Stock.TabIndex = 7;
@@ -635,9 +622,9 @@
             // 
             this.panel_Production.Controls.Add(this.button5);
             this.panel_Production.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Production.Location = new System.Drawing.Point(0, 265);
+            this.panel_Production.Location = new System.Drawing.Point(0, 275);
             this.panel_Production.Name = "panel_Production";
-            this.panel_Production.Size = new System.Drawing.Size(196, 95);
+            this.panel_Production.Size = new System.Drawing.Size(196, 100);
             this.panel_Production.TabIndex = 6;
             this.panel_Production.Tag = "panel_Production";
             // 
@@ -658,7 +645,7 @@
             this.menu_production.Controls.Add(this.panel10);
             this.menu_production.Controls.Add(this.label6);
             this.menu_production.Dock = System.Windows.Forms.DockStyle.Top;
-            this.menu_production.Location = new System.Drawing.Point(0, 240);
+            this.menu_production.Location = new System.Drawing.Point(0, 250);
             this.menu_production.Name = "menu_production";
             this.menu_production.Size = new System.Drawing.Size(196, 25);
             this.menu_production.TabIndex = 5;
@@ -720,9 +707,9 @@
             // 
             this.panel_Process.Controls.Add(this.button4);
             this.panel_Process.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Process.Location = new System.Drawing.Point(0, 145);
+            this.panel_Process.Location = new System.Drawing.Point(0, 150);
             this.panel_Process.Name = "panel_Process";
-            this.panel_Process.Size = new System.Drawing.Size(196, 95);
+            this.panel_Process.Size = new System.Drawing.Size(196, 100);
             this.panel_Process.TabIndex = 4;
             this.panel_Process.Tag = "panel_Process";
             // 
@@ -743,7 +730,7 @@
             this.menu_Process.Controls.Add(this.panel9);
             this.menu_Process.Controls.Add(this.label4);
             this.menu_Process.Dock = System.Windows.Forms.DockStyle.Top;
-            this.menu_Process.Location = new System.Drawing.Point(0, 120);
+            this.menu_Process.Location = new System.Drawing.Point(0, 125);
             this.menu_Process.Name = "menu_Process";
             this.menu_Process.Size = new System.Drawing.Size(196, 25);
             this.menu_Process.TabIndex = 3;
@@ -807,7 +794,7 @@
             this.panel_System.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_System.Location = new System.Drawing.Point(0, 25);
             this.panel_System.Name = "panel_System";
-            this.panel_System.Size = new System.Drawing.Size(196, 95);
+            this.panel_System.Size = new System.Drawing.Size(196, 100);
             this.panel_System.TabIndex = 2;
             this.panel_System.Tag = "panel_System";
             // 
@@ -820,12 +807,13 @@
             this.button3.TabIndex = 0;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // menu_System
             // 
             this.menu_System.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
             this.menu_System.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.menu_System.Controls.Add(this.panel14);
+            this.menu_System.Controls.Add(this.panel8);
             this.menu_System.Controls.Add(this.label1);
             this.menu_System.Dock = System.Windows.Forms.DockStyle.Top;
             this.menu_System.Location = new System.Drawing.Point(0, 0);
@@ -834,16 +822,16 @@
             this.menu_System.TabIndex = 1;
             this.menu_System.Tag = "";
             // 
-            // panel14
+            // panel8
             // 
-            this.panel14.Controls.Add(this.label2);
-            this.panel14.Controls.Add(this.lblSystem);
-            this.panel14.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel14.Location = new System.Drawing.Point(106, 0);
-            this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(86, 21);
-            this.panel14.TabIndex = 2;
-            this.panel14.Tag = "labelpanel";
+            this.panel8.Controls.Add(this.label2);
+            this.panel8.Controls.Add(this.lblSystem);
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel8.Location = new System.Drawing.Point(106, 0);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(86, 21);
+            this.panel8.TabIndex = 2;
+            this.panel8.Tag = "labelpanel";
             // 
             // label2
             // 
@@ -886,16 +874,6 @@
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label_Click);
             // 
-            // splitter1
-            // 
-            this.splitter1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(241)))));
-            this.splitter1.Location = new System.Drawing.Point(200, 90);
-            this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(4, 747);
-            this.splitter1.TabIndex = 25;
-            this.splitter1.TabStop = false;
-            this.splitter1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitter1_SplitterMoved);
-            // 
             // tabControl1
             // 
             this.tabControl1.Appearance = System.Windows.Forms.TabAppearance.FlatButtons;
@@ -908,19 +886,32 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1380, 28);
             this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.tabControl1.TabIndex = 26;
+            this.tabControl1.TabIndex = 17;
             this.tabControl1.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.tabControl1_DrawItem);
+            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = global::Team2_ScreenDesign.Properties.Resources.left_arrow__2_;
+            this.button1.Location = new System.Drawing.Point(200, 420);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(4, 100);
+            this.button1.TabIndex = 13;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1584, 861);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.splitter1);
             this.Controls.Add(this.panel_Menu);
-            this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.IsMdiContainer = true;
@@ -958,7 +949,7 @@
             this.panel9.ResumeLayout(false);
             this.panel_System.ResumeLayout(false);
             this.menu_System.ResumeLayout(false);
-            this.panel14.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -967,7 +958,54 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Splitter splitter1;
+        private System.Windows.Forms.Panel panel_Menu;
         private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.Panel mpanel;
+        private System.Windows.Forms.Panel panel_Info;
+        private System.Windows.Forms.Panel menu_Info;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Panel panel_Sales;
+        private System.Windows.Forms.Panel menu_Sales;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Panel panel_Stock;
+        private System.Windows.Forms.Panel menu_Stock;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panel_Production;
+        private System.Windows.Forms.Panel menu_production;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Panel panel_Process;
+        private System.Windows.Forms.Panel menu_Process;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Panel panel_System;
+        private System.Windows.Forms.Panel menu_System;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Label lblInfo;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Label lblSales;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Label lblStock;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Label lblProcess;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Label lblSystem;
+        private System.Windows.Forms.Label lblProduction;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button button2;
@@ -981,54 +1019,6 @@
         public System.Windows.Forms.ToolStripMenuItem 인쇄ToolStripMenuItem;
         public System.Windows.Forms.ToolStripMenuItem 닫기ToolStripMenuItem;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Panel panel_Menu;
-        private System.Windows.Forms.Panel mpanel;
-        private System.Windows.Forms.Panel panel_Info;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Panel menu_Info;
-        private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label lblInfo;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Panel panel_Sales;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Panel menu_Sales;
-        private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label lblSales;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Panel panel_Stock;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Panel menu_Stock;
-        private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label lblStock;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Panel panel_Production;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Panel menu_production;
-        private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label lblProduction;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Panel panel_Process;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Panel menu_Process;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label lblProcess;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Panel panel_System;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Panel menu_System;
-        private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblSystem;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Splitter splitter1;
-        private System.Windows.Forms.TabControl tabControl1;
     }
 }
 

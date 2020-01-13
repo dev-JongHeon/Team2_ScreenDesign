@@ -6,11 +6,11 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Team2_ScreenDesign.Forms.KJH
+namespace Team2_ScreenDesign
 {
-    public partial class UserAuth : Team2_ScreenDesign.Base2Dgv
+    public partial class ProductionProcessAdd : Team2_ScreenDesign.BasePopup
     {
-        public UserAuth()
+        public ProductionProcessAdd()
         {
             InitializeComponent();
         }
