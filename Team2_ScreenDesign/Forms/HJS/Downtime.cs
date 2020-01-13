@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class DefectiveTypeAdd : Team2_ScreenDesign.BasePopup
+    public partial class Downtime : BaseForm
     {
-        public DefectiveTypeAdd()
+        public Downtime()
         {
             InitializeComponent();
         }
