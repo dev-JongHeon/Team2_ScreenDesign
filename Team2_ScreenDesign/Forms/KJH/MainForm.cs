@@ -325,8 +325,6 @@ namespace Team2_ScreenDesign
 
         private void 신규ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            StockStatus frm = new StockStatus();
-            frm.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)

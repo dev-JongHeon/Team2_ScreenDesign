@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\SSD\Balju_Pop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SSD\Balju_Pop.Designer.cs">
+      <DependentUpon>Balju_Pop.cs</DependentUpon>
+    </Compile>
     <Compile Include="Custom\AddressControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -320,6 +326,9 @@
       <DependentUpon>Workers.cs</DependentUpon>
     </Compile>
     <Compile Include="SettingMenuStrip.cs" />
+    <EmbeddedResource Include="Forms\SSD\Balju_Pop.resx">
+      <DependentUpon>Balju_Pop.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Custom\AddressControl.resx">
       <DependentUpon>AddressControl.cs</DependentUpon>
     </EmbeddedResource>

@@ -95,7 +95,7 @@
             // 
             this.dateTimePicker3.Font = new System.Drawing.Font("나눔고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker3.Location = new System.Drawing.Point(473, 41);
+            this.dateTimePicker3.Location = new System.Drawing.Point(532, 37);
             this.dateTimePicker3.Name = "dateTimePicker3";
             this.dateTimePicker3.Size = new System.Drawing.Size(111, 22);
             this.dateTimePicker3.TabIndex = 56;
@@ -104,7 +104,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("나눔고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label4.Location = new System.Drawing.Point(33, 9);
+            this.label4.Location = new System.Drawing.Point(56, 9);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 15);
             this.label4.TabIndex = 48;
@@ -114,7 +114,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("나눔고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label3.Location = new System.Drawing.Point(391, 44);
+            this.label3.Location = new System.Drawing.Point(450, 41);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 15);
             this.label3.TabIndex = 47;
@@ -123,7 +123,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("나눔고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.Location = new System.Drawing.Point(313, 5);
+            this.button1.Location = new System.Drawing.Point(388, 5);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(26, 23);
             this.button1.TabIndex = 41;
@@ -134,7 +134,7 @@
             // 
             this.comboBox1.Font = new System.Drawing.Font("나눔고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(112, 5);
+            this.comboBox1.Location = new System.Drawing.Point(187, 5);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(192, 23);
             this.comboBox1.TabIndex = 39;
@@ -230,9 +230,9 @@
             // 
             this.searchPeriodControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.searchPeriodControl1.Labelname = "기간 선택";
-            this.searchPeriodControl1.Location = new System.Drawing.Point(388, 6);
+            this.searchPeriodControl1.Location = new System.Drawing.Point(447, 5);
             this.searchPeriodControl1.Name = "searchPeriodControl1";
-            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 35);
+            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 26);
             this.searchPeriodControl1.TabIndex = 67;
             // 
             // searchUserControl1
@@ -241,7 +241,7 @@
             this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Product;
             this.searchUserControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.searchUserControl1.Labelname = "제품";
-            this.searchUserControl1.Location = new System.Drawing.Point(27, 69);
+            this.searchUserControl1.Location = new System.Drawing.Point(102, 68);
             this.searchUserControl1.Name = "searchUserControl1";
             this.searchUserControl1.Size = new System.Drawing.Size(312, 25);
             this.searchUserControl1.TabIndex = 68;
@@ -252,7 +252,7 @@
             this.searchUserControl2.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Customer;
             this.searchUserControl2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.searchUserControl2.Labelname = "고객";
-            this.searchUserControl2.Location = new System.Drawing.Point(27, 36);
+            this.searchUserControl2.Location = new System.Drawing.Point(102, 36);
             this.searchUserControl2.Name = "searchUserControl2";
             this.searchUserControl2.Size = new System.Drawing.Size(312, 25);
             this.searchUserControl2.TabIndex = 69;
@@ -263,7 +263,7 @@
             this.searchUserControl3.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Worker;
             this.searchUserControl3.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.searchUserControl3.Labelname = "작업자";
-            this.searchUserControl3.Location = new System.Drawing.Point(388, 69);
+            this.searchUserControl3.Location = new System.Drawing.Point(447, 68);
             this.searchUserControl3.Name = "searchUserControl3";
             this.searchUserControl3.Size = new System.Drawing.Size(312, 25);
             this.searchUserControl3.TabIndex = 70;
