@@ -130,12 +130,6 @@
     <Compile Include="Forms\KHS\ShipmentReg_cs.Designer.cs">
       <DependentUpon>ShipmentReg_cs.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\KJH\ProductionProcessAdd.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\KJH\ProductionProcessAdd.Designer.cs">
-      <DependentUpon>ProductionProcessAdd.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\BaseForm\Base1Dgv.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -328,18 +322,6 @@
     <Compile Include="Forms\SSD\StockStatus.Designer.cs">
       <DependentUpon>StockStatus.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\KJH\WorkerbyProcess.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\KJH\WorkerbyProcess.Designer.cs">
-      <DependentUpon>WorkerbyProcess.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\KJH\ProductionProcess.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\KJH\ProductionProcess.Designer.cs">
-      <DependentUpon>ProductionProcess.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Forms\HJS\불량현황.cs">
@@ -365,6 +347,12 @@
     </Compile>
     <Compile Include="Forms\SSD\Workers.Designer.cs">
       <DependentUpon>Workers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KJH\WorkerByProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KJH\WorkerByProcess.Designer.cs">
+      <DependentUpon>WorkerByProcess.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Custom\SearchUserControl.resx">
       <DependentUpon>SearchUserControl.cs</DependentUpon>
@@ -486,6 +474,9 @@
     <EmbeddedResource Include="Forms\KJH\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KJH\WorkerByProcess.resx">
+      <DependentUpon>WorkerByProcess.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\Balju.resx">
       <DependentUpon>Balju.cs</DependentUpon>
     </EmbeddedResource>
@@ -500,15 +491,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\StockStatus.resx">
       <DependentUpon>StockStatus.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\KJH\WorkerbyProcess.resx">
-      <DependentUpon>WorkerbyProcess.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\KJH\ProductionProcess.resx">
-      <DependentUpon>ProductionProcess.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\KJH\ProductionProcessAdd.resx">
-      <DependentUpon>ProductionProcessAdd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
