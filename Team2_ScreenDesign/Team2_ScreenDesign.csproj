@@ -77,11 +77,23 @@
     <Compile Include="Forms\CMG\Factory.Designer.cs">
       <DependentUpon>Factory.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\KJH\DefectiveType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KJH\DefectiveType.Designer.cs">
+      <DependentUpon>DefectiveType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\KJH\DefectiveTypeAdd.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\KJH\DefectiveTypeAdd.Designer.cs">
       <DependentUpon>DefectiveTypeAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KJH\DowntimeType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KJH\DowntimeType.Designer.cs">
+      <DependentUpon>DowntimeType.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\KJH\DowntimeTypeAdd.cs">
       <SubType>Form</SubType>
@@ -323,8 +335,14 @@
     <EmbeddedResource Include="Forms\CMG\Factory.resx">
       <DependentUpon>Factory.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KJH\DefectiveType.resx">
+      <DependentUpon>DefectiveType.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\DefectiveTypeAdd.resx">
       <DependentUpon>DefectiveTypeAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KJH\DowntimeType.resx">
+      <DependentUpon>DowntimeType.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\DowntimeTypeAdd.resx">
       <DependentUpon>DowntimeTypeAdd.cs</DependentUpon>

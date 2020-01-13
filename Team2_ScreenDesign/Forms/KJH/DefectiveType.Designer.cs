@@ -1,6 +1,6 @@
 ﻿namespace Team2_ScreenDesign
 {
-    partial class DowntimeType
+    partial class DefectiveType
     {
         /// <summary>
         /// 필수 디자이너 변수입니다.
@@ -28,13 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.searchPeriodControl1 = new Team2_ScreenDesign.SearchPeriodControl();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.searchPeriodControl1 = new Team2_ScreenDesign.SearchPeriodControl();
+            
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.searchControl1 = new Team2_ScreenDesign.SearchControl();
-            this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel_Search.SuspendLayout();
@@ -51,22 +50,8 @@
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.searchUserControl1);
-            this.panel5.Controls.Add(this.searchControl1);
+            
             this.panel5.Controls.Add(this.searchPeriodControl1);
-            // 
-            // lblFormName
-            // 
-            this.lblFormName.Text = "비가동 유형";
-            // 
-            // searchPeriodControl1
-            // 
-            this.searchPeriodControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchPeriodControl1.Labelname = "기간 선택";
-            this.searchPeriodControl1.Location = new System.Drawing.Point(12, 6);
-            this.searchPeriodControl1.Name = "searchPeriodControl1";
-            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 25);
-            this.searchPeriodControl1.TabIndex = 0;
             // 
             // dataGridView1
             // 
@@ -79,51 +64,38 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 23;
             this.dataGridView1.Size = new System.Drawing.Size(1364, 662);
             this.dataGridView1.TabIndex = 0;
             // 
+            // searchPeriodControl1
+            // 
+            this.searchPeriodControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchPeriodControl1.Labelname = "기간 선택";
+            this.searchPeriodControl1.Location = new System.Drawing.Point(12, 6);
+            this.searchPeriodControl1.Name = "searchPeriodControl1";
+            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 25);
+            this.searchPeriodControl1.TabIndex = 0;
+            // 
             // Column1
             // 
-            this.Column1.HeaderText = "비가동유형코드";
+            this.Column1.HeaderText = "불량유형코드";
             this.Column1.Name = "Column1";
             // 
             // Column2
             // 
-            this.Column2.HeaderText = "비가동유형명";
+            this.Column2.HeaderText = "불량유형명";
             this.Column2.Name = "Column2";
             // 
             // Column3
             // 
-            this.Column3.HeaderText = "비가동유형설명";
+            this.Column3.HeaderText = "불량유형내용";
             this.Column3.Name = "Column3";
             // 
-            // searchControl1
-            // 
-            this.searchControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchControl1.Labelname = "이름으로 검색";
-            this.searchControl1.Location = new System.Drawing.Point(12, 37);
-            this.searchControl1.Name = "searchControl1";
-            this.searchControl1.Size = new System.Drawing.Size(312, 25);
-            this.searchControl1.TabIndex = 1;
-            // 
-            // searchUserControl1
-            // 
-            this.searchUserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
-            this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Worker;
-            this.searchUserControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchUserControl1.Labelname = "작업자";
-            this.searchUserControl1.Location = new System.Drawing.Point(12, 68);
-            this.searchUserControl1.Name = "searchUserControl1";
-            this.searchUserControl1.Size = new System.Drawing.Size(312, 25);
-            this.searchUserControl1.TabIndex = 2;
-            // 
-            // DowntimeType
+            // DefectiveType
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.ClientSize = new System.Drawing.Size(1364, 820);
-            this.FormName = "비가동 유형";
-            this.Name = "DowntimeType";
+            this.Name = "DefectiveType";
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel_Search.ResumeLayout(false);
@@ -138,12 +110,11 @@
 
         #endregion
 
-        private SearchPeriodControl searchPeriodControl1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private SearchControl searchControl1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private SearchUserControl searchUserControl1;
+        
+        private SearchPeriodControl searchPeriodControl1;
     }
 }

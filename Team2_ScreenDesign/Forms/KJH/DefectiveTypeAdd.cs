@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class ProductionProcessAdd : Team2_ScreenDesign.BasePopup
+    public partial class DefectiveTypeAdd : Team2_ScreenDesign.BasePopup
     {
-        public ProductionProcessAdd()
+        public DefectiveTypeAdd()
         {
             InitializeComponent();
         }
