@@ -59,12 +59,6 @@
     <Compile Include="Custom\AddressSearch.Designer.cs">
       <DependentUpon>AddressSearch.cs</DependentUpon>
     </Compile>
-    <Compile Include="Custom\SearchControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Custom\SearchControl.Designer.cs">
-      <DependentUpon>SearchControl.cs</DependentUpon>
-    </Compile>
     <Compile Include="Custom\SearchUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -83,23 +77,11 @@
     <Compile Include="Forms\CMG\Factory.Designer.cs">
       <DependentUpon>Factory.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\KJH\DefectiveType.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\KJH\DefectiveType.Designer.cs">
-      <DependentUpon>DefectiveType.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\KJH\DefectiveTypeAdd.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\KJH\DefectiveTypeAdd.Designer.cs">
       <DependentUpon>DefectiveTypeAdd.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\KJH\DowntimeType.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\KJH\DowntimeType.Designer.cs">
-      <DependentUpon>DowntimeType.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\KJH\DowntimeTypeAdd.cs">
       <SubType>Form</SubType>
@@ -332,9 +314,6 @@
     <EmbeddedResource Include="Custom\AddressSearch.resx">
       <DependentUpon>AddressSearch.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Custom\SearchControl.resx">
-      <DependentUpon>SearchControl.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Custom\SearchUserControl.resx">
       <DependentUpon>SearchUserControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -344,14 +323,8 @@
     <EmbeddedResource Include="Forms\CMG\Factory.resx">
       <DependentUpon>Factory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\KJH\DefectiveType.resx">
-      <DependentUpon>DefectiveType.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\DefectiveTypeAdd.resx">
       <DependentUpon>DefectiveTypeAdd.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\KJH\DowntimeType.resx">
-      <DependentUpon>DowntimeType.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\DowntimeTypeAdd.resx">
       <DependentUpon>DowntimeTypeAdd.cs</DependentUpon>
