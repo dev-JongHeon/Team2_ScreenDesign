@@ -77,6 +77,30 @@
     <Compile Include="Forms\CMG\Factory.Designer.cs">
       <DependentUpon>Factory.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\KJH\DefectiveType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KJH\DefectiveType.Designer.cs">
+      <DependentUpon>DefectiveType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KJH\DefectiveTypeAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KJH\DefectiveTypeAdd.Designer.cs">
+      <DependentUpon>DefectiveTypeAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KJH\DowntimeType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KJH\DowntimeType.Designer.cs">
+      <DependentUpon>DowntimeType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KJH\DowntimeTypeAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KJH\DowntimeTypeAdd.Designer.cs">
+      <DependentUpon>DowntimeTypeAdd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\SSD\Balju.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,12 +161,6 @@
     <Compile Include="Forms\KHS\ShipmentMainForm.Designer.cs">
       <DependentUpon>ShipmentMainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\KJH\ProductionProcessAdd.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\KJH\ProductionProcessAdd.Designer.cs">
-      <DependentUpon>ProductionProcessAdd.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\BaseForm\Base1Dgv.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -197,16 +215,16 @@
     <Compile Include="Forms\CMG\Warehouse.Designer.cs">
       <DependentUpon>Warehouse.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\HJS\Produce.cs">
+    <Compile Include="Forms\KJH\Produce.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\HJS\Produce.Designer.cs">
+    <Compile Include="Forms\KJH\Produce.Designer.cs">
       <DependentUpon>Produce.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\HJS\WorkList.cs">
+    <Compile Include="Forms\KJH\WorkList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\HJS\WorkList.Designer.cs">
+    <Compile Include="Forms\KJH\WorkList.Designer.cs">
       <DependentUpon>WorkList.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\KJH\CalendarForm.cs">
@@ -215,16 +233,16 @@
     <Compile Include="Forms\KJH\CalendarForm.Designer.cs">
       <DependentUpon>CalendarForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\HJS\Defective.cs">
+    <Compile Include="Forms\KJH\Defective.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\HJS\Defective.Designer.cs">
+    <Compile Include="Forms\KJH\Defective.Designer.cs">
       <DependentUpon>Defective.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\HJS\Downtime.cs">
+    <Compile Include="Forms\KJH\Downtime.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\HJS\Downtime.Designer.cs">
+    <Compile Include="Forms\KJH\Downtime.Designer.cs">
       <DependentUpon>Downtime.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\HJS\SearchForm.cs">
@@ -281,18 +299,6 @@
     <Compile Include="Forms\SSD\StockStatus.Designer.cs">
       <DependentUpon>StockStatus.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\KJH\WorkerbyProcess.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\KJH\WorkerbyProcess.Designer.cs">
-      <DependentUpon>WorkerbyProcess.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\KJH\ProductionProcess.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\KJH\ProductionProcess.Designer.cs">
-      <DependentUpon>ProductionProcess.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Forms\SSD\TypeOfDisproduct.cs">
@@ -328,6 +334,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CMG\Factory.resx">
       <DependentUpon>Factory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KJH\DefectiveType.resx">
+      <DependentUpon>DefectiveType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KJH\DefectiveTypeAdd.resx">
+      <DependentUpon>DefectiveTypeAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KJH\DowntimeType.resx">
+      <DependentUpon>DowntimeType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KJH\DowntimeTypeAdd.resx">
+      <DependentUpon>DowntimeTypeAdd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\Balju.resx">
       <DependentUpon>Balju.cs</DependentUpon>
@@ -380,19 +398,19 @@
     <EmbeddedResource Include="Forms\CMG\WarehouseInsUp.resx">
       <DependentUpon>WarehouseInsUp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\HJS\Defective.resx">
+    <EmbeddedResource Include="Forms\KJH\Defective.resx">
       <DependentUpon>Defective.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\HJS\Downtime.resx">
+    <EmbeddedResource Include="Forms\KJH\Downtime.resx">
       <DependentUpon>Downtime.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\HJS\Produce.resx">
+    <EmbeddedResource Include="Forms\KJH\Produce.resx">
       <DependentUpon>Produce.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\HJS\SearchForm.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\HJS\WorkList.resx">
+    <EmbeddedResource Include="Forms\KJH\WorkList.resx">
       <DependentUpon>WorkList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KHS\ShipmentMainForm.resx">
@@ -424,15 +442,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\StockStatus.resx">
       <DependentUpon>StockStatus.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\KJH\WorkerbyProcess.resx">
-      <DependentUpon>WorkerbyProcess.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\KJH\ProductionProcess.resx">
-      <DependentUpon>ProductionProcess.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\KJH\ProductionProcessAdd.resx">
-      <DependentUpon>ProductionProcessAdd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
