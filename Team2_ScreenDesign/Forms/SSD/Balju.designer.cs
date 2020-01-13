@@ -50,6 +50,7 @@
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel_Title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTitle)).BeginInit();
@@ -133,6 +134,7 @@
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel7.Controls.Add(this.label1);
             this.panel7.Controls.Add(this.dataGridView2);
             this.panel7.Controls.Add(this.label5);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -312,6 +314,15 @@
             this.button1.Text = "▲";
             this.button1.UseVisualStyleBackColor = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(832, 21);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(140, 14);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "* 더블클릭 : 요청수량 수정";
+            // 
             // Balju
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -325,6 +336,7 @@
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -359,5 +371,6 @@
         private System.Windows.Forms.Button button1;
         private SearchUserControl searchUserControl3;
         private SearchUserControl searchUserControl2;
+        private System.Windows.Forms.Label label1;
     }
 }
