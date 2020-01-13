@@ -6,17 +6,13 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Team2_ScreenDesign
+namespace Team2_ScreenDesign.Forms.HJS
 {
-    public partial class WorkerbyProcess : BasePopup
+    public partial class Produce : Base2Dgv
     {
-        public WorkerbyProcess()
+        public Produce()
         {
             InitializeComponent();
-            searchUserControl1.Labelname = "";
         }
-        
-        
-
     }
 }

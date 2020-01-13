@@ -5,19 +5,15 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using Team2_ScreenDesign.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class ProductionProcess : Team2_ScreenDesign.Base1Dgv
+    public partial class Downtime : BaseForm
     {
-        public ProductionProcess()
+        public Downtime()
         {
             InitializeComponent();
-        }
-
-        private void btnAdd_Click(object sender, EventArgs e)
-        {
-            
         }
     }
 }
