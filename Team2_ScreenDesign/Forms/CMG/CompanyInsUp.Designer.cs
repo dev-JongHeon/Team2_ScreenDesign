@@ -30,18 +30,17 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.txtCompanyCode = new System.Windows.Forms.TextBox();
             this.txtCompanyName = new System.Windows.Forms.TextBox();
-            this.txtCompanyAddr = new System.Windows.Forms.TextBox();
             this.txtCompanyNumber = new System.Windows.Forms.TextBox();
             this.txtCompanyFaxNumber = new System.Windows.Forms.TextBox();
             this.txtCompanyBC = new System.Windows.Forms.TextBox();
             this.txtCompanyDivision = new System.Windows.Forms.TextBox();
+            this.addressControl1 = new Team2_ScreenDesign.Custom.AddressControl();
             this.panel1.SuspendLayout();
             this.panel_Title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTitle)).BeginInit();
@@ -52,35 +51,32 @@
             // 
             // panel5
             // 
+            this.panel5.Controls.Add(this.addressControl1);
             this.panel5.Controls.Add(this.txtCompanyDivision);
             this.panel5.Controls.Add(this.txtCompanyBC);
             this.panel5.Controls.Add(this.txtCompanyFaxNumber);
             this.panel5.Controls.Add(this.txtCompanyNumber);
-            this.panel5.Controls.Add(this.txtCompanyAddr);
             this.panel5.Controls.Add(this.txtCompanyName);
             this.panel5.Controls.Add(this.txtCompanyCode);
             this.panel5.Controls.Add(this.label7);
             this.panel5.Controls.Add(this.label6);
             this.panel5.Controls.Add(this.label5);
             this.panel5.Controls.Add(this.label4);
-            this.panel5.Controls.Add(this.label3);
             this.panel5.Controls.Add(this.label2);
             this.panel5.Controls.Add(this.label1);
             // 
             // btnCancel
             // 
             this.btnCancel.FlatAppearance.BorderSize = 0;
-            this.btnCancel.TabIndex = 8;
             // 
             // btnOK
             // 
             this.btnOK.FlatAppearance.BorderSize = 0;
-            this.btnOK.TabIndex = 7;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 37);
+            this.label1.Location = new System.Drawing.Point(49, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 14);
             this.label1.TabIndex = 0;
@@ -89,25 +85,16 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(33, 91);
+            this.label2.Location = new System.Drawing.Point(49, 75);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(65, 14);
             this.label2.TabIndex = 0;
             this.label2.Text = "거래처 이름";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(33, 137);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 14);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "거래처 주소";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(47, 187);
+            this.label4.Location = new System.Drawing.Point(49, 121);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(51, 14);
             this.label4.TabIndex = 1;
@@ -116,7 +103,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(47, 235);
+            this.label5.Location = new System.Drawing.Point(49, 169);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(51, 14);
             this.label5.TabIndex = 1;
@@ -125,7 +112,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(69, 287);
+            this.label6.Location = new System.Drawing.Point(49, 221);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(29, 14);
             this.label6.TabIndex = 1;
@@ -134,7 +121,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(69, 337);
+            this.label7.Location = new System.Drawing.Point(49, 271);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(29, 14);
             this.label7.TabIndex = 1;
@@ -142,52 +129,54 @@
             // 
             // txtCompanyCode
             // 
-            this.txtCompanyCode.Location = new System.Drawing.Point(116, 30);
+            this.txtCompanyCode.Location = new System.Drawing.Point(126, 18);
             this.txtCompanyCode.Name = "txtCompanyCode";
             this.txtCompanyCode.Size = new System.Drawing.Size(133, 21);
-            this.txtCompanyCode.TabIndex = 0;
+            this.txtCompanyCode.TabIndex = 2;
             // 
             // txtCompanyName
             // 
-            this.txtCompanyName.Location = new System.Drawing.Point(116, 84);
+            this.txtCompanyName.Location = new System.Drawing.Point(126, 72);
             this.txtCompanyName.Name = "txtCompanyName";
             this.txtCompanyName.Size = new System.Drawing.Size(133, 21);
-            this.txtCompanyName.TabIndex = 1;
-            // 
-            // txtCompanyAddr
-            // 
-            this.txtCompanyAddr.Location = new System.Drawing.Point(116, 130);
-            this.txtCompanyAddr.Name = "txtCompanyAddr";
-            this.txtCompanyAddr.Size = new System.Drawing.Size(133, 21);
-            this.txtCompanyAddr.TabIndex = 2;
+            this.txtCompanyName.TabIndex = 2;
             // 
             // txtCompanyNumber
             // 
-            this.txtCompanyNumber.Location = new System.Drawing.Point(116, 180);
+            this.txtCompanyNumber.Location = new System.Drawing.Point(126, 118);
             this.txtCompanyNumber.Name = "txtCompanyNumber";
             this.txtCompanyNumber.Size = new System.Drawing.Size(133, 21);
-            this.txtCompanyNumber.TabIndex = 3;
+            this.txtCompanyNumber.TabIndex = 2;
             // 
             // txtCompanyFaxNumber
             // 
-            this.txtCompanyFaxNumber.Location = new System.Drawing.Point(116, 228);
+            this.txtCompanyFaxNumber.Location = new System.Drawing.Point(126, 166);
             this.txtCompanyFaxNumber.Name = "txtCompanyFaxNumber";
             this.txtCompanyFaxNumber.Size = new System.Drawing.Size(133, 21);
-            this.txtCompanyFaxNumber.TabIndex = 4;
+            this.txtCompanyFaxNumber.TabIndex = 2;
             // 
             // txtCompanyBC
             // 
-            this.txtCompanyBC.Location = new System.Drawing.Point(116, 280);
+            this.txtCompanyBC.Location = new System.Drawing.Point(126, 218);
             this.txtCompanyBC.Name = "txtCompanyBC";
             this.txtCompanyBC.Size = new System.Drawing.Size(133, 21);
-            this.txtCompanyBC.TabIndex = 5;
+            this.txtCompanyBC.TabIndex = 2;
             // 
             // txtCompanyDivision
             // 
-            this.txtCompanyDivision.Location = new System.Drawing.Point(116, 330);
+            this.txtCompanyDivision.Location = new System.Drawing.Point(126, 268);
             this.txtCompanyDivision.Name = "txtCompanyDivision";
             this.txtCompanyDivision.Size = new System.Drawing.Size(133, 21);
-            this.txtCompanyDivision.TabIndex = 6;
+            this.txtCompanyDivision.TabIndex = 2;
+            // 
+            // addressControl1
+            // 
+            this.addressControl1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.addressControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.addressControl1.Location = new System.Drawing.Point(52, 300);
+            this.addressControl1.Name = "addressControl1";
+            this.addressControl1.Size = new System.Drawing.Size(505, 106);
+            this.addressControl1.TabIndex = 3;
             // 
             // CompanyInsUp
             // 
@@ -213,15 +202,14 @@
         private System.Windows.Forms.TextBox txtCompanyBC;
         private System.Windows.Forms.TextBox txtCompanyFaxNumber;
         private System.Windows.Forms.TextBox txtCompanyNumber;
-        private System.Windows.Forms.TextBox txtCompanyAddr;
         private System.Windows.Forms.TextBox txtCompanyName;
         private System.Windows.Forms.TextBox txtCompanyCode;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private Custom.AddressControl addressControl1;
     }
 }

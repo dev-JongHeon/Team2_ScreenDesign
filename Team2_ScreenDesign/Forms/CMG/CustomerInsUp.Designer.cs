@@ -33,13 +33,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.txtCustomerID = new System.Windows.Forms.TextBox();
             this.txtCustomerPassword = new System.Windows.Forms.TextBox();
             this.txtCustomerName = new System.Windows.Forms.TextBox();
             this.txtCustomerPhoneNumber = new System.Windows.Forms.TextBox();
-            this.txtCustomerAddr = new System.Windows.Forms.TextBox();
             this.dtpCustomerBirthDay = new System.Windows.Forms.DateTimePicker();
+            this.addressControl1 = new Team2_ScreenDesign.Custom.AddressControl();
             this.panel1.SuspendLayout();
             this.panel_Title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTitle)).BeginInit();
@@ -50,13 +49,12 @@
             // 
             // panel5
             // 
+            this.panel5.Controls.Add(this.addressControl1);
             this.panel5.Controls.Add(this.dtpCustomerBirthDay);
-            this.panel5.Controls.Add(this.txtCustomerAddr);
             this.panel5.Controls.Add(this.txtCustomerPhoneNumber);
             this.panel5.Controls.Add(this.txtCustomerName);
             this.panel5.Controls.Add(this.txtCustomerPassword);
             this.panel5.Controls.Add(this.txtCustomerID);
-            this.panel5.Controls.Add(this.label6);
             this.panel5.Controls.Add(this.label5);
             this.panel5.Controls.Add(this.label4);
             this.panel5.Controls.Add(this.label3);
@@ -66,17 +64,15 @@
             // btnCancel
             // 
             this.btnCancel.FlatAppearance.BorderSize = 0;
-            this.btnCancel.TabIndex = 7;
             // 
             // btnOK
             // 
             this.btnOK.FlatAppearance.BorderSize = 0;
-            this.btnOK.TabIndex = 6;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 41);
+            this.label1.Location = new System.Drawing.Point(22, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(40, 14);
             this.label1.TabIndex = 0;
@@ -85,7 +81,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(22, 96);
+            this.label2.Location = new System.Drawing.Point(22, 92);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 14);
             this.label2.TabIndex = 0;
@@ -94,7 +90,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(33, 151);
+            this.label3.Location = new System.Drawing.Point(22, 147);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(40, 14);
             this.label3.TabIndex = 0;
@@ -103,7 +99,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(22, 210);
+            this.label4.Location = new System.Drawing.Point(22, 204);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(51, 14);
             this.label4.TabIndex = 0;
@@ -112,63 +108,56 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(22, 267);
+            this.label5.Location = new System.Drawing.Point(22, 258);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(51, 14);
             this.label5.TabIndex = 0;
             this.label5.Text = "생년월일";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(44, 320);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(29, 14);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "주소";
-            // 
             // txtCustomerID
             // 
-            this.txtCustomerID.Location = new System.Drawing.Point(91, 34);
+            this.txtCustomerID.Location = new System.Drawing.Point(99, 34);
             this.txtCustomerID.Name = "txtCustomerID";
             this.txtCustomerID.Size = new System.Drawing.Size(151, 21);
-            this.txtCustomerID.TabIndex = 0;
+            this.txtCustomerID.TabIndex = 1;
             // 
             // txtCustomerPassword
             // 
-            this.txtCustomerPassword.Location = new System.Drawing.Point(91, 89);
+            this.txtCustomerPassword.Location = new System.Drawing.Point(99, 89);
             this.txtCustomerPassword.Name = "txtCustomerPassword";
             this.txtCustomerPassword.Size = new System.Drawing.Size(151, 21);
             this.txtCustomerPassword.TabIndex = 1;
             // 
             // txtCustomerName
             // 
-            this.txtCustomerName.Location = new System.Drawing.Point(91, 144);
+            this.txtCustomerName.Location = new System.Drawing.Point(99, 144);
             this.txtCustomerName.Name = "txtCustomerName";
             this.txtCustomerName.Size = new System.Drawing.Size(151, 21);
-            this.txtCustomerName.TabIndex = 2;
+            this.txtCustomerName.TabIndex = 1;
             // 
             // txtCustomerPhoneNumber
             // 
-            this.txtCustomerPhoneNumber.Location = new System.Drawing.Point(91, 203);
+            this.txtCustomerPhoneNumber.Location = new System.Drawing.Point(99, 201);
             this.txtCustomerPhoneNumber.Name = "txtCustomerPhoneNumber";
             this.txtCustomerPhoneNumber.Size = new System.Drawing.Size(151, 21);
-            this.txtCustomerPhoneNumber.TabIndex = 3;
-            // 
-            // txtCustomerAddr
-            // 
-            this.txtCustomerAddr.Location = new System.Drawing.Point(91, 313);
-            this.txtCustomerAddr.Name = "txtCustomerAddr";
-            this.txtCustomerAddr.Size = new System.Drawing.Size(151, 21);
-            this.txtCustomerAddr.TabIndex = 5;
+            this.txtCustomerPhoneNumber.TabIndex = 1;
             // 
             // dtpCustomerBirthDay
             // 
             this.dtpCustomerBirthDay.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpCustomerBirthDay.Location = new System.Drawing.Point(91, 260);
+            this.dtpCustomerBirthDay.Location = new System.Drawing.Point(99, 253);
             this.dtpCustomerBirthDay.Name = "dtpCustomerBirthDay";
             this.dtpCustomerBirthDay.Size = new System.Drawing.Size(151, 21);
-            this.dtpCustomerBirthDay.TabIndex = 4;
+            this.dtpCustomerBirthDay.TabIndex = 2;
+            // 
+            // addressControl1
+            // 
+            this.addressControl1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.addressControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.addressControl1.Location = new System.Drawing.Point(25, 291);
+            this.addressControl1.Name = "addressControl1";
+            this.addressControl1.Size = new System.Drawing.Size(505, 106);
+            this.addressControl1.TabIndex = 3;
             // 
             // CustomerInsUp
             // 
@@ -194,13 +183,12 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dtpCustomerBirthDay;
-        private System.Windows.Forms.TextBox txtCustomerAddr;
         private System.Windows.Forms.TextBox txtCustomerPhoneNumber;
         private System.Windows.Forms.TextBox txtCustomerName;
         private System.Windows.Forms.TextBox txtCustomerPassword;
         private System.Windows.Forms.TextBox txtCustomerID;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
+        private Custom.AddressControl addressControl1;
     }
 }

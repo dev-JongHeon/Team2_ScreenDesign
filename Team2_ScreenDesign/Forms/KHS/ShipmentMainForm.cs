@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign.Forms.KHS
 {
-    public partial class Shipment : Team2_ScreenDesign.Base2Dgv
+    public partial class ShipmentMainForm : Team2_ScreenDesign.Base2Dgv
     {
-        public Shipment()
+        public ShipmentMainForm()
         {
             InitializeComponent();
         }

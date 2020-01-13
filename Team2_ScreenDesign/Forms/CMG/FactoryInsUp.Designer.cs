@@ -33,13 +33,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.txtFactoryCode = new System.Windows.Forms.TextBox();
             this.txtFactoryName = new System.Windows.Forms.TextBox();
             this.txtFactoryDivision = new System.Windows.Forms.TextBox();
             this.txtFactoryNumber = new System.Windows.Forms.TextBox();
             this.txtFactoryFaxNumber = new System.Windows.Forms.TextBox();
-            this.txtFactoryAddr = new System.Windows.Forms.TextBox();
+            this.addressControl1 = new Team2_ScreenDesign.Custom.AddressControl();
             this.panel1.SuspendLayout();
             this.panel_Title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTitle)).BeginInit();
@@ -50,13 +49,12 @@
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.txtFactoryAddr);
+            this.panel5.Controls.Add(this.addressControl1);
             this.panel5.Controls.Add(this.txtFactoryFaxNumber);
             this.panel5.Controls.Add(this.txtFactoryNumber);
             this.panel5.Controls.Add(this.txtFactoryDivision);
             this.panel5.Controls.Add(this.txtFactoryName);
             this.panel5.Controls.Add(this.txtFactoryCode);
-            this.panel5.Controls.Add(this.label6);
             this.panel5.Controls.Add(this.label5);
             this.panel5.Controls.Add(this.label4);
             this.panel5.Controls.Add(this.label3);
@@ -66,12 +64,10 @@
             // btnCancel
             // 
             this.btnCancel.FlatAppearance.BorderSize = 0;
-            this.btnCancel.TabIndex = 7;
             // 
             // btnOK
             // 
             this.btnOK.FlatAppearance.BorderSize = 0;
-            this.btnOK.TabIndex = 6;
             // 
             // label1
             // 
@@ -85,7 +81,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(33, 96);
+            this.label2.Location = new System.Drawing.Point(33, 86);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 14);
             this.label2.TabIndex = 0;
@@ -94,7 +90,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(55, 151);
+            this.label3.Location = new System.Drawing.Point(33, 132);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(29, 14);
             this.label3.TabIndex = 0;
@@ -103,7 +99,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(33, 208);
+            this.label4.Location = new System.Drawing.Point(33, 181);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(51, 14);
             this.label4.TabIndex = 0;
@@ -112,62 +108,55 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(33, 262);
+            this.label5.Location = new System.Drawing.Point(33, 228);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(51, 14);
             this.label5.TabIndex = 0;
             this.label5.Text = "Fax 번호";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(55, 315);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(29, 14);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "주소";
-            // 
             // txtFactoryCode
             // 
-            this.txtFactoryCode.Location = new System.Drawing.Point(100, 30);
+            this.txtFactoryCode.Location = new System.Drawing.Point(110, 34);
             this.txtFactoryCode.Name = "txtFactoryCode";
             this.txtFactoryCode.Size = new System.Drawing.Size(133, 21);
-            this.txtFactoryCode.TabIndex = 0;
+            this.txtFactoryCode.TabIndex = 1;
             // 
             // txtFactoryName
             // 
-            this.txtFactoryName.Location = new System.Drawing.Point(100, 89);
+            this.txtFactoryName.Location = new System.Drawing.Point(110, 83);
             this.txtFactoryName.Name = "txtFactoryName";
             this.txtFactoryName.Size = new System.Drawing.Size(133, 21);
             this.txtFactoryName.TabIndex = 1;
             // 
             // txtFactoryDivision
             // 
-            this.txtFactoryDivision.Location = new System.Drawing.Point(100, 144);
+            this.txtFactoryDivision.Location = new System.Drawing.Point(110, 129);
             this.txtFactoryDivision.Name = "txtFactoryDivision";
             this.txtFactoryDivision.Size = new System.Drawing.Size(133, 21);
-            this.txtFactoryDivision.TabIndex = 2;
+            this.txtFactoryDivision.TabIndex = 1;
             // 
             // txtFactoryNumber
             // 
-            this.txtFactoryNumber.Location = new System.Drawing.Point(100, 201);
+            this.txtFactoryNumber.Location = new System.Drawing.Point(110, 178);
             this.txtFactoryNumber.Name = "txtFactoryNumber";
             this.txtFactoryNumber.Size = new System.Drawing.Size(133, 21);
-            this.txtFactoryNumber.TabIndex = 3;
+            this.txtFactoryNumber.TabIndex = 1;
             // 
             // txtFactoryFaxNumber
             // 
-            this.txtFactoryFaxNumber.Location = new System.Drawing.Point(100, 255);
+            this.txtFactoryFaxNumber.Location = new System.Drawing.Point(110, 225);
             this.txtFactoryFaxNumber.Name = "txtFactoryFaxNumber";
             this.txtFactoryFaxNumber.Size = new System.Drawing.Size(133, 21);
-            this.txtFactoryFaxNumber.TabIndex = 4;
+            this.txtFactoryFaxNumber.TabIndex = 1;
             // 
-            // txtFactoryAddr
+            // addressControl1
             // 
-            this.txtFactoryAddr.Location = new System.Drawing.Point(100, 308);
-            this.txtFactoryAddr.Name = "txtFactoryAddr";
-            this.txtFactoryAddr.Size = new System.Drawing.Size(133, 21);
-            this.txtFactoryAddr.TabIndex = 5;
+            this.addressControl1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.addressControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.addressControl1.Location = new System.Drawing.Point(36, 263);
+            this.addressControl1.Name = "addressControl1";
+            this.addressControl1.Size = new System.Drawing.Size(505, 106);
+            this.addressControl1.TabIndex = 2;
             // 
             // FactoryInsUp
             // 
@@ -194,12 +183,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtFactoryAddr;
-        private System.Windows.Forms.TextBox txtFactoryFaxNumber;
-        private System.Windows.Forms.TextBox txtFactoryNumber;
         private System.Windows.Forms.TextBox txtFactoryDivision;
         private System.Windows.Forms.TextBox txtFactoryName;
         private System.Windows.Forms.TextBox txtFactoryCode;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtFactoryFaxNumber;
+        private System.Windows.Forms.TextBox txtFactoryNumber;
+        private Custom.AddressControl addressControl1;
     }
 }

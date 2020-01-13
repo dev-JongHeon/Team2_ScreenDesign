@@ -3,23 +3,16 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class Input : Form
+    public partial class InOutput : Team2_ScreenDesign.BasePopup
     {
-        public Input()
+        public InOutput()
         {
             InitializeComponent();
-        }
-
-        private void Input_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

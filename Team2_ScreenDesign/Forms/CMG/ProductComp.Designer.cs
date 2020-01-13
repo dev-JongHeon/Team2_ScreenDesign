@@ -33,29 +33,29 @@
             this.cboCategory = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.txtProductImage = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.txtFrame = new System.Windows.Forms.TextBox();
+            this.txtBrake = new System.Windows.Forms.TextBox();
+            this.txtSaddle = new System.Windows.Forms.TextBox();
+            this.txtSteering = new System.Windows.Forms.TextBox();
+            this.txtRun = new System.Windows.Forms.TextBox();
+            this.txtDrive = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.txtProductImage = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.txtProductMoney = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.txtProductName = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtDrive = new System.Windows.Forms.TextBox();
-            this.txtRun = new System.Windows.Forms.TextBox();
-            this.txtSteering = new System.Windows.Forms.TextBox();
-            this.txtSaddle = new System.Windows.Forms.TextBox();
-            this.txtBrake = new System.Windows.Forms.TextBox();
-            this.txtFrame = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel_Title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTitle)).BeginInit();
@@ -104,7 +104,7 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
             this.splitContainer1.Size = new System.Drawing.Size(798, 409);
-            this.splitContainer1.SplitterDistance = 250;
+            this.splitContainer1.SplitterDistance = 243;
             this.splitContainer1.TabIndex = 0;
             // 
             // splitContainer3
@@ -122,14 +122,14 @@
             // splitContainer3.Panel2
             // 
             this.splitContainer3.Panel2.Controls.Add(this.dataGridView1);
-            this.splitContainer3.Size = new System.Drawing.Size(250, 409);
-            this.splitContainer3.SplitterDistance = 90;
+            this.splitContainer3.Size = new System.Drawing.Size(243, 409);
+            this.splitContainer3.SplitterDistance = 81;
             this.splitContainer3.TabIndex = 0;
             // 
             // cboCategory
             // 
             this.cboCategory.FormattingEnabled = true;
-            this.cboCategory.Location = new System.Drawing.Point(36, 47);
+            this.cboCategory.Location = new System.Drawing.Point(59, 46);
             this.cboCategory.Name = "cboCategory";
             this.cboCategory.Size = new System.Drawing.Size(121, 22);
             this.cboCategory.TabIndex = 3;
@@ -137,7 +137,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 20);
+            this.label1.Location = new System.Drawing.Point(33, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(51, 14);
             this.label1.TabIndex = 2;
@@ -145,7 +145,7 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -154,8 +154,18 @@
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(250, 315);
+            this.dataGridView1.Size = new System.Drawing.Size(243, 324);
             this.dataGridView1.TabIndex = 0;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "품목명";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "가격";
+            this.Column2.Name = "Column2";
             // 
             // splitContainer2
             // 
@@ -172,82 +182,97 @@
             this.splitContainer2.Panel1.Controls.Add(this.txtSteering);
             this.splitContainer2.Panel1.Controls.Add(this.txtRun);
             this.splitContainer2.Panel1.Controls.Add(this.txtDrive);
-            this.splitContainer2.Panel1.Controls.Add(this.pictureBox1);
-            this.splitContainer2.Panel1.Controls.Add(this.button1);
-            this.splitContainer2.Panel1.Controls.Add(this.txtProductImage);
-            this.splitContainer2.Panel1.Controls.Add(this.label4);
             this.splitContainer2.Panel1.Controls.Add(this.label10);
             this.splitContainer2.Panel1.Controls.Add(this.label9);
             this.splitContainer2.Panel1.Controls.Add(this.label8);
             this.splitContainer2.Panel1.Controls.Add(this.label7);
             this.splitContainer2.Panel1.Controls.Add(this.label6);
             this.splitContainer2.Panel1.Controls.Add(this.label5);
+            this.splitContainer2.Panel1.Controls.Add(this.pictureBox1);
+            this.splitContainer2.Panel1.Controls.Add(this.button1);
+            this.splitContainer2.Panel1.Controls.Add(this.txtProductImage);
+            this.splitContainer2.Panel1.Controls.Add(this.label4);
             // 
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.txtProductMoney);
-            this.splitContainer2.Panel2.Controls.Add(this.label17);
+            this.splitContainer2.Panel2.Controls.Add(this.label3);
             this.splitContainer2.Panel2.Controls.Add(this.txtProductName);
-            this.splitContainer2.Panel2.Controls.Add(this.label18);
-            this.splitContainer2.Size = new System.Drawing.Size(544, 409);
-            this.splitContainer2.SplitterDistance = 323;
+            this.splitContainer2.Panel2.Controls.Add(this.label2);
+            this.splitContainer2.Size = new System.Drawing.Size(551, 409);
+            this.splitContainer2.SplitterDistance = 304;
             this.splitContainer2.TabIndex = 0;
             // 
-            // pictureBox1
+            // txtFrame
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(344, 20);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(174, 237);
-            this.pictureBox1.TabIndex = 29;
-            this.pictureBox1.TabStop = false;
+            this.txtFrame.Location = new System.Drawing.Point(91, 221);
+            this.txtFrame.Name = "txtFrame";
+            this.txtFrame.ReadOnly = true;
+            this.txtFrame.Size = new System.Drawing.Size(187, 21);
+            this.txtFrame.TabIndex = 14;
             // 
-            // button1
+            // txtBrake
             // 
-            this.button1.Location = new System.Drawing.Point(247, 284);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 28;
-            this.button1.Text = "찾아보기";
-            this.button1.UseVisualStyleBackColor = true;
+            this.txtBrake.Location = new System.Drawing.Point(91, 179);
+            this.txtBrake.Name = "txtBrake";
+            this.txtBrake.ReadOnly = true;
+            this.txtBrake.Size = new System.Drawing.Size(187, 21);
+            this.txtBrake.TabIndex = 14;
             // 
-            // txtProductImage
+            // txtSaddle
             // 
-            this.txtProductImage.Location = new System.Drawing.Point(77, 285);
-            this.txtProductImage.Name = "txtProductImage";
-            this.txtProductImage.Size = new System.Drawing.Size(159, 21);
-            this.txtProductImage.TabIndex = 27;
+            this.txtSaddle.Location = new System.Drawing.Point(91, 137);
+            this.txtSaddle.Name = "txtSaddle";
+            this.txtSaddle.ReadOnly = true;
+            this.txtSaddle.Size = new System.Drawing.Size(187, 21);
+            this.txtSaddle.TabIndex = 14;
             // 
-            // label4
+            // txtSteering
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(31, 292);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(40, 14);
-            this.label4.TabIndex = 26;
-            this.label4.Text = "이미지";
+            this.txtSteering.Location = new System.Drawing.Point(91, 96);
+            this.txtSteering.Name = "txtSteering";
+            this.txtSteering.ReadOnly = true;
+            this.txtSteering.Size = new System.Drawing.Size(187, 21);
+            this.txtSteering.TabIndex = 14;
+            // 
+            // txtRun
+            // 
+            this.txtRun.Location = new System.Drawing.Point(91, 55);
+            this.txtRun.Name = "txtRun";
+            this.txtRun.ReadOnly = true;
+            this.txtRun.Size = new System.Drawing.Size(187, 21);
+            this.txtRun.TabIndex = 14;
+            // 
+            // txtDrive
+            // 
+            this.txtDrive.Location = new System.Drawing.Point(91, 16);
+            this.txtDrive.Name = "txtDrive";
+            this.txtDrive.ReadOnly = true;
+            this.txtDrive.Size = new System.Drawing.Size(187, 21);
+            this.txtDrive.TabIndex = 14;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(31, 252);
+            this.label10.Location = new System.Drawing.Point(34, 224);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(40, 14);
-            this.label10.TabIndex = 12;
+            this.label10.TabIndex = 8;
             this.label10.Text = "프레임";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(31, 205);
+            this.label9.Location = new System.Drawing.Point(34, 182);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(40, 14);
-            this.label9.TabIndex = 11;
+            this.label9.TabIndex = 9;
             this.label9.Text = "제동부";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(42, 161);
+            this.label8.Location = new System.Drawing.Point(34, 140);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(29, 14);
             this.label8.TabIndex = 10;
@@ -256,119 +281,95 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(31, 116);
+            this.label7.Location = new System.Drawing.Point(34, 99);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(40, 14);
-            this.label7.TabIndex = 9;
+            this.label7.TabIndex = 11;
             this.label7.Text = "조향부";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(31, 70);
+            this.label6.Location = new System.Drawing.Point(34, 58);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(40, 14);
-            this.label6.TabIndex = 13;
+            this.label6.TabIndex = 12;
             this.label6.Text = "주행부";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(31, 24);
+            this.label5.Location = new System.Drawing.Point(34, 19);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(40, 14);
-            this.label5.TabIndex = 8;
+            this.label5.TabIndex = 13;
             this.label5.Text = "구동부";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(330, 16);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(192, 226);
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(301, 267);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "찾아보기";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // txtProductImage
+            // 
+            this.txtProductImage.Location = new System.Drawing.Point(91, 269);
+            this.txtProductImage.Name = "txtProductImage";
+            this.txtProductImage.ReadOnly = true;
+            this.txtProductImage.Size = new System.Drawing.Size(187, 21);
+            this.txtProductImage.TabIndex = 5;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(34, 272);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(40, 14);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "이미지";
             // 
             // txtProductMoney
             // 
-            this.txtProductMoney.Location = new System.Drawing.Point(301, 47);
+            this.txtProductMoney.Location = new System.Drawing.Point(301, 61);
             this.txtProductMoney.Name = "txtProductMoney";
-            this.txtProductMoney.Size = new System.Drawing.Size(198, 21);
+            this.txtProductMoney.Size = new System.Drawing.Size(231, 21);
             this.txtProductMoney.TabIndex = 7;
             // 
-            // label17
+            // label3
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(266, 55);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(29, 14);
-            this.label17.TabIndex = 6;
-            this.label17.Text = "가격";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(244, 68);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(29, 14);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "가격";
             // 
             // txtProductName
             // 
-            this.txtProductName.Location = new System.Drawing.Point(301, 13);
+            this.txtProductName.Location = new System.Drawing.Point(301, 18);
             this.txtProductName.Name = "txtProductName";
             this.txtProductName.Size = new System.Drawing.Size(233, 21);
             this.txtProductName.TabIndex = 5;
             // 
-            // label18
+            // label2
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(244, 20);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(51, 14);
-            this.label18.TabIndex = 4;
-            this.label18.Text = "완제품명";
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "품목명";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "가격";
-            this.Column2.Name = "Column2";
-            // 
-            // txtDrive
-            // 
-            this.txtDrive.Location = new System.Drawing.Point(77, 20);
-            this.txtDrive.Name = "txtDrive";
-            this.txtDrive.ReadOnly = true;
-            this.txtDrive.Size = new System.Drawing.Size(159, 21);
-            this.txtDrive.TabIndex = 30;
-            // 
-            // txtRun
-            // 
-            this.txtRun.Location = new System.Drawing.Point(77, 65);
-            this.txtRun.Name = "txtRun";
-            this.txtRun.ReadOnly = true;
-            this.txtRun.Size = new System.Drawing.Size(159, 21);
-            this.txtRun.TabIndex = 30;
-            // 
-            // txtSteering
-            // 
-            this.txtSteering.Location = new System.Drawing.Point(77, 113);
-            this.txtSteering.Name = "txtSteering";
-            this.txtSteering.ReadOnly = true;
-            this.txtSteering.Size = new System.Drawing.Size(159, 21);
-            this.txtSteering.TabIndex = 30;
-            // 
-            // txtSaddle
-            // 
-            this.txtSaddle.Location = new System.Drawing.Point(77, 157);
-            this.txtSaddle.Name = "txtSaddle";
-            this.txtSaddle.ReadOnly = true;
-            this.txtSaddle.Size = new System.Drawing.Size(159, 21);
-            this.txtSaddle.TabIndex = 30;
-            // 
-            // txtBrake
-            // 
-            this.txtBrake.Location = new System.Drawing.Point(77, 202);
-            this.txtBrake.Name = "txtBrake";
-            this.txtBrake.ReadOnly = true;
-            this.txtBrake.Size = new System.Drawing.Size(159, 21);
-            this.txtBrake.TabIndex = 30;
-            // 
-            // txtFrame
-            // 
-            this.txtFrame.Location = new System.Drawing.Point(77, 247);
-            this.txtFrame.Name = "txtFrame";
-            this.txtFrame.ReadOnly = true;
-            this.txtFrame.Size = new System.Drawing.Size(159, 21);
-            this.txtFrame.TabIndex = 30;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(244, 25);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(51, 14);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "완제품명";
             // 
             // ProductComp
             // 
@@ -408,24 +409,14 @@
 
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.SplitContainer splitContainer2;
-        private System.Windows.Forms.SplitContainer splitContainer3;
-        private System.Windows.Forms.ComboBox cboCategory;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox txtProductImage;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtProductMoney;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox txtProductName;
-        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.SplitContainer splitContainer3;
+        private System.Windows.Forms.ComboBox cboCategory;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.TextBox txtFrame;
@@ -434,5 +425,15 @@
         private System.Windows.Forms.TextBox txtSteering;
         private System.Windows.Forms.TextBox txtRun;
         private System.Windows.Forms.TextBox txtDrive;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtProductMoney;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtProductName;
+        private System.Windows.Forms.Label label2;
     }
 }

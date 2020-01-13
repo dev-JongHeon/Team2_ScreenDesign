@@ -3,16 +3,15 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using Team2_ScreenDesign.Forms;
 
-namespace Team2_ScreenDesign.Forms.KHS
+namespace Team2_ScreenDesign
 {
-    public partial class ShipmentOrder_ : Form
+    public partial class Downtime : BaseForm
     {
-        public ShipmentOrder_()
+        public Downtime()
         {
             InitializeComponent();
         }

@@ -3,16 +3,14 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Team2_ScreenDesign
+namespace Team2_ScreenDesign.Forms.KJH
 {
-    public partial class 작업조회등록 : Form
+    public partial class DowntimeTypeAdd : Team2_ScreenDesign.BasePopup
     {
-        public 작업조회등록()
+        public DowntimeTypeAdd()
         {
             InitializeComponent();
         }
