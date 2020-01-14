@@ -47,6 +47,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\KHS\OrderMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\OrderMainForm.Designer.cs">
+      <DependentUpon>OrderMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KHS\SalesMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\SalesMainForm.Designer.cs">
+      <DependentUpon>SalesMainForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\KJH\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -314,6 +326,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SettingMenuStrip.cs" />
+    <EmbeddedResource Include="Forms\KHS\OrderMainForm.resx">
+      <DependentUpon>OrderMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\SalesMainForm.resx">
+      <DependentUpon>SalesMainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
