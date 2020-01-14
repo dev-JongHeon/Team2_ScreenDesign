@@ -48,6 +48,11 @@
             this.txtSemiproductName = new System.Windows.Forms.TextBox();
             this.txtSemiproductMoney = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel_Title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTitle)).BeginInit();
@@ -107,6 +112,7 @@
             // 
             // splitContainer3.Panel1
             // 
+            this.splitContainer3.Panel1.Controls.Add(this.comboBox1);
             this.splitContainer3.Panel1.Controls.Add(this.cboCategory);
             this.splitContainer3.Panel1.Controls.Add(this.label1);
             // 
@@ -114,13 +120,13 @@
             // 
             this.splitContainer3.Panel2.Controls.Add(this.dataGridView1);
             this.splitContainer3.Size = new System.Drawing.Size(290, 409);
-            this.splitContainer3.SplitterDistance = 81;
+            this.splitContainer3.SplitterDistance = 91;
             this.splitContainer3.TabIndex = 0;
             // 
             // cboCategory
             // 
             this.cboCategory.FormattingEnabled = true;
-            this.cboCategory.Location = new System.Drawing.Point(48, 41);
+            this.cboCategory.Location = new System.Drawing.Point(11, 49);
             this.cboCategory.Name = "cboCategory";
             this.cboCategory.Size = new System.Drawing.Size(121, 22);
             this.cboCategory.TabIndex = 3;
@@ -128,7 +134,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 14);
+            this.label1.Location = new System.Drawing.Point(11, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(51, 14);
             this.label1.TabIndex = 2;
@@ -145,7 +151,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(290, 324);
+            this.dataGridView1.Size = new System.Drawing.Size(290, 314);
             this.dataGridView1.TabIndex = 0;
             // 
             // Column1
@@ -167,6 +173,10 @@
             // 
             // splitContainer2.Panel1
             // 
+            this.splitContainer2.Panel1.Controls.Add(this.label11);
+            this.splitContainer2.Panel1.Controls.Add(this.label10);
+            this.splitContainer2.Panel1.Controls.Add(this.label9);
+            this.splitContainer2.Panel1.Controls.Add(this.label8);
             this.splitContainer2.Panel1.Controls.Add(this.textBox4);
             this.splitContainer2.Panel1.Controls.Add(this.textBox3);
             this.splitContainer2.Panel1.Controls.Add(this.textBox2);
@@ -280,11 +290,55 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(237, 78);
+            this.label3.Location = new System.Drawing.Point(237, 74);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(29, 14);
             this.label3.TabIndex = 2;
             this.label3.Text = "단가";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(151, 49);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 22);
+            this.comboBox1.TabIndex = 4;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(316, 49);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(18, 14);
+            this.label8.TabIndex = 11;
+            this.label8.Text = "원";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(316, 102);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(18, 14);
+            this.label9.TabIndex = 11;
+            this.label9.Text = "원";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(316, 151);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(18, 14);
+            this.label10.TabIndex = 11;
+            this.label10.Text = "원";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(316, 203);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(18, 14);
+            this.label11.TabIndex = 11;
+            this.label11.Text = "원";
             // 
             // SemiProductComp
             // 
@@ -341,5 +395,10 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
     }
 }

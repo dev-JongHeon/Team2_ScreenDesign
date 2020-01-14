@@ -35,6 +35,7 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -55,6 +56,7 @@
             this.splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -75,9 +77,7 @@
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.radioButton3);
-            this.panel5.Controls.Add(this.radioButton2);
-            this.panel5.Controls.Add(this.radioButton1);
+            this.panel5.Controls.Add(this.groupBox1);
             this.panel5.Controls.Add(this.searchUserControl1);
             this.panel5.Size = new System.Drawing.Size(1344, 110);
             // 
@@ -143,7 +143,8 @@
             this.searchUserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
             this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Product;
             this.searchUserControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchUserControl1.Location = new System.Drawing.Point(86, 6);
+            this.searchUserControl1.Labelname = "제품";
+            this.searchUserControl1.Location = new System.Drawing.Point(3, 69);
             this.searchUserControl1.Name = "searchUserControl1";
             this.searchUserControl1.Size = new System.Drawing.Size(312, 30);
             this.searchUserControl1.TabIndex = 0;
@@ -151,7 +152,7 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(12, 6);
+            this.radioButton1.Location = new System.Drawing.Point(21, 24);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(47, 18);
             this.radioButton1.TabIndex = 1;
@@ -162,7 +163,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(12, 40);
+            this.radioButton2.Location = new System.Drawing.Point(93, 24);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(58, 18);
             this.radioButton2.TabIndex = 2;
@@ -173,13 +174,25 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(12, 74);
+            this.radioButton3.Location = new System.Drawing.Point(174, 24);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(58, 18);
             this.radioButton3.TabIndex = 3;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "완제품";
             this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.radioButton3);
+            this.groupBox1.Controls.Add(this.radioButton2);
+            this.groupBox1.Location = new System.Drawing.Point(3, 6);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(249, 54);
+            this.groupBox1.TabIndex = 4;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "분류";
             // 
             // Column1
             // 
@@ -188,7 +201,7 @@
             // 
             // Column2
             // 
-            this.Column2.HeaderText = "품목명";
+            this.Column2.HeaderText = "제품명";
             this.Column2.Name = "Column2";
             // 
             // Column3
@@ -208,7 +221,7 @@
             // 
             // dataGridViewTextBoxColumn2
             // 
-            this.dataGridViewTextBoxColumn2.HeaderText = "품목명";
+            this.dataGridViewTextBoxColumn2.HeaderText = "제품명";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             // 
             // dataGridViewTextBoxColumn3
@@ -231,7 +244,6 @@
             this.panel1.ResumeLayout(false);
             this.panel_Search.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
             this.panel_Title.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -241,6 +253,8 @@
             this.splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -251,6 +265,10 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridView dataGridView2;
         private SearchUserControl searchUserControl1;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
@@ -259,8 +277,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
     }
 }

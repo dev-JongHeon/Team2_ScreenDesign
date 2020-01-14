@@ -1,6 +1,6 @@
 ﻿namespace Team2_ScreenDesign
 {
-    partial class Employees
+    partial class Resource
     {
         /// <summary>
         /// Required designer variable.
@@ -34,13 +34,7 @@
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
-            this.searchUserControl2 = new Team2_ScreenDesign.SearchUserControl();
-            this.searchPeriodControl1 = new Team2_ScreenDesign.SearchPeriodControl();
-            this.searchPeriodControl2 = new Team2_ScreenDesign.SearchPeriodControl();
             this.panel1.SuspendLayout();
             this.panel_Search.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -53,34 +47,13 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.dataGridView1);
-            this.panel1.Size = new System.Drawing.Size(1344, 729);
             this.panel1.Controls.SetChildIndex(this.panel_Title, 0);
             this.panel1.Controls.SetChildIndex(this.panel_Search, 0);
             this.panel1.Controls.SetChildIndex(this.dataGridView1, 0);
             // 
-            // panel_Search
-            // 
-            this.panel_Search.Size = new System.Drawing.Size(1344, 110);
-            // 
-            // panel4
-            // 
-            this.panel4.Size = new System.Drawing.Size(1344, 2);
-            // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.searchPeriodControl2);
-            this.panel5.Controls.Add(this.searchPeriodControl1);
-            this.panel5.Controls.Add(this.searchUserControl2);
             this.panel5.Controls.Add(this.searchUserControl1);
-            this.panel5.Size = new System.Drawing.Size(1344, 110);
-            // 
-            // panel_Title
-            // 
-            this.panel_Title.Size = new System.Drawing.Size(1344, 48);
-            // 
-            // linepanel1
-            // 
-            this.linepanel1.Size = new System.Drawing.Size(1344, 2);
             // 
             // dataGridView1
             // 
@@ -91,104 +64,57 @@
             this.Column2,
             this.Column3,
             this.Column4,
-            this.Column5,
-            this.Column6,
-            this.Column7,
-            this.Column8});
+            this.Column5});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 158);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(1344, 571);
+            this.dataGridView1.Size = new System.Drawing.Size(1364, 662);
             this.dataGridView1.TabIndex = 7;
             // 
             // Column1
             // 
-            this.Column1.HeaderText = "사원번호";
+            this.Column1.HeaderText = "자재이름";
             this.Column1.Name = "Column1";
             // 
             // Column2
             // 
-            this.Column2.HeaderText = "사원이름";
+            this.Column2.HeaderText = "자재가격";
             this.Column2.Name = "Column2";
             // 
             // Column3
             // 
-            this.Column3.HeaderText = "부서";
+            this.Column3.HeaderText = "자재수량";
             this.Column3.Name = "Column3";
             // 
             // Column4
             // 
-            this.Column4.HeaderText = "입사일";
+            this.Column4.HeaderText = "안전재고량";
             this.Column4.Name = "Column4";
             // 
             // Column5
             // 
-            this.Column5.HeaderText = "퇴사일";
+            this.Column5.HeaderText = "구분";
             this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "비밀번호";
-            this.Column6.Name = "Column6";
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "전화번호";
-            this.Column7.Name = "Column7";
-            // 
-            // Column8
-            // 
-            this.Column8.HeaderText = "생년월일";
-            this.Column8.Name = "Column8";
             // 
             // searchUserControl1
             // 
             this.searchUserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
-            this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Worker;
+            this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Product;
             this.searchUserControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchUserControl1.Labelname = "작업자";
+            this.searchUserControl1.Labelname = "제품";
             this.searchUserControl1.Location = new System.Drawing.Point(3, 4);
             this.searchUserControl1.Name = "searchUserControl1";
-            this.searchUserControl1.Size = new System.Drawing.Size(312, 30);
+            this.searchUserControl1.Size = new System.Drawing.Size(312, 25);
             this.searchUserControl1.TabIndex = 0;
             // 
-            // searchUserControl2
-            // 
-            this.searchUserControl2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
-            this.searchUserControl2.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Department;
-            this.searchUserControl2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchUserControl2.Labelname = "부서";
-            this.searchUserControl2.Location = new System.Drawing.Point(3, 40);
-            this.searchUserControl2.Name = "searchUserControl2";
-            this.searchUserControl2.Size = new System.Drawing.Size(312, 30);
-            this.searchUserControl2.TabIndex = 1;
-            // 
-            // searchPeriodControl1
-            // 
-            this.searchPeriodControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchPeriodControl1.Labelname = "입사일";
-            this.searchPeriodControl1.Location = new System.Drawing.Point(321, 3);
-            this.searchPeriodControl1.Name = "searchPeriodControl1";
-            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 31);
-            this.searchPeriodControl1.TabIndex = 2;
-            // 
-            // searchPeriodControl2
-            // 
-            this.searchPeriodControl2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchPeriodControl2.Labelname = "퇴사일";
-            this.searchPeriodControl2.Location = new System.Drawing.Point(321, 42);
-            this.searchPeriodControl2.Name = "searchPeriodControl2";
-            this.searchPeriodControl2.Size = new System.Drawing.Size(312, 31);
-            this.searchPeriodControl2.TabIndex = 3;
-            // 
-            // Employees
+            // Resource
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1344, 729);
-            this.Name = "Employees";
-            this.Text = "Employees";
+            this.ClientSize = new System.Drawing.Size(1364, 820);
+            this.Name = "Resource";
+            this.Text = "Resource";
             this.panel1.ResumeLayout(false);
             this.panel_Search.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
@@ -208,12 +134,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-        private SearchUserControl searchUserControl2;
         private SearchUserControl searchUserControl1;
-        private SearchPeriodControl searchPeriodControl2;
-        private SearchPeriodControl searchPeriodControl1;
     }
 }

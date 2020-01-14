@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class CustomerInsUp : BasePopup
+    public partial class Department : BaseForm
     {
-        public CustomerInsUp()
+        public Department()
         {
             InitializeComponent();
         }

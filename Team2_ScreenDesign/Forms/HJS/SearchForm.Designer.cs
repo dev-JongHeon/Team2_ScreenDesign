@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.placeHolderTextBox1 = new PlaceHodlerTextBox.PlaceHolderTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.dgvSearch = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.placeHolderTextBox1 = new PlaceHodlerTextBox.PlaceHolderTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -43,6 +43,7 @@
             // 
             // splitContainer1
             // 
+            this.splitContainer1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
             this.splitContainer1.Name = "splitContainer1";
@@ -62,6 +63,16 @@
             this.splitContainer1.SplitterWidth = 5;
             this.splitContainer1.TabIndex = 0;
             // 
+            // placeHolderTextBox1
+            // 
+            this.placeHolderTextBox1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Italic);
+            this.placeHolderTextBox1.ForeColor = System.Drawing.Color.Gray;
+            this.placeHolderTextBox1.Location = new System.Drawing.Point(25, 32);
+            this.placeHolderTextBox1.Name = "placeHolderTextBox1";
+            this.placeHolderTextBox1.PlaceHolderText = "";
+            this.placeHolderTextBox1.Size = new System.Drawing.Size(224, 21);
+            this.placeHolderTextBox1.TabIndex = 5;
+            // 
             // button1
             // 
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -74,6 +85,7 @@
             // 
             // dgvSearch
             // 
+            this.dgvSearch.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvSearch.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvSearch.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -94,16 +106,6 @@
             // 
             this.Column2.HeaderText = "사원명";
             this.Column2.Name = "Column2";
-            // 
-            // placeHolderTextBox1
-            // 
-            this.placeHolderTextBox1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Italic);
-            this.placeHolderTextBox1.ForeColor = System.Drawing.Color.Gray;
-            this.placeHolderTextBox1.Location = new System.Drawing.Point(25, 32);
-            this.placeHolderTextBox1.Name = "placeHolderTextBox1";
-            this.placeHolderTextBox1.PlaceHolderText = "";
-            this.placeHolderTextBox1.Size = new System.Drawing.Size(224, 21);
-            this.placeHolderTextBox1.TabIndex = 5;
             // 
             // SearchForm
             // 
