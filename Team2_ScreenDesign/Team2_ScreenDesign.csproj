@@ -89,6 +89,12 @@
     <Compile Include="Forms\KHS\SalesMainForm.Designer.cs">
       <DependentUpon>SalesMainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\KJH\ChangePwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KJH\ChangePwd.Designer.cs">
+      <DependentUpon>ChangePwd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\KJH\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -382,6 +388,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KHS\SalesMainForm.resx">
       <DependentUpon>SalesMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KJH\ChangePwd.resx">
+      <DependentUpon>ChangePwd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
