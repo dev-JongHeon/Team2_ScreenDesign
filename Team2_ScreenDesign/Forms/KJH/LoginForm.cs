@@ -8,13 +8,29 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Team2_ScreenDesign.Forms.KJH
+namespace Team2_ScreenDesign
 {
     public partial class LoginForm : Form
     {
         public LoginForm()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MainForm frm = new MainForm();
+            this.Hide();
+            if (frm.ShowDialog() == DialogResult.Cancel)
+            {
+                this.Show();
+            }
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

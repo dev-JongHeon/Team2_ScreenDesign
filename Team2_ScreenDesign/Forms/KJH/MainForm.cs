@@ -324,5 +324,10 @@ namespace Team2_ScreenDesign
             OpenBaseForm<Defective>("불량현황");
 
         }
+
+        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+
+        }
     }
 }
