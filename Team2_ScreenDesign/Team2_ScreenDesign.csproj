@@ -47,6 +47,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\CMG\Category.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\Category.Designer.cs">
+      <DependentUpon>Category.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\CategoryInsUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\CategoryInsUp.Designer.cs">
+      <DependentUpon>CategoryInsUp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\KJH\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -332,6 +344,12 @@
       <DependentUpon>Workers.cs</DependentUpon>
     </Compile>
     <Compile Include="SettingMenuStrip.cs" />
+    <EmbeddedResource Include="Forms\CMG\Category.resx">
+      <DependentUpon>Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\CategoryInsUp.resx">
+      <DependentUpon>CategoryInsUp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
