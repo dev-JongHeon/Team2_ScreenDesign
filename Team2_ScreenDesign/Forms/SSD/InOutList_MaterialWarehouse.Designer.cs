@@ -39,8 +39,8 @@
             this.품번 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.품명 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -74,7 +74,7 @@
             // 
             // lblFormName
             // 
-            this.lblFormName.Text = "수불내역(자재창고)";
+            this.lblFormName.Text = "수불내역(원자재)";
             // 
             // label4
             // 
@@ -93,8 +93,8 @@
             this.품번,
             this.품명,
             this.Column1,
-            this.Column2,
             this.Column3,
+            this.Column2,
             this.Column4,
             this.Column5,
             this.Column6,
@@ -173,23 +173,23 @@
             // 
             // 품명
             // 
-            this.품명.HeaderText = "입출고 구분";
+            this.품명.HeaderText = "수불유형";
             this.품명.Name = "품명";
             // 
             // Column1
             // 
-            this.Column1.HeaderText = "수불 일자";
+            this.Column1.HeaderText = "수불일자";
             this.Column1.Name = "Column1";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "창고코드";
+            this.Column3.Name = "Column3";
             // 
             // Column2
             // 
             this.Column2.HeaderText = "목표창고";
             this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "창고 명칭";
-            this.Column3.Name = "Column3";
             // 
             // Column4
             // 
@@ -258,8 +258,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn 품번;
         private System.Windows.Forms.DataGridViewTextBoxColumn 품명;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;

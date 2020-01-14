@@ -33,6 +33,7 @@
             this.searchUserControl3 = new Team2_ScreenDesign.SearchUserControl();
             this.품번 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.품명 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -67,6 +68,7 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.품번,
             this.품명,
+            this.Column2,
             this.Column1,
             this.Column6,
             this.Column7,
@@ -111,9 +113,14 @@
             this.품명.HeaderText = "품명";
             this.품명.Name = "품명";
             // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "창고코드";
+            this.Column2.Name = "Column2";
+            // 
             // Column1
             // 
-            this.Column1.HeaderText = "창고";
+            this.Column1.HeaderText = "창고명";
             this.Column1.Name = "Column1";
             // 
             // Column6
@@ -161,6 +168,7 @@
         private SearchUserControl searchUserControl1;
         private System.Windows.Forms.DataGridViewTextBoxColumn 품번;
         private System.Windows.Forms.DataGridViewTextBoxColumn 품명;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
