@@ -67,7 +67,7 @@
             // 
             // lblFormName
             // 
-            this.lblFormName.Text = "주문관리";
+            this.lblFormName.Text = "매출관리";
             // 
             // searchUserControl1
             // 
