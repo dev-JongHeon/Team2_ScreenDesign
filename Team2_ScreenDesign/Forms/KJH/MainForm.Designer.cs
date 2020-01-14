@@ -28,6 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("사용자권한설정", 0, 1);
+            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("시스템 메뉴", new System.Windows.Forms.TreeNode[] {
+            treeNode30});
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("작업지시현황", 0, 1);
+            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("생산지시현황", 0, 1);
+            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("생산실적현황", 0, 1);
+            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("생산 관리", new System.Windows.Forms.TreeNode[] {
+            treeNode28,
+            treeNode29,
+            treeNode32});
+            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("비가동유형", 0, 1);
+            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("비가동현황", 0, 1);
+            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("비가동 관리", new System.Windows.Forms.TreeNode[] {
+            treeNode34,
+            treeNode35});
+            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("불량유형", 0, 1);
+            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("불량현황", 0, 1);
+            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("불량 관리", new System.Windows.Forms.TreeNode[] {
+            treeNode37,
+            treeNode38});
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("사용자권한설정", 0, 1);
+            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("노드1");
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("노드2");
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("재고관리", new System.Windows.Forms.TreeNode[] {
+            treeNode18,
+            treeNode19,
+            treeNode20});
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("출하지시", 0, 1);
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("매출현황", 0, 1);
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("영업관리", new System.Windows.Forms.TreeNode[] {
+            treeNode14,
+            treeNode15});
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("부서 관리", 0, 1);
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("사원 관리", 0, 1);
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("거래처 관리", 0, 1);
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("고객 관리", 0, 1);
+            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("회사관련기준정보", new System.Windows.Forms.TreeNode[] {
+            treeNode11,
+            treeNode12,
+            treeNode13,
+            treeNode17});
+            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("공장 관리", 0, 1);
+            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("공정 관리", 0, 1);
+            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("창고 관리", 0, 1);
+            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("BOM 관리", 0, 1);
+            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("공장관련기준정보", new System.Windows.Forms.TreeNode[] {
+            treeNode23,
+            treeNode24,
+            treeNode25,
+            treeNode26});
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
@@ -50,42 +102,30 @@
             this.panel_Menu = new System.Windows.Forms.Panel();
             this.mpanel = new System.Windows.Forms.Panel();
             this.panel_Info = new System.Windows.Forms.Panel();
-            this.button8 = new System.Windows.Forms.Button();
             this.menu_Info = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.lblInfo = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.panel_Sales = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
             this.menu_Sales = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
             this.lblSales = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.panel_Stock = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
             this.menu_Stock = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.lblStock = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel_Production = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
             this.menu_production = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.lblProduction = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.panel_Process = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.menu_Process = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.lblProcess = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.panel_System = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
             this.menu_System = new System.Windows.Forms.Panel();
             this.panel14 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
@@ -93,6 +133,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.treeView_System = new System.Windows.Forms.TreeView();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.treeView1 = new System.Windows.Forms.TreeView();
+            this.treeView2 = new System.Windows.Forms.TreeView();
+            this.treeView3 = new System.Windows.Forms.TreeView();
+            this.treeView4 = new System.Windows.Forms.TreeView();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.menuStrip.SuspendLayout();
@@ -113,9 +159,6 @@
             this.panel_Production.SuspendLayout();
             this.menu_production.SuspendLayout();
             this.panel10.SuspendLayout();
-            this.panel_Process.SuspendLayout();
-            this.menu_Process.SuspendLayout();
-            this.panel9.SuspendLayout();
             this.panel_System.SuspendLayout();
             this.menu_System.SuspendLayout();
             this.panel14.SuspendLayout();
@@ -365,8 +408,6 @@
             this.mpanel.Controls.Add(this.menu_Stock);
             this.mpanel.Controls.Add(this.panel_Production);
             this.mpanel.Controls.Add(this.menu_production);
-            this.mpanel.Controls.Add(this.panel_Process);
-            this.mpanel.Controls.Add(this.menu_Process);
             this.mpanel.Controls.Add(this.panel_System);
             this.mpanel.Controls.Add(this.menu_System);
             this.mpanel.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -378,23 +419,13 @@
             // 
             // panel_Info
             // 
-            this.panel_Info.Controls.Add(this.button8);
+            this.panel_Info.Controls.Add(this.treeView4);
             this.panel_Info.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Info.Location = new System.Drawing.Point(0, 625);
+            this.panel_Info.Location = new System.Drawing.Point(0, 505);
             this.panel_Info.Name = "panel_Info";
             this.panel_Info.Size = new System.Drawing.Size(196, 95);
             this.panel_Info.TabIndex = 12;
             this.panel_Info.Tag = "panel_Info";
-            // 
-            // button8
-            // 
-            this.button8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button8.Location = new System.Drawing.Point(0, 0);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(196, 23);
-            this.button8.TabIndex = 1;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
             // 
             // menu_Info
             // 
@@ -403,7 +434,7 @@
             this.menu_Info.Controls.Add(this.panel13);
             this.menu_Info.Controls.Add(this.label10);
             this.menu_Info.Dock = System.Windows.Forms.DockStyle.Top;
-            this.menu_Info.Location = new System.Drawing.Point(0, 600);
+            this.menu_Info.Location = new System.Drawing.Point(0, 480);
             this.menu_Info.Name = "menu_Info";
             this.menu_Info.Size = new System.Drawing.Size(196, 25);
             this.menu_Info.TabIndex = 11;
@@ -424,9 +455,9 @@
             // 
             this.label12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label12.Location = new System.Drawing.Point(-27, -3);
+            this.label12.Location = new System.Drawing.Point(-57, -3);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(86, 26);
+            this.label12.Size = new System.Drawing.Size(116, 26);
             this.label12.TabIndex = 4;
             this.label12.Tag = "info";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -454,7 +485,7 @@
             this.label10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label10.Location = new System.Drawing.Point(0, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(100, 21);
+            this.label10.Size = new System.Drawing.Size(88, 21);
             this.label10.TabIndex = 0;
             this.label10.Tag = "info";
             this.label10.Text = "기준 관리";
@@ -463,23 +494,13 @@
             // 
             // panel_Sales
             // 
-            this.panel_Sales.Controls.Add(this.button7);
+            this.panel_Sales.Controls.Add(this.treeView3);
             this.panel_Sales.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Sales.Location = new System.Drawing.Point(0, 505);
+            this.panel_Sales.Location = new System.Drawing.Point(0, 385);
             this.panel_Sales.Name = "panel_Sales";
             this.panel_Sales.Size = new System.Drawing.Size(196, 95);
             this.panel_Sales.TabIndex = 10;
             this.panel_Sales.Tag = "panel_Sales";
-            // 
-            // button7
-            // 
-            this.button7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button7.Location = new System.Drawing.Point(0, 0);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(196, 23);
-            this.button7.TabIndex = 1;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
             // 
             // menu_Sales
             // 
@@ -488,7 +509,7 @@
             this.menu_Sales.Controls.Add(this.panel12);
             this.menu_Sales.Controls.Add(this.label8);
             this.menu_Sales.Dock = System.Windows.Forms.DockStyle.Top;
-            this.menu_Sales.Location = new System.Drawing.Point(0, 480);
+            this.menu_Sales.Location = new System.Drawing.Point(0, 360);
             this.menu_Sales.Name = "menu_Sales";
             this.menu_Sales.Size = new System.Drawing.Size(196, 25);
             this.menu_Sales.TabIndex = 9;
@@ -509,9 +530,9 @@
             // 
             this.label11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label11.Location = new System.Drawing.Point(-27, -3);
+            this.label11.Location = new System.Drawing.Point(-60, -3);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(86, 26);
+            this.label11.Size = new System.Drawing.Size(119, 26);
             this.label11.TabIndex = 4;
             this.label11.Tag = "sales";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -539,7 +560,7 @@
             this.label8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label8.Location = new System.Drawing.Point(0, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(100, 21);
+            this.label8.Size = new System.Drawing.Size(88, 21);
             this.label8.TabIndex = 0;
             this.label8.Tag = "sales";
             this.label8.Text = "영업 관리";
@@ -548,23 +569,13 @@
             // 
             // panel_Stock
             // 
-            this.panel_Stock.Controls.Add(this.button6);
+            this.panel_Stock.Controls.Add(this.treeView2);
             this.panel_Stock.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Stock.Location = new System.Drawing.Point(0, 385);
+            this.panel_Stock.Location = new System.Drawing.Point(0, 265);
             this.panel_Stock.Name = "panel_Stock";
             this.panel_Stock.Size = new System.Drawing.Size(196, 95);
             this.panel_Stock.TabIndex = 8;
             this.panel_Stock.Tag = "panel_Stock";
-            // 
-            // button6
-            // 
-            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button6.Location = new System.Drawing.Point(0, 0);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(196, 23);
-            this.button6.TabIndex = 1;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
             // 
             // menu_Stock
             // 
@@ -573,7 +584,7 @@
             this.menu_Stock.Controls.Add(this.panel11);
             this.menu_Stock.Controls.Add(this.label3);
             this.menu_Stock.Dock = System.Windows.Forms.DockStyle.Top;
-            this.menu_Stock.Location = new System.Drawing.Point(0, 360);
+            this.menu_Stock.Location = new System.Drawing.Point(0, 240);
             this.menu_Stock.Name = "menu_Stock";
             this.menu_Stock.Size = new System.Drawing.Size(196, 25);
             this.menu_Stock.TabIndex = 7;
@@ -594,9 +605,9 @@
             // 
             this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label9.Location = new System.Drawing.Point(-27, -3);
+            this.label9.Location = new System.Drawing.Point(-47, -3);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(86, 26);
+            this.label9.Size = new System.Drawing.Size(106, 26);
             this.label9.TabIndex = 4;
             this.label9.Tag = "stock";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -624,32 +635,22 @@
             this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label3.Location = new System.Drawing.Point(0, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 21);
+            this.label3.Size = new System.Drawing.Size(88, 21);
             this.label3.TabIndex = 0;
             this.label3.Tag = "stock";
-            this.label3.Text = "재고 관리";
+            this.label3.Text = "재고관리";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label3.Click += new System.EventHandler(this.label_Click);
             // 
             // panel_Production
             // 
-            this.panel_Production.Controls.Add(this.button5);
+            this.panel_Production.Controls.Add(this.treeView1);
             this.panel_Production.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Production.Location = new System.Drawing.Point(0, 265);
+            this.panel_Production.Location = new System.Drawing.Point(0, 145);
             this.panel_Production.Name = "panel_Production";
             this.panel_Production.Size = new System.Drawing.Size(196, 95);
             this.panel_Production.TabIndex = 6;
             this.panel_Production.Tag = "panel_Production";
-            // 
-            // button5
-            // 
-            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.Location = new System.Drawing.Point(0, 0);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(196, 23);
-            this.button5.TabIndex = 1;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
             // 
             // menu_production
             // 
@@ -658,7 +659,7 @@
             this.menu_production.Controls.Add(this.panel10);
             this.menu_production.Controls.Add(this.label6);
             this.menu_production.Dock = System.Windows.Forms.DockStyle.Top;
-            this.menu_production.Location = new System.Drawing.Point(0, 240);
+            this.menu_production.Location = new System.Drawing.Point(0, 120);
             this.menu_production.Name = "menu_production";
             this.menu_production.Size = new System.Drawing.Size(196, 25);
             this.menu_production.TabIndex = 5;
@@ -679,9 +680,9 @@
             // 
             this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label7.Location = new System.Drawing.Point(-30, -3);
+            this.label7.Location = new System.Drawing.Point(-45, -3);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(89, 26);
+            this.label7.Size = new System.Drawing.Size(104, 26);
             this.label7.TabIndex = 4;
             this.label7.Tag = "production";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -709,117 +710,22 @@
             this.label6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label6.Location = new System.Drawing.Point(0, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(100, 21);
+            this.label6.Size = new System.Drawing.Size(88, 21);
             this.label6.TabIndex = 0;
             this.label6.Tag = "production";
-            this.label6.Text = "생산 관리";
+            this.label6.Text = "  생산 관리";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label6.Click += new System.EventHandler(this.label_Click);
             // 
-            // panel_Process
-            // 
-            this.panel_Process.Controls.Add(this.button4);
-            this.panel_Process.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Process.Location = new System.Drawing.Point(0, 145);
-            this.panel_Process.Name = "panel_Process";
-            this.panel_Process.Size = new System.Drawing.Size(196, 95);
-            this.panel_Process.TabIndex = 4;
-            this.panel_Process.Tag = "panel_Process";
-            // 
-            // button4
-            // 
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.Location = new System.Drawing.Point(0, 0);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(196, 23);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // menu_Process
-            // 
-            this.menu_Process.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
-            this.menu_Process.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.menu_Process.Controls.Add(this.panel9);
-            this.menu_Process.Controls.Add(this.label4);
-            this.menu_Process.Dock = System.Windows.Forms.DockStyle.Top;
-            this.menu_Process.Location = new System.Drawing.Point(0, 120);
-            this.menu_Process.Name = "menu_Process";
-            this.menu_Process.Size = new System.Drawing.Size(196, 25);
-            this.menu_Process.TabIndex = 3;
-            this.menu_Process.Tag = "";
-            // 
-            // panel9
-            // 
-            this.panel9.Controls.Add(this.label5);
-            this.panel9.Controls.Add(this.lblProcess);
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel9.Location = new System.Drawing.Point(106, 0);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(86, 21);
-            this.panel9.TabIndex = 3;
-            this.panel9.Tag = "labelpanel";
-            // 
-            // label5
-            // 
-            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label5.Location = new System.Drawing.Point(-27, -2);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 26);
-            this.label5.TabIndex = 4;
-            this.label5.Tag = "process";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label5.Click += new System.EventHandler(this.label_Click);
-            // 
-            // lblProcess
-            // 
-            this.lblProcess.Dock = System.Windows.Forms.DockStyle.Right;
-            this.lblProcess.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
-            this.lblProcess.Image = global::Team2_ScreenDesign.Properties.Resources.Prev_16x16;
-            this.lblProcess.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblProcess.Location = new System.Drawing.Point(48, 0);
-            this.lblProcess.Name = "lblProcess";
-            this.lblProcess.Size = new System.Drawing.Size(38, 21);
-            this.lblProcess.TabIndex = 2;
-            this.lblProcess.Tag = "process";
-            this.lblProcess.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblProcess.Click += new System.EventHandler(this.label_Click);
-            // 
-            // label4
-            // 
-            this.label4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label4.Image = global::Team2_ScreenDesign.Properties.Resources.Customization_16x16;
-            this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label4.Location = new System.Drawing.Point(0, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 21);
-            this.label4.TabIndex = 0;
-            this.label4.Tag = "process";
-            this.label4.Text = "공정 관리";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label4.Click += new System.EventHandler(this.label_Click);
-            // 
             // panel_System
             // 
-            this.panel_System.Controls.Add(this.button3);
+            this.panel_System.Controls.Add(this.treeView_System);
             this.panel_System.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_System.Location = new System.Drawing.Point(0, 25);
             this.panel_System.Name = "panel_System";
             this.panel_System.Size = new System.Drawing.Size(196, 95);
             this.panel_System.TabIndex = 2;
             this.panel_System.Tag = "panel_System";
-            // 
-            // button3
-            // 
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.Location = new System.Drawing.Point(0, 0);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(196, 23);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // menu_System
             // 
@@ -849,9 +755,9 @@
             // 
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label2.Location = new System.Drawing.Point(-27, -2);
+            this.label2.Location = new System.Drawing.Point(-42, -2);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 26);
+            this.label2.Size = new System.Drawing.Size(101, 26);
             this.label2.TabIndex = 3;
             this.label2.Tag = "system";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -911,6 +817,184 @@
             this.tabControl1.TabIndex = 26;
             this.tabControl1.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.tabControl1_DrawItem);
             // 
+            // treeView_System
+            // 
+            this.treeView_System.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.treeView_System.FullRowSelect = true;
+            this.treeView_System.ImageIndex = 2;
+            this.treeView_System.ImageList = this.imageList1;
+            this.treeView_System.Location = new System.Drawing.Point(0, 0);
+            this.treeView_System.Name = "treeView_System";
+            treeNode30.ImageIndex = 0;
+            treeNode30.Name = "노드1";
+            treeNode30.SelectedImageIndex = 1;
+            treeNode30.Text = "사용자권한설정";
+            treeNode31.Name = "노드0";
+            treeNode31.Text = "시스템 메뉴";
+            this.treeView_System.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode31});
+            this.treeView_System.SelectedImageIndex = 3;
+            this.treeView_System.Size = new System.Drawing.Size(196, 95);
+            this.treeView_System.TabIndex = 0;
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "BOReport2_16x16.png");
+            this.imageList1.Images.SetKeyName(1, "BOTask_16x16.png");
+            this.imageList1.Images.SetKeyName(2, "icons8-folder-16.png");
+            this.imageList1.Images.SetKeyName(3, "icons8-opened-folder-16.png");
+            // 
+            // treeView1
+            // 
+            this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.treeView1.FullRowSelect = true;
+            this.treeView1.ImageIndex = 2;
+            this.treeView1.ImageList = this.imageList1;
+            this.treeView1.Location = new System.Drawing.Point(0, 0);
+            this.treeView1.Name = "treeView1";
+            treeNode28.ImageIndex = 0;
+            treeNode28.Name = "노드3";
+            treeNode28.SelectedImageIndex = 1;
+            treeNode28.Text = "작업지시현황";
+            treeNode29.ImageIndex = 0;
+            treeNode29.Name = "노드4";
+            treeNode29.SelectedImageIndex = 1;
+            treeNode29.Text = "생산지시현황";
+            treeNode32.ImageIndex = 0;
+            treeNode32.Name = "노드5";
+            treeNode32.SelectedImageIndex = 1;
+            treeNode32.Text = "생산실적현황";
+            treeNode33.Name = "노드1";
+            treeNode33.Text = "생산 관리";
+            treeNode34.ImageIndex = 0;
+            treeNode34.Name = "노드1";
+            treeNode34.SelectedImageIndex = 1;
+            treeNode34.Text = "비가동유형";
+            treeNode35.ImageIndex = 0;
+            treeNode35.Name = "노드7";
+            treeNode35.SelectedImageIndex = 1;
+            treeNode35.Text = "비가동현황";
+            treeNode36.Name = "노드0";
+            treeNode36.Text = "비가동 관리";
+            treeNode37.ImageIndex = 0;
+            treeNode37.Name = "노드8";
+            treeNode37.SelectedImageIndex = 1;
+            treeNode37.Text = "불량유형";
+            treeNode38.ImageIndex = 0;
+            treeNode38.Name = "노드9";
+            treeNode38.SelectedImageIndex = 1;
+            treeNode38.Text = "불량현황";
+            treeNode39.Name = "노드0";
+            treeNode39.Text = "불량 관리";
+            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode33,
+            treeNode36,
+            treeNode39});
+            this.treeView1.SelectedImageIndex = 3;
+            this.treeView1.Size = new System.Drawing.Size(196, 95);
+            this.treeView1.TabIndex = 1;
+            // 
+            // treeView2
+            // 
+            this.treeView2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.treeView2.FullRowSelect = true;
+            this.treeView2.ImageIndex = 2;
+            this.treeView2.ImageList = this.imageList1;
+            this.treeView2.Location = new System.Drawing.Point(0, 0);
+            this.treeView2.Name = "treeView2";
+            treeNode18.ImageIndex = 0;
+            treeNode18.Name = "노드1";
+            treeNode18.SelectedImageIndex = 1;
+            treeNode18.Text = "사용자권한설정";
+            treeNode19.Name = "노드1";
+            treeNode19.Text = "노드1";
+            treeNode20.Name = "노드2";
+            treeNode20.Text = "노드2";
+            treeNode21.Name = "노드0";
+            treeNode21.Text = "재고관리";
+            this.treeView2.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode21});
+            this.treeView2.SelectedImageIndex = 3;
+            this.treeView2.Size = new System.Drawing.Size(196, 95);
+            this.treeView2.TabIndex = 1;
+            // 
+            // treeView3
+            // 
+            this.treeView3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.treeView3.FullRowSelect = true;
+            this.treeView3.ImageIndex = 2;
+            this.treeView3.ImageList = this.imageList1;
+            this.treeView3.Location = new System.Drawing.Point(0, 0);
+            this.treeView3.Name = "treeView3";
+            treeNode14.ImageIndex = 0;
+            treeNode14.Name = "노드1";
+            treeNode14.SelectedImageIndex = 1;
+            treeNode14.Text = "출하지시";
+            treeNode15.ImageIndex = 0;
+            treeNode15.Name = "노드0";
+            treeNode15.SelectedImageIndex = 1;
+            treeNode15.Text = "매출현황";
+            treeNode16.Name = "노드0";
+            treeNode16.Text = "영업관리";
+            this.treeView3.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode16});
+            this.treeView3.SelectedImageIndex = 3;
+            this.treeView3.Size = new System.Drawing.Size(196, 95);
+            this.treeView3.TabIndex = 1;
+            // 
+            // treeView4
+            // 
+            this.treeView4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.treeView4.FullRowSelect = true;
+            this.treeView4.ImageIndex = 2;
+            this.treeView4.ImageList = this.imageList1;
+            this.treeView4.Location = new System.Drawing.Point(0, 0);
+            this.treeView4.Name = "treeView4";
+            treeNode11.ImageIndex = 0;
+            treeNode11.Name = "노드1";
+            treeNode11.SelectedImageIndex = 1;
+            treeNode11.Text = "부서 관리";
+            treeNode12.ImageIndex = 0;
+            treeNode12.Name = "노드1";
+            treeNode12.SelectedImageIndex = 1;
+            treeNode12.Text = "사원 관리";
+            treeNode13.ImageIndex = 0;
+            treeNode13.Name = "노드2";
+            treeNode13.SelectedImageIndex = 1;
+            treeNode13.Text = "거래처 관리";
+            treeNode17.ImageIndex = 0;
+            treeNode17.Name = "노드3";
+            treeNode17.SelectedImageIndex = 1;
+            treeNode17.Text = "고객 관리";
+            treeNode22.Name = "노드0";
+            treeNode22.Text = "회사관련기준정보";
+            treeNode23.ImageIndex = 0;
+            treeNode23.Name = "노드4";
+            treeNode23.SelectedImageIndex = 1;
+            treeNode23.Text = "공장 관리";
+            treeNode24.ImageIndex = 0;
+            treeNode24.Name = "노드5";
+            treeNode24.SelectedImageIndex = 1;
+            treeNode24.Text = "공정 관리";
+            treeNode25.ImageIndex = 0;
+            treeNode25.Name = "노드6";
+            treeNode25.SelectedImageIndex = 1;
+            treeNode25.Text = "창고 관리";
+            treeNode26.ImageIndex = 0;
+            treeNode26.Name = "노드7";
+            treeNode26.SelectedImageIndex = 1;
+            treeNode26.Text = "BOM 관리";
+            treeNode27.Name = "노드0";
+            treeNode27.Text = "공장관련기준정보";
+            this.treeView4.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode22,
+            treeNode27});
+            this.treeView4.SelectedImageIndex = 3;
+            this.treeView4.Size = new System.Drawing.Size(196, 95);
+            this.treeView4.TabIndex = 1;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -953,9 +1037,6 @@
             this.panel_Production.ResumeLayout(false);
             this.menu_production.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
-            this.panel_Process.ResumeLayout(false);
-            this.menu_Process.ResumeLayout(false);
-            this.panel9.ResumeLayout(false);
             this.panel_System.ResumeLayout(false);
             this.menu_System.ResumeLayout(false);
             this.panel14.ResumeLayout(false);
@@ -986,42 +1067,30 @@
         private System.Windows.Forms.Panel panel_Menu;
         private System.Windows.Forms.Panel mpanel;
         private System.Windows.Forms.Panel panel_Info;
-        private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Panel menu_Info;
         private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label lblInfo;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel_Sales;
-        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Panel menu_Sales;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label lblSales;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel panel_Stock;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Panel menu_Stock;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label lblStock;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel_Production;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Panel menu_production;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label lblProduction;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Panel panel_Process;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Panel menu_Process;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label lblProcess;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel_System;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Panel menu_System;
         private System.Windows.Forms.Panel panel14;
         private System.Windows.Forms.Label label2;
@@ -1029,6 +1098,12 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Splitter splitter1;
         private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TreeView treeView_System;
+        private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.TreeView treeView4;
+        private System.Windows.Forms.TreeView treeView3;
+        private System.Windows.Forms.TreeView treeView2;
+        private System.Windows.Forms.TreeView treeView1;
     }
 }
 

@@ -28,11 +28,6 @@ namespace Team2_ScreenDesign
             InitializeComponent();
         }
 
-        private void splitter1_DoubleClick(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             panel_Menu.Visible = !panel_Menu.Visible;
@@ -50,7 +45,7 @@ namespace Team2_ScreenDesign
         }
         private void 새로고침ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            M_Refresh?.Invoke(this, e);            
+            M_Refresh?.Invoke(this, e);
 
             OpenBaseForm<Defective>("불량현황");
         }
@@ -61,6 +56,7 @@ namespace Team2_ScreenDesign
 
         private void MainForm_Load(object sender, EventArgs e)
         {
+            treeView_System.ExpandAll();
             tabControl1.DrawMode = TabDrawMode.OwnerDrawFixed;
             foreach (Panel p in mpanel.Controls)
             {
@@ -84,10 +80,6 @@ namespace Team2_ScreenDesign
                 case "system":
                     ptag = "panel_System";
                     lname = "lblSystem";
-                    break;
-                case "process":
-                    ptag = "panel_Process";
-                    lname = "lblProcess";
                     break;
                 case "production":
                     ptag = "panel_Production";
