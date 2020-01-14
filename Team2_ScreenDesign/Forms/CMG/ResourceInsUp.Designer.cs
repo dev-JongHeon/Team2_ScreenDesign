@@ -39,7 +39,7 @@
             this.cboResourceWarehouse = new System.Windows.Forms.ComboBox();
             this.numResourceNum = new System.Windows.Forms.NumericUpDown();
             this.label6 = new System.Windows.Forms.Label();
-            this.cboResourceDivision = new System.Windows.Forms.ComboBox();
+            this.cboResourceCategory = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel_Title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTitle)).BeginInit();
@@ -51,7 +51,7 @@
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.cboResourceDivision);
+            this.panel5.Controls.Add(this.cboResourceCategory);
             this.panel5.Controls.Add(this.numResourceNum);
             this.panel5.Controls.Add(this.cboResourceWarehouse);
             this.panel5.Controls.Add(this.txtResourceSafe);
@@ -156,19 +156,19 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(33, 348);
+            this.label6.Location = new System.Drawing.Point(33, 343);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(29, 14);
+            this.label6.Size = new System.Drawing.Size(51, 14);
             this.label6.TabIndex = 2;
-            this.label6.Text = "구분";
+            this.label6.Text = "카테고리";
             // 
-            // cboResourceDivision
+            // cboResourceCategory
             // 
-            this.cboResourceDivision.FormattingEnabled = true;
-            this.cboResourceDivision.Location = new System.Drawing.Point(129, 345);
-            this.cboResourceDivision.Name = "cboResourceDivision";
-            this.cboResourceDivision.Size = new System.Drawing.Size(133, 22);
-            this.cboResourceDivision.TabIndex = 14;
+            this.cboResourceCategory.FormattingEnabled = true;
+            this.cboResourceCategory.Location = new System.Drawing.Point(129, 340);
+            this.cboResourceCategory.Name = "cboResourceCategory";
+            this.cboResourceCategory.Size = new System.Drawing.Size(133, 22);
+            this.cboResourceCategory.TabIndex = 14;
             // 
             // ResourceInsUp
             // 
@@ -190,18 +190,17 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.ComboBox cboResourceDivision;
         private System.Windows.Forms.NumericUpDown numResourceNum;
         private System.Windows.Forms.ComboBox cboResourceWarehouse;
         private System.Windows.Forms.TextBox txtResourceSafe;
         private System.Windows.Forms.TextBox txtFactoryDivision;
         private System.Windows.Forms.TextBox txtResourceName;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox cboResourceCategory;
+        private System.Windows.Forms.Label label6;
     }
 }
