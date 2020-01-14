@@ -77,6 +77,12 @@
     <Compile Include="Forms\CMG\ResourceInsUp.Designer.cs">
       <DependentUpon>ResourceInsUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\KHS\OrderCompleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\OrderCompleteForm.Designer.cs">
+      <DependentUpon>OrderCompleteForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\KHS\OrderMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,18 @@
     <Compile Include="Forms\KHS\SalesMainForm.Designer.cs">
       <DependentUpon>SalesMainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\KHS\ShipmentCompleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentCompleteForm.Designer.cs">
+      <DependentUpon>ShipmentCompleteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KJH\ChangePwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KJH\ChangePwd.Designer.cs">
+      <DependentUpon>ChangePwd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\KJH\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,12 +118,6 @@
     </Compile>
     <Compile Include="Forms\KJH\Work.Designer.cs">
       <DependentUpon>Work.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\SSD\Balju_Pop.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\SSD\Balju_Pop.Designer.cs">
-      <DependentUpon>Balju_Pop.cs</DependentUpon>
     </Compile>
     <Compile Include="Custom\AddressControl.cs">
       <SubType>UserControl</SubType>
@@ -172,6 +184,12 @@
     </Compile>
     <Compile Include="Forms\SSD\Balju.Designer.cs">
       <DependentUpon>Balju.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SSD\BaljuList_Completed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SSD\BaljuList_Completed.Designer.cs">
+      <DependentUpon>BaljuList_Completed.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\SSD\InOutput.cs">
       <SubType>Form</SubType>
@@ -341,17 +359,23 @@
     <Compile Include="Forms\SSD\BaljuList.Designer.cs">
       <DependentUpon>BaljuList.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\SSD\InOutList.cs">
+    <Compile Include="Forms\SSD\InOutList_MaterialWarehouse.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\SSD\InOutList.Designer.cs">
-      <DependentUpon>InOutList.cs</DependentUpon>
+    <Compile Include="Forms\SSD\InOutList_MaterialWarehouse.Designer.cs">
+      <DependentUpon>InOutList_MaterialWarehouse.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\SSD\StockStatus.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\SSD\StockStatus.Designer.cs">
       <DependentUpon>StockStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SSD\InOutList_SemiProductWarehouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SSD\InOutList_SemiProductWarehouse.Designer.cs">
+      <DependentUpon>InOutList_SemiProductWarehouse.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -371,20 +395,26 @@
     <EmbeddedResource Include="Forms\CMG\ResourceInsUp.resx">
       <DependentUpon>ResourceInsUp.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\OrderCompleteForm.resx">
+      <DependentUpon>OrderCompleteForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\KHS\OrderMainForm.resx">
       <DependentUpon>OrderMainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KHS\SalesMainForm.resx">
       <DependentUpon>SalesMainForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\ShipmentCompleteForm.resx">
+      <DependentUpon>ShipmentCompleteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KJH\ChangePwd.resx">
+      <DependentUpon>ChangePwd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\Work.resx">
       <DependentUpon>Work.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SSD\Balju_Pop.resx">
-      <DependentUpon>Balju_Pop.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Custom\AddressControl.resx">
       <DependentUpon>AddressControl.cs</DependentUpon>
@@ -418,6 +448,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\Balju.resx">
       <DependentUpon>Balju.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SSD\BaljuList_Completed.resx">
+      <DependentUpon>BaljuList_Completed.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\InOutput.resx">
       <DependentUpon>InOutput.cs</DependentUpon>
@@ -500,11 +533,14 @@
     <EmbeddedResource Include="Forms\SSD\BaljuList.resx">
       <DependentUpon>BaljuList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SSD\InOutList.resx">
-      <DependentUpon>InOutList.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\SSD\InOutList_MaterialWarehouse.resx">
+      <DependentUpon>InOutList_MaterialWarehouse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\StockStatus.resx">
       <DependentUpon>StockStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SSD\InOutList_SemiProductWarehouse.resx">
+      <DependentUpon>InOutList_SemiProductWarehouse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

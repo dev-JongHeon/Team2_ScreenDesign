@@ -29,7 +29,10 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.searchUserControl3 = new Team2_ScreenDesign.SearchUserControl();
+            this.품번 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.품명 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
             this.searchPeriodControl1 = new Team2_ScreenDesign.SearchPeriodControl();
             this.searchUserControl4 = new Team2_ScreenDesign.SearchUserControl();
@@ -39,10 +42,6 @@
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.품번 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.품명 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -73,7 +72,6 @@
             // panel5
             // 
             this.panel5.Controls.Add(this.searchUserControl4);
-            this.panel5.Controls.Add(this.searchUserControl3);
             this.panel5.Controls.Add(this.searchUserControl1);
             this.panel5.Controls.Add(this.searchPeriodControl1);
             // 
@@ -96,16 +94,26 @@
             this.dataGridView1.Size = new System.Drawing.Size(1364, 368);
             this.dataGridView1.TabIndex = 2;
             // 
-            // searchUserControl3
+            // 품번
             // 
-            this.searchUserControl3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
-            this.searchUserControl3.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Worker;
-            this.searchUserControl3.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchUserControl3.Labelname = "작업자";
-            this.searchUserControl3.Location = new System.Drawing.Point(87, 6);
-            this.searchUserControl3.Name = "searchUserControl3";
-            this.searchUserControl3.Size = new System.Drawing.Size(312, 25);
-            this.searchUserControl3.TabIndex = 79;
+            this.품번.HeaderText = "발주지시번호";
+            this.품번.Name = "품번";
+            // 
+            // 품명
+            // 
+            this.품명.HeaderText = "거래처코드";
+            this.품명.Name = "품명";
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "거래처명칭";
+            this.Column1.Name = "Column1";
+            // 
+            // Column8
+            // 
+            this.Column8.HeaderText = "발주요청일자";
+            this.Column8.Name = "Column8";
+            this.Column8.Width = 110;
             // 
             // searchUserControl1
             // 
@@ -113,7 +121,7 @@
             this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Product;
             this.searchUserControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.searchUserControl1.Labelname = "제품";
-            this.searchUserControl1.Location = new System.Drawing.Point(87, 69);
+            this.searchUserControl1.Location = new System.Drawing.Point(92, 39);
             this.searchUserControl1.Name = "searchUserControl1";
             this.searchUserControl1.Size = new System.Drawing.Size(312, 25);
             this.searchUserControl1.TabIndex = 77;
@@ -122,7 +130,7 @@
             // 
             this.searchPeriodControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.searchPeriodControl1.Labelname = "기간 선택";
-            this.searchPeriodControl1.Location = new System.Drawing.Point(439, 6);
+            this.searchPeriodControl1.Location = new System.Drawing.Point(92, 70);
             this.searchPeriodControl1.Name = "searchPeriodControl1";
             this.searchPeriodControl1.Size = new System.Drawing.Size(312, 26);
             this.searchPeriodControl1.TabIndex = 76;
@@ -133,7 +141,7 @@
             this.searchUserControl4.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Company;
             this.searchUserControl4.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.searchUserControl4.Labelname = "회사";
-            this.searchUserControl4.Location = new System.Drawing.Point(87, 38);
+            this.searchUserControl4.Location = new System.Drawing.Point(92, 8);
             this.searchUserControl4.Name = "searchUserControl4";
             this.searchUserControl4.Size = new System.Drawing.Size(312, 25);
             this.searchUserControl4.TabIndex = 80;
@@ -179,27 +187,6 @@
             this.Column3.HeaderText = "부족수량";
             this.Column3.Name = "Column3";
             // 
-            // 품번
-            // 
-            this.품번.HeaderText = "발주지시번호";
-            this.품번.Name = "품번";
-            // 
-            // 품명
-            // 
-            this.품명.HeaderText = "거래처코드";
-            this.품명.Name = "품명";
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "거래처명칭";
-            this.Column1.Name = "Column1";
-            // 
-            // Column8
-            // 
-            this.Column8.HeaderText = "발주요청일자";
-            this.Column8.Name = "Column8";
-            this.Column8.Width = 110;
-            // 
             // BaljuList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -228,7 +215,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private SearchUserControl searchUserControl3;
         private SearchUserControl searchUserControl1;
         private SearchPeriodControl searchPeriodControl1;
         private SearchUserControl searchUserControl4;

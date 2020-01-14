@@ -7,10 +7,10 @@ using System.Text;
 using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
-{
-    public partial class InOutList : Team2_ScreenDesign.Base1Dgv
+{ 
+    public partial class OrderCompleteForm : Team2_ScreenDesign.Base2Dgv
     {
-        public InOutList()
+        public OrderCompleteForm()
         {
             InitializeComponent();
         }

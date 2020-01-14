@@ -44,6 +44,7 @@
             // splitContainer1
             // 
             this.splitContainer1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
             this.splitContainer1.Name = "splitContainer1";
@@ -94,7 +95,7 @@
             this.dgvSearch.Location = new System.Drawing.Point(0, 0);
             this.dgvSearch.Name = "dgvSearch";
             this.dgvSearch.RowTemplate.Height = 23;
-            this.dgvSearch.Size = new System.Drawing.Size(275, 414);
+            this.dgvSearch.Size = new System.Drawing.Size(273, 412);
             this.dgvSearch.TabIndex = 0;
             // 
             // Column1

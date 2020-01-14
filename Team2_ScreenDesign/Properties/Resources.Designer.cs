@@ -63,6 +63,16 @@ namespace Team2_ScreenDesign.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap _1486564410_chat_81504 {
+            get {
+                object obj = ResourceManager.GetObject("1486564410-chat_81504", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap Action_Logoff {
             get {
                 object obj = ResourceManager.GetObject("Action_Logoff", resourceCulture);
@@ -153,6 +163,16 @@ namespace Team2_ScreenDesign.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap chat_26_icon_icons_com_65943 {
+            get {
+                object obj = ResourceManager.GetObject("chat-26_icon-icons.com_65943", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap close__1_ {
             get {
                 object obj = ResourceManager.GetObject("close (1)", resourceCulture);
@@ -233,6 +253,16 @@ namespace Team2_ScreenDesign.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap ic_message_128_28648 {
+            get {
+                object obj = ResourceManager.GetObject("ic_message_128_28648", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap IDE_16x16 {
             get {
                 object obj = ResourceManager.GetObject("IDE_16x16", resourceCulture);
@@ -286,6 +316,16 @@ namespace Team2_ScreenDesign.Properties {
         internal static System.Drawing.Bitmap Lookup_Reference_32x32 {
             get {
                 object obj = ResourceManager.GetObject("Lookup&Reference_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap Message_16x16 {
+            get {
+                object obj = ResourceManager.GetObject("Message_16x16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

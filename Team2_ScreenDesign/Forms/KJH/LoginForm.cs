@@ -32,5 +32,11 @@ namespace Team2_ScreenDesign
         {
             this.Close();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ChangePwd frm = new ChangePwd();
+            frm.Show();
+        }
     }
 }

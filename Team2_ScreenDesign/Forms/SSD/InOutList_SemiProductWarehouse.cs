@@ -3,16 +3,14 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class Balju_Pop : Form
+    public partial class InOutList_SemiProductWarehouse : Team2_ScreenDesign.Base1Dgv
     {
-        public Balju_Pop()
+        public InOutList_SemiProductWarehouse()
         {
             InitializeComponent();
         }
