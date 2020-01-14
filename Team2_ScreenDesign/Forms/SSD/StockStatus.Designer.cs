@@ -29,17 +29,15 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
+            this.searchUserControl3 = new Team2_ScreenDesign.SearchUserControl();
             this.품번 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.품명 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
-            this.searchUserControl3 = new Team2_ScreenDesign.SearchUserControl();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel_Search.SuspendLayout();
@@ -70,8 +68,6 @@
             this.품번,
             this.품명,
             this.Column1,
-            this.Column4,
-            this.Column5,
             this.Column6,
             this.Column7,
             this.Column8,
@@ -82,51 +78,6 @@
             this.dataGridView1.RowTemplate.Height = 23;
             this.dataGridView1.Size = new System.Drawing.Size(1364, 662);
             this.dataGridView1.TabIndex = 1;
-            // 
-            // 품번
-            // 
-            this.품번.HeaderText = "품번";
-            this.품번.Name = "품번";
-            // 
-            // 품명
-            // 
-            this.품명.HeaderText = "품명";
-            this.품명.Name = "품명";
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "창고";
-            this.Column1.Name = "Column1";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "규격";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "단위";
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "단가";
-            this.Column6.Name = "Column6";
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "재고량";
-            this.Column7.Name = "Column7";
-            // 
-            // Column8
-            // 
-            this.Column8.HeaderText = "안전재고량";
-            this.Column8.Name = "Column8";
-            // 
-            // Column9
-            // 
-            this.Column9.HeaderText = "차이수량";
-            this.Column9.Name = "Column9";
             // 
             // searchUserControl1
             // 
@@ -149,6 +100,41 @@
             this.searchUserControl3.Name = "searchUserControl3";
             this.searchUserControl3.Size = new System.Drawing.Size(312, 25);
             this.searchUserControl3.TabIndex = 35;
+            // 
+            // 품번
+            // 
+            this.품번.HeaderText = "품번";
+            this.품번.Name = "품번";
+            // 
+            // 품명
+            // 
+            this.품명.HeaderText = "품명";
+            this.품명.Name = "품명";
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "창고";
+            this.Column1.Name = "Column1";
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "단가";
+            this.Column6.Name = "Column6";
+            // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "재고량";
+            this.Column7.Name = "Column7";
+            // 
+            // Column8
+            // 
+            this.Column8.HeaderText = "안전재고량";
+            this.Column8.Name = "Column8";
+            // 
+            // Column9
+            // 
+            this.Column9.HeaderText = "차이수량";
+            this.Column9.Name = "Column9";
             // 
             // StockStatus
             // 
@@ -176,8 +162,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn 품번;
         private System.Windows.Forms.DataGridViewTextBoxColumn 품명;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
