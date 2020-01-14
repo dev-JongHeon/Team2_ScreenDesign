@@ -3,23 +3,16 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class TypeOfDisproduct : Form
+    public partial class OrderMainForm : Team2_ScreenDesign.Base2Dgv
     {
-        public TypeOfDisproduct()
+        public OrderMainForm()
         {
             InitializeComponent();
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

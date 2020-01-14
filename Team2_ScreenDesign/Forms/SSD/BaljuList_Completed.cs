@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class BaljuList : Team2_ScreenDesign.Base2Dgv
+    public partial class BaljuList_Completed : Team2_ScreenDesign.Base2Dgv
     {
-        public BaljuList()
+        public BaljuList_Completed()
         {
             InitializeComponent();
         }

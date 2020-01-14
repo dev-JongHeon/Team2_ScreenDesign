@@ -47,11 +47,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\KJH\ChangePwd.cs">
+    <Compile Include="Forms\CMG\Category.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\KJH\ChangePwd.Designer.cs">
-      <DependentUpon>ChangePwd.cs</DependentUpon>
+    <Compile Include="Forms\CMG\Category.Designer.cs">
+      <DependentUpon>Category.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\CategoryInsUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\CategoryInsUp.Designer.cs">
+      <DependentUpon>CategoryInsUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\LineInsUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\LineInsUp.Designer.cs">
+      <DependentUpon>LineInsUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\Resource.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\Resource.Designer.cs">
+      <DependentUpon>Resource.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\ResourceInsUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\ResourceInsUp.Designer.cs">
+      <DependentUpon>ResourceInsUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KHS\OrderMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\OrderMainForm.Designer.cs">
+      <DependentUpon>OrderMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KHS\SalesMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\SalesMainForm.Designer.cs">
+      <DependentUpon>SalesMainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\KJH\LoginForm.cs">
       <SubType>Form</SubType>
@@ -64,12 +100,6 @@
     </Compile>
     <Compile Include="Forms\KJH\Work.Designer.cs">
       <DependentUpon>Work.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\SSD\Balju_Pop.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\SSD\Balju_Pop.Designer.cs">
-      <DependentUpon>Balju_Pop.cs</DependentUpon>
     </Compile>
     <Compile Include="Custom\AddressControl.cs">
       <SubType>UserControl</SubType>
@@ -136,6 +166,12 @@
     </Compile>
     <Compile Include="Forms\SSD\Balju.Designer.cs">
       <DependentUpon>Balju.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SSD\BaljuList_Completed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SSD\BaljuList_Completed.Designer.cs">
+      <DependentUpon>BaljuList_Completed.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\SSD\InOutput.cs">
       <SubType>Form</SubType>
@@ -305,11 +341,11 @@
     <Compile Include="Forms\SSD\BaljuList.Designer.cs">
       <DependentUpon>BaljuList.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\SSD\InOutList.cs">
+    <Compile Include="Forms\SSD\InOutList_MaterialWarehouse.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\SSD\InOutList.Designer.cs">
-      <DependentUpon>InOutList.cs</DependentUpon>
+    <Compile Include="Forms\SSD\InOutList_MaterialWarehouse.Designer.cs">
+      <DependentUpon>InOutList_MaterialWarehouse.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\SSD\StockStatus.cs">
       <SubType>Form</SubType>
@@ -317,38 +353,41 @@
     <Compile Include="Forms\SSD\StockStatus.Designer.cs">
       <DependentUpon>StockStatus.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\SSD\InOutList_SemiProductWarehouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SSD\InOutList_SemiProductWarehouse.Designer.cs">
+      <DependentUpon>InOutList_SemiProductWarehouse.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Forms\SSD\TypeOfDisproduct.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\SSD\TypeOfDisproduct.Designer.cs">
-      <DependentUpon>TypeOfDisproduct.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\SSD\TypeOfNotOperation.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\SSD\TypeOfNotOperation.Designer.cs">
-      <DependentUpon>TypeOfNotOperation.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\SSD\Workers.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\SSD\Workers.Designer.cs">
-      <DependentUpon>Workers.cs</DependentUpon>
-    </Compile>
     <Compile Include="SettingMenuStrip.cs" />
-    <EmbeddedResource Include="Forms\KJH\ChangePwd.resx">
-      <DependentUpon>ChangePwd.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\CMG\Category.resx">
+      <DependentUpon>Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\CategoryInsUp.resx">
+      <DependentUpon>CategoryInsUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\LineInsUp.resx">
+      <DependentUpon>LineInsUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\Resource.resx">
+      <DependentUpon>Resource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\ResourceInsUp.resx">
+      <DependentUpon>ResourceInsUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\OrderMainForm.resx">
+      <DependentUpon>OrderMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\SalesMainForm.resx">
+      <DependentUpon>SalesMainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\Work.resx">
       <DependentUpon>Work.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SSD\Balju_Pop.resx">
-      <DependentUpon>Balju_Pop.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Custom\AddressControl.resx">
       <DependentUpon>AddressControl.cs</DependentUpon>
@@ -382,6 +421,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\Balju.resx">
       <DependentUpon>Balju.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SSD\BaljuList_Completed.resx">
+      <DependentUpon>BaljuList_Completed.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\InOutput.resx">
       <DependentUpon>InOutput.cs</DependentUpon>
@@ -464,25 +506,19 @@
     <EmbeddedResource Include="Forms\SSD\BaljuList.resx">
       <DependentUpon>BaljuList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SSD\InOutList.resx">
-      <DependentUpon>InOutList.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\SSD\InOutList_MaterialWarehouse.resx">
+      <DependentUpon>InOutList_MaterialWarehouse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\StockStatus.resx">
       <DependentUpon>StockStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SSD\InOutList_SemiProductWarehouse.resx">
+      <DependentUpon>InOutList_SemiProductWarehouse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SSD\TypeOfDisproduct.resx">
-      <DependentUpon>TypeOfDisproduct.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SSD\TypeOfNotOperation.resx">
-      <DependentUpon>TypeOfNotOperation.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SSD\Workers.resx">
-      <DependentUpon>Workers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Custom\TabForm.resx">
       <DependentUpon>TabForm.cs</DependentUpon>
@@ -597,18 +633,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Close_32x32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Message_16x16.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ic_message_128_28648.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\1486564410-chat_81504.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\chat-26_icon-icons.com_65943.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

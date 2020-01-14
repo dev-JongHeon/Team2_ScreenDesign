@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class Balju_Pop : Form
+    public partial class CategoryInsUp : BasePopup
     {
-        public Balju_Pop()
+        public CategoryInsUp()
         {
             InitializeComponent();
         }

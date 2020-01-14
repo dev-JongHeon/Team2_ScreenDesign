@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class InOutList : Team2_ScreenDesign.Base1Dgv
+    public partial class InOutList_SemiProductWarehouse : Team2_ScreenDesign.Base1Dgv
     {
-        public InOutList()
+        public InOutList_SemiProductWarehouse()
         {
             InitializeComponent();
         }

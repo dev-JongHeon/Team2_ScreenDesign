@@ -47,7 +47,7 @@ namespace Team2_ScreenDesign
         {
             M_Refresh?.Invoke(this, e);
 
-            OpenBaseForm<Defective>("불량현황");
+            OpenBaseForm<OrderMainForm>("주문관리");
         }
         private void splitter1_SplitterMoved(object sender, SplitterEventArgs e)
         {
