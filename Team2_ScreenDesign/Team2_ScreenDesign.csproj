@@ -47,6 +47,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\CMG\Category.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\Category.Designer.cs">
+      <DependentUpon>Category.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\CategoryInsUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\CategoryInsUp.Designer.cs">
+      <DependentUpon>CategoryInsUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\LineInsUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\LineInsUp.Designer.cs">
+      <DependentUpon>LineInsUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\Resource.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\Resource.Designer.cs">
+      <DependentUpon>Resource.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\ResourceInsUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\ResourceInsUp.Designer.cs">
+      <DependentUpon>ResourceInsUp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\KHS\OrderMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -326,6 +356,21 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SettingMenuStrip.cs" />
+    <EmbeddedResource Include="Forms\CMG\Category.resx">
+      <DependentUpon>Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\CategoryInsUp.resx">
+      <DependentUpon>CategoryInsUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\LineInsUp.resx">
+      <DependentUpon>LineInsUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\Resource.resx">
+      <DependentUpon>Resource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\ResourceInsUp.resx">
+      <DependentUpon>ResourceInsUp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\KHS\OrderMainForm.resx">
       <DependentUpon>OrderMainForm.cs</DependentUpon>
     </EmbeddedResource>
