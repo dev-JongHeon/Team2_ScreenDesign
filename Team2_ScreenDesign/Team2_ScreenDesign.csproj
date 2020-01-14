@@ -47,6 +47,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\KJH\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KJH\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SSD\Balju_Pop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SSD\Balju_Pop.Designer.cs">
+      <DependentUpon>Balju_Pop.cs</DependentUpon>
+    </Compile>
     <Compile Include="Custom\AddressControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -70,6 +82,12 @@
     </Compile>
     <Compile Include="Custom\SearchPeriodControl.Designer.cs">
       <DependentUpon>SearchPeriodControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\Department.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\Department.Designer.cs">
+      <DependentUpon>Department.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\CMG\Factory.cs">
       <SubType>Form</SubType>
@@ -320,6 +338,12 @@
       <DependentUpon>Workers.cs</DependentUpon>
     </Compile>
     <Compile Include="SettingMenuStrip.cs" />
+    <EmbeddedResource Include="Forms\KJH\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SSD\Balju_Pop.resx">
+      <DependentUpon>Balju_Pop.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Custom\AddressControl.resx">
       <DependentUpon>AddressControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -331,6 +355,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Custom\SearchPeriodControl.resx">
       <DependentUpon>SearchPeriodControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\Department.resx">
+      <DependentUpon>Department.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CMG\Factory.resx">
       <DependentUpon>Factory.cs</DependentUpon>
