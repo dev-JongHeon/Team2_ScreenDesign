@@ -7,10 +7,10 @@ using System.Text;
 using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
-{
-    public partial class OrderMainForm : Team2_ScreenDesign.Base2Dgv
+{ 
+    public partial class OrderCompleteForm : Team2_ScreenDesign.Base2Dgv
     {
-        public OrderMainForm()
+        public OrderCompleteForm()
         {
             InitializeComponent();
         }
