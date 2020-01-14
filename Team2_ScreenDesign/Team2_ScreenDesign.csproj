@@ -47,24 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\CMG\LineInsUp.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\CMG\LineInsUp.Designer.cs">
-      <DependentUpon>LineInsUp.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\CMG\Resource.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\CMG\Resource.Designer.cs">
-      <DependentUpon>Resource.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\CMG\ResourceInsUp.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\CMG\ResourceInsUp.Designer.cs">
-      <DependentUpon>ResourceInsUp.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\KJH\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -154,6 +136,12 @@
     </Compile>
     <Compile Include="Forms\CMG\CompanyInsUp.Designer.cs">
       <DependentUpon>CompanyInsUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMG\CustomerInsUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMG\CustomerInsUp.Designer.cs">
+      <DependentUpon>CustomerInsUp.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\CMG\EmployeesInsUp.cs">
       <SubType>Form</SubType>
@@ -350,15 +338,6 @@
       <DependentUpon>Workers.cs</DependentUpon>
     </Compile>
     <Compile Include="SettingMenuStrip.cs" />
-    <EmbeddedResource Include="Forms\CMG\LineInsUp.resx">
-      <DependentUpon>LineInsUp.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CMG\Resource.resx">
-      <DependentUpon>Resource.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CMG\ResourceInsUp.resx">
-      <DependentUpon>ResourceInsUp.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -421,6 +400,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CMG\Customer.resx">
       <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMG\CustomerInsUp.resx">
+      <DependentUpon>CustomerInsUp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CMG\Employees.resx">
       <DependentUpon>Employees.cs</DependentUpon>

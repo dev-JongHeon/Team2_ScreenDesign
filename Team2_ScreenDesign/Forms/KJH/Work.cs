@@ -6,11 +6,11 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Team2_ScreenDesign.Forms.KHS
+namespace Team2_ScreenDesign.Forms.KJH
 {
-    public partial class SalesMainForm : Team2_ScreenDesign.Base1Dgv
+    public partial class Work : Team2_ScreenDesign.Base2Dgv
     {
-        public SalesMainForm()
+        public Work()
         {
             InitializeComponent();
         }
