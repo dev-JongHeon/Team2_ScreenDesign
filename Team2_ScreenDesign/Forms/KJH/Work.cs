@@ -6,11 +6,11 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Team2_ScreenDesign
+namespace Team2_ScreenDesign.Forms.KJH
 {
-    public partial class WorkList : BaseForm
+    public partial class Work : Team2_ScreenDesign.Base2Dgv
     {
-        public WorkList()
+        public Work()
         {
             InitializeComponent();
         }

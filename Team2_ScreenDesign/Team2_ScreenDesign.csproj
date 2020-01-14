@@ -53,6 +53,12 @@
     <Compile Include="Forms\KJH\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\KJH\Work.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KJH\Work.Designer.cs">
+      <DependentUpon>Work.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\SSD\Balju_Pop.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -233,12 +239,6 @@
     <Compile Include="Forms\KJH\Produce.Designer.cs">
       <DependentUpon>Produce.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\KJH\WorkList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\KJH\WorkList.Designer.cs">
-      <DependentUpon>WorkList.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\KJH\CalendarForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -335,6 +335,9 @@
     <EmbeddedResource Include="Forms\KJH\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KJH\Work.resx">
+      <DependentUpon>Work.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\Balju_Pop.resx">
       <DependentUpon>Balju_Pop.cs</DependentUpon>
     </EmbeddedResource>
@@ -427,9 +430,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\HJS\SearchForm.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\KJH\WorkList.resx">
-      <DependentUpon>WorkList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KHS\ShipmentMainForm.resx">
       <DependentUpon>ShipmentMainForm.cs</DependentUpon>
@@ -588,6 +588,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Close_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook_cover_photo_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook_cover_photo_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instagram_profile_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
