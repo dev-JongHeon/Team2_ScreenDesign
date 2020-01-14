@@ -67,6 +67,7 @@
             this.btnDefective = new System.Windows.Forms.Button();
             this.btnWorker = new System.Windows.Forms.Button();
             this.btnProduceStart = new System.Windows.Forms.Button();
+            this.lblWorker = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -89,13 +90,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvProduce)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer5)).BeginInit();
             this.splitContainer5.Panel1.SuspendLayout();
+            this.splitContainer5.Panel2.SuspendLayout();
             this.splitContainer5.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainer1
             // 
-            this.splitContainer1.BackColor = System.Drawing.Color.White;
+            this.splitContainer1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(241)))));
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
             this.splitContainer1.Name = "splitContainer1";
@@ -114,7 +116,7 @@
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.BackColor = System.Drawing.Color.White;
+            this.tableLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(241)))));
             this.tableLayoutPanel2.ColumnCount = 6;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -139,7 +141,9 @@
             // 
             // cboLine
             // 
+            this.cboLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(241)))));
             this.cboLine.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cboLine.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cboLine.FormattingEnabled = true;
             this.cboLine.Location = new System.Drawing.Point(507, 3);
             this.cboLine.Name = "cboLine";
@@ -149,8 +153,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(241)))));
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Font = new System.Drawing.Font("나눔고딕", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label2.ForeColor = System.Drawing.Color.Gray;
             this.label2.Location = new System.Drawing.Point(381, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(120, 48);
@@ -161,8 +167,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(241)))));
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Font = new System.Drawing.Font("나눔고딕", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.ForeColor = System.Drawing.Color.Gray;
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(120, 48);
@@ -172,7 +180,9 @@
             // 
             // cboFactory
             // 
+            this.cboFactory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(241)))));
             this.cboFactory.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cboFactory.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cboFactory.FormattingEnabled = true;
             this.cboFactory.Location = new System.Drawing.Point(129, 3);
             this.cboFactory.Name = "cboFactory";
@@ -181,19 +191,23 @@
             // 
             // btnLineSearch
             // 
+            this.btnLineSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(241)))));
             this.btnLineSearch.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnLineSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLineSearch.Font = new System.Drawing.Font("나눔고딕", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnLineSearch.Location = new System.Drawing.Point(759, 3);
             this.btnLineSearch.Name = "btnLineSearch";
             this.btnLineSearch.Size = new System.Drawing.Size(183, 42);
             this.btnLineSearch.TabIndex = 4;
             this.btnLineSearch.Text = "공정 조회";
-            this.btnLineSearch.UseVisualStyleBackColor = true;
+            this.btnLineSearch.UseVisualStyleBackColor = false;
             // 
             // lblState
             // 
             this.lblState.AutoSize = true;
+            this.lblState.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(241)))));
             this.lblState.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblState.ForeColor = System.Drawing.Color.Black;
             this.lblState.Location = new System.Drawing.Point(948, 0);
             this.lblState.Name = "lblState";
             this.lblState.Size = new System.Drawing.Size(313, 48);
@@ -203,7 +217,7 @@
             // 
             // splitContainer2
             // 
-            this.splitContainer2.BackColor = System.Drawing.Color.White;
+            this.splitContainer2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(241)))));
             this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer2.Location = new System.Drawing.Point(0, 0);
             this.splitContainer2.Name = "splitContainer2";
@@ -272,8 +286,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(241)))));
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label4.Font = new System.Drawing.Font("나눔고딕", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label4.ForeColor = System.Drawing.Color.Gray;
             this.label4.Location = new System.Drawing.Point(3, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(145, 76);
@@ -283,7 +299,7 @@
             // 
             // btnPreDate
             // 
-            this.btnPreDate.BackColor = System.Drawing.Color.White;
+            this.btnPreDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(241)))));
             this.btnPreDate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnPreDate.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnPreDate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -333,6 +349,7 @@
             // 
             // splitContainer3
             // 
+            this.splitContainer3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(241)))));
             this.splitContainer3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer3.Location = new System.Drawing.Point(0, 0);
             this.splitContainer3.Name = "splitContainer3";
@@ -351,6 +368,7 @@
             // 
             // dgvWork
             // 
+            this.dgvWork.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvWork.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvWork.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -408,6 +426,7 @@
             // 
             // dgvProduce
             // 
+            this.dgvProduce.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvProduce.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvProduce.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -484,6 +503,10 @@
             // splitContainer5.Panel1
             // 
             this.splitContainer5.Panel1.Controls.Add(this.tableLayoutPanel3);
+            // 
+            // splitContainer5.Panel2
+            // 
+            this.splitContainer5.Panel2.Controls.Add(this.lblWorker);
             this.splitContainer5.Size = new System.Drawing.Size(1264, 113);
             this.splitContainer5.SplitterDistance = 83;
             this.splitContainer5.TabIndex = 0;
@@ -542,10 +565,22 @@
             this.btnProduceStart.Text = "생산 시작";
             this.btnProduceStart.UseVisualStyleBackColor = true;
             // 
+            // lblWorker
+            // 
+            this.lblWorker.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblWorker.Font = new System.Drawing.Font("나눔고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lblWorker.Location = new System.Drawing.Point(0, 0);
+            this.lblWorker.Name = "lblWorker";
+            this.lblWorker.Size = new System.Drawing.Size(1264, 26);
+            this.lblWorker.TabIndex = 0;
+            this.lblWorker.Text = "작업자명 : xxx";
+            this.lblWorker.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // PopMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(1264, 961);
             this.Controls.Add(this.splitContainer1);
             this.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -575,6 +610,7 @@
             this.splitContainer4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvProduce)).EndInit();
             this.splitContainer5.Panel1.ResumeLayout(false);
+            this.splitContainer5.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer5)).EndInit();
             this.splitContainer5.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
@@ -623,6 +659,7 @@
         private System.Windows.Forms.Button btnDefective;
         private System.Windows.Forms.Button btnWorker;
         private System.Windows.Forms.Button btnProduceStart;
+        private System.Windows.Forms.Label lblWorker;
     }
 }
 

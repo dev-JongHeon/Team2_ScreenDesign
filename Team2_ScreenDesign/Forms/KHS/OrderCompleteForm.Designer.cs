@@ -32,17 +32,20 @@
             this.searchUserControl2 = new Team2_ScreenDesign.SearchUserControl();
             this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.searchPeriodControl2 = new Team2_ScreenDesign.SearchPeriodControl();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -72,6 +75,7 @@
             // 
             // panel5
             // 
+            this.panel5.Controls.Add(this.searchPeriodControl2);
             this.panel5.Controls.Add(this.searchPeriodControl1);
             this.panel5.Controls.Add(this.searchUserControl2);
             this.panel5.Controls.Add(this.searchUserControl1);
@@ -83,7 +87,7 @@
             // searchPeriodControl1
             // 
             this.searchPeriodControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchPeriodControl1.Labelname = "기간 선택";
+            this.searchPeriodControl1.Labelname = "주문일자";
             this.searchPeriodControl1.Location = new System.Drawing.Point(12, 68);
             this.searchPeriodControl1.Name = "searchPeriodControl1";
             this.searchPeriodControl1.Size = new System.Drawing.Size(312, 25);
@@ -120,13 +124,39 @@
             this.Column3,
             this.Column5,
             this.Column6,
-            this.Column8});
+            this.Column8,
+            this.Column4});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
             this.dataGridView1.Size = new System.Drawing.Size(1364, 368);
             this.dataGridView1.TabIndex = 1;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column9,
+            this.Column10,
+            this.Column11,
+            this.Column12,
+            this.Column7});
+            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView2.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowTemplate.Height = 23;
+            this.dataGridView2.Size = new System.Drawing.Size(1364, 290);
+            this.dataGridView2.TabIndex = 1;
+            // 
+            // searchPeriodControl2
+            // 
+            this.searchPeriodControl2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchPeriodControl2.Labelname = "출하완료날짜";
+            this.searchPeriodControl2.Location = new System.Drawing.Point(348, 68);
+            this.searchPeriodControl2.Name = "searchPeriodControl2";
+            this.searchPeriodControl2.Size = new System.Drawing.Size(312, 25);
+            this.searchPeriodControl2.TabIndex = 5;
             // 
             // Column1
             // 
@@ -145,33 +175,23 @@
             // 
             // Column5
             // 
-            this.Column5.HeaderText = "본주소";
+            this.Column5.HeaderText = "배송지 주소";
             this.Column5.Name = "Column5";
             // 
             // Column6
             // 
-            this.Column6.HeaderText = "상세주소";
+            this.Column6.HeaderText = "배송지 상세주소";
             this.Column6.Name = "Column6";
             // 
             // Column8
             // 
-            this.Column8.HeaderText = "총액";
+            this.Column8.HeaderText = "주문총액";
             this.Column8.Name = "Column8";
             // 
-            // dataGridView2
+            // Column4
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column9,
-            this.Column10,
-            this.Column11,
-            this.Column12});
-            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView2.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowTemplate.Height = 23;
-            this.dataGridView2.Size = new System.Drawing.Size(1364, 290);
-            this.dataGridView2.TabIndex = 1;
+            this.Column4.HeaderText = "출하완료날짜";
+            this.Column4.Name = "Column4";
             // 
             // Column9
             // 
@@ -192,6 +212,11 @@
             // 
             this.Column12.HeaderText = "주문갯수";
             this.Column12.Name = "Column12";
+            // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "제품 총 가격";
+            this.Column7.Name = "Column7";
             // 
             // OrderCompleteForm
             // 
@@ -223,16 +248,19 @@
         private SearchUserControl searchUserControl2;
         private SearchUserControl searchUserControl1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private SearchPeriodControl searchPeriodControl2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
     }
 }
