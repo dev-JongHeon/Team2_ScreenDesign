@@ -77,6 +77,12 @@
     <Compile Include="Forms\CMG\ResourceInsUp.Designer.cs">
       <DependentUpon>ResourceInsUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\KHS\OrderCompleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\OrderCompleteForm.Designer.cs">
+      <DependentUpon>OrderCompleteForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\KHS\OrderMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,12 @@
     </Compile>
     <Compile Include="Forms\KHS\SalesMainForm.Designer.cs">
       <DependentUpon>SalesMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentCompleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KHS\ShipmentCompleteForm.Designer.cs">
+      <DependentUpon>ShipmentCompleteForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\KJH\ChangePwd.cs">
       <SubType>Form</SubType>
@@ -389,11 +401,17 @@
     <EmbeddedResource Include="Forms\CMG\ResourceInsUp.resx">
       <DependentUpon>ResourceInsUp.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\OrderCompleteForm.resx">
+      <DependentUpon>OrderCompleteForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\KHS\OrderMainForm.resx">
       <DependentUpon>OrderMainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KHS\SalesMainForm.resx">
       <DependentUpon>SalesMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KHS\ShipmentCompleteForm.resx">
+      <DependentUpon>ShipmentCompleteForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KJH\ChangePwd.resx">
       <DependentUpon>ChangePwd.cs</DependentUpon>

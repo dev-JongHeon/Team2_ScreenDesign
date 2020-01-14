@@ -29,6 +29,13 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
+            this.searchUserControl2 = new Team2_ScreenDesign.SearchUserControl();
+            this.searchPeriodControl1 = new Team2_ScreenDesign.SearchPeriodControl();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.품번 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.품명 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -41,13 +48,6 @@
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
-            this.searchUserControl2 = new Team2_ScreenDesign.SearchUserControl();
-            this.searchPeriodControl1 = new Team2_ScreenDesign.SearchPeriodControl();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel_Search.SuspendLayout();
@@ -98,66 +98,6 @@
             this.dataGridView1.RowTemplate.Height = 23;
             this.dataGridView1.Size = new System.Drawing.Size(1364, 662);
             this.dataGridView1.TabIndex = 2;
-            // 
-            // 품번
-            // 
-            this.품번.HeaderText = "수불번호";
-            this.품번.Name = "품번";
-            // 
-            // 품명
-            // 
-            this.품명.HeaderText = "입출고 구분";
-            this.품명.Name = "품명";
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "수불 일자";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "창고 코드";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "창고 명칭";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "품번";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "품명";
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "수불수량";
-            this.Column6.Name = "Column6";
-            // 
-            // Column8
-            // 
-            this.Column8.HeaderText = "최초등록시각";
-            this.Column8.Name = "Column8";
-            // 
-            // Column9
-            // 
-            this.Column9.HeaderText = "최초등록사원";
-            this.Column9.Name = "Column9";
-            // 
-            // Column10
-            // 
-            this.Column10.HeaderText = "최종등록시각";
-            this.Column10.Name = "Column10";
-            // 
-            // Column11
-            // 
-            this.Column11.HeaderText = "최종등록사원";
-            this.Column11.Name = "Column11";
             // 
             // comboBox2
             // 
@@ -226,6 +166,66 @@
             this.label4.TabIndex = 65;
             this.label4.Text = "수불번호";
             // 
+            // 품번
+            // 
+            this.품번.HeaderText = "수불번호";
+            this.품번.Name = "품번";
+            // 
+            // 품명
+            // 
+            this.품명.HeaderText = "수불유형";
+            this.품명.Name = "품명";
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "수불일자";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "창고코드";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "목표창고";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "품번";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "품명";
+            this.Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "수불수량";
+            this.Column6.Name = "Column6";
+            // 
+            // Column8
+            // 
+            this.Column8.HeaderText = "최초등록시각";
+            this.Column8.Name = "Column8";
+            // 
+            // Column9
+            // 
+            this.Column9.HeaderText = "최초등록사원";
+            this.Column9.Name = "Column9";
+            // 
+            // Column10
+            // 
+            this.Column10.HeaderText = "최종등록시각";
+            this.Column10.Name = "Column10";
+            // 
+            // Column11
+            // 
+            this.Column11.HeaderText = "최종등록사원";
+            this.Column11.Name = "Column11";
+            // 
             // InOutList_SemiProductWarehouse
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -248,6 +248,13 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private SearchUserControl searchUserControl1;
+        private SearchUserControl searchUserControl2;
+        private SearchPeriodControl searchPeriodControl1;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DataGridViewTextBoxColumn 품번;
         private System.Windows.Forms.DataGridViewTextBoxColumn 품명;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
@@ -260,12 +267,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private SearchUserControl searchUserControl1;
-        private SearchUserControl searchUserControl2;
-        private SearchPeriodControl searchPeriodControl1;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label4;
     }
 }

@@ -33,14 +33,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.txtCompanyCode = new System.Windows.Forms.TextBox();
             this.txtCompanyName = new System.Windows.Forms.TextBox();
             this.txtCompanyNumber = new System.Windows.Forms.TextBox();
             this.txtCompanyFaxNumber = new System.Windows.Forms.TextBox();
-            this.txtCompanyBC = new System.Windows.Forms.TextBox();
-            this.txtCompanyDivision = new System.Windows.Forms.TextBox();
             this.addressControl1 = new Team2_ScreenDesign.Custom.AddressControl();
+            this.cboCompanyDivision = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel_Title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTitle)).BeginInit();
@@ -51,14 +49,12 @@
             // 
             // panel5
             // 
+            this.panel5.Controls.Add(this.cboCompanyDivision);
             this.panel5.Controls.Add(this.addressControl1);
-            this.panel5.Controls.Add(this.txtCompanyDivision);
-            this.panel5.Controls.Add(this.txtCompanyBC);
             this.panel5.Controls.Add(this.txtCompanyFaxNumber);
             this.panel5.Controls.Add(this.txtCompanyNumber);
             this.panel5.Controls.Add(this.txtCompanyName);
             this.panel5.Controls.Add(this.txtCompanyCode);
-            this.panel5.Controls.Add(this.label7);
             this.panel5.Controls.Add(this.label6);
             this.panel5.Controls.Add(this.label5);
             this.panel5.Controls.Add(this.label4);
@@ -94,7 +90,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(49, 121);
+            this.label4.Location = new System.Drawing.Point(49, 130);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(51, 14);
             this.label4.TabIndex = 1;
@@ -103,7 +99,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(49, 169);
+            this.label5.Location = new System.Drawing.Point(49, 183);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(51, 14);
             this.label5.TabIndex = 1;
@@ -112,20 +108,11 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(49, 221);
+            this.label6.Location = new System.Drawing.Point(49, 236);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(29, 14);
             this.label6.TabIndex = 1;
-            this.label6.Text = "업태";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(49, 271);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(29, 14);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "종목";
+            this.label6.Text = "업종";
             // 
             // txtCompanyCode
             // 
@@ -143,40 +130,34 @@
             // 
             // txtCompanyNumber
             // 
-            this.txtCompanyNumber.Location = new System.Drawing.Point(126, 118);
+            this.txtCompanyNumber.Location = new System.Drawing.Point(126, 127);
             this.txtCompanyNumber.Name = "txtCompanyNumber";
             this.txtCompanyNumber.Size = new System.Drawing.Size(133, 21);
             this.txtCompanyNumber.TabIndex = 2;
             // 
             // txtCompanyFaxNumber
             // 
-            this.txtCompanyFaxNumber.Location = new System.Drawing.Point(126, 166);
+            this.txtCompanyFaxNumber.Location = new System.Drawing.Point(126, 180);
             this.txtCompanyFaxNumber.Name = "txtCompanyFaxNumber";
             this.txtCompanyFaxNumber.Size = new System.Drawing.Size(133, 21);
             this.txtCompanyFaxNumber.TabIndex = 2;
-            // 
-            // txtCompanyBC
-            // 
-            this.txtCompanyBC.Location = new System.Drawing.Point(126, 218);
-            this.txtCompanyBC.Name = "txtCompanyBC";
-            this.txtCompanyBC.Size = new System.Drawing.Size(133, 21);
-            this.txtCompanyBC.TabIndex = 2;
-            // 
-            // txtCompanyDivision
-            // 
-            this.txtCompanyDivision.Location = new System.Drawing.Point(126, 268);
-            this.txtCompanyDivision.Name = "txtCompanyDivision";
-            this.txtCompanyDivision.Size = new System.Drawing.Size(133, 21);
-            this.txtCompanyDivision.TabIndex = 2;
             // 
             // addressControl1
             // 
             this.addressControl1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.addressControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.addressControl1.Location = new System.Drawing.Point(52, 300);
+            this.addressControl1.Location = new System.Drawing.Point(52, 279);
             this.addressControl1.Name = "addressControl1";
             this.addressControl1.Size = new System.Drawing.Size(505, 106);
             this.addressControl1.TabIndex = 3;
+            // 
+            // cboCompanyDivision
+            // 
+            this.cboCompanyDivision.FormattingEnabled = true;
+            this.cboCompanyDivision.Location = new System.Drawing.Point(126, 233);
+            this.cboCompanyDivision.Name = "cboCompanyDivision";
+            this.cboCompanyDivision.Size = new System.Drawing.Size(133, 22);
+            this.cboCompanyDivision.TabIndex = 4;
             // 
             // CompanyInsUp
             // 
@@ -197,19 +178,16 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txtCompanyDivision;
-        private System.Windows.Forms.TextBox txtCompanyBC;
         private System.Windows.Forms.TextBox txtCompanyFaxNumber;
         private System.Windows.Forms.TextBox txtCompanyNumber;
         private System.Windows.Forms.TextBox txtCompanyName;
         private System.Windows.Forms.TextBox txtCompanyCode;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private Custom.AddressControl addressControl1;
+        private System.Windows.Forms.ComboBox cboCompanyDivision;
     }
 }

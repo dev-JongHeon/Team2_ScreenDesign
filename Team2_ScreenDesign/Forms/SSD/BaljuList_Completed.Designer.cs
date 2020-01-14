@@ -30,15 +30,15 @@
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.ㄴㅇ = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label3 = new System.Windows.Forms.Label();
             this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
             this.searchUserControl4 = new Team2_ScreenDesign.SearchUserControl();
             this.searchUserControl3 = new Team2_ScreenDesign.SearchUserControl();
             this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
             this.searchPeriodControl1 = new Team2_ScreenDesign.SearchPeriodControl();
-            this.ㄴㅇ = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.품번 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.품명 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -116,6 +116,21 @@
             this.dataGridView2.Size = new System.Drawing.Size(1364, 290);
             this.dataGridView2.TabIndex = 3;
             // 
+            // ㄴㅇ
+            // 
+            this.ㄴㅇ.HeaderText = "품목코드";
+            this.ㄴㅇ.Name = "ㄴㅇ";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "품목명";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "요청수량";
+            this.Column4.Name = "Column4";
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -177,21 +192,6 @@
             this.searchPeriodControl1.Size = new System.Drawing.Size(312, 26);
             this.searchPeriodControl1.TabIndex = 81;
             // 
-            // ㄴㅇ
-            // 
-            this.ㄴㅇ.HeaderText = "품목코드";
-            this.ㄴㅇ.Name = "ㄴㅇ";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "품목명";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "요청수량";
-            this.Column4.Name = "Column4";
-            // 
             // 품번
             // 
             this.품번.HeaderText = "발주지시번호";
@@ -215,7 +215,7 @@
             // 
             // Column2
             // 
-            this.Column2.HeaderText = "수령일";
+            this.Column2.HeaderText = "수령일시";
             this.Column2.Name = "Column2";
             // 
             // Column11

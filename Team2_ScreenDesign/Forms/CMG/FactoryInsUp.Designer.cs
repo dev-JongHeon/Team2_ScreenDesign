@@ -35,10 +35,10 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtFactoryCode = new System.Windows.Forms.TextBox();
             this.txtFactoryName = new System.Windows.Forms.TextBox();
-            this.txtFactoryDivision = new System.Windows.Forms.TextBox();
             this.txtFactoryNumber = new System.Windows.Forms.TextBox();
             this.txtFactoryFaxNumber = new System.Windows.Forms.TextBox();
             this.addressControl1 = new Team2_ScreenDesign.Custom.AddressControl();
+            this.cboFactoryDivision = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel_Title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTitle)).BeginInit();
@@ -49,10 +49,10 @@
             // 
             // panel5
             // 
+            this.panel5.Controls.Add(this.cboFactoryDivision);
             this.panel5.Controls.Add(this.addressControl1);
             this.panel5.Controls.Add(this.txtFactoryFaxNumber);
             this.panel5.Controls.Add(this.txtFactoryNumber);
-            this.panel5.Controls.Add(this.txtFactoryDivision);
             this.panel5.Controls.Add(this.txtFactoryName);
             this.panel5.Controls.Add(this.txtFactoryCode);
             this.panel5.Controls.Add(this.label5);
@@ -128,13 +128,6 @@
             this.txtFactoryName.Size = new System.Drawing.Size(133, 21);
             this.txtFactoryName.TabIndex = 1;
             // 
-            // txtFactoryDivision
-            // 
-            this.txtFactoryDivision.Location = new System.Drawing.Point(110, 129);
-            this.txtFactoryDivision.Name = "txtFactoryDivision";
-            this.txtFactoryDivision.Size = new System.Drawing.Size(133, 21);
-            this.txtFactoryDivision.TabIndex = 1;
-            // 
             // txtFactoryNumber
             // 
             this.txtFactoryNumber.Location = new System.Drawing.Point(110, 178);
@@ -157,6 +150,14 @@
             this.addressControl1.Name = "addressControl1";
             this.addressControl1.Size = new System.Drawing.Size(505, 106);
             this.addressControl1.TabIndex = 2;
+            // 
+            // cboFactoryDivision
+            // 
+            this.cboFactoryDivision.FormattingEnabled = true;
+            this.cboFactoryDivision.Location = new System.Drawing.Point(110, 129);
+            this.cboFactoryDivision.Name = "cboFactoryDivision";
+            this.cboFactoryDivision.Size = new System.Drawing.Size(133, 22);
+            this.cboFactoryDivision.TabIndex = 3;
             // 
             // FactoryInsUp
             // 
@@ -183,11 +184,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtFactoryDivision;
         private System.Windows.Forms.TextBox txtFactoryName;
         private System.Windows.Forms.TextBox txtFactoryCode;
         private System.Windows.Forms.TextBox txtFactoryFaxNumber;
         private System.Windows.Forms.TextBox txtFactoryNumber;
         private Custom.AddressControl addressControl1;
+        private System.Windows.Forms.ComboBox cboFactoryDivision;
     }
 }

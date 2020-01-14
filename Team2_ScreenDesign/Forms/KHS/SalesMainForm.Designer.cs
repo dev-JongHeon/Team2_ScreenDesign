@@ -39,9 +39,9 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel_Search.SuspendLayout();
@@ -67,14 +67,14 @@
             // 
             // lblFormName
             // 
-            this.lblFormName.Text = "매출관리";
+            this.lblFormName.Text = "매출현황";
             // 
             // searchUserControl1
             // 
             this.searchUserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
-            this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Worker;
+            this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Customer;
             this.searchUserControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchUserControl1.Labelname = "작업자";
+            this.searchUserControl1.Labelname = "고객ID";
             this.searchUserControl1.Location = new System.Drawing.Point(12, 6);
             this.searchUserControl1.Name = "searchUserControl1";
             this.searchUserControl1.Size = new System.Drawing.Size(312, 25);
@@ -161,6 +161,16 @@
             this.panel3.Size = new System.Drawing.Size(1364, 45);
             this.panel3.TabIndex = 1;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label3.Location = new System.Drawing.Point(1224, 12);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(94, 21);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "0000000";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -181,21 +191,11 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "매출총액";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label3.Location = new System.Drawing.Point(1224, 12);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(94, 21);
-            this.label3.TabIndex = 10;
-            this.label3.Text = "0000000";
-            // 
             // SalesMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.ClientSize = new System.Drawing.Size(1364, 820);
-            this.FormName = "매출관리";
+            this.FormName = "매출현황";
             this.Name = "SalesMainForm";
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
