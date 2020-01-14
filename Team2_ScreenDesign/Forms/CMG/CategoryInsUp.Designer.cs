@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtWarehouseDivision = new System.Windows.Forms.TextBox();
-            this.txtWarehouseName = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.txtContext = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel_Title.SuspendLayout();
@@ -54,10 +54,10 @@
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.txtWarehouseDivision);
-            this.panel5.Controls.Add(this.txtWarehouseName);
-            this.panel5.Controls.Add(this.label3);
             this.panel5.Controls.Add(this.label2);
+            this.panel5.Controls.Add(this.label1);
+            this.panel5.Controls.Add(this.txtContext);
+            this.panel5.Controls.Add(this.txtName);
             this.panel5.Size = new System.Drawing.Size(639, 292);
             // 
             // panel4
@@ -79,38 +79,38 @@
             this.btnOK.FlatAppearance.BorderSize = 0;
             this.btnOK.Location = new System.Drawing.Point(170, 3);
             // 
-            // txtWarehouseDivision
+            // txtContext
             // 
-            this.txtWarehouseDivision.Location = new System.Drawing.Point(131, 100);
-            this.txtWarehouseDivision.Multiline = true;
-            this.txtWarehouseDivision.Name = "txtWarehouseDivision";
-            this.txtWarehouseDivision.Size = new System.Drawing.Size(390, 137);
-            this.txtWarehouseDivision.TabIndex = 5;
+            this.txtContext.Location = new System.Drawing.Point(131, 100);
+            this.txtContext.Multiline = true;
+            this.txtContext.Name = "txtContext";
+            this.txtContext.Size = new System.Drawing.Size(390, 137);
+            this.txtContext.TabIndex = 5;
             // 
-            // txtWarehouseName
+            // txtName
             // 
-            this.txtWarehouseName.Location = new System.Drawing.Point(131, 38);
-            this.txtWarehouseName.Name = "txtWarehouseName";
-            this.txtWarehouseName.Size = new System.Drawing.Size(143, 21);
-            this.txtWarehouseName.TabIndex = 6;
+            this.txtName.Location = new System.Drawing.Point(131, 38);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(143, 21);
+            this.txtName.TabIndex = 6;
             // 
-            // label3
+            // label1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(33, 103);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 14);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "카테고리내용";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(60, 41);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(41, 14);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "label1";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(33, 41);
+            this.label2.Location = new System.Drawing.Point(60, 100);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 14);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "카테고리이름";
+            this.label2.Size = new System.Drawing.Size(41, 14);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "label2";
             // 
             // CategoryInsUp
             // 
@@ -132,9 +132,9 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtWarehouseDivision;
-        private System.Windows.Forms.TextBox txtWarehouseName;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtContext;
+        private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
     }
 }

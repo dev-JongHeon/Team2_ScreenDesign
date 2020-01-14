@@ -189,6 +189,7 @@
             // 
             // dtpEmployeesResignDate
             // 
+            this.dtpEmployeesResignDate.Enabled = false;
             this.dtpEmployeesResignDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpEmployeesResignDate.Location = new System.Drawing.Point(100, 224);
             this.dtpEmployeesResignDate.Name = "dtpEmployeesResignDate";
