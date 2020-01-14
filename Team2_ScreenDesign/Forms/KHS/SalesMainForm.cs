@@ -3,16 +3,14 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Team2_ScreenDesign
+namespace Team2_ScreenDesign.Forms.KHS
 {
-    public partial class TypeOfNotOperation : Form
+    public partial class SalesMainForm : Team2_ScreenDesign.Base1Dgv
     {
-        public TypeOfNotOperation()
+        public SalesMainForm()
         {
             InitializeComponent();
         }

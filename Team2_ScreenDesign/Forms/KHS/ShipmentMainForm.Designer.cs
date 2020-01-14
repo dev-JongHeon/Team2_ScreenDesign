@@ -29,24 +29,21 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
+            this.searchPeriodControl1 = new Team2_ScreenDesign.SearchPeriodControl();
+            this.searchPeriodControl2 = new Team2_ScreenDesign.SearchPeriodControl();
+            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
-            this.searchPeriodControl1 = new Team2_ScreenDesign.SearchPeriodControl();
-            this.searchPeriodControl2 = new Team2_ScreenDesign.SearchPeriodControl();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -92,11 +89,11 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
+            this.Column9,
             this.Column5,
             this.Column3,
             this.Column4,
-            this.Column2,
-            this.Column14});
+            this.Column2});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
@@ -104,47 +101,14 @@
             this.dataGridView1.Size = new System.Drawing.Size(1364, 280);
             this.dataGridView1.TabIndex = 36;
             // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "출하번호";
-            this.Column1.Name = "Column1";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "주문일";
-            this.Column5.Name = "Column5";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "출하예정일";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "출하일자";
-            this.Column4.Name = "Column4";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "담당자";
-            this.Column2.Name = "Column2";
-            // 
-            // Column14
-            // 
-            this.Column14.HeaderText = "출하상태";
-            this.Column14.Name = "Column14";
-            // 
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column12,
             this.Column6,
-            this.Column7,
-            this.Column8,
-            this.Column9,
             this.Column10,
             this.Column11,
-            this.Column12,
             this.Column13});
             this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView2.Location = new System.Drawing.Point(0, 0);
@@ -152,46 +116,6 @@
             this.dataGridView2.RowTemplate.Height = 23;
             this.dataGridView2.Size = new System.Drawing.Size(1364, 378);
             this.dataGridView2.TabIndex = 37;
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "출하번호";
-            this.Column6.Name = "Column6";
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "주문번호";
-            this.Column7.Name = "Column7";
-            // 
-            // Column8
-            // 
-            this.Column8.HeaderText = "주문상세번호";
-            this.Column8.Name = "Column8";
-            // 
-            // Column9
-            // 
-            this.Column9.HeaderText = "제품코드";
-            this.Column9.Name = "Column9";
-            // 
-            // Column10
-            // 
-            this.Column10.HeaderText = "제품명";
-            this.Column10.Name = "Column10";
-            // 
-            // Column11
-            // 
-            this.Column11.HeaderText = "수량";
-            this.Column11.Name = "Column11";
-            // 
-            // Column12
-            // 
-            this.Column12.HeaderText = "원가";
-            this.Column12.Name = "Column12";
-            // 
-            // Column13
-            // 
-            this.Column13.HeaderText = "판매가";
-            this.Column13.Name = "Column13";
             // 
             // searchUserControl1
             // 
@@ -222,6 +146,61 @@
             this.searchPeriodControl2.Size = new System.Drawing.Size(312, 25);
             this.searchPeriodControl2.TabIndex = 1;
             // 
+            // Column12
+            // 
+            this.Column12.HeaderText = "출하상세번호";
+            this.Column12.Name = "Column12";
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "출하번호";
+            this.Column6.Name = "Column6";
+            // 
+            // Column10
+            // 
+            this.Column10.HeaderText = "제품명";
+            this.Column10.Name = "Column10";
+            // 
+            // Column11
+            // 
+            this.Column11.HeaderText = "수량";
+            this.Column11.Name = "Column11";
+            // 
+            // Column13
+            // 
+            this.Column13.HeaderText = "판매가";
+            this.Column13.Name = "Column13";
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "출하번호";
+            this.Column1.Name = "Column1";
+            // 
+            // Column9
+            // 
+            this.Column9.HeaderText = "고객ID";
+            this.Column9.Name = "Column9";
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "주문날자";
+            this.Column5.Name = "Column5";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "출하예정일";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "출하일자";
+            this.Column4.Name = "Column4";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "담당자";
+            this.Column2.Name = "Column2";
+            // 
             // ShipmentMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -250,22 +229,19 @@
 
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
+        private SearchPeriodControl searchPeriodControl2;
+        private SearchPeriodControl searchPeriodControl1;
+        private SearchUserControl searchUserControl1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column14;
-        private SearchPeriodControl searchPeriodControl2;
-        private SearchPeriodControl searchPeriodControl1;
-        private SearchUserControl searchUserControl1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
     }
 }

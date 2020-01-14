@@ -6,11 +6,11 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Team2_ScreenDesign
+namespace Team2_ScreenDesign.Forms.KHS
 {
-    public partial class BaljuList : Team2_ScreenDesign.Base2Dgv
+    public partial class OrderMainForm : Team2_ScreenDesign.Base2Dgv
     {
-        public BaljuList()
+        public OrderMainForm()
         {
             InitializeComponent();
         }
