@@ -8,12 +8,11 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class BaljuList : Team2_ScreenDesign.Base1Dgv
+    public partial class BaljuList : Team2_ScreenDesign.Base2Dgv
     {
         public BaljuList()
         {
             InitializeComponent();
-            
         }
     }
 }
