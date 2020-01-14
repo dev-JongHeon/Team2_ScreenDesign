@@ -49,13 +49,19 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnImageAdd = new System.Windows.Forms.Button();
             this.txtProductImage = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtProductMoney = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtProductName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.lblDriveMoney = new System.Windows.Forms.Label();
+            this.lblRunMoney = new System.Windows.Forms.Label();
+            this.lblSteeringMoney = new System.Windows.Forms.Label();
+            this.lblSaddleMoney = new System.Windows.Forms.Label();
+            this.lblBrakeMoney = new System.Windows.Forms.Label();
+            this.lblFrameMoney = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel_Title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTitle)).BeginInit();
@@ -176,6 +182,12 @@
             // 
             // splitContainer2.Panel1
             // 
+            this.splitContainer2.Panel1.Controls.Add(this.lblFrameMoney);
+            this.splitContainer2.Panel1.Controls.Add(this.lblBrakeMoney);
+            this.splitContainer2.Panel1.Controls.Add(this.lblSaddleMoney);
+            this.splitContainer2.Panel1.Controls.Add(this.lblSteeringMoney);
+            this.splitContainer2.Panel1.Controls.Add(this.lblRunMoney);
+            this.splitContainer2.Panel1.Controls.Add(this.lblDriveMoney);
             this.splitContainer2.Panel1.Controls.Add(this.txtFrame);
             this.splitContainer2.Panel1.Controls.Add(this.txtBrake);
             this.splitContainer2.Panel1.Controls.Add(this.txtSaddle);
@@ -189,7 +201,7 @@
             this.splitContainer2.Panel1.Controls.Add(this.label6);
             this.splitContainer2.Panel1.Controls.Add(this.label5);
             this.splitContainer2.Panel1.Controls.Add(this.pictureBox1);
-            this.splitContainer2.Panel1.Controls.Add(this.button1);
+            this.splitContainer2.Panel1.Controls.Add(this.btnImageAdd);
             this.splitContainer2.Panel1.Controls.Add(this.txtProductImage);
             this.splitContainer2.Panel1.Controls.Add(this.label4);
             // 
@@ -208,7 +220,7 @@
             this.txtFrame.Location = new System.Drawing.Point(91, 221);
             this.txtFrame.Name = "txtFrame";
             this.txtFrame.ReadOnly = true;
-            this.txtFrame.Size = new System.Drawing.Size(187, 21);
+            this.txtFrame.Size = new System.Drawing.Size(164, 21);
             this.txtFrame.TabIndex = 14;
             // 
             // txtBrake
@@ -216,7 +228,7 @@
             this.txtBrake.Location = new System.Drawing.Point(91, 179);
             this.txtBrake.Name = "txtBrake";
             this.txtBrake.ReadOnly = true;
-            this.txtBrake.Size = new System.Drawing.Size(187, 21);
+            this.txtBrake.Size = new System.Drawing.Size(164, 21);
             this.txtBrake.TabIndex = 14;
             // 
             // txtSaddle
@@ -224,7 +236,7 @@
             this.txtSaddle.Location = new System.Drawing.Point(91, 137);
             this.txtSaddle.Name = "txtSaddle";
             this.txtSaddle.ReadOnly = true;
-            this.txtSaddle.Size = new System.Drawing.Size(187, 21);
+            this.txtSaddle.Size = new System.Drawing.Size(164, 21);
             this.txtSaddle.TabIndex = 14;
             // 
             // txtSteering
@@ -232,7 +244,7 @@
             this.txtSteering.Location = new System.Drawing.Point(91, 96);
             this.txtSteering.Name = "txtSteering";
             this.txtSteering.ReadOnly = true;
-            this.txtSteering.Size = new System.Drawing.Size(187, 21);
+            this.txtSteering.Size = new System.Drawing.Size(164, 21);
             this.txtSteering.TabIndex = 14;
             // 
             // txtRun
@@ -240,7 +252,7 @@
             this.txtRun.Location = new System.Drawing.Point(91, 55);
             this.txtRun.Name = "txtRun";
             this.txtRun.ReadOnly = true;
-            this.txtRun.Size = new System.Drawing.Size(187, 21);
+            this.txtRun.Size = new System.Drawing.Size(164, 21);
             this.txtRun.TabIndex = 14;
             // 
             // txtDrive
@@ -248,7 +260,7 @@
             this.txtDrive.Location = new System.Drawing.Point(91, 16);
             this.txtDrive.Name = "txtDrive";
             this.txtDrive.ReadOnly = true;
-            this.txtDrive.Size = new System.Drawing.Size(187, 21);
+            this.txtDrive.Size = new System.Drawing.Size(164, 21);
             this.txtDrive.TabIndex = 14;
             // 
             // label10
@@ -313,14 +325,14 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
+            // btnImageAdd
             // 
-            this.button1.Location = new System.Drawing.Point(301, 267);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "찾아보기";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnImageAdd.Location = new System.Drawing.Point(301, 267);
+            this.btnImageAdd.Name = "btnImageAdd";
+            this.btnImageAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnImageAdd.TabIndex = 6;
+            this.btnImageAdd.Text = "찾아보기";
+            this.btnImageAdd.UseVisualStyleBackColor = true;
             // 
             // txtProductImage
             // 
@@ -371,6 +383,60 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "완제품명";
             // 
+            // lblDriveMoney
+            // 
+            this.lblDriveMoney.AutoSize = true;
+            this.lblDriveMoney.Location = new System.Drawing.Point(284, 19);
+            this.lblDriveMoney.Name = "lblDriveMoney";
+            this.lblDriveMoney.Size = new System.Drawing.Size(18, 14);
+            this.lblDriveMoney.TabIndex = 15;
+            this.lblDriveMoney.Text = "원";
+            // 
+            // lblRunMoney
+            // 
+            this.lblRunMoney.AutoSize = true;
+            this.lblRunMoney.Location = new System.Drawing.Point(284, 58);
+            this.lblRunMoney.Name = "lblRunMoney";
+            this.lblRunMoney.Size = new System.Drawing.Size(18, 14);
+            this.lblRunMoney.TabIndex = 15;
+            this.lblRunMoney.Text = "원";
+            // 
+            // lblSteeringMoney
+            // 
+            this.lblSteeringMoney.AutoSize = true;
+            this.lblSteeringMoney.Location = new System.Drawing.Point(284, 99);
+            this.lblSteeringMoney.Name = "lblSteeringMoney";
+            this.lblSteeringMoney.Size = new System.Drawing.Size(18, 14);
+            this.lblSteeringMoney.TabIndex = 15;
+            this.lblSteeringMoney.Text = "원";
+            // 
+            // lblSaddleMoney
+            // 
+            this.lblSaddleMoney.AutoSize = true;
+            this.lblSaddleMoney.Location = new System.Drawing.Point(284, 140);
+            this.lblSaddleMoney.Name = "lblSaddleMoney";
+            this.lblSaddleMoney.Size = new System.Drawing.Size(18, 14);
+            this.lblSaddleMoney.TabIndex = 15;
+            this.lblSaddleMoney.Text = "원";
+            // 
+            // lblBrakeMoney
+            // 
+            this.lblBrakeMoney.AutoSize = true;
+            this.lblBrakeMoney.Location = new System.Drawing.Point(284, 182);
+            this.lblBrakeMoney.Name = "lblBrakeMoney";
+            this.lblBrakeMoney.Size = new System.Drawing.Size(18, 14);
+            this.lblBrakeMoney.TabIndex = 15;
+            this.lblBrakeMoney.Text = "원";
+            // 
+            // lblFrameMoney
+            // 
+            this.lblFrameMoney.AutoSize = true;
+            this.lblFrameMoney.Location = new System.Drawing.Point(284, 224);
+            this.lblFrameMoney.Name = "lblFrameMoney";
+            this.lblFrameMoney.Size = new System.Drawing.Size(18, 14);
+            this.lblFrameMoney.TabIndex = 15;
+            this.lblFrameMoney.Text = "원";
+            // 
             // ProductComp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -410,7 +476,7 @@
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.SplitContainer splitContainer2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnImageAdd;
         private System.Windows.Forms.TextBox txtProductImage;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.SplitContainer splitContainer3;
@@ -435,5 +501,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtProductName;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblFrameMoney;
+        private System.Windows.Forms.Label lblBrakeMoney;
+        private System.Windows.Forms.Label lblSaddleMoney;
+        private System.Windows.Forms.Label lblSteeringMoney;
+        private System.Windows.Forms.Label lblRunMoney;
+        private System.Windows.Forms.Label lblDriveMoney;
     }
 }
