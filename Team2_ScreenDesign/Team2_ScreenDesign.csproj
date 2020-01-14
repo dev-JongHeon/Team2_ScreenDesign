@@ -53,6 +53,12 @@
     <Compile Include="Forms\KJH\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\KJH\Work.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KJH\Work.Designer.cs">
+      <DependentUpon>Work.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\SSD\Balju_Pop.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,12 +142,6 @@
     </Compile>
     <Compile Include="Forms\CMG\CompanyInsUp.Designer.cs">
       <DependentUpon>CompanyInsUp.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\CMG\CustomerInsUp.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\CMG\CustomerInsUp.Designer.cs">
-      <DependentUpon>CustomerInsUp.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\CMG\EmployeesInsUp.cs">
       <SubType>Form</SubType>
@@ -239,12 +239,6 @@
     <Compile Include="Forms\KJH\Produce.Designer.cs">
       <DependentUpon>Produce.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\KJH\WorkList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\KJH\WorkList.Designer.cs">
-      <DependentUpon>WorkList.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\KJH\CalendarForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -341,6 +335,9 @@
     <EmbeddedResource Include="Forms\KJH\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KJH\Work.resx">
+      <DependentUpon>Work.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\SSD\Balju_Pop.resx">
       <DependentUpon>Balju_Pop.cs</DependentUpon>
     </EmbeddedResource>
@@ -401,9 +398,6 @@
     <EmbeddedResource Include="Forms\CMG\Customer.resx">
       <DependentUpon>Customer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CMG\CustomerInsUp.resx">
-      <DependentUpon>CustomerInsUp.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\CMG\Employees.resx">
       <DependentUpon>Employees.cs</DependentUpon>
     </EmbeddedResource>
@@ -436,9 +430,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\HJS\SearchForm.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\KJH\WorkList.resx">
-      <DependentUpon>WorkList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\KHS\ShipmentMainForm.resx">
       <DependentUpon>ShipmentMainForm.cs</DependentUpon>
