@@ -1,4 +1,4 @@
-﻿namespace Team2_ScreenDesign.Forms.KJH
+﻿namespace Team2_ScreenDesign
 {
     partial class DowntimeTypeAdd
     {

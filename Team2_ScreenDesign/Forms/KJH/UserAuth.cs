@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Team2_ScreenDesign
 {
-    public partial class Produce : Base2Dgv
+    public partial class UserAuth : Team2_ScreenDesign.Base2Dgv
     {
-        public Produce()
+        public UserAuth()
         {
             InitializeComponent();
         }

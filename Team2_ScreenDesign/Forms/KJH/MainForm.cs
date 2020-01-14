@@ -47,7 +47,7 @@ namespace Team2_ScreenDesign
         {
             M_Refresh?.Invoke(this, e);
 
-            OpenBaseForm<OrderMainForm>("주문관리");
+            OpenBaseForm<UserAuth>("사용자권한설정");
         }
         private void splitter1_SplitterMoved(object sender, SplitterEventArgs e)
         {
@@ -325,9 +325,10 @@ namespace Team2_ScreenDesign
 
         }
 
-        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        private void treeView1_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
         {
-
+            if(e.Node.Parent!=null)
+            OpenBaseForm<Defective>("불량현황");
         }
     }
 }

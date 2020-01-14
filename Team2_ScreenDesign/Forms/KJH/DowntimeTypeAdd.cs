@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Team2_ScreenDesign.Forms.KJH
+namespace Team2_ScreenDesign
 {
     public partial class DowntimeTypeAdd : Team2_ScreenDesign.BasePopup
     {

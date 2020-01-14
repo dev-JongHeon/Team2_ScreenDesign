@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.searchPeriodControl1 = new Team2_ScreenDesign.SearchPeriodControl();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel_Search.SuspendLayout();
@@ -49,21 +49,11 @@
             // 
             // panel5
             // 
-            
-            this.panel5.Controls.Add(this.searchPeriodControl1);
+            this.panel5.Controls.Add(this.searchUserControl1);
             // 
             // lblFormName
             // 
             this.lblFormName.Text = "비가동 유형";
-            // 
-            // searchPeriodControl1
-            // 
-            this.searchPeriodControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchPeriodControl1.Labelname = "기간 선택";
-            this.searchPeriodControl1.Location = new System.Drawing.Point(12, 6);
-            this.searchPeriodControl1.Name = "searchPeriodControl1";
-            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 25);
-            this.searchPeriodControl1.TabIndex = 0;
             // 
             // dataGridView1
             // 
@@ -95,6 +85,17 @@
             this.Column3.HeaderText = "비가동유형설명";
             this.Column3.Name = "Column3";
             // 
+            // searchUserControl1
+            // 
+            this.searchUserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
+            this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Downtime;
+            this.searchUserControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchUserControl1.Labelname = "비가동유형명";
+            this.searchUserControl1.Location = new System.Drawing.Point(12, 42);
+            this.searchUserControl1.Name = "searchUserControl1";
+            this.searchUserControl1.Size = new System.Drawing.Size(312, 25);
+            this.searchUserControl1.TabIndex = 0;
+            // 
             // DowntimeType
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -114,11 +115,10 @@
         }
 
         #endregion
-
-        private SearchPeriodControl searchPeriodControl1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private SearchUserControl searchUserControl1;
     }
 }
