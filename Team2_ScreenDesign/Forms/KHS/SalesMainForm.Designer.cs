@@ -32,15 +32,16 @@
             this.searchUserControl2 = new Team2_ScreenDesign.SearchUserControl();
             this.searchPeriodControl1 = new Team2_ScreenDesign.SearchPeriodControl();
             this.searchPeriodControl2 = new Team2_ScreenDesign.SearchPeriodControl();
-            this.numTXT1 = new Team2_ScreenDesign.NumTXT();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel_Search.SuspendLayout();
@@ -49,17 +50,16 @@
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.dataGridView1);
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.label2);
-            this.panel5.Controls.Add(this.label1);
-            this.panel5.Controls.Add(this.numTXT1);
             this.panel5.Controls.Add(this.searchPeriodControl2);
             this.panel5.Controls.Add(this.searchPeriodControl1);
             this.panel5.Controls.Add(this.searchUserControl2);
@@ -109,34 +109,6 @@
             this.searchPeriodControl2.Size = new System.Drawing.Size(312, 25);
             this.searchPeriodControl2.TabIndex = 3;
             // 
-            // numTXT1
-            // 
-            this.numTXT1.Location = new System.Drawing.Point(97, 71);
-            this.numTXT1.Name = "numTXT1";
-            this.numTXT1.ReadOnly = true;
-            this.numTXT1.Size = new System.Drawing.Size(198, 21);
-            this.numTXT1.TabIndex = 4;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("나눔고딕", 8.999999F);
-            this.label1.Location = new System.Drawing.Point(15, 74);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 14);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "매출총액";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("나눔고딕", 8.999999F);
-            this.label2.Location = new System.Drawing.Point(301, 74);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(18, 14);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "원";
-            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -178,21 +150,63 @@
             this.Column5.HeaderText = "총액";
             this.Column5.Name = "Column5";
             // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.label3);
+            this.panel3.Controls.Add(this.label2);
+            this.panel3.Controls.Add(this.label1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel3.Location = new System.Drawing.Point(0, 617);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1364, 45);
+            this.panel3.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label2.Location = new System.Drawing.Point(1324, 12);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(28, 21);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "원";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.Location = new System.Drawing.Point(1101, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(82, 21);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "매출총액";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label3.Location = new System.Drawing.Point(1224, 12);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(94, 21);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "0000000";
+            // 
             // SalesMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.ClientSize = new System.Drawing.Size(1364, 820);
-            this.FormName = "주문관리";
+            this.FormName = "매출관리";
             this.Name = "SalesMainForm";
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel_Search.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
             this.panel_Title.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -201,9 +215,6 @@
 
         private SearchUserControl searchUserControl1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private NumTXT numTXT1;
         private SearchPeriodControl searchPeriodControl2;
         private SearchPeriodControl searchPeriodControl1;
         private SearchUserControl searchUserControl2;
@@ -212,5 +223,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
     }
 }
