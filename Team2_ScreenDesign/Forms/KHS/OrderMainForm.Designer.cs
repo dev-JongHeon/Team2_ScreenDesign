@@ -1,6 +1,6 @@
 ﻿namespace Team2_ScreenDesign.Forms.KHS
 {
-    partial class ShipmentMainForm
+    partial class OrderMainForm
     {
         /// <summary>
         /// 필수 디자이너 변수입니다.
@@ -30,20 +30,25 @@
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
-            this.searchPeriodControl1 = new Team2_ScreenDesign.SearchPeriodControl();
-            this.searchPeriodControl2 = new Team2_ScreenDesign.SearchPeriodControl();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
+            this.searchPeriodControl1 = new Team2_ScreenDesign.SearchPeriodControl();
+            this.cboOrderState = new System.Windows.Forms.ComboBox();
+            this.lblOrderState = new System.Windows.Forms.Label();
+            this.searchUserControl2 = new Team2_ScreenDesign.SearchUserControl();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lblOrderDel_YN = new System.Windows.Forms.Label();
+            this.cboOrderDel_YN = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -62,68 +67,90 @@
             // 
             // splitContainer1
             // 
-            this.splitContainer1.SplitterDistance = 280;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.dataGridView1);
-            this.panel2.Size = new System.Drawing.Size(1364, 280);
             // 
             // panel3
             // 
             this.panel3.Controls.Add(this.dataGridView2);
-            this.panel3.Size = new System.Drawing.Size(1364, 378);
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.searchPeriodControl2);
+            this.panel5.Controls.Add(this.lblOrderDel_YN);
+            this.panel5.Controls.Add(this.cboOrderDel_YN);
+            this.panel5.Controls.Add(this.searchUserControl2);
+            this.panel5.Controls.Add(this.lblOrderState);
+            this.panel5.Controls.Add(this.cboOrderState);
             this.panel5.Controls.Add(this.searchPeriodControl1);
             this.panel5.Controls.Add(this.searchUserControl1);
             // 
             // lblFormName
             // 
-            this.lblFormName.Text = "출하내역";
+            this.lblFormName.Text = "주문관리";
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
-            this.Column5,
+            this.Column2,
+            this.Column8,
             this.Column3,
             this.Column4,
-            this.Column2});
+            this.Column5,
+            this.Column7,
+            this.Column6});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(1364, 280);
-            this.dataGridView1.TabIndex = 36;
+            this.dataGridView1.Size = new System.Drawing.Size(1364, 368);
+            this.dataGridView1.TabIndex = 0;
             // 
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column6,
-            this.Column7,
-            this.Column8,
+            this.Column9,
             this.Column10,
             this.Column11,
-            this.Column13});
+            this.Column12});
             this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView2.Location = new System.Drawing.Point(0, 0);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 23;
-            this.dataGridView2.Size = new System.Drawing.Size(1364, 378);
-            this.dataGridView2.TabIndex = 37;
+            this.dataGridView2.Size = new System.Drawing.Size(1364, 290);
+            this.dataGridView2.TabIndex = 1;
+            // 
+            // Column9
+            // 
+            this.Column9.HeaderText = "주문상세ID";
+            this.Column9.Name = "Column9";
+            // 
+            // Column10
+            // 
+            this.Column10.HeaderText = "주문ID";
+            this.Column10.Name = "Column10";
+            // 
+            // Column11
+            // 
+            this.Column11.HeaderText = "제품명";
+            this.Column11.Name = "Column11";
+            // 
+            // Column12
+            // 
+            this.Column12.HeaderText = "주문갯수";
+            this.Column12.Name = "Column12";
             // 
             // searchUserControl1
             // 
             this.searchUserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
-            this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Worker;
+            this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Customer;
             this.searchUserControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchUserControl1.Labelname = "담당자";
-            this.searchUserControl1.Location = new System.Drawing.Point(12, 77);
+            this.searchUserControl1.Labelname = "고객ID";
+            this.searchUserControl1.Location = new System.Drawing.Point(12, 17);
             this.searchUserControl1.Name = "searchUserControl1";
             this.searchUserControl1.Size = new System.Drawing.Size(312, 25);
             this.searchUserControl1.TabIndex = 0;
@@ -131,82 +158,111 @@
             // searchPeriodControl1
             // 
             this.searchPeriodControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchPeriodControl1.Labelname = "출하예정일";
-            this.searchPeriodControl1.Location = new System.Drawing.Point(12, 16);
+            this.searchPeriodControl1.Labelname = "주문기간";
+            this.searchPeriodControl1.Location = new System.Drawing.Point(12, 79);
             this.searchPeriodControl1.Name = "searchPeriodControl1";
             this.searchPeriodControl1.Size = new System.Drawing.Size(312, 25);
             this.searchPeriodControl1.TabIndex = 1;
             // 
-            // searchPeriodControl2
+            // cboOrderState
             // 
-            this.searchPeriodControl2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchPeriodControl2.Labelname = "출하일자";
-            this.searchPeriodControl2.Location = new System.Drawing.Point(12, 47);
-            this.searchPeriodControl2.Name = "searchPeriodControl2";
-            this.searchPeriodControl2.Size = new System.Drawing.Size(312, 25);
-            this.searchPeriodControl2.TabIndex = 1;
+            this.cboOrderState.FormattingEnabled = true;
+            this.cboOrderState.Items.AddRange(new object[] {
+            "접수",
+            "처리중",
+            "발송중"});
+            this.cboOrderState.Location = new System.Drawing.Point(414, 17);
+            this.cboOrderState.Name = "cboOrderState";
+            this.cboOrderState.Size = new System.Drawing.Size(135, 22);
+            this.cboOrderState.TabIndex = 2;
+            // 
+            // lblOrderState
+            // 
+            this.lblOrderState.AutoSize = true;
+            this.lblOrderState.Location = new System.Drawing.Point(331, 20);
+            this.lblOrderState.Name = "lblOrderState";
+            this.lblOrderState.Size = new System.Drawing.Size(51, 14);
+            this.lblOrderState.TabIndex = 3;
+            this.lblOrderState.Text = "주문여부";
+            // 
+            // searchUserControl2
+            // 
+            this.searchUserControl2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
+            this.searchUserControl2.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Product;
+            this.searchUserControl2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchUserControl2.Labelname = "제품명";
+            this.searchUserControl2.Location = new System.Drawing.Point(12, 48);
+            this.searchUserControl2.Name = "searchUserControl2";
+            this.searchUserControl2.Size = new System.Drawing.Size(312, 25);
+            this.searchUserControl2.TabIndex = 4;
             // 
             // Column1
             // 
-            this.Column1.HeaderText = "출하번호";
+            this.Column1.HeaderText = "주문ID";
             this.Column1.Name = "Column1";
             // 
-            // Column5
+            // Column2
             // 
-            this.Column5.HeaderText = "주문일";
-            this.Column5.Name = "Column5";
+            this.Column2.HeaderText = "고객ID";
+            this.Column2.Name = "Column2";
+            // 
+            // Column8
+            // 
+            this.Column8.HeaderText = "주문일자";
+            this.Column8.Name = "Column8";
             // 
             // Column3
             // 
-            this.Column3.HeaderText = "출하예정일";
+            this.Column3.HeaderText = "주문상태";
             this.Column3.Name = "Column3";
             // 
             // Column4
             // 
-            this.Column4.HeaderText = "출하일자";
+            this.Column4.HeaderText = "본주소";
             this.Column4.Name = "Column4";
             // 
-            // Column2
+            // Column5
             // 
-            this.Column2.HeaderText = "담당자";
-            this.Column2.Name = "Column2";
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "출하번호";
-            this.Column6.Name = "Column6";
+            this.Column5.HeaderText = "상세주소";
+            this.Column5.Name = "Column5";
             // 
             // Column7
             // 
-            this.Column7.HeaderText = "주문번호";
+            this.Column7.HeaderText = "총액";
             this.Column7.Name = "Column7";
             // 
-            // Column8
+            // Column6
             // 
-            this.Column8.HeaderText = "주문상세번호";
-            this.Column8.Name = "Column8";
+            this.Column6.HeaderText = "주문취소여부";
+            this.Column6.Name = "Column6";
             // 
-            // Column10
+            // lblOrderDel_YN
             // 
-            this.Column10.HeaderText = "제품명";
-            this.Column10.Name = "Column10";
+            this.lblOrderDel_YN.AutoSize = true;
+            this.lblOrderDel_YN.Location = new System.Drawing.Point(331, 53);
+            this.lblOrderDel_YN.Name = "lblOrderDel_YN";
+            this.lblOrderDel_YN.Size = new System.Drawing.Size(51, 14);
+            this.lblOrderDel_YN.TabIndex = 6;
+            this.lblOrderDel_YN.Text = "취소여부";
             // 
-            // Column11
+            // cboOrderDel_YN
             // 
-            this.Column11.HeaderText = "수량";
-            this.Column11.Name = "Column11";
+            this.cboOrderDel_YN.FormattingEnabled = true;
+            this.cboOrderDel_YN.Items.AddRange(new object[] {
+            "접수",
+            "처리중",
+            "발송중"});
+            this.cboOrderDel_YN.Location = new System.Drawing.Point(413, 50);
+            this.cboOrderDel_YN.Name = "cboOrderDel_YN";
+            this.cboOrderDel_YN.Size = new System.Drawing.Size(135, 22);
+            this.cboOrderDel_YN.TabIndex = 5;
             // 
-            // Column13
-            // 
-            this.Column13.HeaderText = "판매가";
-            this.Column13.Name = "Column13";
-            // 
-            // ShipmentMainForm
+            // OrderMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.ClientSize = new System.Drawing.Size(1364, 820);
-            this.FormName = "출하내역";
-            this.Name = "ShipmentMainForm";
+            this.FormName = "주문관리";
+            this.Name = "OrderMainForm";
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
@@ -216,6 +272,7 @@
             this.panel1.ResumeLayout(false);
             this.panel_Search.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.panel_Title.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -229,19 +286,24 @@
 
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridView dataGridView2;
-        private SearchPeriodControl searchPeriodControl2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
+        private SearchUserControl searchUserControl2;
+        private System.Windows.Forms.Label lblOrderState;
+        private System.Windows.Forms.ComboBox cboOrderState;
         private SearchPeriodControl searchPeriodControl1;
         private SearchUserControl searchUserControl1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.Label lblOrderDel_YN;
+        private System.Windows.Forms.ComboBox cboOrderDel_YN;
     }
 }

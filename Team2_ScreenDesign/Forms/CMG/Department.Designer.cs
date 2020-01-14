@@ -1,6 +1,6 @@
 ﻿namespace Team2_ScreenDesign
 {
-    partial class Company
+    partial class Department
     {
         /// <summary>
         /// Required designer variable.
@@ -32,10 +32,6 @@
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
             this.panel1.SuspendLayout();
             this.panel_Search.SuspendLayout();
@@ -49,31 +45,13 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.dataGridView1);
-            this.panel1.Size = new System.Drawing.Size(1344, 729);
             this.panel1.Controls.SetChildIndex(this.panel_Title, 0);
             this.panel1.Controls.SetChildIndex(this.panel_Search, 0);
             this.panel1.Controls.SetChildIndex(this.dataGridView1, 0);
             // 
-            // panel_Search
-            // 
-            this.panel_Search.Size = new System.Drawing.Size(1344, 110);
-            // 
-            // panel4
-            // 
-            this.panel4.Size = new System.Drawing.Size(1344, 2);
-            // 
             // panel5
             // 
             this.panel5.Controls.Add(this.searchUserControl1);
-            this.panel5.Size = new System.Drawing.Size(1344, 110);
-            // 
-            // panel_Title
-            // 
-            this.panel_Title.Size = new System.Drawing.Size(1344, 48);
-            // 
-            // linepanel1
-            // 
-            this.linepanel1.Size = new System.Drawing.Size(1344, 2);
             // 
             // dataGridView1
             // 
@@ -82,71 +60,47 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column6,
-            this.Column7});
+            this.Column3});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 158);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(1344, 571);
+            this.dataGridView1.Size = new System.Drawing.Size(1364, 662);
             this.dataGridView1.TabIndex = 7;
             // 
             // Column1
             // 
-            this.Column1.HeaderText = "거래처코드";
+            this.Column1.HeaderText = "부서번호";
             this.Column1.Name = "Column1";
             // 
             // Column2
             // 
-            this.Column2.HeaderText = "거래처이름";
+            this.Column2.HeaderText = "부서명";
             this.Column2.Name = "Column2";
             // 
             // Column3
             // 
-            this.Column3.HeaderText = "주소";
+            this.Column3.HeaderText = "부서설명";
             this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "전화번호";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "FAX번호";
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "업태";
-            this.Column6.Name = "Column6";
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "종목";
-            this.Column7.Name = "Column7";
             // 
             // searchUserControl1
             // 
             this.searchUserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
-            this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Company;
+            this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Department;
             this.searchUserControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchUserControl1.Labelname = "회사";
+            this.searchUserControl1.Labelname = "부서";
             this.searchUserControl1.Location = new System.Drawing.Point(3, 3);
             this.searchUserControl1.Name = "searchUserControl1";
-            this.searchUserControl1.Size = new System.Drawing.Size(312, 30);
+            this.searchUserControl1.Size = new System.Drawing.Size(312, 25);
             this.searchUserControl1.TabIndex = 0;
             // 
-            // Company
+            // Department
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1344, 729);
-            this.Name = "Company";
-            this.Text = "Company";
+            this.ClientSize = new System.Drawing.Size(1364, 820);
+            this.Name = "Department";
+            this.Text = "Department";
             this.panel1.ResumeLayout(false);
             this.panel_Search.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
@@ -164,10 +118,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private SearchUserControl searchUserControl1;
     }
 }
