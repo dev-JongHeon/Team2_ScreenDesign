@@ -1,5 +1,5 @@
-﻿namespace Team2_ScreenDesign.Forms.KHS
-{
+﻿namespace Team2_ScreenDesign
+{ 
     partial class SalesMainForm
     {
         /// <summary>

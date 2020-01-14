@@ -1,4 +1,4 @@
-﻿namespace Team2_ScreenDesign.Forms.KHS
+﻿namespace Team2_ScreenDesign
 {
     partial class ShipmentMainForm
     {
@@ -30,20 +30,21 @@
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
-            this.searchPeriodControl1 = new Team2_ScreenDesign.SearchPeriodControl();
-            this.searchPeriodControl2 = new Team2_ScreenDesign.SearchPeriodControl();
             this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.searchUserControl1 = new Team2_ScreenDesign.SearchUserControl();
+            this.searchPeriodControl1 = new Team2_ScreenDesign.SearchPeriodControl();
+            this.searchPeriodControl2 = new Team2_ScreenDesign.SearchPeriodControl();
+            this.searchUserControl2 = new Team2_ScreenDesign.SearchUserControl();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -76,13 +77,14 @@
             // 
             // panel5
             // 
+            this.panel5.Controls.Add(this.searchUserControl2);
             this.panel5.Controls.Add(this.searchPeriodControl2);
             this.panel5.Controls.Add(this.searchPeriodControl1);
             this.panel5.Controls.Add(this.searchUserControl1);
             // 
             // lblFormName
             // 
-            this.lblFormName.Text = "출하내역";
+            this.lblFormName.Text = "출하관리";
             // 
             // dataGridView1
             // 
@@ -90,10 +92,10 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column9,
-            this.Column5,
             this.Column3,
             this.Column4,
-            this.Column2});
+            this.Column2,
+            this.Column5});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
@@ -116,35 +118,6 @@
             this.dataGridView2.RowTemplate.Height = 23;
             this.dataGridView2.Size = new System.Drawing.Size(1364, 378);
             this.dataGridView2.TabIndex = 37;
-            // 
-            // searchUserControl1
-            // 
-            this.searchUserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
-            this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Worker;
-            this.searchUserControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchUserControl1.Labelname = "담당자";
-            this.searchUserControl1.Location = new System.Drawing.Point(12, 77);
-            this.searchUserControl1.Name = "searchUserControl1";
-            this.searchUserControl1.Size = new System.Drawing.Size(312, 25);
-            this.searchUserControl1.TabIndex = 0;
-            // 
-            // searchPeriodControl1
-            // 
-            this.searchPeriodControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchPeriodControl1.Labelname = "출하예정일";
-            this.searchPeriodControl1.Location = new System.Drawing.Point(12, 16);
-            this.searchPeriodControl1.Name = "searchPeriodControl1";
-            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 25);
-            this.searchPeriodControl1.TabIndex = 1;
-            // 
-            // searchPeriodControl2
-            // 
-            this.searchPeriodControl2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.searchPeriodControl2.Labelname = "출하일자";
-            this.searchPeriodControl2.Location = new System.Drawing.Point(12, 47);
-            this.searchPeriodControl2.Name = "searchPeriodControl2";
-            this.searchPeriodControl2.Size = new System.Drawing.Size(312, 25);
-            this.searchPeriodControl2.TabIndex = 1;
             // 
             // Column12
             // 
@@ -171,6 +144,46 @@
             this.Column13.HeaderText = "판매가";
             this.Column13.Name = "Column13";
             // 
+            // searchUserControl1
+            // 
+            this.searchUserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
+            this.searchUserControl1.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Worker;
+            this.searchUserControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchUserControl1.Labelname = "출하처리자";
+            this.searchUserControl1.Location = new System.Drawing.Point(330, 47);
+            this.searchUserControl1.Name = "searchUserControl1";
+            this.searchUserControl1.Size = new System.Drawing.Size(312, 25);
+            this.searchUserControl1.TabIndex = 0;
+            // 
+            // searchPeriodControl1
+            // 
+            this.searchPeriodControl1.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchPeriodControl1.Labelname = "출하예정일";
+            this.searchPeriodControl1.Location = new System.Drawing.Point(12, 16);
+            this.searchPeriodControl1.Name = "searchPeriodControl1";
+            this.searchPeriodControl1.Size = new System.Drawing.Size(312, 25);
+            this.searchPeriodControl1.TabIndex = 1;
+            // 
+            // searchPeriodControl2
+            // 
+            this.searchPeriodControl2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchPeriodControl2.Labelname = "출하일자";
+            this.searchPeriodControl2.Location = new System.Drawing.Point(12, 47);
+            this.searchPeriodControl2.Name = "searchPeriodControl2";
+            this.searchPeriodControl2.Size = new System.Drawing.Size(312, 25);
+            this.searchPeriodControl2.TabIndex = 1;
+            // 
+            // searchUserControl2
+            // 
+            this.searchUserControl2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
+            this.searchUserControl2.ControlType = Team2_ScreenDesign.SearchUserControl.Mode.Worker;
+            this.searchUserControl2.Font = new System.Drawing.Font("나눔고딕", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.searchUserControl2.Labelname = "출하지시자";
+            this.searchUserControl2.Location = new System.Drawing.Point(330, 16);
+            this.searchUserControl2.Name = "searchUserControl2";
+            this.searchUserControl2.Size = new System.Drawing.Size(312, 25);
+            this.searchUserControl2.TabIndex = 2;
+            // 
             // Column1
             // 
             this.Column1.HeaderText = "출하번호";
@@ -181,31 +194,31 @@
             this.Column9.HeaderText = "고객ID";
             this.Column9.Name = "Column9";
             // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "주문날자";
-            this.Column5.Name = "Column5";
-            // 
             // Column3
             // 
-            this.Column3.HeaderText = "출하예정일";
+            this.Column3.HeaderText = "출하지시일";
             this.Column3.Name = "Column3";
             // 
             // Column4
             // 
-            this.Column4.HeaderText = "출하일자";
+            this.Column4.HeaderText = "출하처리일";
             this.Column4.Name = "Column4";
             // 
             // Column2
             // 
-            this.Column2.HeaderText = "담당자";
+            this.Column2.HeaderText = "출하지시자";
             this.Column2.Name = "Column2";
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "출하처리자";
+            this.Column5.Name = "Column5";
             // 
             // ShipmentMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.ClientSize = new System.Drawing.Size(1364, 820);
-            this.FormName = "출하내역";
+            this.FormName = "출하관리";
             this.Name = "ShipmentMainForm";
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
@@ -232,16 +245,17 @@
         private SearchPeriodControl searchPeriodControl2;
         private SearchPeriodControl searchPeriodControl1;
         private SearchUserControl searchUserControl1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
+        private SearchUserControl searchUserControl2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
     }
 }

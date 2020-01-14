@@ -1,4 +1,4 @@
-﻿namespace Team2_ScreenDesign.Forms.KHS
+﻿namespace Team2_ScreenDesign
 {
     partial class OrderMainForm
     {
@@ -196,6 +196,10 @@
             // cboOrderState
             // 
             this.cboOrderState.FormattingEnabled = true;
+            this.cboOrderState.Items.AddRange(new object[] {
+            "접수",
+            "처리중",
+            "배송중"});
             this.cboOrderState.Location = new System.Drawing.Point(398, 10);
             this.cboOrderState.Name = "cboOrderState";
             this.cboOrderState.Size = new System.Drawing.Size(121, 22);
@@ -204,6 +208,9 @@
             // cboOrderCancel_YN
             // 
             this.cboOrderCancel_YN.FormattingEnabled = true;
+            this.cboOrderCancel_YN.Items.AddRange(new object[] {
+            "Y",
+            "N"});
             this.cboOrderCancel_YN.Location = new System.Drawing.Point(398, 42);
             this.cboOrderCancel_YN.Name = "cboOrderCancel_YN";
             this.cboOrderCancel_YN.Size = new System.Drawing.Size(121, 22);
