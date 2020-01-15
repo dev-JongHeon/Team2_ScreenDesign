@@ -839,7 +839,6 @@
             this.treeView1.SelectedImageIndex = 3;
             this.treeView1.Size = new System.Drawing.Size(196, 95);
             this.treeView1.TabIndex = 1;
-            this.treeView1.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.treeView1_NodeMouseClick);
             // 
             // menu_production
             // 
