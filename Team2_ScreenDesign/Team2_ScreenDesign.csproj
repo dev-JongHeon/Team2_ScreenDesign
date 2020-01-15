@@ -239,16 +239,16 @@
     <Compile Include="Forms\KHS\ShipmentMainForm.Designer.cs">
       <DependentUpon>ShipmentMainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\BaseForm\Base1Dgv.cs">
+    <Compile Include="Forms\BaseForms\Base1Dgv.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\BaseForm\Base1Dgv.Designer.cs">
+    <Compile Include="Forms\BaseForms\Base1Dgv.Designer.cs">
       <DependentUpon>Base1Dgv.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\BaseForm\BaseForm.cs">
+    <Compile Include="Forms\BaseForms\BaseForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\BaseForm\BaseForm.Designer.cs">
+    <Compile Include="Forms\BaseForms\BaseForm.Designer.cs">
       <DependentUpon>BaseForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Custom\TabForm.cs">
@@ -257,10 +257,10 @@
     <Compile Include="Custom\TabForm.Designer.cs">
       <DependentUpon>TabForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\BaseForm\BasePopup.cs">
+    <Compile Include="Forms\BaseForms\BasePopup.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\BaseForm\BasePopup.Designer.cs">
+    <Compile Include="Forms\BaseForms\BasePopup.Designer.cs">
       <DependentUpon>BasePopup.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\CMG\BOM.cs">
@@ -329,10 +329,10 @@
     <Compile Include="Forms\KJH\MainTab.Designer.cs">
       <DependentUpon>MainTab.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\BaseForm\Base2Dgv.cs">
+    <Compile Include="Forms\BaseForms\Base2Dgv.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\BaseForm\Base2Dgv.Designer.cs">
+    <Compile Include="Forms\BaseForms\Base2Dgv.Designer.cs">
       <DependentUpon>Base2Dgv.cs</DependentUpon>
     </Compile>
     <Compile Include="Custom\NumTXT.cs">
@@ -461,13 +461,13 @@
     <EmbeddedResource Include="Forms\SSD\InOutput.resx">
       <DependentUpon>InOutput.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\BaseForm\Base1Dgv.resx">
+    <EmbeddedResource Include="Forms\BaseForms\Base1Dgv.resx">
       <DependentUpon>Base1Dgv.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\BaseForm\BaseForm.resx">
+    <EmbeddedResource Include="Forms\BaseForms\BaseForm.resx">
       <DependentUpon>BaseForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\BaseForm\BasePopup.resx">
+    <EmbeddedResource Include="Forms\BaseForms\BasePopup.resx">
       <DependentUpon>BasePopup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CMG\BOM.resx">
@@ -524,7 +524,7 @@
     <EmbeddedResource Include="Forms\KJH\MainTab.resx">
       <DependentUpon>MainTab.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\BaseForm\Base2Dgv.resx">
+    <EmbeddedResource Include="Forms\BaseForms\Base2Dgv.resx">
       <DependentUpon>Base2Dgv.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Custom\NumTXT.resx">
